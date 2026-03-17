@@ -13,6 +13,7 @@
   "sections": {
     "offer_annoucement_4tnBfB": {
       "type": "offer-annoucement",
+      "disabled": true,
       "name": "Offer Announcement",
       "settings": {
         "background_color": "#000000",
@@ -80,8 +81,8 @@
       "type": "offer-timebar",
       "name": "Offer Timebar",
       "settings": {
-        "background_color": "#15803d",
-        "forground_color": "#15803d",
+        "background_color": "#157780",
+        "forground_color": "#15801f",
         "prepend_text": "Nur zum Weltfrauentag",
         "ends_in_minutes": 300,
         "append_text": "3 kaufen – 1 gratis",

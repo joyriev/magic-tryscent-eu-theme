@@ -944,12 +944,12 @@
   function combineCatalogs() {
     allPerfumes = [];
     
-    // Add from NederlandseParfumCatalogus if it exists
-    if (window.NederlandseParfumCatalogus) {
+    // Add from PerfumeCatalog if it exists
+    if (window.PerfumeCatalog) {
       // Get all array properties (brands)
-      for (let brandKey in window.NederlandseParfumCatalogus) {
-        if (Array.isArray(window.NederlandseParfumCatalogus[brandKey])) {
-          allPerfumes.push(...window.NederlandseParfumCatalogus[brandKey]);
+      for (let brandKey in window.PerfumeCatalog) {
+        if (Array.isArray(window.PerfumeCatalog[brandKey])) {
+          allPerfumes.push(...window.PerfumeCatalog[brandKey]);
         }
       }
     }

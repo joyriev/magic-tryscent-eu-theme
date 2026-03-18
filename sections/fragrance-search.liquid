@@ -946,15 +946,19 @@
     
     // Add from PerfumeCatalog if it exists
     if (window.PerfumeCatalog) {
+      console.log('✓ PerfumeCatalog found, combining brands...');
       // Get all array properties (brands)
       for (let brandKey in window.PerfumeCatalog) {
         if (Array.isArray(window.PerfumeCatalog[brandKey])) {
+          console.log(`  Adding ${brandKey}: ${window.PerfumeCatalog[brandKey].length} perfumes`);
           allPerfumes.push(...window.PerfumeCatalog[brandKey]);
         }
       }
+    } else {
+      console.error('❌ ERROR: window.PerfumeCatalog not found! Catalog file not loaded?');
     }
     
-    console.log(`✓ Combined catalog: ${allPerfumes.length} perfumes`);
+    console.log(`✓ Combined catalog: ${allPerfumes.length} total perfumes`);
   }
 
   // ===== EXTRACT PRODUCT NUMBER FROM TITLE =====
@@ -3437,6 +3441,11 @@ function renderHardcodedProductCard(product, badge) {
       
       // Use FUZZY catalog search for real perfumes (now works with typos!)
       const catalogResults = fuzzyCatalogSearch(query);
+      
+      console.log(`Search for "${query}": ${catalogResults.length} catalog + ${results.length} our products`);
+      if (catalogResults.length === 0 && allPerfumes.length > 0) {
+        console.warn(`⚠ No catalog matches but allPerfumes has ${allPerfumes.length} items - check fuzzy logic`);
+      }
       
       let html = '';
       

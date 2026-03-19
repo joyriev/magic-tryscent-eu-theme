@@ -2844,12 +2844,17 @@ window.fcToggleSearch = function() {
         
         const finalScore = Math.max(maxScore, termsScore);
         
-        // PRIORITY: Boost Mugler products when searching for mugler/thierry/angel
+        // PRIORITY: Boost Mugler products when searching for mugler/thierry/angel (with typo tolerance)
         let scoreWithBoost = finalScore;
-        const queryLower = query.toLowerCase();
-        if ((queryLower.includes('mugler') || queryLower.includes('thierry') || queryLower.includes('thrry')) && 
-            product.brandKey === 'mugler') {
-          scoreWithBoost = 100; // Ensure top ranking
+        if (product.brandKey === 'mugler') {
+          const muglerScore = getComprehensiveScore(query, 'mugler');
+          const thierryScore = getComprehensiveScore(query, 'thierry');
+          const angelScore = getComprehensiveScore(query, 'angel');
+          
+          // If any of these terms match closely (including typos), boost to top
+          if (muglerScore >= 50 || thierryScore >= 50 || angelScore >= 50) {
+            scoreWithBoost = 100; // Ensure top ranking
+          }
         }
         
         if (scoreWithBoost >= 50) {

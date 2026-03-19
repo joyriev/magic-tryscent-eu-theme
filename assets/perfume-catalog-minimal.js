@@ -431,7 +431,7 @@ window.NederlandseParfumCatalogus = {
       id: "armani_stronger_with_you_intensely",
       naam: "Stronger With You Intensely",
       merk: "Giorgio Armani",
-      afbeelding: "https://tryscent.eu/cdn/shop/files/stronger_with_you_intensely.webp?v=1772339532",
+      afbeelding: "https://tryscent.eu/cdn/shop/files/Emporio_Armani_Stronger_With_You_Intensely.webp?v=1773645065",
       topnoten: ["Roze peper", "Kardemom", "Viooltjesblad"],
       hartnoten: ["Salie", "Lavendel", "Kaneel"],
       basisnoten: ["Vanille", "Kastanje", "Tonka", "Amber"],

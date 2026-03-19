@@ -323,7 +323,7 @@ window.NederlandseParfumCatalogus = {
       id: "chanel_coco_mademoiselle_Intense",
       naam: "Coco Mademoiselle Intense",
       merk: "Chanel",
-      afbeelding: "https://tryscent.eu/cdn/shop/files/Mademoiselle.jpg?v=1772257875",
+      afbeelding: "https://tryscent.eu/cdn/shop/files/Chanel_Coco_Mademoiselle_Intense.webp?v=1773639049",
       topnoten: ["Sinaasappel", "Bergamot", "Grapefruit"],
       hartnoten: ["Roos", "Jasmijn", "Lychee"],
       basisnoten: ["Patchouli", "Vanille", "Muskus", "Vetiver"],

@@ -651,7 +651,7 @@ window.NederlandseParfumCatalogus = {
       id: "boss_alive",
       naam: "Alive",
       merk: "Hugo Boss",
-      afbeelding: "https://tryscent.eu/cdn/shop/files/alive.webp?v=1772339894",
+      afbeelding: "https://tryscent.eu/cdn/shop/files/Hugo_Boss_ALIVE.avif?v=1773652345",
       topnoten: ["Appel", "Zwarte bes", "Pruim"],
       hartnoten: ["Roos", "Jasmijn", "Kaneel"],
       basisnoten: ["Vanille", "Muskus", "Ceder"],

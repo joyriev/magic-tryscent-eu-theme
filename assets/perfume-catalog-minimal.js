@@ -874,7 +874,7 @@ window.NederlandseParfumCatalogus = {
     },
     {
       id: "ck_euphoria_blossom",
-      naam: "Euphoria Blossom - No. 087",
+      naam: "Euphoria Blossom",
       merk: "Calvin Klein",
       afbeelding: "https://tryscent.eu/cdn/shop/files/euphoria_blossom.webp?v=1773222316",
       topnoten: ["Passievrucht", "Watermeloen", "Roze Peper"],

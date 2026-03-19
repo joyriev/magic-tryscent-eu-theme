@@ -2472,7 +2472,7 @@ window.fcToggleSearch = function() {
   }
 
   // ===== SIMPLIFIED ADD TO CART =====
-  // ===== INSTANT ADD TO CART WITH VARIANT ID =====
+  // ===== INSTANT ADD TO CART - FETCH VARIANT DYNAMICALLY =====
   window.fcAddToCart = function(productUrl, event) {
     if (event) event.stopPropagation();
     
@@ -2483,27 +2483,43 @@ window.fcToggleSearch = function() {
     btn.innerText = '🔄';
     btn.disabled = true;
     
-    // Extract variant ID from URL
-    let variantId = null;
-    
-    // Check if URL has variant parameter
-    if (productUrl.includes('?variant=')) {
-      const urlParams = new URLSearchParams(productUrl.split('?')[1]);
-      variantId = urlParams.get('variant');
+    // Extract product handle from URL
+    const urlParts = productUrl.split('/products/');
+    if (urlParts.length < 2) {
+      btn.innerText = '✗';
+      btn.style.background = '#c62828';
+      setTimeout(() => {
+        btn.innerText = originalText;
+        btn.style.background = originalBackground || '#C41E3A';
+        btn.disabled = false;
+      }, 1500);
+      return false;
     }
     
-    if (variantId) {
-      // INSTANT ADD TO CART - direct AJAX request
-      fetch('/cart/add.js', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-          'X-Requested-With': 'XMLHttpRequest'
-        },
-        body: JSON.stringify({ 
-          id: parseInt(variantId), 
-          quantity: 1 
-        })
+    const productHandle = urlParts[1].split('?')[0].split('#')[0];
+    
+    // Fetch product to get variant ID
+    fetch(`/products/${productHandle}.js`)
+      .then(response => response.json())
+      .then(product => {
+        if (product && product.variants && product.variants.length > 0) {
+          const variantId = product.variants[0].id;
+          
+          // Add to cart with variant ID
+          return fetch('/cart/add.js', {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+              'X-Requested-With': 'XMLHttpRequest'
+            },
+            body: JSON.stringify({ 
+              id: variantId, 
+              quantity: 1 
+            })
+          });
+        } else {
+          throw new Error('Keine Varianten gefunden');
+        }
       })
       .then(response => {
         if (!response.ok) {
@@ -2545,10 +2561,6 @@ window.fcToggleSearch = function() {
           btn.disabled = false;
         }, 1500);
       });
-    } else {
-      // Fallback if no variant ID - redirect to product page
-      window.location.href = productUrl;
-    }
     
     return false;
   };

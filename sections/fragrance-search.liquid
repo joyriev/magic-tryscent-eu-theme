@@ -2806,9 +2806,21 @@ window.fcToggleSearch = function() {
           const perfumeName = perfume.naam || perfume.name || '';
           const perfumeBrand = perfume.merk || perfume.brand || '';
           
-          const nameScore = getComprehensiveScore(query, perfumeName);
-          const brandScore = getComprehensiveScore(query, perfumeBrand);
-          const maxScore = Math.max(nameScore, brandScore);
+          let nameScore = getComprehensiveScore(query, perfumeName);
+          let brandScore = getComprehensiveScore(query, perfumeBrand);
+          let maxScore = Math.max(nameScore, brandScore);
+          
+          // PRIORITY: Boost YSL catalog products when searching for ysl/yves/laurent
+          if (perfumeBrand.toLowerCase().includes('yves saint laurent') || 
+              perfumeBrand.toLowerCase().includes('ysl')) {
+            const yslScore = getComprehensiveScore(query, 'ysl');
+            const yvesScore = getComprehensiveScore(query, 'yves');
+            const laurentScore = getComprehensiveScore(query, 'laurent');
+            
+            if (yslScore >= 50 || yvesScore >= 50 || laurentScore >= 50) {
+              maxScore = 100; // Boost to top
+            }
+          }
           
           if (maxScore >= 50) {
             catalogResults.push({

@@ -2208,7 +2208,22 @@ const hardcodedProducts = [
     searchTerms: ["sweet", "seduction", "love don't be shy"]
   }
 ];
-  
+
+  // ===== IMPORTANT: Make hardcodedProducts globally available =====
+  window.hardcodedProducts = hardcodedProducts;
+
+  // ===== INITIALIZE YOUR SHOPIFY PRODUCTS (FIXED) =====
+  function fcInitProducts() {
+    fcProducts = (window.hardcodedProducts || hardcodedProducts).map(p => ({
+      id: p.id,
+      title: p.title,
+      image: p.image,
+      url: p.url,
+      price: p.price
+    }));
+    
+    console.log('✓ Loaded', fcProducts.length, 'hardcoded products');
+  }
 
   // ===== FUZZY MATCH SCORE =====
   function calculateFuzzyScore(query, text) {
@@ -2736,6 +2751,7 @@ const hardcodedProducts = [
 
   // ===== INITIALIZE =====
   document.addEventListener('DOMContentLoaded', function() {
+    fcInitProducts(); // Initialize products with global hardcodedProducts
     combineCatalogs();
     
     // Debug: Show what's available

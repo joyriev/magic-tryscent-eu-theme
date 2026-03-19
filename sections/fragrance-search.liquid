@@ -2472,50 +2472,38 @@ window.fcToggleSearch = function() {
   }
 
   // ===== SIMPLIFIED ADD TO CART =====
+  // ===== INSTANT ADD TO CART WITH VARIANT ID =====
   window.fcAddToCart = function(productUrl, event) {
     if (event) event.stopPropagation();
     
     const btn = event?.target || document.activeElement;
     const originalText = btn.innerText;
+    const originalBackground = btn.style.background;
     
-    btn.innerText = 'Wird hinzugefügt...';
+    btn.innerText = '🔄';
     btn.disabled = true;
     
-    // Extract product handle from URL
-    const urlParts = productUrl.split('/products/');
-    if (urlParts.length < 2) {
-      btn.innerText = 'Fehler';
-      setTimeout(() => {
-        btn.innerText = originalText;
-        btn.disabled = false;
-      }, 2000);
-      return false;
+    // Extract variant ID from URL
+    let variantId = null;
+    
+    // Check if URL has variant parameter
+    if (productUrl.includes('?variant=')) {
+      const urlParams = new URLSearchParams(productUrl.split('?')[1]);
+      variantId = urlParams.get('variant');
     }
     
-    const productHandle = urlParts[1].split('?')[0].split('#')[0];
-    
-    // Simple approach - use the default variant (first one)
-    fetch(`/products/${productHandle}.js`)
-      .then(response => response.json())
-      .then(product => {
-        if (product && product.variants && product.variants.length > 0) {
-          // Use the first available variant
-          const variantId = product.variants[0].id;
-          
-          return fetch('/cart/add.js', {
-            method: 'POST',
-            headers: {
-              'Content-Type': 'application/json',
-              'X-Requested-With': 'XMLHttpRequest'
-            },
-            body: JSON.stringify({ 
-              id: variantId, 
-              quantity: 1 
-            })
-          });
-        } else {
-          throw new Error('Keine Varianten gefunden');
-        }
+    if (variantId) {
+      // INSTANT ADD TO CART - direct AJAX request
+      fetch('/cart/add.js', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'X-Requested-With': 'XMLHttpRequest'
+        },
+        body: JSON.stringify({ 
+          id: parseInt(variantId), 
+          quantity: 1 
+        })
       })
       .then(response => {
         if (!response.ok) {
@@ -2526,28 +2514,41 @@ window.fcToggleSearch = function() {
         return response.json();
       })
       .then(data => {
-        btn.innerText = '✓ Hinzugefügt!';
+        // Success - update button
+        btn.innerText = '✓';
         btn.style.background = '#2E7D32';
         
         // Update cart count and offer display
-        fetchCartAndUpdate().then(cart => {
-          showNotification(`✓ Hinzugefügt! ${cart.item_count}/3 Artikel für gratis Geschenk`);
-        });
+        fetch('/cart.js')
+          .then(r => r.json())
+          .then(cart => {
+            updateOfferDisplay(cart.item_count);
+            showNotification(`✓ Hinzugefügt! ${cart.item_count}/3 Artikel`);
+          })
+          .catch(() => {});
         
+        // Reset button after 2 seconds
         setTimeout(() => {
           btn.innerText = originalText;
-          btn.style.background = '#C41E3A';
+          btn.style.background = originalBackground || '#C41E3A';
           btn.disabled = false;
         }, 2000);
       })
       .catch(error => {
         console.error('Add to cart error:', error);
-        btn.innerText = 'Fehler';
+        btn.innerText = '✗';
+        btn.style.background = '#c62828';
+        
         setTimeout(() => {
           btn.innerText = originalText;
+          btn.style.background = originalBackground || '#C41E3A';
           btn.disabled = false;
-        }, 2000);
+        }, 1500);
       });
+    } else {
+      // Fallback if no variant ID - redirect to product page
+      window.location.href = productUrl;
+    }
     
     return false;
   };

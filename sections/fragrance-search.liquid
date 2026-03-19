@@ -2817,6 +2817,11 @@ window.fcToggleSearch = function() {
       
       // ===== SEARCH IN HARDCODED PRODUCTS WITH FUZZY MATCHING =====
       hardcodedProducts.forEach(product => {
+        // Exclude bundle products when searching for specific fragrances
+        if (query.toLowerCase().includes('chance') && product.id === 'tryscent-5x_50ml_perfume_bottles') {
+          return;
+        }
+        
         const titleScore = getComprehensiveScore(query, product.title);
         const brandScore = getComprehensiveScore(query, product.brand);
         const maxScore = Math.max(titleScore, brandScore);

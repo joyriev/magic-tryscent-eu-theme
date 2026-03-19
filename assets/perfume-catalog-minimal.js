@@ -445,7 +445,7 @@ window.NederlandseParfumCatalogus = {
       id: "armani_si_Passione",
       naam: "Si Passione",
       merk: "Giorgio Armani",
-      afbeelding: "https://tryscent.eu/cdn/shop/files/si.webp?v=1772339894",
+      afbeelding: "https://tryscent.eu/cdn/shop/files/Si_Passione.webp?v=1773677364",
       topnoten: ["Zwarte bes", "Peer", "Bergamot"],
       hartnoten: ["Roos", "Jasmijn", "Freesia"],
       basisnoten: ["Vanille", "Patchouli", "Amber"],

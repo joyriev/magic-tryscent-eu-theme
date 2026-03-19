@@ -444,7 +444,7 @@ window.NederlandseParfumCatalogus = {
       id: "armani_my_way",
       naam: "My Way",
       merk: "Giorgio Armani",
-      afbeelding: "https://tryscent.eu/cdn/shop/files/my_way.webp?v=1772339894",
+      afbeelding: "https://tryscent.eu/cdn/shop/files/Giorgio_Armani_MY_WAY.avif?v=1773643713",
       topnoten: ["Sinaasappelbloesem", "Bergamot"],
       hartnoten: ["Tuberoos", "Jasmijn"],
       basisnoten: ["Vanille", "Ceder", "Witte muskus"],

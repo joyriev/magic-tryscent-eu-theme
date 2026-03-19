@@ -349,7 +349,7 @@ window.NederlandseParfumCatalogus = {
       id: "chanel_chance_eau_tendre",
       naam: "Chance Eau Tendre",
       merk: "Chanel",
-      afbeelding: "https://tryscent.eu/cdn/shop/files/chance_eau_tendre.webp?v=1772339894",
+      afbeelding: "https://fimgs.net/mdimg/perfume-thumbs/dark-375x500.8069.2x.avif",
       topnoten: ["Grapefruit", "Kweepeer"],
       hartnoten: ["Jasmijn", "Hyacint"],
       basisnoten: ["Muskus", "Iris", "Ceder"],

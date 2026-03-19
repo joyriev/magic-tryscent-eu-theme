@@ -3144,20 +3144,39 @@ window.fcToggleSearch = function() {
       });
       
       // Sort by score
+      catalogResults.sort((a, b) => b.score - a.score);
       hardcodedResults.sort((a, b) => b.score - a.score);
       
       let html = '';
       
-      // ===== DISPLAY CATALOG RESULTS =====
+      // DETECT BRAND SEARCH AND FILTER RESULTS
+      const queryLower = query.toLowerCase().trim();
+      
+      // Check if this is a brand-specific search
+      let isCKSearch = false, isYSLSearch = false, isMuglerSearch = false;
+      
+      if (queryLower === 'ck' || queryLower === 'calvin' || queryLower === 'klein' || queryLower === 'calvin klein') {
+        isCKSearch = true;
+        catalogResults = catalogResults.filter(r => r.perfume.merk && r.perfume.merk.toLowerCase().includes('calvin klein'));
+        hardcodedResults = hardcodedResults.filter(r => r.product.brandKey === 'calvinklein');
+      } else if (queryLower === 'ysl' || queryLower === 'yves' || queryLower === 'laurent' || queryLower === 'yves saint laurent') {
+        isYSLSearch = true;
+        catalogResults = catalogResults.filter(r => r.perfume.merk && (r.perfume.merk.toLowerCase().includes('yves saint laurent') || r.perfume.merk.toLowerCase().includes('ysl')));
+        hardcodedResults = hardcodedResults.filter(r => r.product.brandKey === 'ysl');
+      } else if (queryLower === 'mugler' || queryLower === 'thierry' || queryLower === 'angel' || queryLower === 'thierry mugler') {
+        isMuglerSearch = true;
+        catalogResults = catalogResults.filter(r => r.perfume.merk && r.perfume.merk.toLowerCase().includes('mugler'));
+        hardcodedResults = hardcodedResults.filter(r => r.product.brandKey === 'mugler');
+      }
+      
+      // ===== DISPLAY CATALOG RESULTS (FIRST) =====
       if (catalogResults.length > 0) {
         html += `<div class="fc-section-title">✨ Echte Parfums</div>`;
         
-        // Show all results if it's a brand search (ck, ysl, etc), otherwise limit to 8
-        const queryLower = query.toLowerCase().trim();
-        const isBrandSearch = queryLower === 'ck' || queryLower === 'calvin' || queryLower === 'klein' || queryLower === 'ysl' || queryLower === 'yves' || queryLower === 'mugler' || queryLower === 'thierry';
-        const displayLimit = isBrandSearch ? catalogResults.length : 8;
+        const catalogDisplayLimit = 8;
         
-        catalogResults.slice(0, displayLimit).forEach(result => {
+        const catalogDisplayLimit = 8;
+        catalogResults.slice(0, catalogDisplayLimit).forEach(result => {
           const perfume = result.perfume;
           const imageUrl = perfume.afbeelding || perfume.image || 'https://via.placeholder.com/60x60?text=Parfum';
           const name = perfume.naam || perfume.name || 'Unbekanntes Parfum';

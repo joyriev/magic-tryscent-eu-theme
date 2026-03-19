@@ -1453,6 +1453,18 @@ window.fcToggleSearch = function() {
       searchTerms: ["mademoiselle", "139", "chanel", "coco mademoiselle", "riecht wie"]
     },
     {
+      id: "tryscent-grapefruit-jasmine-musk",
+      title: "Grapefruit Jasmine Musk",
+      image: "https://cdn.shopify.com/s/files/1/0762/7662/9763/files/GrapefruitJasmineMusk_8fc4ddde-a3a5-4e5b-977d-c4d6acbd462a.png?v=1762756827",
+      url: "https://tryscent.eu/products/grapefruit-jasmine-musk-50-ml-1-7-fl-oz?variant=47413074166019",
+      price: 2495,  // €24,95
+      brand: "TryScent",
+      brandKey: "tryscent",
+      number: null,
+      gender: "female",
+      searchTerms: ["grapefruit", "jasmine", "musk", "citrus", "floral", "fresh", "freesie", "airy musk"]
+    },
+    {
       id: "tryscent-magic_287",
       title: "Riecht wie... Oud Wood - Nr. 287",
       image: "https://cdn.shopify.com/s/files/1/0762/7662/9763/files/287M_c.webp?v=1773222424",
@@ -2383,6 +2395,24 @@ window.fcToggleSearch = function() {
       const mademoiselle139 = hardcodedProducts.find(p => p.id === 'tryscent-mademoiselle-139');
       if (mademoiselle139 && mademoiselle139.id !== product.id) {
         return [mademoiselle139];
+      }
+    }
+    
+    // HARDCODED: Chance should recommend Grapefruit Jasmine Musk and Amalfi Coast (citrus)
+    if (perfumeName.includes('chance')) {
+      const grapefruitMusk = hardcodedProducts.find(p => p.id === 'tryscent-grapefruit-jasmine-musk');
+      const amalfiCoast = hardcodedProducts.find(p => p.id === 'tryscent-amalfi_coast');
+      const recommendations = [];
+      
+      if (grapefruitMusk) {
+        recommendations.push(grapefruitMusk);
+      }
+      if (amalfiCoast && amalfiCoast.id !== product.id) {
+        recommendations.push(amalfiCoast);
+      }
+      
+      if (recommendations.length > 0) {
+        return recommendations;
       }
     }
     

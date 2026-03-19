@@ -1513,6 +1513,30 @@ window.fcToggleSearch = function() {
       searchTerms: ["cherry smoke", "434", "tom ford", "riecht wie", "kirsche"]
     },
     {
+      id: "tryscent-midnight_drive",
+      title: "Riecht wie... Midnight Drive",
+      image: "https://cdn.shopify.com/s/files/1/0762/7662/9763/files/MidnightDrive.webp?v=1773222400",
+      url: "https://tryscent.eu/products/midnight-drive",
+      price: 2495,  // €24,95
+      brand: "Tom Ford",
+      brandKey: "tomford",
+      number: "265",
+      gender: "unisex",
+      searchTerms: ["midnight drive", "265", "tom ford", "riecht wie", "midnight"]
+    },
+    {
+      id: "tryscent-midnight_oil",
+      title: "Riecht wie... Midnight Oil",
+      image: "https://cdn.shopify.com/s/files/1/0762/7662/9763/files/MidnightOil.webp?v=1773222401",
+      url: "https://tryscent.eu/products/midnight-oil",
+      price: 2495,  // €24,95
+      brand: "Tom Ford",
+      brandKey: "tomford",
+      number: "266",
+      gender: "unisex",
+      searchTerms: ["midnight oil", "266", "tom ford", "riecht wie", "midnight"]
+    },
+    {
       id: "tryscent-magic_083",
       title: "Riecht wie... Opium - Nr. 083",
       image: "https://cdn.shopify.com/s/files/1/0762/7662/9763/files/083W_c.webp?v=1773222363",
@@ -2335,6 +2359,15 @@ window.fcToggleSearch = function() {
       }
     }
     
+    // HARDCODED: Ombre Nomade should recommend Midnight Drive and Midnight Oil
+    if (perfumeName.includes('ombre nomade')) {
+      const midnightDrive = hardcodedProducts.find(p => p.id === 'tryscent-midnight_drive');
+      const midnightOil = hardcodedProducts.find(p => p.id === 'tryscent-midnight_oil');
+      if (midnightDrive && midnightOil) {
+        return [midnightDrive, midnightOil];
+      }
+    }
+    
     // Get other products from same brand
     const sameBrandProducts = hardcodedProducts.filter(p => 
       p.brandKey === product.brandKey && 
@@ -2871,6 +2904,15 @@ window.fcToggleSearch = function() {
       }
       
       html += '</div>';
+      
+      // Display additional recommendations if there are more than 1
+      if (recommendations.length > 1) {
+        html += '<div class="fc-grid-2col">';
+        for (let i = 1; i < recommendations.length; i++) {
+          html += renderHardcodedProductCard(recommendations[i], 'Das könnte dir auch gefallen');
+        }
+        html += '</div>';
+      }
     }
     
     // Show catalog perfume details

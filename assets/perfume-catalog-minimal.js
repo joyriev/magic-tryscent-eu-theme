@@ -801,7 +801,7 @@ window.NederlandseParfumCatalogus = {
     {
       id: "mugler_alien",
       naam: "Alien",
-      merk: "Mugler",
+      merk: "Thierry Mugler Angel",
       afbeelding: "https://tryscent.eu/cdn/shop/files/alien.webp?v=1772339894",
       topnoten: ["Jasmijn", "Amber", "Houtnoten"],
       hartnoten: ["Jasmijn", "Vanille", "Amber"],
@@ -814,7 +814,7 @@ window.NederlandseParfumCatalogus = {
     {
       id: "mugler_angel_nova",
       naam: "Angel Nova",
-      merk: "Mugler",
+      merk: "Thierry Mugler Angel",
       afbeelding: "https://tryscent.eu/cdn/shop/files/angel_nova.webp?v=1772339894",
       topnoten: ["Framboos", "Lychee"],
       hartnoten: ["Roos", "Jasmijn"],

@@ -350,7 +350,7 @@ window.NederlandseParfumCatalogus = {
       id: "chanel_coco",
       naam: "Coco",
       merk: "Chanel",
-      afbeelding: "https://tryscent.eu/cdn/shop/files/coco.webp?v=1772339894",
+      afbeelding: "https://tryscent.eu/cdn/shop/files/Chanel_Coco.jpg?v=1773650817",
       topnoten: ["Koriander", "Mandarijn", "Perzik", "Jasmijn"],
       hartnoten: ["Roos", "Kruidnagel", "Mimosa", "Anjer"],
       basisnoten: ["Sandelhout", "Amber", "Opium", "Benzoë"],

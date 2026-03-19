@@ -677,7 +677,7 @@ window.NederlandseParfumCatalogus = {
       id: "boss_orange",
       naam: "Boss Orange",
       merk: "Hugo Boss",
-      afbeelding: "https://tryscent.eu/cdn/shop/files/Hugo_Boss_Boss_Orange.jpg?v=1773668610",
+      afbeelding: "https://tryscent.eu/cdn/shop/files/Tom_Ford_Fucking_Fabulous_EDP.webp?v=1773638431",
       topnoten: ["Appel", "Witte bloemen", "Citrus"],
       hartnoten: ["Roos", "Jasmijn", "Pioenroos"],
       basisnoten: ["Sandelhout", "Muskus", "Vanille"],

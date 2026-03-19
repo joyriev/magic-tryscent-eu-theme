@@ -288,6 +288,19 @@ window.NederlandseParfumCatalogus = {
       jaar: "2019",
       geslacht: "Vrouwelijk",
       productnummers: ["085"]
+    },
+    {
+      id: "ysl_la_nuit_de_lhomme",
+      naam: "La Nuit de L'Homme",
+      merk: "Yves Saint Laurent",
+      afbeelding: "https://tryscent.eu/cdn/shop/files/La_Nuit_de.webp?v=1773677685",
+      topnoten: ["Cardamom"],
+      hartnoten: ["Lavendel", "Cederhout"],
+      basisnoten: ["Vetiver", "Cumarine"],
+      beschrijving: "Een verleidelijke en mysterieuze geur voor de man. Fris-kruidige opening van cardamom, gevolgd door een romig-houtig hart en een warme, sensuele basis.",
+      jaar: "2009",
+      geslacht: "Mannelijk",
+      productnummers: ["242"]
     }
   ],
 
@@ -453,6 +466,19 @@ window.NederlandseParfumCatalogus = {
       jaar: "2013",
       geslacht: "Vrouwelijk",
       productnummers: ["020"]
+    },
+    {
+      id: "armani_terra_di_gioia",
+      naam: "Terra Di Gioia",
+      merk: "Giorgio Armani",
+      afbeelding: "https://cdn.shopify.com/s/files/1/0762/7662/9763/files/436wc.webp?v=1773222280",
+      topnoten: ["Peer", "Mandarijn", "Bergamot"],
+      hartnoten: ["Mandelbloesem", "Jasmijn"],
+      basisnoten: ["Amberboom", "Muskus"],
+      beschrijving: "Een zonnige, bloemig-orientalische geur die elegantie en mediterrane levensvreugde uitstraalt.",
+      jaar: "",
+      geslacht: "Vrouwelijk",
+      productnummers: ["436"]
     }
   ],
 

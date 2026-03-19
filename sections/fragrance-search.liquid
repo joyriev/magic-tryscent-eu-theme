@@ -2857,6 +2857,18 @@ window.fcToggleSearch = function() {
           }
         }
         
+        // PRIORITY: Boost YSL products when searching for ysl/yves saint laurent
+        if (product.brandKey === 'ysl') {
+          const yslScore = getComprehensiveScore(query, 'ysl');
+          const yvesScore = getComprehensiveScore(query, 'yves');
+          const laurentScore = getComprehensiveScore(query, 'laurent');
+          
+          // If any of these terms match closely (including typos), boost to top
+          if (yslScore >= 50 || yvesScore >= 50 || laurentScore >= 50) {
+            scoreWithBoost = 100; // Ensure top ranking
+          }
+        }
+        
         if (scoreWithBoost >= 50) {
           hardcodedResults.push({
             product,

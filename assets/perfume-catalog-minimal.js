@@ -798,7 +798,7 @@ window.NederlandseParfumCatalogus = {
       id: "ck_eternity_women",
       naam: "Eternity",
       merk: "Calvin Klein",
-      afbeelding: "https://tryscent.eu/cdn/shop/files/eternity.webp?v=1772339894",
+      afbeelding: "https://tryscent.eu/cdn/shop/files/Calvin_Klein_Eternity.webp?v=1773669015",
       topnoten: ["Mandarijn", "Bergamot", "Citroen"],
       hartnoten: ["Lelietje-van-dalen", "Roos", "Jasmijn"],
       basisnoten: ["Sandelhout", "Muskus", "Amber"],

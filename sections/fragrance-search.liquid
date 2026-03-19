@@ -1118,7 +1118,7 @@ window.fcToggleSearch = function() {
     // Signature collection (10-99) - ALL TITLES IN GERMAN/DUTCH
     {
       id: "tryscent-aldehydes_rose_sandalwood",
-      title: "Aldehydes Rose Sandelholz",
+      title: "Aldehydes Rose Sandalwood",
       image: "https://cdn.shopify.com/s/files/1/0762/7662/9763/files/aldehydes_rose_sandalwood_9b8fc66a-07ea-4af8-88c6-1efc8c7a1c3b.png?v=1762756845",
       url: "https://tryscent.eu/products/aldehydes-rose-sandalwood-50-ml-1-7-fl-oz",
       price: 2495,  // €24,95
@@ -2404,7 +2404,7 @@ window.fcToggleSearch = function() {
       const amalfiCoast = hardcodedProducts.find(p => p.id === 'tryscent-amalfi_coast');
       const recommendations = [];
       
-      if (grapefruitMusk) {
+      if (grapefruitMusk && grapefruitMusk.id !== product.id) {
         recommendations.push(grapefruitMusk);
       }
       if (amalfiCoast && amalfiCoast.id !== product.id) {

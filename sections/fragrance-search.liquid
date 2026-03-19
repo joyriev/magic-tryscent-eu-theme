@@ -2448,11 +2448,29 @@ window.fcToggleSearch = function() {
       }
     }
     
-    // HARDCODED: Terra di Gioia should recommend Terra Di Gioia magic product 436
+    // HARDCODED: La Nuit de L'Homme should recommend Emporio He (Magic 242)
+    if (perfumeName.includes('la nuit') || perfumeName.includes('nuit')) {
+      const emporio = hardcodedProducts.find(p => p.id === 'tryscent-magic_242');
+      if (emporio && emporio.id !== product.id) {
+        return [emporio];
+      }
+    }
+    
+    // HARDCODED: Terra di Gioia should recommend Magic product 436 and other Armani products
     if (perfumeName.includes('terra di gioia') || perfumeName.includes('terra')) {
-      const terraDiGioia436 = hardcodedProducts.find(p => p.id === 'tryscent-magic_436');
-      if (terraDiGioia436 && terraDiGioia436.id !== product.id) {
-        return [terraDiGioia436];
+      const magic436 = hardcodedProducts.find(p => p.id === 'tryscent-magic_436');
+      const otherArmani = hardcodedProducts.filter(p => p.brandKey === 'armani' && p.id !== product.id && p.id !== 'tryscent-magic_436');
+      const recommendations = [];
+      
+      if (magic436 && magic436.id !== product.id) {
+        recommendations.push(magic436);
+      }
+      if (otherArmani.length > 0) {
+        recommendations.push(otherArmani[0]);
+      }
+      
+      if (recommendations.length > 0) {
+        return recommendations;
       }
     }
     

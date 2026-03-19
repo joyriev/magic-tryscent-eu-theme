@@ -228,7 +228,7 @@ window.NederlandseParfumCatalogus = {
       id: "ysl_black_opium",
       naam: "Black Opium",
       merk: "Yves Saint Laurent",
-      afbeelding: "https://tryscent.eu/cdn/shop/files/ysl-black-opium-edp_jtgB.webp?v=1762632057",
+      afbeelding: "https://fimgs.net/mdimg/perfume-thumbs/dark-375x500.25324.2x.avif",
       topnoten: ["Koffie", "Roze Peper", "Sinaasappelbloesem"],
       hartnoten: ["Jasmijn", "Bittere amandel", "Zoethout"],
       basisnoten: ["Vanille", "Ceder", "Patchouli"],

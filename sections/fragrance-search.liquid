@@ -1441,6 +1441,18 @@ window.fcToggleSearch = function() {
       searchTerms: ["mademoiselle", "067", "chanel", "riecht wie"]
     },
     {
+      id: "tryscent-mademoiselle-139",
+      title: "Riecht wie... Mademoiselle - Nr. 139",
+      image: "https://cdn.shopify.com/s/files/1/0762/7662/9763/files/139W_c.webp?v=1773222437",
+      url: "https://tryscent.eu/products/magic-perfume-no-139w?variant=47831294738691",
+      price: 1199,  // €11,99
+      brand: "Chanel",
+      brandKey: "chanel",
+      number: "139",
+      gender: "female",
+      searchTerms: ["mademoiselle", "139", "chanel", "coco mademoiselle", "riecht wie"]
+    },
+    {
       id: "tryscent-magic_287",
       title: "Riecht wie... Oud Wood - Nr. 287",
       image: "https://cdn.shopify.com/s/files/1/0762/7662/9763/files/287M_c.webp?v=1773222424",
@@ -2363,6 +2375,14 @@ window.fcToggleSearch = function() {
       
       if (recommendations.length > 0) {
         return recommendations;
+      }
+    }
+    
+    // HARDCODED: Coco Mademoiselle should recommend Mademoiselle 139
+    if (perfumeName.includes('coco mademoiselle')) {
+      const mademoiselle139 = hardcodedProducts.find(p => p.id === 'tryscent-mademoiselle-139');
+      if (mademoiselle139 && mademoiselle139.id !== product.id) {
+        return [mademoiselle139];
       }
     }
     

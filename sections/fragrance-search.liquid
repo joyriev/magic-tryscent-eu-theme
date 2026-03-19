@@ -3135,7 +3135,6 @@ window.fcToggleSearch = function() {
             score: finalScore
           });
         }
-        }
       });
       
       // Sort by score
@@ -3143,26 +3142,6 @@ window.fcToggleSearch = function() {
       hardcodedResults.sort((a, b) => b.score - a.score);
       
       let html = '';
-      
-      // DETECT BRAND SEARCH AND FILTER RESULTS
-      const queryLower = query.toLowerCase().trim();
-      
-      // Check if this is a brand-specific search
-      let isCKSearch = false, isYSLSearch = false, isMuglerSearch = false;
-      
-      if (queryLower === 'ck' || queryLower === 'calvin' || queryLower === 'klein' || queryLower === 'calvin klein') {
-        isCKSearch = true;
-        catalogResults = catalogResults.filter(r => r.perfume.merk && r.perfume.merk.toLowerCase().includes('calvin klein'));
-        hardcodedResults = hardcodedResults.filter(r => r.product.brandKey === 'calvinklein');
-      } else if (queryLower === 'ysl' || queryLower === 'yves' || queryLower === 'laurent' || queryLower === 'yves saint laurent') {
-        isYSLSearch = true;
-        catalogResults = catalogResults.filter(r => r.perfume.merk && (r.perfume.merk.toLowerCase().includes('yves saint laurent') || r.perfume.merk.toLowerCase().includes('ysl')));
-        hardcodedResults = hardcodedResults.filter(r => r.product.brandKey === 'ysl');
-      } else if (queryLower === 'mugler' || queryLower === 'thierry' || queryLower === 'angel' || queryLower === 'thierry mugler') {
-        isMuglerSearch = true;
-        catalogResults = catalogResults.filter(r => r.perfume.merk && r.perfume.merk.toLowerCase().includes('mugler'));
-        hardcodedResults = hardcodedResults.filter(r => r.product.brandKey === 'mugler');
-      }
       
       // ===== DISPLAY CATALOG RESULTS (FIRST) =====
       if (catalogResults.length > 0) {

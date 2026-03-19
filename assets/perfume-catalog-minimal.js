@@ -1149,7 +1149,7 @@ window.NederlandseParfumCatalogus = {
       id: "gucci_flora_162",
       naam: "Flora",
       merk: "Gucci",
-      afbeelding: "https://tryscent.eu/cdn/shop/files/Gucci_Flora.webp?v=1773715917",
+      afbeelding: "https://tryscent.eu/cdn/shop/files/GUCCI_FLORA.webp?v=1773678596",
       topnoten: ["Mandarijn", "Pioenroos", "Citroen"],
       hartnoten: ["Roos", "Jasmijn", "Kaneel", "Zoethout"],
       basisnoten: ["Sandelhout", "Patchouli", "Muskus"],

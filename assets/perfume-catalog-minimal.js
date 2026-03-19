@@ -11,7 +11,7 @@ window.NederlandseParfumCatalogus = {
       id: "tom_ford_lost_cherry",
       naam: "Lost Cherry",
       merk: "Tom Ford",
-      afbeelding: "https://tryscent.eu/cdn/shop/files/lost_cherry.jpg?v=1762632056",
+      afbeelding: "https://fimgs.net/mdimg/perfume-thumbs/dark-375x500.51411.2x.avif",
       topnoten: ["Kers", "Amandel", "Likeur"],
       hartnoten: ["Kers", "Roos", "Jasmijn"],
       basisnoten: ["Vanille", "Benzoë", "Ceder"],

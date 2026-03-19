@@ -1015,7 +1015,7 @@ window.NederlandseParfumCatalogus = {
       id: "kilian_love_dont_be_shy",
       naam: "Love Don't Be Shy",
       merk: "Kilian",
-      afbeelding: "https://tryscent.eu/cdn/shop/files/love_dont_be_shy.webp?v=1772339894",
+      afbeelding: "https://fimgs.net/mdimg/perfume-thumbs/dark-375x500.4322.2x.avif",
       topnoten: ["Bergamot", "Neroli", "Oranjebloesem"],
       hartnoten: ["Jasmijn", "Roos", "Honing"],
       basisnoten: ["Vanille", "Muskus", "Amber"],

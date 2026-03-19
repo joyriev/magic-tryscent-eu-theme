@@ -405,7 +405,7 @@ window.NederlandseParfumCatalogus = {
       id: "armani_code",
       naam: "Armani Code",
       merk: "Giorgio Armani",
-      afbeelding: "https://tryscent.eu/cdn/shop/files/code.webp?v=1772339894",
+      afbeelding: "https://tryscent.eu/cdn/shop/files/Giorgio_Armani_Armani_Code.webp?v=1773661350",
       topnoten: ["Bergamot", "Citroen", "Groene noten"],
       hartnoten: ["Olijfbloesem", "Jasmijn", "Sinaasappelbloesem"],
       basisnoten: ["Leer", "Ceder", "Tonka"],

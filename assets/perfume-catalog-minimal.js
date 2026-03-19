@@ -802,7 +802,7 @@ window.NederlandseParfumCatalogus = {
       id: "mugler_alien",
       naam: "Alien",
       merk: "Thierry Mugler Angel",
-      afbeelding: "https://tryscent.eu/cdn/shop/files/alien.webp?v=1772339894",
+      afbeelding: "https://fimgs.net/mdimg/perfume-thumbs/dark-375x500.707.2x.avif",
       topnoten: ["Jasmijn", "Amber", "Houtnoten"],
       hartnoten: ["Jasmijn", "Vanille", "Amber"],
       basisnoten: ["Houtnoten", "Muskus", "Vanille"],

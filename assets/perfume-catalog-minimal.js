@@ -198,7 +198,7 @@ window.NederlandseParfumCatalogus = {
       id: "dior_miss_dior_le_parfum",
       naam: "Miss Dior Le Parfum",
       merk: "Dior",
-      afbeelding: "https://tryscent.eu/cdn/shop/files/le_parfum.webp?v=1772270418",
+      afbeelding: "https://tryscent.eu/cdn/shop/files/Christian_Dior_Miss_Dior_Le_Parfum.jpg?v=1773640543",
       topnoten: ["Lavendel", "Bergamot", "Salie"],
       hartnoten: ["Iris", "Muskus", "Ambrette", "Peer"],
       basisnoten: ["Ceder", "Vetiver", "Leer", "Amber"],

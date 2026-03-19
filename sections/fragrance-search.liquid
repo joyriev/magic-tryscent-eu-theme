@@ -2534,12 +2534,12 @@ window.fcToggleSearch = function() {
         btn.innerText = '✓';
         btn.style.background = '#2E7D32';
         
-        showNotification('✓ Hinzugefügt! Leite zum Warenkorb weiter...');
+        showNotification('✓ Hinzugefügt!');
         
-        // Wait 1 second then redirect to cart
+        // Redirect to cart immediately
         setTimeout(() => {
           window.location.href = '/cart';
-        }, 1000);
+        }, 200);
       })
       .catch(error => {
         console.error('Add to cart error:', error);

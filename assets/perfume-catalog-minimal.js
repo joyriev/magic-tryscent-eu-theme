@@ -442,8 +442,8 @@ window.NederlandseParfumCatalogus = {
       productnummers: ["140"]
     },
     {
-      id: "armani_si",
-      naam: "Si",
+      id: "armani_si_Passione",
+      naam: "Si Passione",
       merk: "Giorgio Armani",
       afbeelding: "https://tryscent.eu/cdn/shop/files/si.webp?v=1772339894",
       topnoten: ["Zwarte bes", "Peer", "Bergamot"],

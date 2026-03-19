@@ -1969,6 +1969,78 @@ window.fcToggleSearch = function() {
       searchTerms: ["eternity", "106", "calvin klein", "riecht wie"]
     },
     {
+      id: "tryscent-magic_204",
+      title: "Riecht wie... Euphoria Men - No. 204",
+      image: "https://cdn.shopify.com/s/files/1/0762/7662/9763/files/204Mc.webp?v=1773222303",
+      url: "https://tryscent.eu/products/magic-perfume-no-204m?variant=47831286186243",
+      price: 1199,
+      brand: "Calvin Klein",
+      brandKey: "calvinklein",
+      number: "204",
+      gender: "male",
+      searchTerms: ["euphoria men", "204", "calvin klein", "riecht wie", "woody", "spicy"]
+    },
+    {
+      id: "tryscent-magic_477",
+      title: "Riecht wie... CK Be - No. 477",
+      image: "https://cdn.shopify.com/s/files/1/0762/7662/9763/files/477Wc.webp?v=1773222320",
+      url: "https://tryscent.eu/products/magic-perfume-no-477w?variant=47831287136515",
+      price: 1199,
+      brand: "Calvin Klein",
+      brandKey: "calvinklein",
+      number: "477",
+      gender: "unisex",
+      searchTerms: ["ck be", "477", "calvin klein", "riecht wie", "floral", "woody", "musk"]
+    },
+    {
+      id: "tryscent-magic_414",
+      title: "Riecht wie... CK Eternity Moment - No. 414",
+      image: "https://cdn.shopify.com/s/files/1/0762/7662/9763/files/414Wc.webp?v=1773222272",
+      url: "https://tryscent.eu/products/magic-perfume-no-414w?variant=47831283597571",
+      price: 1199,
+      brand: "Calvin Klein",
+      brandKey: "calvinklein",
+      number: "414",
+      gender: "female",
+      searchTerms: ["ck eternity moment", "414", "calvin klein", "riecht wie", "floral", "lychee", "peony"]
+    },
+    {
+      id: "tryscent-magic_031",
+      title: "Riecht wie... CK Women - No. 031",
+      image: "https://cdn.shopify.com/s/files/1/0762/7662/9763/files/031wc.webp?v=1773222263",
+      url: "https://tryscent.eu/products/magic-perfume-no-031?variant=47831283237123",
+      price: 1199,
+      brand: "Calvin Klein",
+      brandKey: "calvinklein",
+      number: "031",
+      gender: "female",
+      searchTerms: ["ck women", "031", "calvin klein", "riecht wie", "floral", "woody", "bergamot", "jasmine"]
+    },
+    {
+      id: "tryscent-magic_028",
+      title: "Riecht wie... Obsession Night WOMAN - No. 028",
+      image: "https://cdn.shopify.com/s/files/1/0762/7662/9763/files/028wc.webp?v=1773222255",
+      url: "https://tryscent.eu/products/magic-perfume-no-028?variant=47831283040515",
+      price: 1199,
+      brand: "Calvin Klein",
+      brandKey: "calvinklein",
+      number: "028",
+      gender: "female",
+      searchTerms: ["obsession night", "028", "calvin klein", "riecht wie", "floral", "oriental", "woody", "vanilla"]
+    },
+    {
+      id: "tryscent-magic_209",
+      title: "Riecht wie... CK One - No. 209",
+      image: "https://cdn.shopify.com/s/files/1/0762/7662/9763/files/209Mc.webp?v=1773222266",
+      url: "https://tryscent.eu/products/magic-perfume-no-209m?variant=47831283400963",
+      price: 1199,
+      brand: "Calvin Klein",
+      brandKey: "calvinklein",
+      number: "209",
+      gender: "unisex",
+      searchTerms: ["ck one", "209", "calvin klein", "riecht wie", "citrus", "fresh", "green tea"]
+    },
+    {
       id: "tryscent-magic_113",
       title: "Riecht wie... Angel - Nr. 113",
       image: "https://cdn.shopify.com/s/files/1/0762/7662/9763/files/113W_c.webp?v=1773222356",
@@ -2472,6 +2544,112 @@ window.fcToggleSearch = function() {
       if (recommendations.length > 0) {
         return recommendations;
       }
+    }
+    
+    // HARDCODED: Calvin Klein products with matching product numbers
+    // Eternity (106) → Magic 106
+    if (perfumeName.includes('eternity') && !perfumeName.includes('moment')) {
+      const magic106 = hardcodedProducts.find(p => p.id === 'tryscent-magic_106');
+      const otherCK = hardcodedProducts.filter(p => p.brandKey === 'calvinklein' && p.id !== product.id && p.id !== 'tryscent-magic_106');
+      const recommendations = [];
+      
+      if (magic106 && magic106.id !== product.id) {
+        recommendations.push(magic106);
+      }
+      if (otherCK.length > 0) {
+        recommendations.push(otherCK[0]);
+      }
+      return recommendations.length > 0 ? recommendations : [];
+    }
+    
+    // CK Eternity Moment (414) → Magic 414
+    if (perfumeName.includes('eternity moment')) {
+      const magic414 = hardcodedProducts.find(p => p.id === 'tryscent-magic_414');
+      const otherCK = hardcodedProducts.filter(p => p.brandKey === 'calvinklein' && p.id !== product.id && p.id !== 'tryscent-magic_414');
+      const recommendations = [];
+      
+      if (magic414 && magic414.id !== product.id) {
+        recommendations.push(magic414);
+      }
+      if (otherCK.length > 0) {
+        recommendations.push(otherCK[0]);
+      }
+      return recommendations.length > 0 ? recommendations : [];
+    }
+    
+    // CK One (209) → Magic 209
+    if (perfumeName.includes('ck one')) {
+      const magic209 = hardcodedProducts.find(p => p.id === 'tryscent-magic_209');
+      const otherCK = hardcodedProducts.filter(p => p.brandKey === 'calvinklein' && p.id !== product.id && p.id !== 'tryscent-magic_209');
+      const recommendations = [];
+      
+      if (magic209 && magic209.id !== product.id) {
+        recommendations.push(magic209);
+      }
+      if (otherCK.length > 0) {
+        recommendations.push(otherCK[0]);
+      }
+      return recommendations.length > 0 ? recommendations : [];
+    }
+    
+    // CK Women (031) → Magic 031
+    if (perfumeName.includes('ck women')) {
+      const magic031 = hardcodedProducts.find(p => p.id === 'tryscent-magic_031');
+      const otherCK = hardcodedProducts.filter(p => p.brandKey === 'calvinklein' && p.id !== product.id && p.id !== 'tryscent-magic_031');
+      const recommendations = [];
+      
+      if (magic031 && magic031.id !== product.id) {
+        recommendations.push(magic031);
+      }
+      if (otherCK.length > 0) {
+        recommendations.push(otherCK[0]);
+      }
+      return recommendations.length > 0 ? recommendations : [];
+    }
+    
+    // Obsession Night Woman (028) → Magic 028
+    if (perfumeName.includes('obsession night')) {
+      const magic028 = hardcodedProducts.find(p => p.id === 'tryscent-magic_028');
+      const otherCK = hardcodedProducts.filter(p => p.brandKey === 'calvinklein' && p.id !== product.id && p.id !== 'tryscent-magic_028');
+      const recommendations = [];
+      
+      if (magic028 && magic028.id !== product.id) {
+        recommendations.push(magic028);
+      }
+      if (otherCK.length > 0) {
+        recommendations.push(otherCK[0]);
+      }
+      return recommendations.length > 0 ? recommendations : [];
+    }
+    
+    // Euphoria Men (204) → Magic 204
+    if (perfumeName.includes('euphoria men')) {
+      const magic204 = hardcodedProducts.find(p => p.id === 'tryscent-magic_204');
+      const otherCK = hardcodedProducts.filter(p => p.brandKey === 'calvinklein' && p.id !== product.id && p.id !== 'tryscent-magic_204');
+      const recommendations = [];
+      
+      if (magic204 && magic204.id !== product.id) {
+        recommendations.push(magic204);
+      }
+      if (otherCK.length > 0) {
+        recommendations.push(otherCK[0]);
+      }
+      return recommendations.length > 0 ? recommendations : [];
+    }
+    
+    // CK Be (477) → Magic 477
+    if (perfumeName.includes('ck be')) {
+      const magic477 = hardcodedProducts.find(p => p.id === 'tryscent-magic_477');
+      const otherCK = hardcodedProducts.filter(p => p.brandKey === 'calvinklein' && p.id !== product.id && p.id !== 'tryscent-magic_477');
+      const recommendations = [];
+      
+      if (magic477 && magic477.id !== product.id) {
+        recommendations.push(magic477);
+      }
+      if (otherCK.length > 0) {
+        recommendations.push(otherCK[0]);
+      }
+      return recommendations.length > 0 ? recommendations : [];
     }
     
     // Get other products from same brand

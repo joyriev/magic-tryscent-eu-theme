@@ -973,22 +973,18 @@ window.fcToggleSearch = function() {
   function combineCatalogs() {
     allPerfumes = [];
     
-    // Check for NederlandseParfumCatalogus (Dutch/German catalog)
-    if (window.NederlandseParfumCatalogus) {
-      console.log('✓ NederlandseParfumCatalogus gevonden');
-      
-      // Add all perfumes from the catalog
-      for (let brandKey in window.NederlandseParfumCatalogus) {
-        if (brandKey.startsWith('_')) continue;
-        const perfumes = window.NederlandseParfumCatalogus[brandKey];
-        if (Array.isArray(perfumes)) {
-          // Use the Dutch field names directly
-          allPerfumes.push(...perfumes);
+    // Add from PerfumeCatalog if it exists
+    if (window.PerfumeCatalog) {
+      for (let brandKey in window.PerfumeCatalog) {
+        if (Array.isArray(window.PerfumeCatalog[brandKey])) {
+          allPerfumes.push(...window.PerfumeCatalog[brandKey]);
         }
       }
-      console.log(`✓ Totaal parfums in catalogus: ${allPerfumes.length}`);
-    } else {
-      console.warn('⚠️ NederlandseParfumCatalogus niet gevonden');
+    }
+    
+    console.log(`✓ Kombinierter Katalog: ${allPerfumes.length} Parfums geladen`);
+    if (allPerfumes.length > 0) {
+      console.log(`✓ Beispiel: ${allPerfumes[0].name}`);
     }
   }
 
@@ -2304,40 +2300,36 @@ const hardcodedProducts = [
   function findHardcodedProductByPerfume(perfume) {
     if (!perfume) return null;
     
-    console.log('🔍 Zoeken naar bijpassend product voor:', perfume.naam || perfume.name);
+    console.log('🔍 Finding hardcoded product for:', perfume.name);
+    
+    const perfumeLower = perfume.name.toLowerCase();
+    const perfumeBrandLower = perfume.brand.toLowerCase();
     
     // Try to find by product number first
-    if (perfume.productnummers && perfume.productnummers.length > 0) {
-      for (const num of perfume.productnummers) {
-        // Try exact match
-        let match = hardcodedProducts.find(p => p.number === num.toString());
+    if (perfume.productNumbers && perfume.productNumbers.length > 0) {
+      for (const num of perfume.productNumbers) {
+        const match = hardcodedProducts.find(p => 
+          p.number === num || p.number === num.padStart(3, '0')
+        );
         if (match) {
-          console.log(`✅ Gevonden op nummer ${num}:`, match.title);
-          return match;
-        }
-        
-        // Try with leading zeros
-        match = hardcodedProducts.find(p => p.number === num.toString().padStart(3, '0'));
-        if (match) {
-          console.log(`✅ Gevonden op nummer ${num} (met leading zeros):`, match.title);
+          console.log(`✅ Found by number ${num}:`, match.title);
           return match;
         }
       }
     }
     
     // Try to find by brand
-    const perfumeBrand = (perfume.merk || perfume.brand || '').toLowerCase();
     const matches = hardcodedProducts.filter(p => 
-      p.brand.toLowerCase().includes(perfumeBrand) || 
-      perfumeBrand.includes(p.brand.toLowerCase())
+      p.brand.toLowerCase().includes(perfumeBrandLower) || 
+      perfumeBrandLower.includes(p.brand.toLowerCase())
     );
     
     if (matches.length > 0) {
-      console.log(`✅ Gevonden ${matches.length} matches op merk`);
+      console.log(`✅ Found ${matches.length} matches`);
       return matches[0];
     }
     
-    console.log('❌ Geen bijpassend product gevonden');
+    console.log('❌ No hardcoded product found');
     return null;
   }
 
@@ -2395,26 +2387,19 @@ const hardcodedProducts = [
   function renderCatalogPerfumes(perfumes, query) {
     if (!perfumes || perfumes.length === 0) return '';
     
-    let html = `<div class="fc-section-title">Echte Parfums (${perfumes.length})</div>`;
+    let html = `<div class="fc-section-title">✨ Echte Parfums</div>`;
     
-    perfumes.slice(0, 8).forEach(perfume => {
-      // Use Dutch field names: naam, merk, afbeelding, jaar, geslacht
-      const imageUrl = perfume.afbeelding || perfume.image || 'https://via.placeholder.com/60x60?text=Parfum';
-      const name = perfume.naam || perfume.name || 'Onbekend Parfum';
-      const brand = perfume.merk || perfume.brand || 'Onbekend Merk';
-      const year = perfume.jaar || '';
-      const gender = perfume.geslacht || '';
-      
+    perfumes.slice(0, 12).forEach(perfume => {
       html += `
         <div class="fc-real-perfume-item" onclick="window.fcShowPerfumeDetail('${perfume.id}')">
-          <img class="fc-real-perfume-image" src="${imageUrl}" 
-               alt="${name}" 
+          <img class="fc-real-perfume-image" src="${perfume.image}" 
+               alt="${perfume.name}" 
                loading="lazy"
                onerror="this.src='https://via.placeholder.com/60x60?text=Parfum'">
           <div class="fc-real-perfume-info">
-            <div class="fc-real-perfume-name">${name}</div>
-            <div class="fc-real-perfume-brand">${brand}</div>
-            ${year ? `<div class="fc-real-perfume-year">${year}</div>` : ''}
+            <div class="fc-real-perfume-name">${perfume.name}</div>
+            <div class="fc-real-perfume-brand">${perfume.brand}</div>
+            ${perfume.year ? `<div class="fc-real-perfume-year">${perfume.year}</div>` : ''}
           </div>
         </div>
       `;
@@ -2443,39 +2428,31 @@ const hardcodedProducts = [
     `;
   }
 
-  // ===== SHOW PERFUME DETAIL WITH DUTCH FIELD NAMES =====
+  // ===== SHOW PERFUME DETAIL =====
   window.fcShowPerfumeDetail = function(perfumeId) {
-    const perfume = allPerfumes.find(p => p.id === perfumeId);
+    const perfume = findPerfumeById(perfumeId);
     if (!perfume) return;
     
     currentView = 'detail';
     steps.style.display = 'none';
     
-    // Use Dutch field names
-    const imageUrl = perfume.afbeelding || perfume.image || 'https://via.placeholder.com/110x110?text=Parfum';
-    const name = perfume.naam || perfume.name || 'Onbekend Parfum';
-    const brand = perfume.merk || perfume.brand || 'Onbekend Merk';
-    const year = perfume.jaar || '';
-    const gender = perfume.geslacht || '';
-    const description = perfume.beschrijving || perfume.description || 'Geen beschrijving beschikbaar.';
-    
     // Find matching hardcoded product
     const hardcodedProduct = findHardcodedProductByPerfume(perfume);
     
     let html = `
-      <button class="fc-back-btn" onclick="window.fcGoBack()">Terug</button>
+      <button class="fc-back-btn" onclick="window.fcGoBack()">Zurück</button>
     `;
     
     if (hardcodedProduct) {
-      html += `<div class="fc-subsection-title">Onze versie</div>`;
+      html += `<div class="fc-subsection-title">Unsere inspirierte Version</div>`;
       html += '<div class="fc-grid-2col">';
       
-      html += renderHardcodedProductCard(hardcodedProduct, 'Aanbevolen');
+      html += renderHardcodedProductCard(hardcodedProduct, 'Empfohlen');
       
       const recommendations = getRecommendationsForProduct(hardcodedProduct);
       
       if (recommendations.length > 0) {
-        html += renderHardcodedProductCard(recommendations[0], 'Dit vind je misschien ook leuk');
+        html += renderHardcodedProductCard(recommendations[0], 'Das könnte dir auch gefallen');
       } else {
         html += `<div class="fc-product-card" style="visibility: hidden;"></div>`;
       }
@@ -2483,53 +2460,53 @@ const hardcodedProducts = [
       html += '</div>';
     }
     
-    // Show catalog perfume details with Dutch field names
+    // Show catalog perfume details
     html += `
       <div class="fc-detailed-view">
         <div class="fc-detailed-header">
-          <img class="fc-detailed-image" src="${imageUrl}" 
-               alt="${name}"
+          <img class="fc-detailed-image" src="${perfume.image}" 
+               alt="${perfume.name}"
                loading="lazy"
                onerror="this.src='https://via.placeholder.com/110x110?text=Parfum'">
           <div>
-            <div class="fc-detailed-name">${name}</div>
-            <div class="fc-detailed-brand">${brand}</div>
-            ${year ? `<div class="fc-detailed-meta">${year}</div>` : ''}
-            ${gender ? `<div class="fc-detailed-meta">${gender}</div>` : ''}
+            <div class="fc-detailed-name">${perfume.name}</div>
+            <div class="fc-detailed-brand">${perfume.brand}</div>
+            ${perfume.year ? `<div class="fc-detailed-meta">${perfume.year}</div>` : ''}
+            ${perfume.gender ? `<div class="fc-detailed-meta">${perfume.gender}</div>` : ''}
           </div>
         </div>
 
         <div class="fc-notes-section">
-          ${perfume.topnoten ? `
+          ${perfume.top_notes ? `
             <div class="fc-note-category">
-              <h4>TOP NOTEN</h4>
+              <h4>KOPFNOTEN</h4>
               <div class="fc-note-tags">
-                ${perfume.topnoten.map(note => `<span class="fc-note-tag">${note}</span>`).join('')}
+                ${perfume.top_notes.map(note => `<span class="fc-note-tag">${note}</span>`).join('')}
               </div>
             </div>
           ` : ''}
           
-          ${perfume.hartnoten ? `
+          ${perfume.heart_notes ? `
             <div class="fc-note-category">
-              <h4>HART NOTEN</h4>
+              <h4>HERZNOTEN</h4>
               <div class="fc-note-tags">
-                ${perfume.hartnoten.map(note => `<span class="fc-note-tag">${note}</span>`).join('')}
+                ${perfume.heart_notes.map(note => `<span class="fc-note-tag">${note}</span>`).join('')}
               </div>
             </div>
           ` : ''}
           
-          ${perfume.basisnoten ? `
+          ${perfume.base_notes ? `
             <div class="fc-note-category">
-              <h4>BASIS NOTEN</h4>
+              <h4>BASISNOTEN</h4>
               <div class="fc-note-tags">
-                ${perfume.basisnoten.map(note => `<span class="fc-note-tag">${note}</span>`).join('')}
+                ${perfume.base_notes.map(note => `<span class="fc-note-tag">${note}</span>`).join('')}
               </div>
             </div>
           ` : ''}
         </div>
         
         <div class="fc-description">
-          ${description}
+          ${perfume.description}
         </div>
       </div>
     `;
@@ -2647,30 +2624,61 @@ const hardcodedProducts = [
   // ===== PERFORM SEARCH =====
   function performSearch(query) {
     currentSearchQuery = query;
-    content.innerHTML = '<div class="fc-loading">Zoeken...</div>';
+    content.innerHTML = '<div class="fc-loading">Suche läuft...</div>';
+    steps.style.display = 'none';  // HIDE STEPS WHEN SEARCHING
     
     setTimeout(() => {
-      // Search in catalog with Dutch field names
-      const queryLower = query.toLowerCase();
-      const catalogResults = allPerfumes.filter(p => {
-        const name = (p.naam || p.name || '').toLowerCase();
-        const brand = (p.merk || p.brand || '').toLowerCase();
-        return name.includes(queryLower) || brand.includes(queryLower);
+      const queryLower = query.toLowerCase().trim();
+      const catalogResults = [];
+      
+      // Search in catalog perfumes
+      allPerfumes.forEach(perfume => {
+        const perfumeName = perfume.name.toLowerCase();
+        const perfumeBrand = perfume.brand.toLowerCase();
+        
+        let score = 0;
+        
+        // Exact brand match
+        if (perfumeBrand === queryLower) {
+          score = 1000;
+        }
+        // Brand contains query
+        else if (perfumeBrand.includes(queryLower)) {
+          score = 900;
+        }
+        // Exact name match
+        else if (perfumeName === queryLower) {
+          score = 700;
+        }
+        // Name contains query
+        else if (perfumeName.includes(queryLower)) {
+          score = 600;
+        }
+        
+        if (score > 0) {
+          catalogResults.push({
+            perfume,
+            score
+          });
+        }
       });
+      
+      // Sort by score
+      catalogResults.sort((a, b) => b.score - a.score);
       
       // Search in hardcoded products
       const hardcodedResults = searchHardcodedProducts(query);
       
       let html = '';
       
-      // Show catalog results first
+      // ===== FIRST: Show real perfumes from catalog =====
       if (catalogResults.length > 0) {
-        html += renderCatalogPerfumes(catalogResults, query);
+        html += renderCatalogPerfumes(catalogResults.map(r => r.perfume), query);
       }
       
-      // Show hardcoded results
+      // ===== SECOND: Show our collection (hardcoded) =====
       if (hardcodedResults.length > 0) {
-        html += `<div class="fc-section-title">🛍️ Onze Collectie (${hardcodedResults.length})</div>`;
+        html += `<div class="fc-section-title">🛍️ Unsere Kollektion</div>`;
         
         hardcodedResults.slice(0, 12).forEach(match => {
           const p = match.product;
@@ -2688,9 +2696,9 @@ const hardcodedProducts = [
         });
       }
       
-      // If no results at all, show suggestions
+      // If nothing found, show suggestions
       if (catalogResults.length === 0 && hardcodedResults.length === 0) {
-        html = '<div class="fc-no-results">Geen producten gevonden voor "' + query + '"</div>';
+        html = '<div class="fc-no-results">Keine Produkte gefunden für "' + query + '"</div>';
         html += renderSuggestions();
       }
       

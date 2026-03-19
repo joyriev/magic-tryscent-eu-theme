@@ -2943,7 +2943,7 @@ window.fcToggleSearch = function() {
         }
         
         // PRIORITY: Boost Calvin Klein products when searching for ck/calvin/klein (with typo tolerance)
-        if (product.brandKey === 'calvinKlein') {
+        if (product.brandKey === 'calvinklein') {
           const ckScore = getComprehensiveScore(query, 'ck');
           const calvinScore = getComprehensiveScore(query, 'calvin');
           const kleinScore = getComprehensiveScore(query, 'klein');
@@ -2964,6 +2964,29 @@ window.fcToggleSearch = function() {
       
       // Sort by score
       hardcodedResults.sort((a, b) => b.score - a.score);
+      
+      // FILTER: If searching for brand-specific terms, filter to ONLY that brand
+      const queryLower = query.toLowerCase();
+      const ckTerms = ['ck', 'calvin', 'klein'];
+      const yslTerms = ['ysl', 'yves', 'laurent'];
+      const muglerTerms = ['mugler', 'thierry', 'angel'];
+      
+      // Check if query is primarily a brand search
+      const isCKSearch = ckTerms.some(term => getComprehensiveScore(queryLower, term) >= 50);
+      const isYSLSearch = yslTerms.some(term => getComprehensiveScore(queryLower, term) >= 50);
+      const isMuglerSearch = muglerTerms.some(term => getComprehensiveScore(queryLower, term) >= 50);
+      
+      // Filter results to show ONLY the specific brand when searching brand terms
+      if (isCKSearch) {
+        hardcodedResults = hardcodedResults.filter(r => r.product.brandKey === 'calvinklein');
+        catalogResults = catalogResults.filter(r => r.perfume.merk && r.perfume.merk.toLowerCase().includes('calvin klein'));
+      } else if (isYSLSearch) {
+        hardcodedResults = hardcodedResults.filter(r => r.product.brandKey === 'ysl');
+        catalogResults = catalogResults.filter(r => r.perfume.merk && (r.perfume.merk.toLowerCase().includes('yves saint laurent') || r.perfume.merk.toLowerCase().includes('ysl')));
+      } else if (isMuglerSearch) {
+        hardcodedResults = hardcodedResults.filter(r => r.product.brandKey === 'mugler');
+        catalogResults = catalogResults.filter(r => r.perfume.merk && r.perfume.merk.toLowerCase().includes('mugler'));
+      }
       
       let html = '';
       

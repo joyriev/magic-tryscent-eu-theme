@@ -1002,7 +1002,7 @@ window.NederlandseParfumCatalogus = {
       id: "kilian_angels_share",
       naam: "Angels' Share",
       merk: "Kilian",
-      afbeelding: "https://tryscent.eu/cdn/shop/files/angels_share.webp?v=1772339894",
+      afbeelding: "https://fimgs.net/mdimg/perfume-thumbs/dark-375x500.62615.2x.avif",
       topnoten: ["Cognac", "Kaneel", "Hazelnoot"],
       hartnoten: ["Eik", "Tonka", "Vanille"],
       basisnoten: ["Amber", "Sandelhout", "Ceder"],

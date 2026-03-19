@@ -37,7 +37,7 @@ window.NederlandseParfumCatalogus = {
       id: "tom_ford_tobacco_vanille",
       naam: "Tobacco Vanille",
       merk: "Tom Ford",
-      afbeelding: "https://tryscent.eu/cdn/shop/files/tobacco_vanille.webp?v=1772339894",
+      afbeelding: "https://tryscent.eu/cdn/shop/files/Tom_Ford_Tobacco_Vanille.webp?v=1773644910",
       topnoten: ["Tabak", "Specerijen"],
       hartnoten: ["Vanille", "Cacao", "Tonka"],
       basisnoten: ["Gedroogd fruit", "Houtnoten"],

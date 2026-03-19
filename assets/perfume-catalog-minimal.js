@@ -917,7 +917,7 @@ window.NederlandseParfumCatalogus = {
       id: "mfk_baccarat_rouge_540",
       naam: "Baccarat Rouge 540",
       merk: "Maison Francis Kurkdjian",
-      afbeelding: "https://tryscent.eu/cdn/shop/files/baccarat_rouge_540.webp?v=1772339894",
+      afbeelding: "https://fimgs.net/mdimg/perfume-thumbs/dark-375x500.33519.2x.avif",
       topnoten: ["Saffraan", "Jasmijn", "Amber"],
       hartnoten: ["Amber", "Ceder", "Houtnoten"],
       basisnoten: ["Amber", "Muskus", "Vanille"],

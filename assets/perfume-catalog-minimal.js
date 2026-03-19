@@ -102,7 +102,7 @@ window.NederlandseParfumCatalogus = {
       id: "tom_ford_ombre_nomade",
       naam: "Ombre Nomade",
       merk: "Tom Ford",
-      afbeelding: "https://tryscent.eu/cdn/shop/files/ombre_nomade.webp?v=1772339894",
+      afbeelding: "https://fimgs.net/mdimg/perfume-thumbs/dark-375x500.50239.2x.avif",
       topnoten: ["Roos", "Saffraan", "Oud"],
       hartnoten: ["Leer", "Patchouli", "Amber"],
       basisnoten: ["Houtnoten", "Wierook", "Vanille"],

@@ -973,16 +973,30 @@ window.fcToggleSearch = function() {
   function combineCatalogs() {
     allPerfumes = [];
     
-    // Add from PerfumeCatalog if it exists
-    if (window.PerfumeCatalog) {
-      for (let brandKey in window.PerfumeCatalog) {
-        if (Array.isArray(window.PerfumeCatalog[brandKey])) {
-          allPerfumes.push(...window.PerfumeCatalog[brandKey]);
+    // Check all possible catalog variable names
+    const possibleCatalogs = [
+      window.PerfumeCatalog,
+      window.NederlandseParfumCatalogus,
+      window.SwedishPerfumeCatalog,
+      // Add more as needed
+    ];
+    
+    for (let catalog of possibleCatalogs) {
+      if (catalog && typeof catalog === 'object') {
+        for (let brandKey in catalog) {
+          if (Array.isArray(catalog[brandKey])) {
+            allPerfumes.push(...catalog[brandKey]);
+          }
         }
       }
     }
     
-    console.log(`✓ Kombinierter Katalog: ${allPerfumes.length} Parfums`);
+    console.log(`✓ Kombinierter Katalog: ${allPerfumes.length} Parfums geladen`);
+    if (allPerfumes.length > 0) {
+      console.log(`✓ Beispiel: ${allPerfumes[0].name}`);
+    } else {
+      console.warn('⚠️ Keine Perfums im Katalog gefunden - prüfe ob JavaScript geladen wurde');
+    }
   }
 
   // ===== EXTRACT PRODUCT NUMBER FROM TITLE =====
@@ -2196,7 +2210,48 @@ const hardcodedProducts = [
 ];
   
 
-  // ===== SEARCH IN HARDCODED PRODUCTS =====
+  // ===== FUZZY MATCH SCORE =====
+  function calculateFuzzyScore(query, text) {
+    if (!text || !query) return 0;
+    
+    const q = query.toLowerCase();
+    const t = text.toLowerCase();
+    
+    // Exact match = highest score
+    if (t === q) return 100;
+    
+    // Contains = high score
+    if (t.includes(q)) return 90;
+    
+    // All query chars in order = medium-high score
+    let queryIndex = 0;
+    for (let i = 0; i < t.length && queryIndex < q.length; i++) {
+      if (t[i] === q[queryIndex]) queryIndex++;
+    }
+    if (queryIndex === q.length) return 70; // All chars found in order
+    
+    // Partial word match
+    const queryWords = q.split(/\s+/);
+    const textWords = t.split(/\s+/);
+    let matchedWords = 0;
+    
+    for (const qWord of queryWords) {
+      for (const tWord of textWords) {
+        if (tWord.includes(qWord) || qWord.includes(tWord)) {
+          matchedWords++;
+          break;
+        }
+      }
+    }
+    
+    if (matchedWords > 0) {
+      return (matchedWords / queryWords.length) * 60;
+    }
+    
+    return 0;
+  }
+
+  // ===== SEARCH IN HARDCODED PRODUCTS WITH FUZZY MATCHING =====
   function searchHardcodedProducts(query) {
     if (!query || query.length < 1) return [];
     
@@ -2210,30 +2265,24 @@ const hardcodedProducts = [
       let score = 0;
       
       // Check title
-      if (product.title.toLowerCase().includes(queryLower)) {
-        score = Math.max(score, 100);
-      }
+      score = Math.max(score, calculateFuzzyScore(queryLower, product.title));
+      
+      // Check brand
+      score = Math.max(score, calculateFuzzyScore(queryLower, product.brand) * 0.9);
       
       // Check search terms
       if (product.searchTerms) {
         for (const term of product.searchTerms) {
-          if (term.toLowerCase().includes(queryLower) || queryLower.includes(term.toLowerCase())) {
-            score = Math.max(score, 90);
-          }
+          score = Math.max(score, calculateFuzzyScore(queryLower, term) * 0.95);
         }
       }
       
       // Check number
-      if (product.number && queryLower.includes(product.number)) {
+      if (product.number && (product.number === queryLower || product.number.includes(queryLower))) {
         score = Math.max(score, 95);
       }
       
-      // Check brand
-      if (product.brand.toLowerCase().includes(queryLower)) {
-        score = Math.max(score, 85);
-      }
-      
-      if (score > 50) {
+      if (score > 30) { // Lowered threshold to catch more results
         results.push({ product, score });
         addedIds.add(product.id);
       }
@@ -2609,11 +2658,22 @@ const hardcodedProducts = [
     content.innerHTML = '<div class="fc-loading">Suche läuft...</div>';
     
     setTimeout(() => {
-      // Search in catalog
-      const catalogResults = allPerfumes.filter(p => 
-        p.name.toLowerCase().includes(query.toLowerCase()) ||
-        p.brand.toLowerCase().includes(query.toLowerCase())
-      );
+      // Search in catalog with fuzzy matching
+      const catalogResults = allPerfumes.filter(p => {
+        const nameScore = calculateFuzzyScore(query.toLowerCase(), p.name);
+        const brandScore = calculateFuzzyScore(query.toLowerCase(), p.brand);
+        return Math.max(nameScore, brandScore) > 30;
+      }).sort((a, b) => {
+        const aScore = Math.max(
+          calculateFuzzyScore(query.toLowerCase(), a.name),
+          calculateFuzzyScore(query.toLowerCase(), a.brand)
+        );
+        const bScore = Math.max(
+          calculateFuzzyScore(query.toLowerCase(), b.name),
+          calculateFuzzyScore(query.toLowerCase(), b.brand)
+        );
+        return bScore - aScore;
+      });
       
       // Search in hardcoded products
       const hardcodedResults = searchHardcodedProducts(query);
@@ -2647,7 +2707,7 @@ const hardcodedProducts = [
       
       // If no results at all, show suggestions
       if (catalogResults.length === 0 && hardcodedResults.length === 0) {
-        html = '<div class="fc-no-results">Keine Produkte gefunden für "' + query + '"</div>';
+        html = '<div class="fc-no-results">Keine Produkte gefunden für "' + query + '" - aber schau dir diese an:</div>';
         html += renderSuggestions();
       }
       
@@ -2677,6 +2737,14 @@ const hardcodedProducts = [
   // ===== INITIALIZE =====
   document.addEventListener('DOMContentLoaded', function() {
     combineCatalogs();
+    
+    // Debug: Show what's available
+    console.log('📊 Katalog Status:');
+    console.log('- window.PerfumeCatalog:', window.PerfumeCatalog ? '✓ Geladen' : '✗ Nicht gefunden');
+    console.log('- window.NederlandseParfumCatalogus:', window.NederlandseParfumCatalogus ? '✓ Geladen' : '✗ Nicht gefunden');
+    console.log('- window.SwedishPerfumeCatalog:', window.SwedishPerfumeCatalog ? '✓ Geladen' : '✗ Nicht gefunden');
+    console.log('- Perfums insgesamt:', allPerfumes.length);
+    console.log('- Hardcoded Produkte:', hardcodedProducts.length);
     
     if (searchInput) {
       searchInput.addEventListener('keyup', fcHandleSearch);

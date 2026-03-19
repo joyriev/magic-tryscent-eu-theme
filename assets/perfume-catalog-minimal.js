@@ -76,7 +76,7 @@ window.NederlandseParfumCatalogus = {
       id: "tom_ford_oud_wood",
       naam: "Oud Wood",
       merk: "Tom Ford",
-      afbeelding: "https://tryscent.eu/cdn/shop/files/oud_wood.jpg?v=1762632056",
+      afbeelding: "https://tryscent.eu/cdn/shop/files/Tom_Ford_Oud_Wood.webp?v=1773640299",
       topnoten: ["Rozenhout", "Kardemom", "Peper"],
       hartnoten: ["Sandelhout", "Vetiver", "Oud"],
       basisnoten: ["Tonka", "Amber", "Vanille"],

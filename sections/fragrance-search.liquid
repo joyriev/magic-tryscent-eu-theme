@@ -2302,23 +2302,22 @@ window.fcToggleSearch = function() {
   }
 
   // ===== GET RECOMMENDATIONS - SAME BRAND =====
-  function getRecommendations(product) {
+  function getRecommendations(product, perfume) {
     if (!product) return [];
+    
+    // HARDCODED: Ombre Leather should recommend Leather Luxe
+    if (perfume && (perfume.naam || perfume.name || '').toLowerCase().includes('ombre leather')) {
+      const leatherLuxe = hardcodedProducts.find(p => p.id === 'tryscent-leather_luxe');
+      if (leatherLuxe) {
+        return [leatherLuxe];
+      }
+    }
     
     // Get other products from same brand
     const sameBrandProducts = hardcodedProducts.filter(p => 
       p.brandKey === product.brandKey && 
       p.id !== product.id
     );
-    
-    // Smart prioritization: if current product is leather-related, prioritize Leather Luxe
-    if (product.title.toLowerCase().includes('leather') || 
-        product.searchTerms.some(term => term.toLowerCase().includes('leather'))) {
-      const leatherLuxe = sameBrandProducts.find(p => p.id === 'tryscent-leather_luxe');
-      if (leatherLuxe) {
-        return [leatherLuxe];
-      }
-    }
     
     return sameBrandProducts.slice(0, 1); // Take first one
   }
@@ -2841,7 +2840,7 @@ window.fcToggleSearch = function() {
       html += renderHardcodedProductCard(matchingProduct, 'Empfohlen');
       
       // YOU MIGHT LIKE IT: Same brand recommendation
-      const recommendations = getRecommendations(matchingProduct);
+      const recommendations = getRecommendations(matchingProduct, perfume);
       
       if (recommendations.length > 0) {
         html += renderHardcodedProductCard(recommendations[0], 'Das könnte dir auch gefallen');

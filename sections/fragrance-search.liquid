@@ -2852,9 +2852,22 @@ window.fcToggleSearch = function() {
       
       // ===== SEARCH IN CATALOG PERFUMES WITH FUZZY MATCHING =====
       if (allPerfumes && allPerfumes.length > 0) {
+        const queryLower = query.toLowerCase().trim();
+        const isCKSearch = queryLower === 'ck' || queryLower === 'calvin klein' || queryLower === 'calvin' || queryLower === 'klein';
+        
         allPerfumes.forEach(perfume => {
           const perfumeName = perfume.naam || perfume.name || '';
           const perfumeBrand = perfume.merk || perfume.brand || '';
+          
+          // SPECIAL: If searching for "ck", show ALL Calvin Klein products
+          if (isCKSearch && perfumeBrand.toLowerCase().includes('calvin klein')) {
+            catalogResults.push({
+              perfume,
+              score: 100,
+              matchType: 'brand'
+            });
+            return;
+          }
           
           let nameScore = getComprehensiveScore(query, perfumeName);
           let brandScore = getComprehensiveScore(query, perfumeBrand);
@@ -2868,17 +2881,6 @@ window.fcToggleSearch = function() {
             const laurentScore = getComprehensiveScore(query, 'laurent');
             
             if (yslScore >= 50 || yvesScore >= 50 || laurentScore >= 50) {
-              maxScore = 100; // Boost to top
-            }
-          }
-          
-          // PRIORITY: Boost Calvin Klein catalog products when searching for ck/calvin/klein
-          if (perfumeBrand.toLowerCase().includes('calvin klein')) {
-            const ckScore = getComprehensiveScore(query, 'ck');
-            const calvinScore = getComprehensiveScore(query, 'calvin');
-            const kleinScore = getComprehensiveScore(query, 'klein');
-            
-            if (ckScore >= 50 || calvinScore >= 50 || kleinScore >= 50) {
               maxScore = 100; // Boost to top
             }
           }
@@ -2964,12 +2966,6 @@ window.fcToggleSearch = function() {
       
       // Sort by score
       hardcodedResults.sort((a, b) => b.score - a.score);
-      
-      // SIMPLE FILTER: If searching for "ck", show only Calvin Klein from catalog
-      const queryLower = query.toLowerCase().trim();
-      if (queryLower === 'ck' || queryLower === 'calvin klein' || queryLower === 'calvin' || queryLower === 'klein') {
-        catalogResults = catalogResults.filter(r => r.perfume.merk && r.perfume.merk.toLowerCase().includes('calvin klein'));
-      }
       
       let html = '';
       

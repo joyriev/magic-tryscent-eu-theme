@@ -3032,37 +3032,40 @@ window.fcToggleSearch = function() {
       if (allPerfumes && allPerfumes.length > 0) {
         const queryLower = query.toLowerCase().trim();
         const isCKSearch = queryLower === 'ck' || queryLower === 'calvin klein' || queryLower === 'calvin' || queryLower === 'klein';
+        const isYSLSearch = queryLower === 'ysl' || queryLower === 'yves' || queryLower === 'laurent';
+        const isMuglerSearch = queryLower === 'mugler' || queryLower === 'thierry';
         
         allPerfumes.forEach(perfume => {
           const perfumeName = perfume.naam || perfume.name || '';
           const perfumeBrand = perfume.merk || perfume.brand || '';
           const brandLower = perfumeBrand.toLowerCase();
           
-          // SPECIAL: If searching for "ck", show ALL Calvin Klein products
-          if (isCKSearch && (brandLower.includes('calvin klein') || brandLower === 'calvin klein')) {
-            catalogResults.push({
-              perfume,
-              score: 100,
-              matchType: 'brand'
-            });
-            return;
+          // SPECIAL: If searching for brand only, filter to that brand
+          if (isCKSearch) {
+            if (brandLower.includes('calvin klein')) {
+              catalogResults.push({ perfume, score: 100, matchType: 'brand' });
+            }
+            return; // Skip all other perfumes for CK search
           }
           
+          if (isYSLSearch) {
+            if (brandLower.includes('yves saint laurent') || brandLower.includes('ysl')) {
+              catalogResults.push({ perfume, score: 100, matchType: 'brand' });
+            }
+            return; // Skip all other perfumes for YSL search
+          }
+          
+          if (isMuglerSearch) {
+            if (brandLower.includes('mugler')) {
+              catalogResults.push({ perfume, score: 100, matchType: 'brand' });
+            }
+            return; // Skip all other perfumes for Mugler search
+          }
+          
+          // NORMAL SEARCH: Use fuzzy matching
           let nameScore = getComprehensiveScore(query, perfumeName);
           let brandScore = getComprehensiveScore(query, perfumeBrand);
           let maxScore = Math.max(nameScore, brandScore);
-          
-          // PRIORITY: Boost YSL catalog products when searching for ysl/yves/laurent
-          if (perfumeBrand.toLowerCase().includes('yves saint laurent') || 
-              perfumeBrand.toLowerCase().includes('ysl')) {
-            const yslScore = getComprehensiveScore(query, 'ysl');
-            const yvesScore = getComprehensiveScore(query, 'yves');
-            const laurentScore = getComprehensiveScore(query, 'laurent');
-            
-            if (yslScore >= 50 || yvesScore >= 50 || laurentScore >= 50) {
-              maxScore = 100; // Boost to top
-            }
-          }
           
           if (maxScore >= 50) {
             catalogResults.push({
@@ -3078,7 +3081,35 @@ window.fcToggleSearch = function() {
       catalogResults.sort((a, b) => b.score - a.score);
       
       // ===== SEARCH IN HARDCODED PRODUCTS WITH FUZZY MATCHING =====
+      const queryLower = query.toLowerCase().trim();
+      const isCKSearch = queryLower === 'ck' || queryLower === 'calvin klein' || queryLower === 'calvin' || queryLower === 'klein';
+      const isYSLSearch = queryLower === 'ysl' || queryLower === 'yves' || queryLower === 'laurent';
+      const isMuglerSearch = queryLower === 'mugler' || queryLower === 'thierry';
+      
       hardcodedProducts.forEach(product => {
+        // BRAND SEARCH: Skip expensive scoring, just filter by brand
+        if (isCKSearch) {
+          if (product.brandKey === 'calvinklein') {
+            hardcodedResults.push({ product, score: 100 });
+          }
+          return;
+        }
+        
+        if (isYSLSearch) {
+          if (product.brandKey === 'ysl') {
+            hardcodedResults.push({ product, score: 100 });
+          }
+          return;
+        }
+        
+        if (isMuglerSearch) {
+          if (product.brandKey === 'mugler') {
+            hardcodedResults.push({ product, score: 100 });
+          }
+          return;
+        }
+        
+        // NORMAL SEARCH: Use fuzzy matching
         // Exclude bundle products when searching for specific fragrances
         if (query.toLowerCase().includes('chance') && product.id === 'tryscent-5x_50ml_perfume_bottles') {
           return;
@@ -3098,48 +3129,12 @@ window.fcToggleSearch = function() {
         
         const finalScore = Math.max(maxScore, termsScore);
         
-        // PRIORITY: Boost Mugler products when searching for mugler/thierry/angel (with typo tolerance)
-        let scoreWithBoost = finalScore;
-        if (product.brandKey === 'mugler') {
-          const muglerScore = getComprehensiveScore(query, 'mugler');
-          const thierryScore = getComprehensiveScore(query, 'thierry');
-          const angelScore = getComprehensiveScore(query, 'angel');
-          
-          // If any of these terms match closely (including typos), boost to top
-          if (muglerScore >= 50 || thierryScore >= 50 || angelScore >= 50) {
-            scoreWithBoost = 100; // Ensure top ranking
-          }
-        }
-        
-        // PRIORITY: Boost YSL products when searching for ysl/yves saint laurent
-        if (product.brandKey === 'ysl') {
-          const yslScore = getComprehensiveScore(query, 'ysl');
-          const yvesScore = getComprehensiveScore(query, 'yves');
-          const laurentScore = getComprehensiveScore(query, 'laurent');
-          
-          // If any of these terms match closely (including typos), boost to top
-          if (yslScore >= 50 || yvesScore >= 50 || laurentScore >= 50) {
-            scoreWithBoost = 100; // Ensure top ranking
-          }
-        }
-        
-        // PRIORITY: Boost Calvin Klein products when searching for ck/calvin/klein (with typo tolerance)
-        if (product.brandKey === 'calvinKlein') {
-          const ckScore = getComprehensiveScore(query, 'ck');
-          const calvinScore = getComprehensiveScore(query, 'calvin');
-          const kleinScore = getComprehensiveScore(query, 'klein');
-          
-          // If any of these terms match closely (including typos), boost to top
-          if (ckScore >= 50 || calvinScore >= 50 || kleinScore >= 50) {
-            scoreWithBoost = 100; // Ensure top ranking
-          }
-        }
-        
-        if (scoreWithBoost >= 50) {
+        if (finalScore >= 50) {
           hardcodedResults.push({
             product,
-            score: scoreWithBoost
+            score: finalScore
           });
+        }
         }
       });
       

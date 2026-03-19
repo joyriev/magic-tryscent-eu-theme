@@ -2934,7 +2934,16 @@ window.fcToggleSearch = function() {
     steps.style.display = 'none';
     
     // Find matching product
-    const matchingProduct = findMatchingProduct(perfume);
+    let matchingProduct = findMatchingProduct(perfume);
+    
+    // HARDCODED: For Chance, always show Grapefruit Jasmine Musk as "Empfohlen"
+    const perfumeName = (perfume.naam || perfume.name || '').toLowerCase();
+    if (perfumeName.includes('chance')) {
+      const grapefruitMusk = hardcodedProducts.find(p => p.id === 'tryscent-grapefruit-jasmine-musk');
+      if (grapefruitMusk) {
+        matchingProduct = grapefruitMusk;
+      }
+    }
     
     let html = `
       <button class="fc-back-btn" onclick="window.fcGoBack()">Zurück</button>

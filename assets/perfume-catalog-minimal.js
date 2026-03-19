@@ -664,7 +664,7 @@ window.NederlandseParfumCatalogus = {
       id: "boss_woman",
       naam: "Boss Woman",
       merk: "Hugo Boss",
-      afbeelding: "https://tryscent.eu/cdn/shop/files/boss_woman.webp?v=1772339894",
+      afbeelding: "https://tryscent.eu/cdn/shop/files/Boss_Woman.jpg?v=1773651262",
       topnoten: ["Mandarijn", "Appel", "Perzik"],
       hartnoten: ["Roos", "Jasmijn", "Lelie"],
       basisnoten: ["Sandelhout", "Muskus", "Vanille"],

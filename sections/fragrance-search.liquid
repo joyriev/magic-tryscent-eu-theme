@@ -2416,6 +2416,14 @@ window.fcToggleSearch = function() {
       }
     }
     
+    // HARDCODED: Angel should recommend other Mugler products (Angel Nova)
+    if (perfumeName.includes('angel')) {
+      const angelNova = hardcodedProducts.find(p => p.id === 'tryscent-magic_166');
+      if (angelNova && angelNova.id !== product.id) {
+        return [angelNova];
+      }
+    }
+    
     // Get other products from same brand
     const sameBrandProducts = hardcodedProducts.filter(p => 
       p.brandKey === product.brandKey && 

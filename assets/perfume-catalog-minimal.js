@@ -1162,7 +1162,7 @@ window.NederlandseParfumCatalogus = {
       id: "gucci_guilty_214",
       naam: "Guilty",
       merk: "Gucci",
-      afbeelding: "https://tryscent.eu/cdn/shop/files/Gucci_Guilty.webp?v=1773715917",
+      afbeelding: "https://tryscent.eu/cdn/shop/files/Guilty_Elixir_de_Parfum_pour_Homme.webp?v=1773719747",
       topnoten: ["Citroen", "Lavendel", "Geranium"],
       hartnoten: ["Neroli", "Oranjebloesem", "Bittere Sinaasappel"],
       basisnoten: ["Patchouli", "Cederhout", "Amber"],

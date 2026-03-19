@@ -89,7 +89,7 @@ window.NederlandseParfumCatalogus = {
       id: "tom_ford_cherry_smoke",
       naam: "Cherry Smoke",
       merk: "Tom Ford",
-      afbeelding: "https://tryscent.eu/cdn/shop/files/cherry_smoke.webp?v=1772339894",
+      afbeelding: "https://fimgs.net/mdimg/perfume-thumbs/dark-375x500.78578.2x.avif",
       topnoten: ["Kers", "Saffraan", "Roze peper"],
       hartnoten: ["Roos", "Jasmijn", "Leer"],
       basisnoten: ["Vanille", "Amber", "Houtnoten"],

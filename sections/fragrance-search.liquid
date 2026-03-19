@@ -2306,12 +2306,21 @@ window.fcToggleSearch = function() {
     if (!product) return [];
     
     // Get other products from same brand
-    return hardcodedProducts
-      .filter(p => 
-        p.brandKey === product.brandKey && 
-        p.id !== product.id
-      )
-      .slice(0, 1); // Take first one
+    const sameBrandProducts = hardcodedProducts.filter(p => 
+      p.brandKey === product.brandKey && 
+      p.id !== product.id
+    );
+    
+    // Smart prioritization: if current product is leather-related, prioritize Leather Luxe
+    if (product.title.toLowerCase().includes('leather') || 
+        product.searchTerms.some(term => term.toLowerCase().includes('leather'))) {
+      const leatherLuxe = sameBrandProducts.find(p => p.id === 'tryscent-leather_luxe');
+      if (leatherLuxe) {
+        return [leatherLuxe];
+      }
+    }
+    
+    return sameBrandProducts.slice(0, 1); // Take first one
   }
 
   // ===== ADVANCED TEXT NORMALIZATION =====

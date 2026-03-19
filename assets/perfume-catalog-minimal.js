@@ -167,19 +167,7 @@ window.NederlandseParfumCatalogus = {
       geslacht: "Mannelijk",
       productnummers: ["206"]
     },
-    {
-      id: "dior_fahrenheit_32",
-      naam: "Fahrenheit 32",
-      merk: "Dior",
-      afbeelding: "https://tryscent.eu/cdn/shop/files/Dior_Sauvage_Elixir.webp?v=1773636079",
-      topnoten: ["Sinaasappelbloesem", "Vanille"],
-      hartnoten: ["Vetiver", "Houtnoten"],
-      basisnoten: ["Vanille", "Wierook"],
-      beschrijving: "Een warme en sensuele variant van de klassieker.",
-      jaar: "2007",
-      geslacht: "Mannelijk",
-      productnummers: ["327"]
-    },
+   
     {
       id: "dior_jadore",
       naam: "J'adore",

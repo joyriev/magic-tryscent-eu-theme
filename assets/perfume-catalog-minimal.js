@@ -185,7 +185,7 @@ window.NederlandseParfumCatalogus = {
       id: "dior_hypnotic_poison",
       naam: "Hypnotic Poison",
       merk: "Dior",
-      afbeelding: "https://tryscent.eu/cdn/shop/files/Hypnotic_Poison.jpg?v=1772269709",
+      afbeelding: "https://tryscent.eu/cdn/shop/files/Hypnotic_Poison.webp?v=1773640110",
       topnoten: ["Abrikoos", "Pruim", "Kokos", "Bittere amandel"],
       hartnoten: ["Roos", "Jasmijn", "Lelietje-van-dalen"],
       basisnoten: ["Vanille", "Amandel", "Muskus"],

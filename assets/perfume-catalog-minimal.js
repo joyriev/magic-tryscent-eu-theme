@@ -50,7 +50,7 @@ window.NederlandseParfumCatalogus = {
       id: "tom_ford_fucking_fabulous",
       naam: "Fucking Fabulous",
       merk: "Tom Ford",
-      afbeelding: "https://tryscent.eu/cdn/shop/files/Fucking_Fabulous.webp?v=1772257140",
+      afbeelding: "https://tryscent.eu/cdn/shop/files/Tom_Ford_Fucking_Fabulous_EDP.webp?v=1773638431",
       topnoten: ["Salie", "Lavendel"],
       hartnoten: ["Leer", "Amandel", "Vanille"],
       basisnoten: ["Tonka", "Amber", "Houtnoten"],

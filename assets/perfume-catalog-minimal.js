@@ -863,7 +863,7 @@ window.NederlandseParfumCatalogus = {
       id: "ck_euphoria_men",
       naam: "Euphoria Men",
       merk: "Calvin Klein",
-      afbeelding: "https://tryscent.eu/cdn/shop/files/euphoria_men.webp?v=1773222316",
+      afbeelding: "https://tryscent.eu/cdn/shop/files/Euphoria_Men.webp?v=1773681867",
       topnoten: ["Gember", "Kruidige Noten", "Munt"],
       hartnoten: ["Salie", "Ceder", "Sandelhout"],
       basisnoten: ["Amber", "Patchouli", "Muskus"],

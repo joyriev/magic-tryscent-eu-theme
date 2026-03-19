@@ -158,7 +158,7 @@ window.NederlandseParfumCatalogus = {
       id: "dior_fahrenheit",
       naam: "Fahrenheit",
       merk: "Dior",
-      afbeelding: "https://tryscent.eu/cdn/shop/files/fahrenheit.webp?v=1772339894",
+      afbeelding: "https://tryscent.eu/cdn/shop/files/Christian_Dior_Fahrenheit.webp?v=1773644570",
       topnoten: ["Viooltje", "Leer", "Wierook"],
       hartnoten: ["Leer", "Viooltje", "Kamperfoelie"],
       basisnoten: ["Leer", "Vetiver", "Amber", "Mirre"],

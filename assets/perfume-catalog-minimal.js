@@ -392,7 +392,7 @@ window.NederlandseParfumCatalogus = {
       id: "armani_acqua_di_gio",
       naam: "Acqua di Gio",
       merk: "Giorgio Armani",
-      afbeelding: "https://tryscent.eu/cdn/shop/files/Acqua_Di_Gio.webp?v=1772344094",
+      afbeelding: "https://tryscent.eu/cdn/shop/files/Giorgio_Armani_Acqua_Di_Gio.webp?v=1773651412",
       topnoten: ["Bergamot", "Neroli", "Groene mandarijn"],
       hartnoten: ["Jasmijn", "Rozemarijn", "Salie"],
       basisnoten: ["Ceder", "Patchouli", "Muskus"],

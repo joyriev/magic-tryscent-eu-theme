@@ -788,7 +788,7 @@ window.NederlandseParfumCatalogus = {
     {
       id: "mugler_angel",
       naam: "Angel",
-      merk: "Mugler",
+      merk: "Thierry Mugler Angel",
       afbeelding: "https://tryscent.eu/cdn/shop/files/Thierry_Mugler_Angel_1992.webp?v=1773661735",
       topnoten: ["Suikerspin", "Bergamot", "Ananas", "Kokos"],
       hartnoten: ["Honing", "Rode bessen", "Perzik", "Pruim", "Abrikoos"],

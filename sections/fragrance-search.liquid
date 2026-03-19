@@ -2257,43 +2257,38 @@ window.fcToggleSearch = function() {
     return 0;
   }
 
-  // ===== SEARCH IN HARDCODED PRODUCTS WITH FUZZY MATCHING =====
+  // ===== SEARCH IN HARDCODED PRODUCTS WITH COMPREHENSIVE FUZZY MATCHING =====
   function searchHardcodedProducts(query) {
     if (!query || query.length < 1) return [];
     
-    const queryLower = query.toLowerCase().trim();
     const results = [];
     const addedIds = new Set();
     
     hardcodedProducts.forEach(product => {
       if (addedIds.has(product.id)) return;
       
-      let score = 0;
+      // Get scores for all fields
+      const titleScore = getComprehensiveScore(query, product.title);
+      const brandScore = getComprehensiveScore(query, product.brand) * 0.95;
+      const numberScore = (product.number && product.number.includes(query)) ? 100 : 0;
       
-      // Check title
-      score = Math.max(score, calculateFuzzyScore(queryLower, product.title));
-      
-      // Check brand
-      score = Math.max(score, calculateFuzzyScore(queryLower, product.brand) * 0.9);
-      
-      // Check search terms
-      if (product.searchTerms) {
+      let termsScore = 0;
+      if (product.searchTerms && Array.isArray(product.searchTerms)) {
         for (const term of product.searchTerms) {
-          score = Math.max(score, calculateFuzzyScore(queryLower, term) * 0.95);
+          termsScore = Math.max(termsScore, getComprehensiveScore(query, term) * 0.9);
         }
       }
       
-      // Check number
-      if (product.number && (product.number === queryLower || product.number.includes(queryLower))) {
-        score = Math.max(score, 95);
-      }
+      // Use the highest score
+      const finalScore = Math.max(titleScore, brandScore, numberScore, termsScore);
       
-      if (score > 30) { // Lowered threshold to catch more results
-        results.push({ product, score });
+      if (finalScore >= 50) {
+        results.push({ product, score: finalScore });
         addedIds.add(product.id);
       }
     });
     
+    // Sort by score (highest first)
     results.sort((a, b) => b.score - a.score);
     return results;
   }
@@ -2373,7 +2368,7 @@ window.fcToggleSearch = function() {
     let html = `<div class="fc-suggestions-title">✨ Beliebte Düfte</div>`;
     
     suggestions.forEach(product => {
-      const priceFormatted = '€' + (product.price / 100).toFixed(2);
+      const priceFormatted = '€' + (product.price / 100).toFixed(2).replace('.', ',');
       
       html += `
         <div class="fc-suggestion-item" onclick="window.fcViewDetails('${product.url}')">
@@ -2421,7 +2416,7 @@ window.fcToggleSearch = function() {
 
   // ===== RENDER HARDCODED PRODUCT CARD =====
   function renderHardcodedProductCard(product, badge) {
-    const priceFormatted = '€' + (product.price / 100).toFixed(2);
+    const priceFormatted = '€' + (product.price / 100).toFixed(2).replace('.', ',');
     
     return `
       <div class="fc-product-card">
@@ -2638,68 +2633,238 @@ window.fcToggleSearch = function() {
       .catch(() => ({ item_count: 0 }));
   };
 
-  // ===== PERFORM SEARCH =====
+  // ===== ADVANCED TEXT NORMALIZATION =====
+  function normalizeText(text) {
+    if (!text) return '';
+    
+    let normalized = text.toLowerCase().trim();
+    
+    // Remove accents
+    const accents = {
+      'á': 'a', 'à': 'a', 'â': 'a', 'ã': 'a', 'ä': 'a', 'å': 'a', 'ā': 'a',
+      'é': 'e', 'è': 'e', 'ê': 'e', 'ë': 'e', 'ē': 'e',
+      'í': 'i', 'ì': 'i', 'î': 'i', 'ï': 'i', 'ī': 'i',
+      'ó': 'o', 'ò': 'o', 'ô': 'o', 'õ': 'o', 'ö': 'o', 'ō': 'o',
+      'ú': 'u', 'ù': 'u', 'û': 'u', 'ü': 'u', 'ū': 'u',
+      'ç': 'c', 'ć': 'c', 'š': 's', 'ś': 's', 'ź': 'z', 'ż': 'z',
+      'ñ': 'n', 'ń': 'n'
+    };
+    
+    for (const [accented, base] of Object.entries(accents)) {
+      normalized = normalized.split(accented).join(base);
+    }
+    
+    // Remove special characters except spaces
+    normalized = normalized.replace(/[^a-z0-9\s]/g, '');
+    
+    return normalized;
+  }
+
+  // ===== LEVENSHTEIN DISTANCE (EDIT DISTANCE) =====
+  function getLevenshteinDistance(a, b) {
+    const aLen = a.length;
+    const bLen = b.length;
+    
+    if (aLen === 0) return bLen;
+    if (bLen === 0) return aLen;
+    
+    const matrix = Array(bLen + 1).fill(null).map(() => Array(aLen + 1).fill(0));
+    
+    for (let i = 0; i <= aLen; i++) matrix[0][i] = i;
+    for (let j = 0; j <= bLen; j++) matrix[j][0] = j;
+    
+    for (let j = 1; j <= bLen; j++) {
+      for (let i = 1; i <= aLen; i++) {
+        const indicator = a[i - 1] === b[j - 1] ? 0 : 1;
+        matrix[j][i] = Math.min(
+          matrix[j][i - 1] + 1,     // deletion
+          matrix[j - 1][i] + 1,     // insertion
+          matrix[j - 1][i - 1] + indicator  // substitution
+        );
+      }
+    }
+    
+    return matrix[bLen][aLen];
+  }
+
+  // ===== TYPO TOLERANCE SCORING =====
+  function getTypoTolerantScore(query, text, maxDistance = 2) {
+    const queryNorm = normalizeText(query);
+    const textNorm = normalizeText(text);
+    
+    if (!queryNorm || !textNorm) return 0;
+    
+    // Exact match after normalization
+    if (textNorm === queryNorm) return 100;
+    if (textNorm.includes(queryNorm)) return 95;
+    
+    // Check edit distance
+    const distance = getLevenshteinDistance(queryNorm, textNorm);
+    const maxLen = Math.max(queryNorm.length, textNorm.length);
+    
+    if (distance <= maxDistance) {
+      return Math.max(0, 100 - (distance * 15));
+    }
+    
+    // Check if query is substring with typos
+    if (queryNorm.length >= 3) {
+      for (let i = 0; i <= textNorm.length - queryNorm.length; i++) {
+        const substring = textNorm.substring(i, i + queryNorm.length);
+        const subDistance = getLevenshteinDistance(queryNorm, substring);
+        if (subDistance <= maxDistance) {
+          return Math.max(0, 80 - (subDistance * 10));
+        }
+      }
+    }
+    
+    return 0;
+  }
+
+  // ===== SPACE-LESS SEARCH (e.g., "diorrose" -> "dior rose") =====
+  function getSpaceLessScore(query, text) {
+    const queryNorm = normalizeText(query).replace(/\s+/g, '');
+    const textNorm = normalizeText(text).replace(/\s+/g, '');
+    
+    if (!queryNorm || !textNorm) return 0;
+    
+    if (textNorm === queryNorm) return 100;
+    if (textNorm.includes(queryNorm)) return 90;
+    if (queryNorm.includes(textNorm)) return 85;
+    
+    // Edit distance for space-less
+    const distance = getLevenshteinDistance(queryNorm, textNorm);
+    if (distance <= 3) {
+      return Math.max(0, 80 - (distance * 10));
+    }
+    
+    return 0;
+  }
+
+  // ===== WORD-BY-WORD SEARCH =====
+  function getWordScore(query, text) {
+    const queryNorm = normalizeText(query);
+    const textNorm = normalizeText(text);
+    
+    const queryWords = queryNorm.split(/\s+/).filter(w => w.length > 0);
+    const textWords = textNorm.split(/\s+/).filter(w => w.length > 0);
+    
+    if (queryWords.length === 0 || textWords.length === 0) return 0;
+    
+    let matchedWords = 0;
+    
+    for (const qWord of queryWords) {
+      for (const tWord of textWords) {
+        // Exact word match
+        if (qWord === tWord) {
+          matchedWords++;
+          break;
+        }
+        // Word contains query word
+        else if (tWord.includes(qWord) && qWord.length >= 2) {
+          matchedWords += 0.8;
+          break;
+        }
+        // Typo tolerance per word
+        else {
+          const wordDistance = getLevenshteinDistance(qWord, tWord);
+          if (wordDistance <= 2 && Math.max(qWord.length, tWord.length) >= 3) {
+            matchedWords += 0.6;
+            break;
+          }
+        }
+      }
+    }
+    
+    return (matchedWords / queryWords.length) * 100;
+  }
+
+  // ===== COMBINED COMPREHENSIVE SEARCH SCORE =====
+  function getComprehensiveScore(query, text) {
+    if (!query || !text) return 0;
+    
+    const scores = {
+      exact: getTypoTolerantScore(query, text, 0),           // Exact/minimal typos
+      typoTolerant: getTypoTolerantScore(query, text, 2),    // 1-2 typos allowed
+      spaceLess: getSpaceLessScore(query, text),             // No spaces needed
+      wordBased: getWordScore(query, text)                   // Word by word
+    };
+    
+    // Return the best score from all strategies
+    return Math.max(scores.exact, scores.typoTolerant, scores.spaceLess, scores.wordBased);
+  }
+
+  // ===== PERFORM COMPREHENSIVE SEARCH =====
   function performSearch(query) {
     currentSearchQuery = query;
     content.innerHTML = '<div class="fc-loading">Suche läuft...</div>';
-    steps.style.display = 'none';  // HIDE STEPS WHEN SEARCHING
+    steps.style.display = 'none';
     
     setTimeout(() => {
-      const queryLower = query.toLowerCase().trim();
       const catalogResults = [];
+      const hardcodedResults = [];
       
-      // Search in catalog perfumes using Dutch field names
+      // ===== SEARCH IN CATALOG PERFUMES =====
       allPerfumes.forEach(perfume => {
-        const perfumeName = (perfume.naam || perfume.name || '').toLowerCase();
-        const perfumeBrand = (perfume.merk || perfume.brand || '').toLowerCase();
+        const perfumeName = perfume.naam || perfume.name || '';
+        const perfumeBrand = perfume.merk || perfume.brand || '';
         
-        let score = 0;
+        const nameScore = getComprehensiveScore(query, perfumeName);
+        const brandScore = getComprehensiveScore(query, perfumeBrand);
+        const maxScore = Math.max(nameScore, brandScore);
         
-        // Exact brand match
-        if (perfumeBrand === queryLower) {
-          score = 1000;
-        }
-        // Brand contains query
-        else if (perfumeBrand.includes(queryLower)) {
-          score = 900;
-        }
-        // Exact name match
-        else if (perfumeName === queryLower) {
-          score = 700;
-        }
-        // Name contains query
-        else if (perfumeName.includes(queryLower)) {
-          score = 600;
-        }
-        
-        if (score > 0) {
+        if (maxScore >= 50) {
           catalogResults.push({
             perfume,
-            score
+            score: maxScore,
+            matchType: nameScore > brandScore ? 'name' : 'brand'
           });
         }
       });
       
-      // Sort by score
+      // Sort catalog by score
       catalogResults.sort((a, b) => b.score - a.score);
       
-      // Search in hardcoded products
-      const hardcodedResults = searchHardcodedProducts(query);
+      // ===== SEARCH IN HARDCODED PRODUCTS =====
+      hardcodedProducts.forEach(product => {
+        const titleScore = getComprehensiveScore(query, product.title);
+        const brandScore = getComprehensiveScore(query, product.brand);
+        const maxScore = Math.max(titleScore, brandScore);
+        
+        // Also check search terms
+        let termsScore = 0;
+        if (product.searchTerms && Array.isArray(product.searchTerms)) {
+          for (const term of product.searchTerms) {
+            termsScore = Math.max(termsScore, getComprehensiveScore(query, term));
+          }
+        }
+        
+        const finalScore = Math.max(maxScore, termsScore);
+        
+        if (finalScore >= 50) {
+          hardcodedResults.push({
+            product,
+            score: finalScore
+          });
+        }
+      });
+      
+      // Sort hardcoded by score
+      hardcodedResults.sort((a, b) => b.score - a.score);
       
       let html = '';
       
-      // ===== FIRST: Show real perfumes from catalog =====
+      // ===== DISPLAY CATALOG RESULTS =====
       if (catalogResults.length > 0) {
         html += renderCatalogPerfumes(catalogResults.map(r => r.perfume), query);
       }
       
-      // ===== SECOND: Show our collection (hardcoded) =====
+      // ===== DISPLAY HARDCODED RESULTS =====
       if (hardcodedResults.length > 0) {
         html += `<div class="fc-section-title">🛍️ Unsere Kollektion</div>`;
         
         hardcodedResults.slice(0, 12).forEach(match => {
           const p = match.product;
-          const priceFormatted = '€' + (p.price / 100).toFixed(2);
+          const priceFormatted = '€' + (p.price / 100).toFixed(2).replace('.', ',');
           
           html += `
             <div class="fc-real-perfume-item" onclick="window.fcViewDetails('${p.url}')">
@@ -2713,7 +2878,7 @@ window.fcToggleSearch = function() {
         });
       }
       
-      // If nothing found, show suggestions
+      // ===== NO RESULTS - SHOW SUGGESTIONS =====
       if (catalogResults.length === 0 && hardcodedResults.length === 0) {
         html = '<div class="fc-no-results">Keine Produkte gefunden für "' + query + '"</div>';
         html += renderSuggestions();

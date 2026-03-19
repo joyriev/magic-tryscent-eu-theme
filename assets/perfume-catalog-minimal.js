@@ -1149,7 +1149,7 @@ window.NederlandseParfumCatalogus = {
       id: "gucci_rush_2",
       naam: "Rush 2",
       merk: "Gucci",
-      afbeelding: "https://tryscent.eu/cdn/shop/files/rush_2.webp?v=1772339894",
+      afbeelding: "https://tryscent.eu/cdn/shop/files/gucci_rush_8034ec32-d523-4890-b475-fc7c34e77c9e.webp?v=1773651840",
       topnoten: ["Freesia", "Waterlelie", "Koriander"],
       hartnoten: ["Roos", "Jasmijn", "Lelietje-van-dalen"],
       basisnoten: ["Sandelhout", "Muskus", "Amber"],

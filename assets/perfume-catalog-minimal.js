@@ -252,7 +252,7 @@ window.NederlandseParfumCatalogus = {
     },
     {
       id: "ysl_opium",
-      naam: "Opium",
+      naam: "Yves Saint Laurent Opium",
       merk: "Yves Saint Laurent",
       afbeelding: "https://tryscent.eu/cdn/shop/files/opium.webp?v=1772339894",
       topnoten: ["Mandarijn", "Pruim", "Kruidnagel", "Koriander"],

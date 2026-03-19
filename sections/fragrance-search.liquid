@@ -2472,7 +2472,7 @@ window.fcToggleSearch = function() {
   }
 
   // ===== SIMPLIFIED ADD TO CART =====
-  // ===== INSTANT ADD TO CART - FETCH VARIANT DYNAMICALLY =====
+  // ===== ADD TO CART AND REDIRECT =====
   window.fcAddToCart = function(productUrl, event) {
     if (event) event.stopPropagation();
     
@@ -2530,36 +2530,29 @@ window.fcToggleSearch = function() {
         return response.json();
       })
       .then(data => {
-        // Success - update button
+        // Success - show feedback
         btn.innerText = '✓';
         btn.style.background = '#2E7D32';
         
-        // Update cart count and offer display
-        fetch('/cart.js')
-          .then(r => r.json())
-          .then(cart => {
-            updateOfferDisplay(cart.item_count);
-            showNotification(`✓ Hinzugefügt! ${cart.item_count}/3 Artikel`);
-          })
-          .catch(() => {});
+        showNotification('✓ Hinzugefügt! Leite zum Warenkorb weiter...');
         
-        // Reset button after 2 seconds
+        // Wait 1 second then redirect to cart
         setTimeout(() => {
-          btn.innerText = originalText;
-          btn.style.background = originalBackground || '#C41E3A';
-          btn.disabled = false;
-        }, 2000);
+          window.location.href = '/cart';
+        }, 1000);
       })
       .catch(error => {
         console.error('Add to cart error:', error);
         btn.innerText = '✗';
         btn.style.background = '#c62828';
         
+        showNotification(`Fehler: ${error.message}`);
+        
         setTimeout(() => {
           btn.innerText = originalText;
           btn.style.background = originalBackground || '#C41E3A';
           btn.disabled = false;
-        }, 1500);
+        }, 2000);
       });
     
     return false;

@@ -2872,6 +2872,17 @@ window.fcToggleSearch = function() {
             }
           }
           
+          // PRIORITY: Boost Calvin Klein catalog products when searching for ck/calvin/klein
+          if (perfumeBrand.toLowerCase().includes('calvin klein')) {
+            const ckScore = getComprehensiveScore(query, 'ck');
+            const calvinScore = getComprehensiveScore(query, 'calvin');
+            const kleinScore = getComprehensiveScore(query, 'klein');
+            
+            if (ckScore >= 50 || calvinScore >= 50 || kleinScore >= 50) {
+              maxScore = 100; // Boost to top
+            }
+          }
+          
           if (maxScore >= 50) {
             catalogResults.push({
               perfume,
@@ -2927,6 +2938,18 @@ window.fcToggleSearch = function() {
           
           // If any of these terms match closely (including typos), boost to top
           if (yslScore >= 50 || yvesScore >= 50 || laurentScore >= 50) {
+            scoreWithBoost = 100; // Ensure top ranking
+          }
+        }
+        
+        // PRIORITY: Boost Calvin Klein products when searching for ck/calvin/klein (with typo tolerance)
+        if (product.brandKey === 'calvinKlein') {
+          const ckScore = getComprehensiveScore(query, 'ck');
+          const calvinScore = getComprehensiveScore(query, 'calvin');
+          const kleinScore = getComprehensiveScore(query, 'klein');
+          
+          // If any of these terms match closely (including typos), boost to top
+          if (ckScore >= 50 || calvinScore >= 50 || kleinScore >= 50) {
             scoreWithBoost = 100; // Ensure top ranking
           }
         }

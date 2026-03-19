@@ -297,7 +297,7 @@ window.NederlandseParfumCatalogus = {
       id: "chanel_bleu",
       naam: "Bleu de Chanel",
       merk: "Chanel",
-      afbeelding: "https://tryscent.eu/cdn/shop/files/bleu.webp?v=1772339894",
+      afbeelding: "https://tryscent.eu/cdn/shop/files/Chanel_Bleud.webp?v=1773650576",
       topnoten: ["Grapefruit", "Citroen", "Munt", "Roze Peper"],
       hartnoten: ["Gember", "Nootmuskaat", "Jasmijn"],
       basisnoten: ["Wierook", "Vetiver", "Ceder", "Sandelhout"],

@@ -336,7 +336,7 @@ window.NederlandseParfumCatalogus = {
       id: "chanel_chance",
       naam: "Chance",
       merk: "Chanel",
-      afbeelding: "https://tryscent.eu/cdn/shop/files/chance.webp?v=1772339894",
+      afbeelding: "https://fimgs.net/mdimg/perfume-thumbs/dark-375x500.8069.2x.avif",
       topnoten: ["Roze Peper", "Kweepeer", "Citrus"],
       hartnoten: ["Hyacint", "Jasmijn", "Iris"],
       basisnoten: ["Muskus", "Patchouli", "Vetiver", "Ceder"],

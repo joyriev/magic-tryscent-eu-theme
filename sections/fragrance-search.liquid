@@ -2965,6 +2965,12 @@ window.fcToggleSearch = function() {
       // Sort by score
       hardcodedResults.sort((a, b) => b.score - a.score);
       
+      // SIMPLE FILTER: If searching for "ck", show only Calvin Klein from catalog
+      const queryLower = query.toLowerCase().trim();
+      if (queryLower === 'ck' || queryLower === 'calvin klein' || queryLower === 'calvin' || queryLower === 'klein') {
+        catalogResults = catalogResults.filter(r => r.perfume.merk && r.perfume.merk.toLowerCase().includes('calvin klein'));
+      }
+      
       let html = '';
       
       // ===== DISPLAY CATALOG RESULTS =====

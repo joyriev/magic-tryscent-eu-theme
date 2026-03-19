@@ -241,7 +241,7 @@ window.NederlandseParfumCatalogus = {
       id: "ysl_manifesto",
       naam: "Manifesto",
       merk: "Yves Saint Laurent",
-      afbeelding: "https://tryscent.eu/cdn/shop/files/manifesto.webp?v=1772339894",
+      afbeelding: "https://tryscent.eu/cdn/shop/files/Yves_Saint_Laurent_Manifesto.avif?v=1773659124",
       topnoten: ["Groene noten", "Bergamot", "Perzik"],
       hartnoten: ["Jasmijn", "Lelietje-van-dalen", "Sinaasappelbloesem"],
       basisnoten: ["Vanille", "Ceder", "Muskus", "Tonka"],

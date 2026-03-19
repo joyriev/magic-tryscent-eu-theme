@@ -2221,6 +2221,51 @@ window.fcToggleSearch = function() {
     return '€' + (priceInCents / 100).toFixed(2).replace('.', ',');
   }
 
+  // ===== FIND MATCHING PRODUCT BY PERFUME =====
+  function findMatchingProduct(perfume) {
+    if (!perfume) return null;
+    
+    console.log('🔍 Suche nach passendem Produkt für:', perfume.naam || perfume.name);
+    
+    // Try to find by product number
+    if (perfume.productnummers && perfume.productnummers.length > 0) {
+      for (const num of perfume.productnummers) {
+        const match = hardcodedProducts.find(p => p.number === num.toString());
+        if (match) {
+          console.log(`✅ Gefunden mit Nummer ${num}:`, match.title);
+          return match;
+        }
+      }
+    }
+    
+    // Try to find by brand
+    const perfumeBrand = (perfume.merk || perfume.brand || '').toLowerCase();
+    const matches = hardcodedProducts.filter(p => 
+      p.brand.toLowerCase().includes(perfumeBrand) || 
+      perfumeBrand.includes(p.brand.toLowerCase())
+    );
+    
+    if (matches.length > 0) {
+      console.log(`✅ Gefunden ${matches.length} Treffer`);
+      return matches[0];
+    }
+    
+    return null;
+  }
+
+  // ===== GET RECOMMENDATIONS - SAME BRAND =====
+  function getRecommendations(product) {
+    if (!product) return [];
+    
+    // Get other products from same brand
+    return hardcodedProducts
+      .filter(p => 
+        p.brandKey === product.brandKey && 
+        p.id !== product.id
+      )
+      .slice(0, 1); // Take first one
+  }
+
   // ===== RENDER SUGGESTIONS =====
   function renderSuggestions() {
     const suggestions = getPopularSuggestions();
@@ -2530,9 +2575,31 @@ window.fcToggleSearch = function() {
     currentView = 'detail';
     steps.style.display = 'none';
     
+    // Find matching product
+    const matchingProduct = findMatchingProduct(perfume);
+    
     let html = `
       <button class="fc-back-btn" onclick="window.fcGoBack()">Zurück</button>
     `;
+    
+    if (matchingProduct) {
+      html += `<div class="fc-subsection-title">Unsere Version</div>`;
+      html += '<div class="fc-grid-2col">';
+      
+      // RECOMMENDED: The matching product
+      html += renderHardcodedProductCard(matchingProduct, 'Empfohlen');
+      
+      // YOU MIGHT LIKE IT: Same brand recommendation
+      const recommendations = getRecommendations(matchingProduct);
+      
+      if (recommendations.length > 0) {
+        html += renderHardcodedProductCard(recommendations[0], 'Das könnte dir auch gefallen');
+      } else {
+        html += `<div class="fc-product-card" style="visibility: hidden;"></div>`;
+      }
+      
+      html += '</div>';
+    }
     
     // Show catalog perfume details
     const imageUrl = perfume.afbeelding || perfume.image || 'https://via.placeholder.com/110x110?text=Parfum';

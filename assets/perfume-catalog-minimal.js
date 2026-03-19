@@ -211,7 +211,7 @@ window.NederlandseParfumCatalogus = {
       id: "dior_homme_intense",
       naam: "Dior Homme Intense",
       merk: "Dior",
-      afbeelding: "https://tryscent.eu/cdn/shop/files/homme_intense.webp?v=1772339894",
+      afbeelding: "https://tryscent.eu/cdn/shop/files/Dior_Homme_Intense.webp?v=1773658988",
       topnoten: ["Lavendel"],
       hartnoten: ["Iris", "Amber", "Cacao"],
       basisnoten: ["Leer", "Ceder", "Vetiver"],

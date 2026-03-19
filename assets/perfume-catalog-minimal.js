@@ -280,7 +280,7 @@ window.NederlandseParfumCatalogus = {
       id: "ysl_libre",
       naam: "Libre",
       merk: "Yves Saint Laurent",
-      afbeelding: "https://tryscent.eu/cdn/shop/files/libre.webp?v=1772339894",
+      afbeelding: "https://fimgs.net/mdimg/perfume-thumbs/dark-375x500.113623.2x.avif",
       topnoten: ["Lavendel", "Mandarijn", "Zwarte bes"],
       hartnoten: ["Sinaasappelbloesem", "Jasmijn", "Ylang-Ylang"],
       basisnoten: ["Vanille", "Amber", "Muskus"],

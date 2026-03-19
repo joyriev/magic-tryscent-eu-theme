@@ -612,7 +612,7 @@ window.NederlandseParfumCatalogus = {
       id: "boss_bottled",
       naam: "Boss Bottled",
       merk: "Hugo Boss",
-      afbeelding: "https://tryscent.eu/cdn/shop/files/bottled.webp?v=1772270950",
+      afbeelding: "https://tryscent.eu/cdn/shop/files/Hugo_Boss_Bottled.webp?v=1773640953",
       topnoten: ["Appel", "Citrus", "Geranium"],
       hartnoten: ["Ceder", "Sandelhout", "Patchouli"],
       basisnoten: ["Vanille", "Muskus", "Amber"],

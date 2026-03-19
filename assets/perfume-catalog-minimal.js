@@ -172,7 +172,7 @@ window.NederlandseParfumCatalogus = {
       id: "dior_jadore",
       naam: "J'adore",
       merk: "Dior",
-      afbeelding: "https://tryscent.eu/cdn/shop/files/J_Adore.jpg?v=1772258436",
+      afbeelding: "https://tryscent.eu/cdn/shop/files/Christian_Dior_J_adore.jpg?v=1773639306",
       topnoten: ["Peer", "Meloen", "Perzik", "Magnolia"],
       hartnoten: ["Jasmijn", "Roos", "Lelietje-van-dalen", "Ylang-Ylang"],
       basisnoten: ["Vanille", "Muskus", "Ceder"],

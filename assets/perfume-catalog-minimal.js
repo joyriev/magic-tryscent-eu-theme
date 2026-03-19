@@ -638,7 +638,7 @@ window.NederlandseParfumCatalogus = {
       id: "boss_hugo",
       naam: "Hugo",
       merk: "Hugo Boss",
-      afbeelding: "https://tryscent.eu/cdn/shop/files/bottled_ab5b354f-1e76-4cbc-b18e-afb94087df0a.webp?v=1772419632",
+      afbeelding: "https://tryscent.eu/cdn/shop/files/Hugo_Boss_Hugo.webp?v=1773675213",
       topnoten: ["Groene noten", "Basilicum", "Munt"],
       hartnoten: ["Lavendel", "Geranium", "Muskaatsalie"],
       basisnoten: ["Ceder", "Sandelhout", "Muskus"],

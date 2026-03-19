@@ -63,7 +63,7 @@ window.NederlandseParfumCatalogus = {
       id: "tom_ford_ombre_leather",
       naam: "Ombre Leather",
       merk: "Tom Ford",
-      afbeelding: "https://tryscent.eu/cdn/shop/files/Tom_Ford_Ombre_Leather.avif?v=1762632966",
+      afbeelding: "https://fimgs.net/mdimg/perfume-thumbs/dark-375x500.50239.2x.avif",
       topnoten: ["Kardemom", "Jasmijn", "Immortelle"],
       hartnoten: ["Leer", "Patchouli", "Viooltje"],
       basisnoten: ["Amber", "Berken teer", "Muskus"],

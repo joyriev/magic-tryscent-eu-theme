@@ -3036,9 +3036,10 @@ window.fcToggleSearch = function() {
         allPerfumes.forEach(perfume => {
           const perfumeName = perfume.naam || perfume.name || '';
           const perfumeBrand = perfume.merk || perfume.brand || '';
+          const brandLower = perfumeBrand.toLowerCase();
           
           // SPECIAL: If searching for "ck", show ALL Calvin Klein products
-          if (isCKSearch && perfumeBrand.toLowerCase().includes('calvin klein')) {
+          if (isCKSearch && (brandLower.includes('calvin klein') || brandLower === 'calvin klein')) {
             catalogResults.push({
               perfume,
               score: 100,
@@ -3151,7 +3152,12 @@ window.fcToggleSearch = function() {
       if (catalogResults.length > 0) {
         html += `<div class="fc-section-title">✨ Echte Parfums</div>`;
         
-        catalogResults.slice(0, 8).forEach(result => {
+        // Show all results if it's a brand search (ck, ysl, etc), otherwise limit to 8
+        const queryLower = query.toLowerCase().trim();
+        const isBrandSearch = queryLower === 'ck' || queryLower === 'calvin' || queryLower === 'klein' || queryLower === 'ysl' || queryLower === 'yves' || queryLower === 'mugler' || queryLower === 'thierry';
+        const displayLimit = isBrandSearch ? catalogResults.length : 8;
+        
+        catalogResults.slice(0, displayLimit).forEach(result => {
           const perfume = result.perfume;
           const imageUrl = perfume.afbeelding || perfume.image || 'https://via.placeholder.com/60x60?text=Parfum';
           const name = perfume.naam || perfume.name || 'Unbekanntes Parfum';

@@ -171,7 +171,7 @@ window.NederlandseParfumCatalogus = {
       id: "dior_fahrenheit_32",
       naam: "Fahrenheit 32",
       merk: "Dior",
-      afbeelding: "https://tryscent.eu/cdn/shop/files/fahrenheit_32.webp?v=1772339894",
+      afbeelding: "https://tryscent.eu/cdn/shop/files/Dior_Sauvage_Elixir.webp?v=1773636079",
       topnoten: ["Sinaasappelbloesem", "Vanille"],
       hartnoten: ["Vetiver", "Houtnoten"],
       basisnoten: ["Vanille", "Wierook"],

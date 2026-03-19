@@ -267,7 +267,7 @@ window.NederlandseParfumCatalogus = {
       id: "ysl_y",
       naam: "Y",
       merk: "Yves Saint Laurent",
-      afbeelding: "https://tryscent.eu/cdn/shop/files/y.webp?v=1772339894",
+      afbeelding: "https://tryscent.eu/cdn/shop/files/Yves_Saint_Laurent_Y.webp?v=1773669176",
       topnoten: ["Bergamot", "Gember", "Aldehyden"],
       hartnoten: ["Salie", "Jeneverbes", "Geranium"],
       basisnoten: ["Amber", "Ceder", "Muskus"],

@@ -835,7 +835,7 @@ window.NederlandseParfumCatalogus = {
     },
     {
       id: "ck_women",
-      naam: "CK Women - No. 031",
+      naam: "CK Women",
       merk: "Calvin Klein",
       afbeelding: "https://tryscent.eu/cdn/shop/files/ck_women.webp?v=1773222316",
       topnoten: ["Bergamot", "Mandarijn", "Ananas"],

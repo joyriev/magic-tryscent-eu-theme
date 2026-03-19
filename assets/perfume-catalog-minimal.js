@@ -796,7 +796,7 @@ window.NederlandseParfumCatalogus = {
   calvinKlein: [
     {
       id: "ck_eternity_women",
-      naam: "Eternity - No. 106",
+      naam: "Eternity",
       merk: "Calvin Klein",
       afbeelding: "https://tryscent.eu/cdn/shop/files/eternity.webp?v=1772339894",
       topnoten: ["Mandarijn", "Bergamot", "Citroen"],

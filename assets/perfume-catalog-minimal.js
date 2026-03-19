@@ -418,7 +418,7 @@ window.NederlandseParfumCatalogus = {
       id: "armani_code_for_women",
       naam: "Code for Women",
       merk: "Giorgio Armani",
-      afbeelding: "https://tryscent.eu/cdn/shop/files/code.webp?v=1772339894",
+      afbeelding: "https://tryscent.eu/cdn/shop/files/Giorgio_Armani_Code_for_Woman.avif?v=1773652170",
       topnoten: ["Sinaasappelbloesem", "Jasmijn", "Bergamot"],
       hartnoten: ["Honing", "Amandel", "Gember"],
       basisnoten: ["Vanille", "Sandelhout", "Muskus"],

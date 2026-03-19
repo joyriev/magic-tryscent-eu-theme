@@ -2351,8 +2351,18 @@ window.fcToggleSearch = function() {
     if (perfumeName.includes('ombre nomade')) {
       const midnightDrive = hardcodedProducts.find(p => p.id === 'tryscent-midnight_drive');
       const midnightOil = hardcodedProducts.find(p => p.id === 'tryscent-midnight_oil');
-      if (midnightDrive && midnightOil) {
-        return [midnightDrive, midnightOil];
+      const recommendations = [];
+      
+      // Only add if not the matching product
+      if (midnightDrive && midnightDrive.id !== product.id) {
+        recommendations.push(midnightDrive);
+      }
+      if (midnightOil && midnightOil.id !== product.id) {
+        recommendations.push(midnightOil);
+      }
+      
+      if (recommendations.length > 0) {
+        return recommendations;
       }
     }
     

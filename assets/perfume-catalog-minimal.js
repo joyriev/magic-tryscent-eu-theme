@@ -815,7 +815,7 @@ window.NederlandseParfumCatalogus = {
       id: "mugler_angel_nova",
       naam: "Angel Nova",
       merk: "Thierry Mugler Angel",
-      afbeelding: "https://tryscent.eu/cdn/shop/files/angel_nova.webp?v=1772339894",
+      afbeelding: "https://tryscent.eu/cdn/shop/files/Thierry_Mugler_Angel_Nova.webp?v=1773682394",
       topnoten: ["Framboos", "Lychee"],
       hartnoten: ["Roos", "Jasmijn"],
       basisnoten: ["Benzoë", "Houtnoten"],

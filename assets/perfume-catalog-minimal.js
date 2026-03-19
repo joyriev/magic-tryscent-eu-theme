@@ -145,7 +145,7 @@ window.NederlandseParfumCatalogus = {
       id: "dior_sauvage_elixir",
       naam: "Sauvage Elixir",
       merk: "Dior",
-      afbeelding: "https://tryscent.eu/cdn/shop/files/Sauvage_Elixir.jpg?v=1762632056",
+      afbeelding: "https://tryscent.eu/cdn/shop/files/Dior_Sauvage_Elixir.webp?v=1773636079",
       topnoten: ["Grapefruit", "Bergamot", "Kaneel"],
       hartnoten: ["Lavendel", "Zoethout", "Ambroxan"],
       basisnoten: ["Amber", "Ceder", "Vetiver", "Muskus"],

@@ -24,7 +24,7 @@ window.NederlandseParfumCatalogus = {
       id: "tom_ford_vanille_fatale",
       naam: "Vanille Fatale",
       merk: "Tom Ford",
-      afbeelding: "https://tryscent.eu/cdn/shop/files/3bfb7acaf943b4144a2abd302bf53906.webp?v=1772285996",
+      afbeelding: "https://tryscent.eu/cdn/shop/files/vanille_fatale.webp?v=1773644036",
       topnoten: ["Saffraan", "Neroli", "Bergamot"],
       hartnoten: ["Vanille", "Koffie", "Leer"],
       basisnoten: ["Amber", "Mirre", "Benzoë"],

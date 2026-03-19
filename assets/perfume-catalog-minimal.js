@@ -822,7 +822,7 @@ window.NederlandseParfumCatalogus = {
     },
     {
       id: "ck_one",
-      naam: "CK One - No. 209",
+      naam: "CK One",
       merk: "Calvin Klein",
       afbeelding: "https://tryscent.eu/cdn/shop/files/ck_one.webp?v=1773222316",
       topnoten: ["Bergamot", "Kardemom", "Citroen", "Ananas", "Mandarijn"],

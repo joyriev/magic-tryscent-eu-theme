@@ -132,7 +132,7 @@ window.NederlandseParfumCatalogus = {
       id: "dior_sauvage",
       naam: "Sauvage",
       merk: "Dior",
-      afbeelding: "https://tryscent.eu/cdn/shop/files/sauvage_parfum.webp?v=1772373409",
+      afbeelding: "https://tryscent.eu/cdn/shop/files/Dior_Sauvage.webp?v=1773661609",
       topnoten: ["Bergamot", "Peper", "Ambroxan"],
       hartnoten: ["Lavendel", "Gember", "Elemi"],
       basisnoten: ["Amber", "Ceder", "Vetiver"],

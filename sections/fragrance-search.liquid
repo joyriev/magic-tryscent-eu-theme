@@ -1501,6 +1501,18 @@ window.fcToggleSearch = function() {
       searchTerms: ["leather luxe", "040", "tom ford", "ombre leather", "leather"]
     },
     {
+      id: "tryscent-magic_434",
+      title: "Riecht wie... Cherry Smoke - Nr. 434",
+      image: "https://cdn.shopify.com/s/files/1/0762/7662/9763/files/434W_c.webp?v=1773222329",
+      url: "https://tryscent.eu/products/magic-perfume-no-434w?variant=47831287791875",
+      price: 1199,  // €11,99
+      brand: "Tom Ford",
+      brandKey: "tomford",
+      number: "434",
+      gender: "unisex",
+      searchTerms: ["cherry smoke", "434", "tom ford", "riecht wie", "kirsche"]
+    },
+    {
       id: "tryscent-magic_083",
       title: "Riecht wie... Opium - Nr. 083",
       image: "https://cdn.shopify.com/s/files/1/0762/7662/9763/files/083W_c.webp?v=1773222363",
@@ -2305,11 +2317,21 @@ window.fcToggleSearch = function() {
   function getRecommendations(product, perfume) {
     if (!product) return [];
     
+    const perfumeName = (perfume.naam || perfume.name || '').toLowerCase();
+    
     // HARDCODED: Ombre Leather should recommend Leather Luxe
-    if (perfume && (perfume.naam || perfume.name || '').toLowerCase().includes('ombre leather')) {
+    if (perfumeName.includes('ombre leather')) {
       const leatherLuxe = hardcodedProducts.find(p => p.id === 'tryscent-leather_luxe');
       if (leatherLuxe) {
         return [leatherLuxe];
+      }
+    }
+    
+    // HARDCODED: Cherry Smoke should recommend Cherry Smoke product
+    if (perfumeName.includes('cherry smoke')) {
+      const cherrySmoke = hardcodedProducts.find(p => p.id === 'tryscent-magic_434');
+      if (cherrySmoke) {
+        return [cherrySmoke];
       }
     }
     

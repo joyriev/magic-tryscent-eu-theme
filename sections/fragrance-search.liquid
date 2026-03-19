@@ -1657,6 +1657,30 @@ window.fcToggleSearch = function() {
       searchTerms: ["my way", "140", "armani", "riecht wie"]
     },
     {
+      id: "tryscent-terra-di-gioia",
+      title: "Terra di Gioia",
+      image: "https://tryscent.eu/cdn/shop/files/Terra_di_Gioia.webp?v=1773716005",
+      url: "https://tryscent.eu/products/terra-di-gioia",
+      price: 2495,  // €24,95
+      brand: "Giorgio Armani",
+      brandKey: "armani",
+      number: null,
+      gender: "female",
+      searchTerms: ["terra di gioia", "giorgio armani", "armani", "gioia", "terre"]
+    },
+    {
+      id: "tryscent-magic_436",
+      title: "Riecht wie... Terra Di Gioia - Nr. 436",
+      image: "https://cdn.shopify.com/s/files/1/0762/7662/9763/files/436wc.webp?v=1773222280",
+      url: "https://tryscent.eu/products/magic-perfume-no-436w?variant=47831283990787",
+      price: 1199,  // €11,99
+      brand: "Giorgio Armani",
+      brandKey: "armani",
+      number: "436",
+      gender: "female",
+      searchTerms: ["terra di gioia", "436", "giorgio armani", "armani", "pear", "mandarin", "bergamot", "almond blossom", "jasmine", "amber", "musk", "riecht wie"]
+    },
+    {
       id: "tryscent-magic_437",
       title: "Riecht wie... Paradoxe - Nr. 437",
       image: "https://cdn.shopify.com/s/files/1/0762/7662/9763/files/437W_c.webp?v=1773222276",
@@ -2424,6 +2448,14 @@ window.fcToggleSearch = function() {
       }
     }
     
+    // HARDCODED: Terra di Gioia should recommend Terra Di Gioia magic product 436
+    if (perfumeName.includes('terra di gioia') || perfumeName.includes('terra')) {
+      const terraDiGioia436 = hardcodedProducts.find(p => p.id === 'tryscent-magic_436');
+      if (terraDiGioia436 && terraDiGioia436.id !== product.id) {
+        return [terraDiGioia436];
+      }
+    }
+    
     // Get other products from same brand
     const sameBrandProducts = hardcodedProducts.filter(p => 
       p.brandKey === product.brandKey && 
@@ -3133,4 +3165,4 @@ window.fcToggleSearch = function() {
     console.log('✓ Fragrance Search initialisiert');
   });
 })();
-</script>
+</script> 

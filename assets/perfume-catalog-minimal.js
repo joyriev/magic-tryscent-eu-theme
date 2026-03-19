@@ -874,9 +874,9 @@ window.NederlandseParfumCatalogus = {
     },
     {
       id: "ck_be",
-      naam: "CK Be - No. 477",
+      naam: "CK Be",
       merk: "Calvin Klein",
-      afbeelding: "https://tryscent.eu/cdn/shop/files/ck_be.webp?v=1773222316",
+      afbeelding: "https://tryscent.eu/cdn/shop/files/CK_be.webp?v=1773677853",
       topnoten: ["Lavendel", "Munt", "Bergamot"],
       hartnoten: ["Jasmijn", "Magnolia", "Groene Noten"],
       basisnoten: ["Sandelhout", "Tonkaboon", "Muskus", "Vanille"],

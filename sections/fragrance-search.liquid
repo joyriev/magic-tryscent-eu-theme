@@ -2368,7 +2368,7 @@ window.fcToggleSearch = function() {
     let html = `<div class="fc-suggestions-title">✨ Beliebte Düfte</div>`;
     
     suggestions.forEach(product => {
-      const priceFormatted = '€' + (product.price / 100).toFixed(2).replace('.', ',');
+      const priceFormatted = '€' + (product.price / 10000).toFixed(2).replace('.', ',');
       
       html += `
         <div class="fc-suggestion-item" onclick="window.fcViewDetails('${product.url}')">
@@ -2416,7 +2416,7 @@ window.fcToggleSearch = function() {
 
   // ===== RENDER HARDCODED PRODUCT CARD =====
   function renderHardcodedProductCard(product, badge) {
-    const priceFormatted = '€' + (product.price / 100).toFixed(2).replace('.', ',');
+    const priceFormatted = '€' + (product.price / 10000).toFixed(2).replace('.', ',');
     
     return `
       <div class="fc-product-card">
@@ -2864,7 +2864,7 @@ window.fcToggleSearch = function() {
         
         hardcodedResults.slice(0, 12).forEach(match => {
           const p = match.product;
-          const priceFormatted = '€' + (p.price / 100).toFixed(2).replace('.', ',');
+          const priceFormatted = '€' + (p.price / 10000).toFixed(2).replace('.', ',');
           
           html += `
             <div class="fc-real-perfume-item" onclick="window.fcViewDetails('${p.url}')">

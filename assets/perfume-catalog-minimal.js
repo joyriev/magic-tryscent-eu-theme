@@ -625,7 +625,7 @@ window.NederlandseParfumCatalogus = {
       id: "boss_the_scent",
       naam: "The Scent",
       merk: "Hugo Boss",
-      afbeelding: "https://tryscent.eu/cdn/shop/files/the_scent.webp?v=1772339894",
+      afbeelding: "https://tryscent.eu/cdn/shop/files/Hugo_Boss_The_Scent.webp?v=1773658228",
       topnoten: ["Gember", "Bergamot", "Mandarijn"],
       hartnoten: ["Lavendel", "Maninka", "Fruitnoten"],
       basisnoten: ["Leer", "Patchouli", "Ceder"],

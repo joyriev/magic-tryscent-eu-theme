@@ -363,7 +363,7 @@ window.NederlandseParfumCatalogus = {
       id: "chanel_no_5",
       naam: "N°5",
       merk: "Chanel",
-      afbeelding: "https://tryscent.eu/cdn/shop/files/chanel_no5.webp?v=1772339894",
+      afbeelding: "https://fimgs.net/mdimg/perfume-thumbs/dark-375x500.40069.2x.avif",
       topnoten: ["Aldehyden", "Neroli", "Ylang-Ylang"],
       hartnoten: ["Jasmijn", "Roos", "Iris"],
       basisnoten: ["Vanille", "Amber", "Sandelhout"],

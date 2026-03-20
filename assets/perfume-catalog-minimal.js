@@ -1420,7 +1420,7 @@ window.NederlandseParfumCatalogus = {
   naomiCampbell: [
     {
       id: "naomi_campbell_signature_056",
-      naam: "Naomi Campbell - No. 056",
+      naam: "Naomi Campbell",
       merk: "Naomi Campbell",
       afbeelding: "https://tryscent.eu/cdn/shop/files/Campbell.webp?v=1773715689",
       topnoten: ["Witte Perzik", "Orchidee", "Pruim"],

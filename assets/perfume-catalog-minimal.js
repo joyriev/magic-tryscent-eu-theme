@@ -527,7 +527,7 @@ window.NederlandseParfumCatalogus = {
       id: "jpg_la_belle",
       naam: "La Belle",
       merk: "Jean Paul Gaultier",
-      afbeelding: "https://tryscent.eu/cdn/shop/files/la_belle.webp?v=1772339894",
+      afbeelding: "https://tryscent.eu/cdn/shop/files/Jean_Paul_Gaultier_La_Belle.webp?v=1773644335",
       topnoten: ["Peer", "Bergamot"],
       hartnoten: ["Jasmijn", "Sinaasappelbloesem"],
       basisnoten: ["Vanille", "Tonka", "Ceder"],

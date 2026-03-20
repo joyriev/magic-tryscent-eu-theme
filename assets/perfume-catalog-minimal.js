@@ -859,9 +859,9 @@ window.NederlandseParfumCatalogus = {
     },
     {
       id: "ck_eternity_moment",
-      naam: "CK Eternity Moment",
+      naam: "CK Eternity Moment - No. 414",
       merk: "Calvin Klein",
-      afbeelding: "https://tryscent.eu/cdn/shop/files/Eternity_Moment.webp?v=1773716848",
+      afbeelding: "https://tryscent.eu/cdn/shop/files/ck_eternity_moment.webp?v=1773222316",
       topnoten: ["Framboos", "Granaatappel", "Passievrucht"],
       hartnoten: ["Pioenroos", "Lelietje-van-dalen", "Magnolia"],
       basisnoten: ["Amber", "Muskus", "Sandelhout", "Hout"],
@@ -872,9 +872,9 @@ window.NederlandseParfumCatalogus = {
     },
     {
       id: "ck_one",
-      naam: "CK One",
+      naam: "CK One - No. 209",
       merk: "Calvin Klein",
-      afbeelding: "https://tryscent.eu/cdn/shop/files/CK_One.webp?v=1773718455",
+      afbeelding: "https://tryscent.eu/cdn/shop/files/ck_one.webp?v=1773222316",
       topnoten: ["Bergamot", "Kardemom", "Citroen", "Ananas", "Mandarijn"],
       hartnoten: ["Jasmijn", "Lelietje-van-dalen", "Roos", "Viooltje"],
       basisnoten: ["Muskus", "Amber", "Eikenmos"],
@@ -911,9 +911,9 @@ window.NederlandseParfumCatalogus = {
     },
     {
       id: "ck_euphoria_men",
-      naam: "Euphoria Men",
+      naam: "Euphoria Men - No. 204",
       merk: "Calvin Klein",
-      afbeelding: "https://tryscent.eu/cdn/shop/files/Euphoria_Men.webp?v=1773681867",
+      afbeelding: "https://tryscent.eu/cdn/shop/files/euphoria_men.webp?v=1773222316",
       topnoten: ["Gember", "Kruidige Noten", "Munt"],
       hartnoten: ["Salie", "Ceder", "Sandelhout"],
       basisnoten: ["Amber", "Patchouli", "Muskus"],
@@ -924,7 +924,7 @@ window.NederlandseParfumCatalogus = {
     },
     {
       id: "ck_euphoria_blossom",
-      naam: "Euphoria Blossom",
+      naam: "Euphoria Blossom - No. 087",
       merk: "Calvin Klein",
       afbeelding: "https://tryscent.eu/cdn/shop/files/Euphoria_Blossom.webp?v=1773718757",
       topnoten: ["Passievrucht", "Watermeloen", "Roze Peper"],
@@ -1390,7 +1390,7 @@ window.NederlandseParfumCatalogus = {
   dolceGabbana: [
     {
       id: "dolce_gabbana_dolce_435",
-      naam: "Dolce",
+      naam: "Dolce - No. 435",
       merk: "Dolce & Gabbana",
       afbeelding: "https://tryscent.eu/cdn/shop/files/Dolce.webp?v=1773716499",
       topnoten: ["Neroli", "Papaja", "Witte Amaryllis"],
@@ -1403,7 +1403,7 @@ window.NederlandseParfumCatalogus = {
     },
     {
       id: "dolce_gabbana_light_blue_intense_195",
-      naam: "Light Blue Eau Intense",
+      naam: "Light Blue Eau Intense - No. 195",
       merk: "Dolce & Gabbana",
       afbeelding: "https://tryscent.eu/cdn/shop/files/Light_Blue_Eau_Intense.webp?v=1773715554",
       topnoten: ["Citroen", "Groene Appel"],
@@ -1420,7 +1420,7 @@ window.NederlandseParfumCatalogus = {
   naomiCampbell: [
     {
       id: "naomi_campbell_signature_056",
-      naam: "Naomi Campbell",
+      naam: "Naomi Campbell - No. 056",
       merk: "Naomi Campbell",
       afbeelding: "https://tryscent.eu/cdn/shop/files/Campbell.webp?v=1773715689",
       topnoten: ["Witte Perzik", "Orchidee", "Pruim"],
@@ -1437,7 +1437,7 @@ window.NederlandseParfumCatalogus = {
   armaniProfumo: [
     {
       id: "giorgio_armani_acqua_di_gio_profumo_296",
-      naam: "Acqua Di Gio Profumo",
+      naam: "Acqua Di Gio Profumo - No. 296",
       merk: "Giorgio Armani",
       afbeelding: "https://tryscent.eu/cdn/shop/files/Acqua_Di_Gio_Profumo.webp?v=1773682488",
       topnoten: ["Bergamot", "Zeewater"],
@@ -1454,7 +1454,7 @@ window.NederlandseParfumCatalogus = {
   chanel: [
     {
       id: "chanel_bois_des_iles_459",
-      naam: "Bois des Iles",
+      naam: "Bois des Iles - No. 459",
       merk: "Chanel",
       afbeelding: "https://tryscent.eu/cdn/shop/files/Bois_des_Iles.webp?v=1773682203",
       topnoten: ["Aldehyden", "Perzik", "Bergamot"],
@@ -1471,7 +1471,7 @@ window.NederlandseParfumCatalogus = {
   dior: [
     {
       id: "dior_dolce_vita_116",
-      naam: "Dolce Vita",
+      naam: "Dolce Vita - No. 116",
       merk: "Dior",
       afbeelding: "https://tryscent.eu/cdn/shop/files/Dolce_Vita.webp?v=1773681991",
       topnoten: ["Roos", "Kaneel", "Perzik"],
@@ -1488,7 +1488,7 @@ window.NederlandseParfumCatalogus = {
   pacoRabanne: [
     {
       id: "paco_rabanne_olympea_aqua_490",
-      naam: "Olympea Aqua",
+      naam: "Olympea Aqua - No. 490",
       merk: "Paco Rabanne",
       afbeelding: "https://tryscent.eu/cdn/shop/files/Olympea_Aqua.webp?v=1773681715",
       topnoten: ["Grapefruit", "Zout", "Waterjasmijn"],
@@ -1535,7 +1535,7 @@ window.NederlandseParfumCatalogus = {
   cartier: [
     {
       id: "cartier_la_panthere_421",
-      naam: "La Panthère",
+      naam: "La Panthère - No. 421",
       merk: "Cartier",
       afbeelding: "https://tryscent.eu/cdn/shop/files/La_Panthere.webp?v=1773681285",
       topnoten: ["Bergamot", "Rabarber", "Aardbei"],

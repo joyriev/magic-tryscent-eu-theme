@@ -2697,6 +2697,14 @@ window.fcToggleSearch = function() {
       }
     }
     
+    // HARDCODED: Q (340) should recommend Light Blue (Magic 017)
+    if (perfumeName.includes('q') && (perfumeName.includes('340') || perfumeName.includes('oud'))) {
+      const lightBlue = hardcodedProducts.find(p => p.id === 'tryscent-magic_017');
+      if (lightBlue && lightBlue.id !== product.id) {
+        return [lightBlue];
+      }
+    }
+    
     // HARDCODED: Terra di Gioia should recommend Magic product 436 and other Armani products
     if (perfumeName.includes('terra di gioia') || (perfumeName.includes('terra') && perfumeName.includes('gioia'))) {
       const magic436 = hardcodedProducts.find(p => p.id === 'tryscent-magic_436');

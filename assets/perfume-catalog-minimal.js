@@ -848,9 +848,9 @@ window.NederlandseParfumCatalogus = {
     },
     {
       id: "ck_obsession_night_woman",
-      naam: "Obsession Night WOMAN - No. 028",
+      naam: "Obsession Night WOMAN",
       merk: "Calvin Klein",
-      afbeelding: "https://tryscent.eu/cdn/shop/files/obsession_night_woman.webp?v=1773222316",
+      afbeelding: "https://tryscent.eu/cdn/shop/files/MagicPerfume-79-300x300.avif?v=1773718897",
       topnoten: ["Rode Appel", "Vanille Orchidee", "Witte Fresia"],
       hartnoten: ["Jasmijn", "Lelietje-van-dalen", "Roos"],
       basisnoten: ["Amber", "Muskus", "Sandelhout", "Hout", "Patchouli"],

@@ -977,7 +977,7 @@ window.NederlandseParfumCatalogus = {
       id: "prada_paradoxe",
       naam: "Paradoxe",
       merk: "Prada",
-      afbeelding: "https://tryscent.eu/cdn/shop/files/paradoxe.webp?v=1772339894",
+      afbeelding: "https://tryscent.eu/cdn/shop/files/Prada_Paradoxe.jpg?v=1773716609",
       topnoten: ["Peer", "Bergamot", "Mandarijn"],
       hartnoten: ["Sinaasappelbloesem", "Jasmijn", "Roos"],
       basisnoten: ["Vanille", "Amber", "Ceder"],

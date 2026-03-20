@@ -1054,7 +1054,7 @@ window.NederlandseParfumCatalogus = {
       id: "givenchy_ange_ou_demon",
       naam: "Ange ou Démon",
       merk: "Givenchy",
-      afbeelding: "https://tryscent.eu/cdn/shop/files/GIVENCHY_ANGE_OU_DEMON.webp?v=1773674957",
+      afbeelding: "https://tryscent.eu/cdn/shop/files/Ange_Ou_Demon.webp?v=1772419470",
       topnoten: ["Saffraan", "Ylang-Ylang", "Lelie"],
       hartnoten: ["Roos", "Jasmijn", "Sinaasappelbloesem"],
       basisnoten: ["Vanille", "Sandelhout", "Patchouli"],
@@ -1306,6 +1306,23 @@ window.NederlandseParfumCatalogus = {
       jaar: "2008",
       geslacht: "Vrouwelijk",
       productnummers: ["024"]
+    }
+  ],
+
+  // ==================== Q ====================
+  q: [
+    {
+      id: "q_no_340",
+      naam: "Q",
+      merk: "Q",
+      afbeelding: "https://cdn.shopify.com/s/files/1/0762/7662/9763/files/340Mcfixed.webp?v=1773222333",
+      topnoten: ["Safraan", "Grapefruit"],
+      hartnoten: ["Roos", "Salie", "Oud"],
+      basisnoten: ["Edle Hölzer", "Labdanum", "Tonkaboon", "Burshine"],
+      beschrijving: "Een diepzinnige, mysterieuze geur voor mannen die intensiteit en elegantie zoeken. De opening met saffraan en grapefruit combineert kruidige warmte met frisse levendigheid. In het hart ontvouwen roos, salie en oud zich, wat de geur een fascinerende, licht rokerige toets geeft. De basis van edele houtsoorten, labdanum en tonkaboon zorgt voor een warme, langdurige en sensuele uitstraling.",
+      jaar: "2024",
+      geslacht: "Mannelijk",
+      productnummers: ["340"]
     }
   ],
 

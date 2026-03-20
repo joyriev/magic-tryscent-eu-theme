@@ -514,7 +514,7 @@ window.NederlandseParfumCatalogus = {
       id: "jpg_scandal",
       naam: "Scandal",
       merk: "Jean Paul Gaultier",
-      afbeelding: "https://tryscent.eu/cdn/shop/files/SCANDAL.webp?v=1772257382",
+      afbeelding: "https://tryscent.eu/cdn/shop/files/Jean_Paul_Gaultier_SCANDAL.webp?v=17736385842",
       topnoten: ["Mandarijn", "Gardenia", "Bloedsinaasappel"],
       hartnoten: ["Honing", "Jasmijn", "Roos"],
       basisnoten: ["Patchouli", "Tonka", "Ceder"],

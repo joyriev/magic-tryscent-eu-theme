@@ -2437,6 +2437,18 @@ window.fcToggleSearch = function() {
       number: "099",
       gender: "female",
       searchTerms: ["süße", "verführung", "sweet", "seduction", "love don't be shy"]
+    },
+    {
+      id: "tryscent-magic_213",
+      title: "Riecht wie... Adventure - No. 213",
+      image: "https://cdn.shopify.com/s/files/1/0762/7662/9763/files/213Mc.webp?v=1773222293",
+      url: "https://tryscent.eu/products/magic-perfume-no-213m?variant=47831285760259",
+      price: 1199,
+      brand: "Davidoff",
+      brandKey: "davidoff",
+      number: "213",
+      gender: "male",
+      searchTerms: ["adventure", "213", "davidoff", "aromatic", "woody", "citrus", "mandarin", "lemon", "bergamot", "tea", "pimento", "mate", "vetiver", "cedar", "musk", "riecht wie"]
     }
   ];
 
@@ -2642,6 +2654,14 @@ window.fcToggleSearch = function() {
       const euphoriaMen = hardcodedProducts.find(p => p.id === 'tryscent-magic_204');
       if (euphoriaMen && euphoriaMen.id !== product.id) {
         return [euphoriaMen];
+      }
+    }
+    
+    // HARDCODED: Aqva Pour Homme should recommend Adventure (Magic 213)
+    if (perfumeName.includes('aqva')) {
+      const adventure = hardcodedProducts.find(p => p.id === 'tryscent-magic_213');
+      if (adventure && adventure.id !== product.id) {
+        return [adventure];
       }
     }
     
@@ -3541,7 +3561,7 @@ window.fcToggleSearch = function() {
       const searchPopup = document.getElementById('fcSearchPopup');
       if (e.key === 'Escape' && searchPopup && searchPopup.classList.contains('active')) {
         searchPopup.classList.remove('active');
-      
+      }
     });
     
     console.log('✓ Fragrance Search initialisiert');

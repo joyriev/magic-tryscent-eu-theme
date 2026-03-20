@@ -1454,7 +1454,7 @@ window.NederlandseParfumCatalogus = {
   chanel: [
     {
       id: "chanel_bois_des_iles_459",
-      naam: "Bois des Iles - No. 459",
+      naam: "Bois des Iles",
       merk: "Chanel",
       afbeelding: "https://tryscent.eu/cdn/shop/files/Bois_des_Iles.webp?v=1773682203",
       topnoten: ["Aldehyden", "Perzik", "Bergamot"],
@@ -1471,7 +1471,7 @@ window.NederlandseParfumCatalogus = {
   dior: [
     {
       id: "dior_dolce_vita_116",
-      naam: "Dolce Vita - No. 116",
+      naam: "Dolce Vita",
       merk: "Dior",
       afbeelding: "https://tryscent.eu/cdn/shop/files/Dolce_Vita.webp?v=1773681991",
       topnoten: ["Roos", "Kaneel", "Perzik"],

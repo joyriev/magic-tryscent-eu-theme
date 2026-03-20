@@ -747,7 +747,7 @@ window.NederlandseParfumCatalogus = {
       id: "lancome_light_blue",
       naam: "Light Blue",
       merk: "Lancôme",
-      afbeelding: "https://cdn.shopify.com/s/files/1/0762/7662/9763/files/017W_c.webp?v=1773222445",
+      afbeelding: "https://tryscent.eu/cdn/shop/files/Lancome_La_Vie_Est_Belle.webp?v=1773636409",
       topnoten: ["Siciliaanse citroen", "Appel", "Ceder"],
       hartnoten: ["Jasmijn", "Witte roos", "Bamboe"],
       basisnoten: ["Ceder", "Amber", "Muskus"],

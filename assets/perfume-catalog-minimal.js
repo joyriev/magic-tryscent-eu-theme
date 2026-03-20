@@ -734,7 +734,7 @@ window.NederlandseParfumCatalogus = {
       id: "lancome_idole",
       naam: "Idôle",
       merk: "Lancôme",
-      afbeelding: "https://tryscent.eu/cdn/shop/files/Idole.webp?v=1772258992",
+      afbeelding: "https://tryscent.eu/cdn/shop/files/LANCOME_IDOLE.webp?v=1773639877",
       topnoten: ["Peer", "Bergamot", "Citroen"],
       hartnoten: ["Roos", "Jasmijn", "Magnolia"],
       basisnoten: ["Vanille", "Muskus", "Ceder"],

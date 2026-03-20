@@ -488,7 +488,7 @@ window.NederlandseParfumCatalogus = {
       id: "jpg_le_male",
       naam: "Le Male",
       merk: "Jean Paul Gaultier",
-      afbeelding: "https://tryscent.eu/cdn/shop/files/le_male.jpg?v=1762632056",
+      afbeelding: "https://tryscent.eu/cdn/shop/files/J.P._Gaultier_Le_Male.webp?v=1773639170",
       topnoten: ["Munt", "Lavendel", "Bergamot", "Kardemom"],
       hartnoten: ["Kaneel", "Sinaasappelbloesem", "Karwij"],
       basisnoten: ["Vanille", "Tonka", "Amber", "Ceder"],

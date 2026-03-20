@@ -2577,6 +2577,18 @@ window.fcToggleSearch = function() {
       }
     }
     
+    // HARDCODED: Alive (Hugo Boss) should recommend other Hugo Boss female products
+    if (perfumeName.includes('alive')) {
+      const otherHugoBoss = hardcodedProducts.filter(p => 
+        (p.brandKey === 'hugoboss' || p.brand.toLowerCase().includes('hugo boss')) && 
+        p.id !== product.id && 
+        p.gender === product.gender
+      );
+      if (otherHugoBoss.length > 0) {
+        return [otherHugoBoss[0]];
+      }
+    }
+    
     // HARDCODED: La Nuit de L'Homme should recommend Emporio He (Magic 242)
     if (perfumeName.includes('la nuit') || perfumeName.includes('nuit')) {
       const emporio = hardcodedProducts.find(p => p.id === 'tryscent-magic_242');

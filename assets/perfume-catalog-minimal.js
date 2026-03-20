@@ -1390,7 +1390,7 @@ window.NederlandseParfumCatalogus = {
   dolceGabbana: [
     {
       id: "dolce_gabbana_dolce_435",
-      naam: "Dolce - No. 435",
+      naam: "Dolce",
       merk: "Dolce & Gabbana",
       afbeelding: "https://tryscent.eu/cdn/shop/files/Dolce.webp?v=1773716499",
       topnoten: ["Neroli", "Papaja", "Witte Amaryllis"],

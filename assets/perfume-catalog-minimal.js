@@ -1011,7 +1011,7 @@ window.NederlandseParfumCatalogus = {
       id: "hermes_terre",
       naam: "Terre d'Hermès",
       merk: "Hermès",
-      afbeelding: "https://tryscent.eu/cdn/shop/files/terre.webp?v=1772339894",
+      afbeelding: "https://tryscent.eu/cdn/shop/files/Hermes_Terre_D_Hermes.webp?v=1773651682",
       topnoten: ["Sinaasappel", "Grapefruit"],
       hartnoten: ["Peper", "Geranium"],
       basisnoten: ["Vetiver", "Ceder", "Patchouli"],

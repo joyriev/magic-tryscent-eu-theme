@@ -540,7 +540,7 @@ window.NederlandseParfumCatalogus = {
       id: "jpg_classique",
       naam: "Classique",
       merk: "Jean Paul Gaultier",
-      afbeelding: "https://tryscent.eu/cdn/shop/files/Classique_Essence_de_Parfum.webp?v=1772340859",
+      afbeelding: "https://tryscent.eu/cdn/shop/files/Jean_Paul_Gaultier_Classique_Essence_de_Parfum.webp?v=1773650961",
       topnoten: ["Roos", "Gember", "Bergamot"],
       hartnoten: ["Tuberoos", "Jasmijn", "Sinaasappelbloesem"],
       basisnoten: ["Vanille", "Amber", "Muskus"],

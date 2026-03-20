@@ -1,4 +1,4 @@
-{% comment %}
+\{% comment %}
   FRAGRANCE CODE SUCHE POPUP - PREMIUM DESIGN
   - KOMPLETT HARDCODED - Jedes Parfum hat exakte Zuordnungen
   - Strenge Marken- und Geschlechtszuordnung
@@ -2653,6 +2653,18 @@ window.fcToggleSearch = function() {
       number: "435",
       gender: "female",
       searchTerms: ["dolci", "435", "armani", "riecht wie"]
+    },
+    {
+      id: "tryscent-magic_087",
+      title: "Riecht wie... Euphoria Blossom - No. 087",
+      image: "https://tryscent.eu/cdn/shop/files/087Wc.webp?v=1773222258&width=1200",
+      url: "https://tryscent.eu/products/magic-perfume-no-087?variant=47831283138819",
+      price: 1199,
+      brand: "Calvin Klein",
+      brandKey: "calvinklein",
+      number: "087",
+      gender: "female",
+      searchTerms: ["euphoria", "blossom", "087", "calvin klein", "riecht wie"]
     }
   ];
 
@@ -3159,6 +3171,17 @@ window.fcToggleSearch = function() {
       );
       if (maleFragrances.length > 0) {
         return [maleFragrances[0]];
+      }
+    }
+    
+    // HARDCODED: Euphoria Blossom (087) - Female → Recommend other female fragrances
+    if (product.number === '087' || product.id === 'tryscent-magic_087') {
+      const femaleFragrances = hardcodedProducts.filter(p => 
+        p.id !== product.id && 
+        p.gender === 'female'
+      );
+      if (femaleFragrances.length > 0) {
+        return [femaleFragrances[0]];
       }
     }
     
@@ -3886,6 +3909,14 @@ window.fcToggleSearch = function() {
       const magic319 = hardcodedProducts.find(p => p.id === 'tryscent-magic_319');
       if (magic319) {
         matchingProduct = magic319;
+      }
+    }
+    
+    // HARDCODED: For Euphoria Blossom (087), always show Magic 087
+    if (perfume.productnummers && perfume.productnummers.includes('087')) {
+      const magic087 = hardcodedProducts.find(p => p.id === 'tryscent-magic_087');
+      if (magic087) {
+        matchingProduct = magic087;
       }
     }
     

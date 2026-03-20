@@ -583,7 +583,7 @@ window.NederlandseParfumCatalogus = {
       id: "paco_invictus",
       naam: "Invictus",
       merk: "Paco Rabanne",
-      afbeelding: "https://tryscent.eu/cdn/shop/files/Invictus_EDT.webp?v=1772341051",
+      afbeelding: "https://tryscent.eu/cdn/shop/files/Paco_Rabanne_Invictus.webp?v=1773651090",
       topnoten: ["Grapefruit", "Mandarijn", "Zeewaternoten"],
       hartnoten: ["Laurierblad", "Jasmijn", "Ceder"],
       basisnoten: ["Eikenmos", "Amber", "Patchouli"],

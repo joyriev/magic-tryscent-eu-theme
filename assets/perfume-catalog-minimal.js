@@ -622,7 +622,7 @@ window.NederlandseParfumCatalogus = {
       id: "paco_rabanne_fame_498",
       naam: "Fame",
       merk: "Paco Rabanne",
-      afbeelding: "https://via.placeholder.com/300x300?text=Fame+No.+498",
+      afbeelding: "https://tryscent.eu/cdn/shop/files/Paco_Rabanne_Fame.webp?v=1773640734",
       topnoten: ["Mango", "Bergamot"],
       hartnoten: ["Jasmijn", "Wierook"],
       basisnoten: ["Sandelhout", "Vanille"],

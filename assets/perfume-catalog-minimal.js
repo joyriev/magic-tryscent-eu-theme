@@ -479,6 +479,19 @@ window.NederlandseParfumCatalogus = {
       jaar: "",
       geslacht: "Vrouwelijk",
       productnummers: ["436"]
+    },
+    {
+      id: "armani_diamonds",
+      naam: "Emporio Armani Diamonds",
+      merk: "Giorgio Armani",
+      afbeelding: "https://tryscent.eu/cdn/shop/files/Giorgio_Armani_Emporio_Armani_Diamonds.webp?v=1773669375",
+      topnoten: ["Lychee", "Framboos", "Bergamot"],
+      hartnoten: ["Roos", "Lelietje-van-dalen", "Freesia"],
+      basisnoten: ["Vanille", "Cederhout", "Vetiver", "Amber"],
+      beschrijving: "Een sprankelende en elegante bloemig-oosterse geur die vrouwelijkheid en glamour uitstraalt, als een fonkelende diamant.",
+      jaar: "2008",
+      geslacht: "Vrouwelijk",
+      productnummers: ["040"]
     }
   ],
 

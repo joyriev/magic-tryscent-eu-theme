@@ -1092,7 +1092,7 @@ window.NederlandseParfumCatalogus = {
       id: "davidoff_cool_water",
       naam: "Cool Water",
       merk: "Davidoff",
-      afbeelding: "https://tryscent.eu/cdn/shop/files/Cool_Water.webp?v=1772375036",
+      afbeelding: "https://tryscent.eu/cdn/shop/files/Davidoff_Cool_Water.webp?v=1773668292",
       topnoten: ["Zeezout", "Munt", "Lavendel"],
       hartnoten: ["Geranium", "Sandelhout", "Rozemarijn"],
       basisnoten: ["Muskus", "Ceder", "Tabak"],

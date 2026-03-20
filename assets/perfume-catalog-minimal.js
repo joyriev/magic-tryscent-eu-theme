@@ -1373,7 +1373,7 @@ window.NederlandseParfumCatalogus = {
   celineDion: [
     {
       id: "celine_dion_dione_008",
-      naam: "Dione - No. 008",
+      naam: "Dione",
       merk: "Celine Dion",
       afbeelding: "https://tryscent.eu/cdn/shop/files/Dion.webp?v=1773678386",
       topnoten: ["Freesia", "Witte Peper", "Groene Appel"],
@@ -1390,7 +1390,7 @@ window.NederlandseParfumCatalogus = {
   dolceGabbana: [
     {
       id: "dolce_gabbana_dolce_435",
-      naam: "Dolce - No. 435",
+      naam: "Dolce",
       merk: "Dolce & Gabbana",
       afbeelding: "https://tryscent.eu/cdn/shop/files/Dolce.webp?v=1773716499",
       topnoten: ["Neroli", "Papaja", "Witte Amaryllis"],
@@ -1403,7 +1403,7 @@ window.NederlandseParfumCatalogus = {
     },
     {
       id: "dolce_gabbana_light_blue_intense_195",
-      naam: "Light Blue Eau Intense - No. 195",
+      naam: "Light Blue Eau Intense",
       merk: "Dolce & Gabbana",
       afbeelding: "https://tryscent.eu/cdn/shop/files/Light_Blue_Eau_Intense.webp?v=1773715554",
       topnoten: ["Citroen", "Groene Appel"],

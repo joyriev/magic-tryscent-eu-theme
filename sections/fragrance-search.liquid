@@ -2652,11 +2652,15 @@ window.fcToggleSearch = function() {
       return recommendations.length > 0 ? recommendations : [];
     }
     
-    // HARDCODED: Light Blue (017) → Magic 017
+    // HARDCODED: Light Blue (017) → Other Lancôme products matching gender
     if (perfumeName.includes('light blue')) {
-      const magic017 = hardcodedProducts.find(p => p.id === 'tryscent-magic_017');
-      if (magic017 && magic017.id !== product.id) {
-        return [magic017];
+      const otherLancome = hardcodedProducts.filter(p => 
+        p.brandKey === 'lancome' && 
+        p.id !== product.id && 
+        p.gender === product.gender
+      );
+      if (otherLancome.length > 0) {
+        return otherLancome.slice(0, 1);
       }
     }
     

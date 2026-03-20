@@ -742,16 +742,12 @@ window.NederlandseParfumCatalogus = {
       jaar: "2019",
       geslacht: "Vrouwelijk",
       productnummers: ["55"]
-    }
-  ],
-
-  // ==================== DOLCE & GABBANA ====================
-  dolceGabbana: [
+    },
     {
-      id: "dolce_light_blue",
+      id: "lancome_light_blue",
       naam: "Light Blue",
-      merk: "Lancome La Vie Est Belle",
-      afbeelding: "https://tryscent.eu/cdn/shop/files/208671-2.jpg?v=1772256825",
+      merk: "Lancôme",
+      afbeelding: "https://cdn.shopify.com/s/files/1/0762/7662/9763/files/017W_c.webp?v=1773222445",
       topnoten: ["Siciliaanse citroen", "Appel", "Ceder"],
       hartnoten: ["Jasmijn", "Witte roos", "Bamboe"],
       basisnoten: ["Ceder", "Amber", "Muskus"],
@@ -761,6 +757,8 @@ window.NederlandseParfumCatalogus = {
       productnummers: ["017"]
     }
   ],
+
+
 
   // ==================== CAROLINA HERRERA ====================
   carolinaHerrera: [

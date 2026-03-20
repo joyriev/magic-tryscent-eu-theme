@@ -960,7 +960,7 @@ window.NederlandseParfumCatalogus = {
       id: "valentino_uomo_born_in_roma",
       naam: "Uomo Born in Roma",
       merk: "Valentino",
-      afbeelding: "https://tryscent.eu/cdn/shop/files/uomo_born_in_roma.webp?v=1772339894",
+      afbeelding: "https://tryscent.eu/cdn/shop/files/Valentino_Uomo_Born_in_Roma.webp?v=1773652015",
       topnoten: ["Mandarijn", "Zout", "Munt"],
       hartnoten: ["Lavendel", "Salie", "Ceder"],
       basisnoten: ["Vanille", "Tonka", "Muskus"],

@@ -2609,6 +2609,14 @@ window.fcToggleSearch = function() {
       }
     }
     
+    // HARDCODED: Joop! Homme should recommend CK One (Magic 209)
+    if (perfumeName.includes('joop')) {
+      const ckOne = hardcodedProducts.find(p => p.id === 'tryscent-magic_209');
+      if (ckOne && ckOne.id !== product.id) {
+        return [ckOne];
+      }
+    }
+    
     // HARDCODED: La Nuit de L'Homme should recommend Emporio He (Magic 242)
     if (perfumeName.includes('la nuit') || perfumeName.includes('nuit')) {
       const emporio = hardcodedProducts.find(p => p.id === 'tryscent-magic_242');

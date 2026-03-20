@@ -596,7 +596,7 @@ window.NederlandseParfumCatalogus = {
       id: "paco_phantom",
       naam: "Phantom",
       merk: "Paco Rabanne",
-      afbeelding: "https://tryscent.eu/cdn/shop/files/Phantom.webp?v=1772374320",
+      afbeelding: "https://tryscent.eu/cdn/shop/files/Paco_Rabanne_Phantom.webp?v=1773667071",
       topnoten: ["Citroen", "Bergamot", "Lavendel"],
       hartnoten: ["Salie", "Vetiver", "Patchouli"],
       basisnoten: ["Vanille", "Amber", "Ceder"],

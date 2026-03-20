@@ -1315,7 +1315,7 @@ window.NederlandseParfumCatalogus = {
       id: "q_no_340",
       naam: "Q",
       merk: "Q",
-      afbeelding: "https://cdn.shopify.com/s/files/1/0762/7662/9763/files/340Mcfixed.webp?v=1773222333",
+      afbeelding: "https://tryscent.eu/cdn/shop/files/Q_EDP.webp?v=1773675474",
       topnoten: ["Safraan", "Grapefruit"],
       hartnoten: ["Roos", "Salie", "Oud"],
       basisnoten: ["Edle Hölzer", "Labdanum", "Tonkaboon", "Burshine"],

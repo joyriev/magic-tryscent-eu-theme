@@ -617,6 +617,19 @@ window.NederlandseParfumCatalogus = {
       jaar: "2010",
       geslacht: "Vrouwelijk",
       productnummers: ["023"]
+    },
+    {
+      id: "paco_rabanne_fame_498",
+      naam: "Fame - No. 498",
+      merk: "Paco Rabanne",
+      afbeelding: "https://via.placeholder.com/300x300?text=Fame+No.+498",
+      topnoten: ["Mango", "Bergamot"],
+      hartnoten: ["Jasmijn", "Wierook"],
+      basisnoten: ["Sandelhout", "Vanille"],
+      beschrijving: "Een fruitig-houtige geur voor de moderne, zelfverzekerde vrouw. Speels, sensueel en empowered met een blend van sappige mango, pure jasmijn en romige wierook.",
+      jaar: "2022",
+      geslacht: "Vrouwelijk",
+      productnummers: ["498"]
     }
   ],
 

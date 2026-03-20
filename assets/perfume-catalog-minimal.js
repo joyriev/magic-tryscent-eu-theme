@@ -1113,7 +1113,7 @@ window.NederlandseParfumCatalogus = {
       id: "kenzo_flower",
       naam: "Flower by Kenzo",
       merk: "Kenzo",
-      afbeelding: "https://tryscent.eu/cdn/shop/files/flower.webp?v=1772339894",
+      afbeelding: "https://tryscent.eu/cdn/shop/files/KENZO_FLOWER.avif?v=1773658851",
       topnoten: ["Meidoorn", "Zwarte bes", "Mandarijn"],
       hartnoten: ["Roos", "Jasmijn", "Viooltje"],
       basisnoten: ["Vanille", "Muskus", "Ceder"],

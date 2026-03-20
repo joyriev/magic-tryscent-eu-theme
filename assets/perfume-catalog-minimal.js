@@ -813,6 +813,19 @@ window.NederlandseParfumCatalogus = {
       jaar: "2016",
       geslacht: "Vrouwelijk",
       productnummers: ["081"]
+    },
+    {
+      id: "carolina_herrera_212_men_nyc",
+      naam: "212 Men NYC",
+      merk: "Carolina Herrera",
+      afbeelding: "https://tryscent.eu/cdn/shop/files/212.webp?v=1773676546",
+      topnoten: ["Grapefruit", "Spaanse peper", "Groene noten"],
+      hartnoten: ["Violetblad", "Gember", "Tijm"],
+      basisnoten: ["Sandelhout", "Wierook", "Muskus"],
+      beschrijving: "Een frisse, aromatisch-houtige geur die de energie en dynamiek van New York City vastlegt. Modern, stedelijk en verfijnd.",
+      jaar: "1999",
+      geslacht: "Mannelijk",
+      productnummers: ["245"]
     }
   ],
 
@@ -1313,9 +1326,9 @@ window.NederlandseParfumCatalogus = {
   q: [
     {
       id: "q_no_340",
-      naam: "Q",
+      naam: "Q - No. 340",
       merk: "Q",
-      afbeelding: "https://tryscent.eu/cdn/shop/files/Q_EDP.webp?v=1773675474",
+      afbeelding: "https://cdn.shopify.com/s/files/1/0762/7662/9763/files/340Mcfixed.webp?v=1773222333",
       topnoten: ["Safraan", "Grapefruit"],
       hartnoten: ["Roos", "Salie", "Oud"],
       basisnoten: ["Edle Hölzer", "Labdanum", "Tonkaboon", "Burshine"],

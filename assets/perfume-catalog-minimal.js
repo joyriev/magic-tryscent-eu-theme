@@ -861,7 +861,7 @@ window.NederlandseParfumCatalogus = {
       id: "ck_eternity_moment",
       naam: "CK Eternity Moment - No. 414",
       merk: "Calvin Klein",
-      afbeelding: "https://tryscent.eu/cdn/shop/files/ck_eternity_moment.webp?v=1773222316",
+      afbeelding: "https://tryscent.eu/cdn/shop/files/Eternity_Moment.webp?v=1773716848",
       topnoten: ["Framboos", "Granaatappel", "Passievrucht"],
       hartnoten: ["Pioenroos", "Lelietje-van-dalen", "Magnolia"],
       basisnoten: ["Amber", "Muskus", "Sandelhout", "Hout"],

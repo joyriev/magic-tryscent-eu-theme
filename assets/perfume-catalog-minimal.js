@@ -1075,7 +1075,7 @@ window.NederlandseParfumCatalogus = {
       id: "bvlgari_aqva",
       naam: "Aqva Pour Homme",
       merk: "Bvlgari",
-      afbeelding: "https://tryscent.eu/cdn/shop/files/Aqva_Pour_Homme.webp?v=1772377947",
+      afbeelding: "https://tryscent.eu/cdn/shop/files/Bvlgari_Aqva_Pour_Homme.webp?v=1773668789",
       topnoten: ["Mandarijn", "Neroli", "Petitgrain"],
       hartnoten: ["Waternoten", "Salie", "Lavendel"],
       basisnoten: ["Muskus", "Amber", "Ceder"],

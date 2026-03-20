@@ -874,7 +874,7 @@ window.NederlandseParfumCatalogus = {
       id: "ck_one",
       naam: "CK One",
       merk: "Calvin Klein",
-      afbeelding: "https://tryscent.eu/cdn/shop/files/ck_one.webp?v=1773222316",
+      afbeelding: "https://tryscent.eu/cdn/shop/files/CK_One.webp?v=17737184556",
       topnoten: ["Bergamot", "Kardemom", "Citroen", "Ananas", "Mandarijn"],
       hartnoten: ["Jasmijn", "Lelietje-van-dalen", "Roos", "Viooltje"],
       basisnoten: ["Muskus", "Amber", "Eikenmos"],

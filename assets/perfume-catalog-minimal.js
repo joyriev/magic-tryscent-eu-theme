@@ -1420,7 +1420,7 @@ window.NederlandseParfumCatalogus = {
   naomiCampbell: [
     {
       id: "naomi_campbell_signature_056",
-      naam: "Naomi Campbell - No. 056",
+      naam: "Naomi Campbell",
       merk: "Naomi Campbell",
       afbeelding: "https://tryscent.eu/cdn/shop/files/Campbell.webp?v=1773715689",
       topnoten: ["Witte Perzik", "Orchidee", "Pruim"],
@@ -1437,7 +1437,7 @@ window.NederlandseParfumCatalogus = {
   armaniProfumo: [
     {
       id: "giorgio_armani_acqua_di_gio_profumo_296",
-      naam: "Acqua Di Gio Profumo - No. 296",
+      naam: "Acqua Di Gio Profumo",
       merk: "Giorgio Armani",
       afbeelding: "https://tryscent.eu/cdn/shop/files/Acqua_Di_Gio_Profumo.webp?v=1773682488",
       topnoten: ["Bergamot", "Zeewater"],

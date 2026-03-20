@@ -2531,6 +2531,14 @@ window.fcToggleSearch = function() {
       }
     }
     
+    // HARDCODED: Chloé should recommend Mademoiselle 139
+    if (perfumeName.includes('chloé') || perfumeName.includes('chloe')) {
+      const mademoiselle139 = hardcodedProducts.find(p => p.id === 'tryscent-mademoiselle-139');
+      if (mademoiselle139 && mademoiselle139.id !== product.id) {
+        return [mademoiselle139];
+      }
+    }
+    
     // HARDCODED: Chance should recommend Grapefruit Jasmine Musk and Amalfi Coast (citrus)
     if (perfumeName.includes('chance')) {
       const grapefruitMusk = hardcodedProducts.find(p => p.id === 'tryscent-grapefruit-jasmine-musk');

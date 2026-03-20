@@ -570,7 +570,7 @@ window.NederlandseParfumCatalogus = {
       id: "paco_one_million_elixir",
       naam: "1 Million Elixir",
       merk: "Paco Rabanne",
-      afbeelding: "https://tryscent.eu/cdn/shop/files/one_million_elixir.webp?v=1772339894",
+      afbeelding: "https://tryscent.eu/cdn/shop/files/Paco_Rabanne_One_Million_Elixir.webp?v=1773668028",
       topnoten: ["Appel", "Davana"],
       hartnoten: ["Roos", "Osmanthus", "Ceder"],
       basisnoten: ["Vanille", "Tonka", "Patchouli"],

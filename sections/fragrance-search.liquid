@@ -3520,6 +3520,14 @@ window.fcToggleSearch = function() {
       }
     }
     
+    // HARDCODED: For Celine Dion, always show Magic 008 (Dione)
+    if (perfumeName.includes('celine') || perfumeName.includes('dion')) {
+      const magic008 = hardcodedProducts.find(p => p.id === 'tryscent-magic_008');
+      if (magic008) {
+        matchingProduct = magic008;
+      }
+    }
+    
     // HARDCODED: For Chance, always show Grapefruit Jasmine Musk as "Empfohlen"
     if (perfumeName.includes('chance')) {
       const grapefruitMusk = hardcodedProducts.find(p => p.id === 'tryscent-grapefruit-jasmine-musk');

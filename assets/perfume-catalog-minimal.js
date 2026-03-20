@@ -1403,7 +1403,7 @@ window.NederlandseParfumCatalogus = {
     },
     {
       id: "dolce_gabbana_light_blue_intense_195",
-      naam: "Light Blue Eau Intense - No. 195",
+      naam: "Light Blue Eau Intense",
       merk: "Dolce & Gabbana",
       afbeelding: "https://tryscent.eu/cdn/shop/files/Light_Blue_Eau_Intense.webp?v=1773715554",
       topnoten: ["Citroen", "Groene Appel"],

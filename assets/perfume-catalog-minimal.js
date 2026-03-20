@@ -1253,6 +1253,23 @@ window.NederlandseParfumCatalogus = {
     }
   ],
 
+  // ==================== CHLOÉ ====================
+  chloe: [
+    {
+      id: "chloe_signature_024",
+      naam: "Chloé",
+      merk: "Chloé",
+      afbeelding: "https://tryscent.eu/cdn/shop/files/Chloe.webp?v=1773650702",
+      topnoten: ["Pioenroos", "Lychee", "Freesia"],
+      hartnoten: ["Roos", "Lelietje-van-dalen", "Magnolia"],
+      basisnoten: ["Cederhout", "Amber"],
+      beschrijving: "Een frisse, poederige bloemengeur die elegantie en tijdloze vrouwelijkheid uitstraalt. Luchtig, sensueel en verfijnd.",
+      jaar: "2008",
+      geslacht: "Vrouwelijk",
+      productnummers: ["024"]
+    }
+  ],
+
   // ===== ADD INDEX FOR FAST SEARCHING =====
   _index: {}
 };

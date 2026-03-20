@@ -708,7 +708,7 @@ window.NederlandseParfumCatalogus = {
       id: "lancome_la_vie_est_belle",
       naam: "La Vie Est Belle",
       merk: "Lancôme",
-      afbeelding: "https://tryscent.eu/cdn/shop/files/la_vie_est_belle.webp?v=1772339894",
+      afbeelding: "https://tryscent.eu/cdn/shop/files/Lancome_La_Vie_Est_Belle.webp?v=1773636409",
       topnoten: ["Zwarte bes", "Peer", "Sinaasappelbloesem"],
       hartnoten: ["Iris", "Jasmijn", "Sinaasappelbloesem"],
       basisnoten: ["Praliné", "Vanille", "Patchouli", "Tonka"],

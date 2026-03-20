@@ -1096,7 +1096,7 @@ window.NederlandseParfumCatalogus = {
       id: "joop_homme",
       naam: "Joop! Homme",
       merk: "Joop!",
-      afbeelding: "https://tryscent.eu/cdn/shop/files/joop_homme.webp?v=1772339894",
+      afbeelding: "https://tryscent.eu/cdn/shop/files/Joop_Homme.webp?v=1773659267",
       topnoten: ["Kaneel", "Bergamot", "Mandarijn"],
       hartnoten: ["Lelietje-van-dalen", "Jasmijn", "Geranium"],
       basisnoten: ["Sandelhout", "Vanille", "Tonka", "Ceder"],

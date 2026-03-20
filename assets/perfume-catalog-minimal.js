@@ -1339,6 +1339,23 @@ window.NederlandseParfumCatalogus = {
     }
   ],
 
+  // ==================== ARIANA GRANDE ====================
+  arianaGrande: [
+    {
+      id: "ariana_grande_sweet_like_candy",
+      naam: "Sweet Like Candy",
+      merk: "Ariana Grande",
+      afbeelding: "https://tryscent.eu/cdn/shop/files/Sweet_Like_Candy.webp?v=1773677153",
+      topnoten: ["Framboos", "Perzik", "Bergamot", "Peer"],
+      hartnoten: ["Marshmallow", "Jasmijn", "Kashmirhout"],
+      basisnoten: ["Vanille", "Witte Muskus", "Suikerspin"],
+      beschrijving: "Een zoete, speelse en fruitige geur met een romantische, poederige basis. Jeugdig, charmant en onweerstaanbaar.",
+      jaar: "2016",
+      geslacht: "Vrouwelijk",
+      productnummers: ["405"]
+    }
+  ],
+
   // ===== ADD INDEX FOR FAST SEARCHING =====
   _index: {}
 };

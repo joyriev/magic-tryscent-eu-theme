@@ -1372,17 +1372,196 @@ window.NederlandseParfumCatalogus = {
   // ==================== CELINE DION ====================
   celineDion: [
     {
-      id: "celine_dion_signature_008",
-      naam: "Celine Dion",
+      id: "celine_dion_dione_008",
+      naam: "Dione - No. 008",
       merk: "Celine Dion",
       afbeelding: "https://tryscent.eu/cdn/shop/files/Dion.webp?v=1773678386",
       topnoten: ["Freesia", "Witte Peper", "Groene Appel"],
       hartnoten: ["Jasmijn", "Magnolia", "Roos", "Pruim"],
       basisnoten: ["Sandelhout", "Muskus", "Vanille", "Amber"],
-      beschrijving: "Een elegante, vrouwelijke en romantische geur die optimisme en passie uitstraalt. Frisse bloemige opening met een warme, sensuele basis.",
+      beschrijving: "Een elegante, vrouwelijke en romantische geur die optimisme en passie uitstraalt.",
       jaar: "2003",
       geslacht: "Vrouwelijk",
       productnummers: ["008"]
+    }
+  ],
+
+  // ==================== DOLCE & GABBANA (ADDITIONAL) ====================
+  dolceGabbana: [
+    {
+      id: "dolce_gabbana_dolce_435",
+      naam: "Dolce - No. 435",
+      merk: "Dolce & Gabbana",
+      afbeelding: "https://tryscent.eu/cdn/shop/files/Dolce.webp?v=1773716499",
+      topnoten: ["Neroli", "Papaja", "Witte Amaryllis"],
+      hartnoten: ["Witte Waterlelie", "Narcis", "Amarant"],
+      basisnoten: ["Muskus", "Cashmerehout", "Sandelhout"],
+      beschrijving: "Een pure, elegante bloemengeur die de schoonheid van een witte lelie vastlegt. Fris, vrouwelijk en tijdloos.",
+      jaar: "2014",
+      geslacht: "Vrouwelijk",
+      productnummers: ["435"]
+    },
+    {
+      id: "dolce_gabbana_light_blue_intense_195",
+      naam: "Light Blue Eau Intense - No. 195",
+      merk: "Dolce & Gabbana",
+      afbeelding: "https://tryscent.eu/cdn/shop/files/Light_Blue_Eau_Intense.webp?v=1773715554",
+      topnoten: ["Citroen", "Groene Appel"],
+      hartnoten: ["Jasmijn", "Marijn"],
+      basisnoten: ["Amber", "Muskus", "Cederhout"],
+      beschrijving: "Een intense, mediterrane geur die de frisheid van de zee en de zon combineert. Levendig, verleidelijk en onvergetelijk.",
+      jaar: "2017",
+      geslacht: "Vrouwelijk",
+      productnummers: ["195"]
+    }
+  ],
+
+  // ==================== NAOMI CAMPBELL ====================
+  naomiCampbell: [
+    {
+      id: "naomi_campbell_signature_056",
+      naam: "Naomi Campbell - No. 056",
+      merk: "Naomi Campbell",
+      afbeelding: "https://tryscent.eu/cdn/shop/files/Campbell.webp?v=1773715689",
+      topnoten: ["Witte Perzik", "Orchidee", "Pruim"],
+      hartnoten: ["Jasmijn", "Oranjebloesem", "Roos"],
+      basisnoten: ["Sandelhout", "Muskus", "Vanille", "Patchouli"],
+      beschrijving: "Een sensuele, houtige bloemengeur die zelfvertrouwen en glamour uitstraalt. Verleidelijk, krachtig en stijlvol.",
+      jaar: "1999",
+      geslacht: "Vrouwelijk",
+      productnummers: ["056"]
+    }
+  ],
+
+  // ==================== GIORGIO ARMANI (PROFUMO) ====================
+  armaniProfumo: [
+    {
+      id: "giorgio_armani_acqua_di_gio_profumo_296",
+      naam: "Acqua Di Gio Profumo - No. 296",
+      merk: "Giorgio Armani",
+      afbeelding: "https://tryscent.eu/cdn/shop/files/Acqua_Di_Gio_Profumo.webp?v=1773682488",
+      topnoten: ["Bergamot", "Zeewater"],
+      hartnoten: ["Rozemarijn", "Salie", "Geranium"],
+      basisnoten: ["Patchouli", "Wierook", "Cederhout"],
+      beschrijving: "Een intense, maritieme geur met een verfijnd, mysterieus karakter. Verleidelijk, diep en tijdloos.",
+      jaar: "2015",
+      geslacht: "Mannelijk",
+      productnummers: ["296"]
+    }
+  ],
+
+  // ==================== CHANEL ====================
+  chanel: [
+    {
+      id: "chanel_bois_des_iles_459",
+      naam: "Bois des Iles - No. 459",
+      merk: "Chanel",
+      afbeelding: "https://tryscent.eu/cdn/shop/files/Bois_des_Iles.webp?v=1773682203",
+      topnoten: ["Aldehyden", "Perzik", "Bergamot"],
+      hartnoten: ["Jasmijn", "Ylang-Ylang", "Roos"],
+      basisnoten: ["Sandelhout", "Vetiver", "Vanille", "Amber"],
+      beschrijving: "Een tijdloze, houtig-bloemige geur die warmte en elegantie combineert. Verfijnd, sensueel en iconisch.",
+      jaar: "1926",
+      geslacht: "Vrouwelijk",
+      productnummers: ["459"]
+    }
+  ],
+
+  // ==================== DIOR ====================
+  dior: [
+    {
+      id: "dior_dolce_vita_116",
+      naam: "Dolce Vita - No. 116",
+      merk: "Dior",
+      afbeelding: "https://tryscent.eu/cdn/shop/files/Dolce_Vita.webp?v=1773681991",
+      topnoten: ["Roos", "Kaneel", "Perzik"],
+      hartnoten: ["Lelietje-van-dalen", "Kardemom", "Pruim"],
+      basisnoten: ["Vanille", "Sandelhout", "Cederhout"],
+      beschrijving: "Een optimistische, zonnige geur die de zoetheid van het leven viert. Warm, sensueel en vreugdevol.",
+      jaar: "1995",
+      geslacht: "Vrouwelijk",
+      productnummers: ["116"]
+    }
+  ],
+
+  // ==================== PACO RABANNE (ADDITIONAL) ====================
+  pacoRabanne: [
+    {
+      id: "paco_rabanne_olympea_aqua_490",
+      naam: "Olympea Aqua - No. 490",
+      merk: "Paco Rabanne",
+      afbeelding: "https://tryscent.eu/cdn/shop/files/Olympea_Aqua.webp?v=1773681715",
+      topnoten: ["Grapefruit", "Zout", "Waterjasmijn"],
+      hartnoten: ["Jasmijn", "Pioenroos", "Magnolia"],
+      basisnoten: ["Amber", "Vanille", "Sandelhout"],
+      beschrijving: "Een frisse, aquatische interpretatie van de iconische Olympea. Verfrissend, vrouwelijk en krachtig.",
+      jaar: "2017",
+      geslacht: "Vrouwelijk",
+      productnummers: ["490"]
+    },
+    {
+      id: "paco_rabanne_ultraviolet_480",
+      naam: "Ultraviolet - No. 480",
+      merk: "Paco Rabanne",
+      afbeelding: "https://tryscent.eu/cdn/shop/files/Ultraviolet.webp?v=1773681073",
+      topnoten: ["Amandel", "Rozemarijn", "Honing"],
+      hartnoten: ["Orchidee", "Jasmijn", "Balsem"],
+      basisnoten: ["Amber", "Vanille", "Muskus"],
+      beschrijving: "Een futuristische, sensuele geur die elektrische energie en warmte combineert. Modern, verleidelijk en onderscheidend.",
+      jaar: "1999",
+      geslacht: "Vrouwelijk",
+      productnummers: ["480"]
+    }
+  ],
+
+  // ==================== DIESEL ====================
+  diesel: [
+    {
+      id: "diesel_only_the_brave_239",
+      naam: "Only The Brave - No. 239",
+      merk: "Diesel",
+      afbeelding: "https://tryscent.eu/cdn/shop/files/Only_The_Brave.webp?v=1773681580",
+      topnoten: ["Citroen", "Amber", "Honing"],
+      hartnoten: ["Koriander", "Violetblad", "Rozemarijn"],
+      basisnoten: ["Cederhout", "Leer", "Tonkaboon"],
+      beschrijving: "Een krachtige, houtig-kruidige geur voor de moedige man. Stoutmoedig, onderscheidend en vol karakter.",
+      jaar: "2009",
+      geslacht: "Mannelijk",
+      productnummers: ["239"]
+    }
+  ],
+
+  // ==================== CARTIER ====================
+  cartier: [
+    {
+      id: "cartier_la_panthere_421",
+      naam: "La Panthère",
+      merk: "Cartier",
+      afbeelding: "https://tryscent.eu/cdn/shop/files/La_Panthere.webp?v=1773681285",
+      topnoten: ["Bergamot", "Rabarber", "Aardbei"],
+      hartnoten: ["Gardenia", "Jasmijn", "Ylang-Ylang"],
+      basisnoten: ["Patchouli", "Muskus", "Eikenmos"],
+      beschrijving: "Een wilde, bloemige chypre-geur die de kracht van een panter belichaamt. Dierlijk, elegant en ongetemd.",
+      jaar: "2014",
+      geslacht: "Vrouwelijk",
+      productnummers: ["421"]
+    }
+  ],
+
+  // ==================== GUERLAIN ====================
+  guerlain: [
+    {
+      id: "guerlain_l_homme_ideal_319",
+      naam: "L'Homme Idéal - No. 319",
+      merk: "Guerlain",
+      afbeelding: "https://tryscent.eu/cdn/shop/files/L_Homme_Ideal.webp?v=1773679544",
+      topnoten: ["Amandel", "Citroen", "Rozemarijn"],
+      hartnoten: ["Jasmijn", "Cederhout", "Tonkaboon"],
+      basisnoten: ["Vetiver", "Vanille", "Leer"],
+      beschrijving: "Een moderne, aromatisch-houtige geur voor de ideale man. Elegant, verleidelijk en verfijnd.",
+      jaar: "2014",
+      geslacht: "Mannelijk",
+      productnummers: ["319"]
     }
   ],
 

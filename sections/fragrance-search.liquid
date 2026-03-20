@@ -2762,7 +2762,7 @@ window.fcToggleSearch = function() {
     }
     
     // HARDCODED: Celine Dion (008) should recommend Chloé (Magic 024)
-    if (product.number === '008' || product.id === 'tryscent-magic_008') {
+    if ((product.number === '008' || product.id === 'tryscent-magic_008') || (perfumeName.includes('celine') && perfumeName.includes('dion'))) {
       const chloe = hardcodedProducts.find(p => p.id === 'tryscent-magic_024');
       if (chloe && chloe.id !== product.id) {
         return [chloe];

@@ -2677,6 +2677,14 @@ window.fcToggleSearch = function() {
       }
     }
     
+    // HARDCODED: Emporio Armani Diamonds should recommend Armani Diamonds (Magic 040)
+    if (perfumeName.includes('diamonds') && (perfumeName.includes('emporio') || perfumeName.includes('armani'))) {
+      const diamonds = hardcodedProducts.find(p => p.id === 'tryscent-magic_040');
+      if (diamonds && diamonds.id !== product.id) {
+        return [diamonds];
+      }
+    }
+    
     // HARDCODED: Terra di Gioia should recommend Magic product 436 and other Armani products
     if (perfumeName.includes('terra di gioia') || (perfumeName.includes('terra') && perfumeName.includes('gioia'))) {
       const magic436 = hardcodedProducts.find(p => p.id === 'tryscent-magic_436');

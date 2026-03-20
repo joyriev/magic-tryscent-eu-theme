@@ -721,7 +721,7 @@ window.NederlandseParfumCatalogus = {
       id: "lancome_tresor",
       naam: "Trésor",
       merk: "Lancôme",
-      afbeelding: "https://tryscent.eu/cdn/shop/files/tresor.webp?v=1772339894",
+      afbeelding: "https://tryscent.eu/cdn/shop/files/Lancome_Tresor.webp?v=1773651547",
       topnoten: ["Perzik", "Abrikoos", "Roos"],
       hartnoten: ["Lelietje-van-dalen", "Jasmijn", "Iris"],
       basisnoten: ["Vanille", "Sandelhout", "Muskus"],

@@ -2629,6 +2629,14 @@ window.fcToggleSearch = function() {
       }
     }
     
+    // HARDCODED: Black Opium should recommend Opium (Magic 083)
+    if (perfumeName.includes('black opium')) {
+      const opium = hardcodedProducts.find(p => p.id === 'tryscent-magic_083');
+      if (opium && opium.id !== product.id) {
+        return [opium];
+      }
+    }
+    
     // HARDCODED: La Nuit de L'Homme should recommend Emporio He (Magic 242)
     if (perfumeName.includes('la nuit') || perfumeName.includes('nuit')) {
       const emporio = hardcodedProducts.find(p => p.id === 'tryscent-magic_242');

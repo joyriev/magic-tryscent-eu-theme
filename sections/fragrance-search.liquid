@@ -1939,7 +1939,7 @@ window.fcToggleSearch = function() {
       url: "https://tryscent.eu/products/magic-perfume-no-017w?variant=47831295328515",
       price: 1199,
       brand: "Lancome",
-      brandKey: "Lancome",
+      brandKey: "lancome",
       number: "017",
       gender: "female",
       searchTerms: ["light blue", "017", "Lancome", "lancome", "citrus", "fruity", "floral", "sicilian lemon", "apple", "jasmine", "musk", "amber", "cedar", "riecht wie"]
@@ -2419,6 +2419,16 @@ window.fcToggleSearch = function() {
     
     console.log('🔍 Suche nach passendem Produkt für:', perfume.naam || perfume.name);
     
+    // HARDCODED: Light Blue (017) from Lancôme → Magic 017
+    const perfumeName = (perfume.naam || perfume.name || '').toLowerCase();
+    if (perfumeName.includes('light blue') && (perfume.merk || perfume.brand || '').toLowerCase().includes('lancome')) {
+      const magic017 = hardcodedProducts.find(p => p.id === 'tryscent-magic_017');
+      if (magic017) {
+        console.log('✅ Light Blue gefunden:', magic017.title);
+        return magic017;
+      }
+    }
+    
     // Try to find by product number
     if (perfume.productnummers && perfume.productnummers.length > 0) {
       for (const num of perfume.productnummers) {
@@ -2655,7 +2665,7 @@ window.fcToggleSearch = function() {
     // HARDCODED: Light Blue (017) → Other Lancôme products matching gender
     if (perfumeName.includes('light blue')) {
       const otherLancome = hardcodedProducts.filter(p => 
-        p.brandKey === 'lancome' && 
+        (p.brandKey && p.brandKey.toLowerCase() === 'lancome') && 
         p.id !== product.id && 
         p.gender === product.gender
       );
@@ -2664,9 +2674,10 @@ window.fcToggleSearch = function() {
       }
     }
     
-    // Get other products from same brand
+    // Get other products from same brand (case-insensitive)
+    const productBrandLower = product.brandKey ? product.brandKey.toLowerCase() : '';
     const sameBrandProducts = hardcodedProducts.filter(p => 
-      p.brandKey === product.brandKey && 
+      (p.brandKey && p.brandKey.toLowerCase()) === productBrandLower && 
       p.id !== product.id
     );
     

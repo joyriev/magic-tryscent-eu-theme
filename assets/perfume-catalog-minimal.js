@@ -725,6 +725,19 @@ window.NederlandseParfumCatalogus = {
       jaar: "2003",
       geslacht: "Vrouwelijk",
       productnummers: ["148"]
+    },
+    {
+      id: "hugo_boss_energise",
+      naam: "Energise",
+      merk: "Hugo Boss",
+      afbeelding: "https://tryscent.eu/cdn/shop/files/Hugo_Energise.webp?v=1773677564",
+      topnoten: ["Grapefruit", "Koriander", "Munt"],
+      hartnoten: ["Jasmijn", "Kardemom", "Kaneel"],
+      basisnoten: ["Vetiver", "Cederhout", "Muskus", "Amber"],
+      beschrijving: "Een dynamische, verfrissende geur die energie en vitaliteit uitstraalt. Perfect voor de actieve, moderne man die het leven met volle overgave leeft.",
+      jaar: "2008",
+      geslacht: "Mannelijk",
+      productnummers: ["254"]
     }
   ],
 

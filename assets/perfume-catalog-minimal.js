@@ -779,7 +779,7 @@ window.NederlandseParfumCatalogus = {
       id: "carolina_very_good_girl",
       naam: "Very Good Girl",
       merk: "Carolina Herrera",
-      afbeelding: "https://tryscent.eu/cdn/shop/files/Very_Good_Girl.webp?v=1772374019",
+      afbeelding: "https://tryscent.eu/cdn/shop/files/Carolina_Herrera_Very_Good_Girl.webp?v=1773661917",
       topnoten: ["Framboos", "Zwarte bes", "Lychee"],
       hartnoten: ["Roos", "Tuberoos", "Sinaasappelbloesem"],
       basisnoten: ["Vanille", "Tonka", "Ceder"],
@@ -985,6 +985,19 @@ window.NederlandseParfumCatalogus = {
       jaar: "2022",
       geslacht: "Vrouwelijk",
       productnummers: ["437"]
+    },
+    {
+      id: "prada_candy",
+      naam: "Candy",
+      merk: "Prada",
+      afbeelding: "https://tryscent.eu/cdn/shop/files/Prada_Candy.avif?v=1773659409",
+      topnoten: ["Karamel"],
+      hartnoten: ["Poederachtige noten"],
+      basisnoten: ["Vanille", "Benzoe", "Muskus"],
+      beschrijving: "Een verslavend zoete, warme en poederige geur die elegantie en speelse vrouwelijkheid combineert.",
+      jaar: "2011",
+      geslacht: "Vrouwelijk",
+      productnummers: ["182"]
     }
   ],
 

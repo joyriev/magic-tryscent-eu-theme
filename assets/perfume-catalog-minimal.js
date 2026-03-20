@@ -1054,7 +1054,7 @@ window.NederlandseParfumCatalogus = {
       id: "givenchy_ange_ou_demon",
       naam: "Ange ou Démon",
       merk: "Givenchy",
-      afbeelding: "https://tryscent.eu/cdn/shop/files/Ange_Ou_Demon.webp?v=1772419470",
+      afbeelding: "https://tryscent.eu/cdn/shop/files/GIVENCHY_ANGE_OU_DEMON.webp?v=1773674957",
       topnoten: ["Saffraan", "Ylang-Ylang", "Lelie"],
       hartnoten: ["Roos", "Jasmijn", "Sinaasappelbloesem"],
       basisnoten: ["Vanille", "Sandelhout", "Patchouli"],

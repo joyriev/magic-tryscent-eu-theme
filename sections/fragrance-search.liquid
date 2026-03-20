@@ -2573,8 +2573,16 @@ window.fcToggleSearch = function() {
       }
     }
     
+    // HARDCODED: Terre d'Hermès should recommend Euphoria Men (Magic 204)
+    if (perfumeName.includes('terre') && (perfumeName.includes('hermès') || perfumeName.includes('hermes'))) {
+      const euphoriaMen = hardcodedProducts.find(p => p.id === 'tryscent-magic_204');
+      if (euphoriaMen && euphoriaMen.id !== product.id) {
+        return [euphoriaMen];
+      }
+    }
+    
     // HARDCODED: Terra di Gioia should recommend Magic product 436 and other Armani products
-    if (perfumeName.includes('terra di gioia') || perfumeName.includes('terra')) {
+    if (perfumeName.includes('terra di gioia') || (perfumeName.includes('terra') && perfumeName.includes('gioia'))) {
       const magic436 = hardcodedProducts.find(p => p.id === 'tryscent-magic_436');
       const otherArmani = hardcodedProducts.filter(p => p.brandKey === 'armani' && p.id !== product.id && p.id !== 'tryscent-magic_436');
       const recommendations = [];

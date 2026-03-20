@@ -1369,6 +1369,23 @@ window.NederlandseParfumCatalogus = {
     }
   ],
 
+  // ==================== CELINE DION ====================
+  celineDion: [
+    {
+      id: "celine_dion_signature_008",
+      naam: "Celine Dion",
+      merk: "Celine Dion",
+      afbeelding: "https://tryscent.eu/cdn/shop/files/Dion.webp?v=1773678386",
+      topnoten: ["Freesia", "Witte Peper", "Groene Appel"],
+      hartnoten: ["Jasmijn", "Magnolia", "Roos", "Pruim"],
+      basisnoten: ["Sandelhout", "Muskus", "Vanille", "Amber"],
+      beschrijving: "Een elegante, vrouwelijke en romantische geur die optimisme en passie uitstraalt. Frisse bloemige opening met een warme, sensuele basis.",
+      jaar: "2003",
+      geslacht: "Vrouwelijk",
+      productnummers: ["008"]
+    }
+  ],
+
   // ===== ADD INDEX FOR FAST SEARCHING =====
   _index: {}
 };

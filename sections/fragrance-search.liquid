@@ -2677,6 +2677,14 @@ window.fcToggleSearch = function() {
       }
     }
     
+    // HARDCODED: Ange ou Démon should recommend Candy (Magic 182)
+    if (perfumeName.includes('ange') || perfumeName.includes('démon') || perfumeName.includes('demon')) {
+      const candy = hardcodedProducts.find(p => p.id === 'tryscent-magic_182');
+      if (candy && candy.id !== product.id) {
+        return [candy];
+      }
+    }
+    
     // HARDCODED: Terra di Gioia should recommend Magic product 436 and other Armani products
     if (perfumeName.includes('terra di gioia') || (perfumeName.includes('terra') && perfumeName.includes('gioia'))) {
       const magic436 = hardcodedProducts.find(p => p.id === 'tryscent-magic_436');

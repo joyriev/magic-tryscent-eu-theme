@@ -1488,7 +1488,7 @@ window.NederlandseParfumCatalogus = {
   pacoRabanne: [
     {
       id: "paco_rabanne_olympea_aqua_490",
-      naam: "Olympea Aqua - No. 490",
+      naam: "Olympea Aqua",
       merk: "Paco Rabanne",
       afbeelding: "https://tryscent.eu/cdn/shop/files/Olympea_Aqua.webp?v=1773681715",
       topnoten: ["Grapefruit", "Zout", "Waterjasmijn"],

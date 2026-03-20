@@ -2698,7 +2698,7 @@ window.fcToggleSearch = function() {
     }
     
     // HARDCODED: Q (340) should recommend Light Blue (Magic 017)
-    if (perfume && perfume.productnummers && perfume.productnummers.includes('340')) {
+    if (product.number === '340' || product.id === 'tryscent-magic_340') {
       const lightBlue = hardcodedProducts.find(p => p.id === 'tryscent-magic_017');
       if (lightBlue && lightBlue.id !== product.id) {
         return [lightBlue];

@@ -620,7 +620,7 @@ window.NederlandseParfumCatalogus = {
     },
     {
       id: "paco_rabanne_fame_498",
-      naam: "Fame - No. 498",
+      naam: "Fame",
       merk: "Paco Rabanne",
       afbeelding: "https://via.placeholder.com/300x300?text=Fame+No.+498",
       topnoten: ["Mango", "Bergamot"],

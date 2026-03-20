@@ -2418,14 +2418,29 @@ window.fcToggleSearch = function() {
     if (!perfume) return null;
     
     console.log('🔍 Suche nach passendem Produkt für:', perfume.naam || perfume.name);
+    console.log('📋 Perfume ID:', perfume.id);
+    console.log('📋 Perfume Merk:', perfume.merk || perfume.brand);
     
-    // HARDCODED: Light Blue (017) from Lancôme → Magic 017
-    const perfumeName = (perfume.naam || perfume.name || '').toLowerCase();
-    if (perfumeName.includes('light blue') && (perfume.merk || perfume.brand || '').toLowerCase().includes('lancome')) {
+    // HARDCODED: Light Blue (017) from Lancôme → Magic 017 (check by ID first)
+    if (perfume.id === 'lancome_light_blue') {
       const magic017 = hardcodedProducts.find(p => p.id === 'tryscent-magic_017');
       if (magic017) {
-        console.log('✅ Light Blue gefunden:', magic017.title);
+        console.log('✅ Light Blue gefunden via ID:', magic017.title);
         return magic017;
+      }
+    }
+    
+    // HARDCODED: Light Blue (017) from Lancôme → Magic 017 (by name)
+    const perfumeName = (perfume.naam || perfume.name || '').toLowerCase();
+    if (perfumeName.includes('light blue')) {
+      const brandName = (perfume.merk || perfume.brand || '').toLowerCase();
+      console.log('🔎 Light Blue gefunden, Brand check:', brandName);
+      if (brandName.includes('lancome') || brandName === 'lancôme') {
+        const magic017 = hardcodedProducts.find(p => p.id === 'tryscent-magic_017');
+        if (magic017) {
+          console.log('✅ Light Blue gefunden via name:', magic017.title);
+          return magic017;
+        }
       }
     }
     
@@ -3254,8 +3269,18 @@ window.fcToggleSearch = function() {
     // Find matching product
     let matchingProduct = findMatchingProduct(perfume);
     
-    // HARDCODED: For Chance, always show Grapefruit Jasmine Musk as "Empfohlen"
+    // HARDCODED OVERRIDES
     const perfumeName = (perfume.naam || perfume.name || '').toLowerCase();
+    
+    // HARDCODED: For Light Blue (017), always show Magic 017
+    if (perfumeName.includes('light blue')) {
+      const magic017 = hardcodedProducts.find(p => p.id === 'tryscent-magic_017');
+      if (magic017) {
+        matchingProduct = magic017;
+      }
+    }
+    
+    // HARDCODED: For Chance, always show Grapefruit Jasmine Musk as "Empfohlen"
     if (perfumeName.includes('chance')) {
       const grapefruitMusk = hardcodedProducts.find(p => p.id === 'tryscent-grapefruit-jasmine-musk');
       if (grapefruitMusk) {

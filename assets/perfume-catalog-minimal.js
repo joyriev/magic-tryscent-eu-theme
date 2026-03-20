@@ -557,7 +557,7 @@ window.NederlandseParfumCatalogus = {
       id: "paco_one_million",
       naam: "1 Million",
       merk: "Paco Rabanne",
-      afbeelding: "https://tryscent.eu/cdn/shop/files/Paco_Rabanne_One_Million.avif?v=1762632686",
+      afbeelding: "https://tryscent.eu/cdn/shop/files/Paco_Rabanne_One_Million.webp?v=1773638882",
       topnoten: ["Grapefruit", "Munt", "Mandarijn"],
       hartnoten: ["Kaneel", "Roos", "Specerijen"],
       basisnoten: ["Leer", "Amber", "Patchouli"],

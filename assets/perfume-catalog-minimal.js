@@ -501,7 +501,7 @@ window.NederlandseParfumCatalogus = {
       id: "jpg_ultra_male",
       naam: "Ultra Male",
       merk: "Jean Paul Gaultier",
-      afbeelding: "https://tryscent.eu/cdn/shop/files/ultra_male.webp?v=1772339894",
+      afbeelding: "https://tryscent.eu/cdn/shop/files/Jean_Paul_Gaultier_Ultra_Male.webp?v=1773657808",
       topnoten: ["Peer", "Munt", "Lavendel"],
       hartnoten: ["Kaneel", "Salie", "Muskaatsalie"],
       basisnoten: ["Vanille", "Amber", "Houtnoten"],

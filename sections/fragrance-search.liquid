@@ -1909,6 +1909,18 @@ window.fcToggleSearch = function() {
       searchTerms: ["tresor", "141", "lancome", "riecht wie"]
     },
     {
+      id: "tryscent-magic_098",
+      title: "Riecht wie... ALIVE - No. 098",
+      image: "https://cdn.shopify.com/s/files/1/0762/7662/9763/files/098W_c.webp?v=1773222383",
+      url: "https://tryscent.eu/products/magic-perfume-no-021w?variant=47831290839299",
+      price: 1199,
+      brand: "Hugo Boss",
+      brandKey: "hugo-boss",
+      number: "098",
+      gender: "female",
+      searchTerms: ["alive", "098", "hugo boss", "boss", "fruity", "woody", "spicy", "plum", "blackcurrant", "jasmine", "vanilla", "cedar", "sandalwood", "riecht wie"]
+    },
+    {
       id: "tryscent-magic_162",
       title: "Riecht wie... Flora - Nr. 162",
       image: "https://cdn.shopify.com/s/files/1/0762/7662/9763/files/162W_c.webp?v=1773222316",
@@ -3313,6 +3325,14 @@ window.fcToggleSearch = function() {
       const magic024 = hardcodedProducts.find(p => p.id === 'tryscent-magic_024');
       if (magic024) {
         matchingProduct = magic024;
+      }
+    }
+    
+    // HARDCODED: For Alive (098), always show Magic 098
+    if (perfumeName.includes('alive')) {
+      const magic098 = hardcodedProducts.find(p => p.id === 'tryscent-magic_098');
+      if (magic098) {
+        matchingProduct = magic098;
       }
     }
     

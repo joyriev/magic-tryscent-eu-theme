@@ -1471,7 +1471,7 @@ window.NederlandseParfumCatalogus = {
   dior: [
     {
       id: "dior_dolce_vita_116",
-      naam: "Dolce Vita - No. 116",
+      naam: "Dolce Vita",
       merk: "Dior",
       afbeelding: "https://tryscent.eu/cdn/shop/files/Dolce_Vita.webp?v=1773681991",
       topnoten: ["Roos", "Kaneel", "Perzik"],

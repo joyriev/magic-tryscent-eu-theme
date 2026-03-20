@@ -750,7 +750,7 @@ window.NederlandseParfumCatalogus = {
     {
       id: "dolce_light_blue",
       naam: "Light Blue",
-      merk: "Dolce & Gabbana",
+      merk: "Lancome La Vie Est Belle",
       afbeelding: "https://tryscent.eu/cdn/shop/files/208671-2.jpg?v=1772256825",
       topnoten: ["Siciliaanse citroen", "Appel", "Ceder"],
       hartnoten: ["Jasmijn", "Witte roos", "Bamboe"],

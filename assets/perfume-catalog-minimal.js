@@ -1100,6 +1100,19 @@ window.NederlandseParfumCatalogus = {
       jaar: "1988",
       geslacht: "Mannelijk",
       productnummers: ["200"]
+    },
+    {
+      id: "davidoff_adventure",
+      naam: "Adventure",
+      merk: "Davidoff",
+      afbeelding: "https://cdn.shopify.com/s/files/1/0762/7662/9763/files/213Mc.webp?v=1773222293",
+      topnoten: ["Mandarijn", "Citroen", "Bergamot"],
+      hartnoten: ["Thee", "Pimento", "Mate"],
+      basisnoten: ["Vetiver", "Ceder", "Muskus"],
+      beschrijving: "Een avontuurlijke en aromatische geur met houtachtige noten.",
+      jaar: "2004",
+      geslacht: "Mannelijk",
+      productnummers: ["213"]
     }
   ],
 

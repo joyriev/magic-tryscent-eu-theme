@@ -1945,6 +1945,18 @@ window.fcToggleSearch = function() {
       searchTerms: ["light blue", "017", "Lancome", "lancome", "citrus", "fruity", "floral", "sicilian lemon", "apple", "jasmine", "musk", "amber", "cedar", "riecht wie"]
     },
     {
+      id: "tryscent-magic_024",
+      title: "Riecht wie... ÄQUIVALENT - No. 024",
+      image: "https://cdn.shopify.com/s/files/1/0762/7662/9763/files/024W_c.webp?v=1773222403",
+      url: "https://tryscent.eu/products/magic-perfume-no-024w?variant=47831291953411",
+      price: 1199,
+      brand: "Chloé",
+      brandKey: "chloe",
+      number: "024",
+      gender: "female",
+      searchTerms: ["chloe", "024", "chloé", "equivalent", "floral", "oriental", "rose", "peony", "freesia", "lily of the valley", "magnolia", "cedar", "musk", "riecht wie"]
+    },
+    {
       id: "tryscent-magic_404",
       title: "Riecht wie... Very Good Girl - Nr. 404",
       image: "https://cdn.shopify.com/s/files/1/0762/7662/9763/files/404W_c.webp?v=1773222354",
@@ -3277,6 +3289,14 @@ window.fcToggleSearch = function() {
       const magic017 = hardcodedProducts.find(p => p.id === 'tryscent-magic_017');
       if (magic017) {
         matchingProduct = magic017;
+      }
+    }
+    
+    // HARDCODED: For Chloé (024), always show Magic 024
+    if (perfumeName.includes('chloé') || perfumeName.includes('chloe')) {
+      const magic024 = hardcodedProducts.find(p => p.id === 'tryscent-magic_024');
+      if (magic024) {
+        matchingProduct = magic024;
       }
     }
     

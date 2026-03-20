@@ -1454,7 +1454,7 @@ window.NederlandseParfumCatalogus = {
   chanel: [
     {
       id: "chanel_bois_des_iles_459",
-      naam: "Bois des Iles - No. 459",
+      naam: "Bois des Iles",
       merk: "Chanel",
       afbeelding: "https://tryscent.eu/cdn/shop/files/Bois_des_Iles.webp?v=1773682203",
       topnoten: ["Aldehyden", "Perzik", "Bergamot"],

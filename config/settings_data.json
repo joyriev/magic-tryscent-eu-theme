@@ -141,12 +141,16 @@
         "settings": {
           "color_scheme": "scheme-3"
         }
+      },
+      "fragrance-search": {
+        "type": "fragrance-search",
+        "settings": {}
       }
     },
     "content_for_index": [],
     "blocks": {
-      "16865981829950876834": {
-        "type": "shopify://apps/icart-cart-drawer-cart-upsell/blocks/icart-block/e651bbc2-5760-47d8-a513-2aa6ee3a9aa7",
+      "14952540001915115444": {
+        "type": "shopify://apps/upcart-cart-drawer/blocks/app-embed/af3da5fb-f5f7-40ec-8273-41bf50059d4b",
         "disabled": false,
         "settings": {}
       }

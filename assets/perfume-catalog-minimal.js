@@ -115,7 +115,7 @@ window.NederlandseParfumCatalogus = {
       id: "tom_ford_mandarino_di_amalfi",
       naam: "Mandarino di Amalfi",
       merk: "Tom Ford",
-      afbeelding: "https://tryscent.eu/cdn/shop/files/mandarino_di_amalfi.webp?v=1772339894",
+      afbeelding: "https://fimgs.net/mdimg/perfume-thumbs/dark-375x500.25481.2x.avif",
       topnoten: ["Mandarijn", "Citroen", "Bergamot"],
       hartnoten: ["Munt", "Basilicum", "Gember"],
       basisnoten: ["Amber", "Muskus", "Ceder"],

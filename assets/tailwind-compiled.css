@@ -280,6 +280,10 @@
     margin-top: auto
 }
 
+.mt-3 {
+    margin-top: 12px
+}
+
 .line-clamp-1 {
     overflow: hidden;
     display: -webkit-box;
@@ -645,6 +649,11 @@
     gap: 5px
 }
 
+.gap-x-3 {
+    -moz-column-gap: 12px;
+         column-gap: 12px
+}
+
 .gap-x-4 {
     -moz-column-gap: 16px;
          column-gap: 16px
@@ -652,11 +661,6 @@
 
 .gap-y-4 {
     row-gap: 16px
-}
-
-.gap-x-3 {
-    -moz-column-gap: 12px;
-         column-gap: 12px
 }
 
 .space-y-1 > :not([hidden]) ~ :not([hidden]) {
@@ -824,11 +828,6 @@
 .border-green-500 {
     --tw-border-opacity: 1;
     border-color: rgb(34 197 94 / var(--tw-border-opacity, 1))
-}
-
-.border-green-700 {
-    --tw-border-opacity: 1;
-    border-color: rgb(21 128 61 / var(--tw-border-opacity, 1))
 }
 
 .border-red-500 {

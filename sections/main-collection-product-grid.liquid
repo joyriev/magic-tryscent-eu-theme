@@ -196,6 +196,15 @@
                         {{ product.title }}
                       </a>
                     </h3>
+                    {% if product.metafields.custom.inspired_by != blank %}
+                      <div class="flex items-center gap-2 mt-3">
+                        <img class="object-contain object-center" src="{{ product.metafields.custom.inspired_by.value.image |  image_url }}" alt="{{ product.metafields.custom.inspired_by.value.image.alt | escape }}" width="35" height="35">
+                        <div>
+                          <p class="text-xs my-0">Inspiriert von:</p>
+                          <h4 class="text-sm font-semibold my-0 line-clamp-1">{{ product.metafields.custom.inspired_by.value.name }}</h4>
+                        </div>
+                      </div>
+                    {% endif %}
                     <div class="my-3">
                       {%- render 'price'
                         , product: product

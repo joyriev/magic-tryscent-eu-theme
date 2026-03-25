@@ -311,7 +311,7 @@
           "settings": {
             "heading": "Unterscheidet sich der inspirierte Duft?",
             "icon": "none",
-            "row_content": "<p>Nein, dieser Duft ist eine perfekte Ergänzung mit dem gleichen Duft.</p>",
+            "row_content": "<p>Nein, dieser Duft gehört zur gleichen Duftfamilie und ist dem Original sehr ähnlich</p>",
             "page": ""
           }
         },

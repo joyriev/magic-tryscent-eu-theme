@@ -291,7 +291,7 @@
         "collapsible_row_rCVDnP": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Ist es ein parfümiertes Wasser?",
+            "heading": "Es ist ein Eau de Parfum mit bis zu 19% Duftöl-Konzentration?",
             "icon": "none",
             "row_content": "<p>Ja, es ist ein parfümiertes Wasser – es enthält bis zu 19 % Essenz. Eau de Toilette zum Beispiel hat zwischen 5 und 8 % und die Essenz liegt bei 41 % aufwärts.</p>",
             "page": ""

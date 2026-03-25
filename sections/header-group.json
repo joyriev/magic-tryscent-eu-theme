@@ -83,7 +83,7 @@
       "settings": {
         "background_color": "#157780",
         "forground_color": "#15801f",
-        "prepend_text": "Zahltagsverkauf",
+        "prepend_text": "Sonderangebot",
         "ends_in_minutes": 300,
         "append_text": "3 kaufen – 1 gratis",
         "link": ""

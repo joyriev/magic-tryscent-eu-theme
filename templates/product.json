@@ -410,7 +410,7 @@
           "settings": {
             "content": "<p>\"Dies ist mein erster Einkauf und ich bin begeistert. Ich werde nie wieder woanders Parfüm kaufen. Ich konnte nie einen Duft-Dupe finden, der wirklich authentisch und konsistent roch.\"</p>",
             "author": "Killian P.",
-            "date": "1 day ago",
+            "date": "vor 1 Tag",
             "rating": 5,
             "show_verified_badge": true,
             "product": ""
@@ -476,7 +476,7 @@
           "settings": {
             "content": "<p>\"Ich liiiebe diese Parfüms!!! Jedes einzelne, das ich bekommen habe, riecht göttlich. Einige würde ich sagen sind besser als das Original.\"</p>",
             "author": "Christine N.",
-            "date": "5 days ago",
+            "date": "vor 5 Tagen",
             "rating": 4,
             "show_verified_badge": false,
             "product": ""

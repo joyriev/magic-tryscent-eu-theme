@@ -1,6 +1,16 @@
 {% liquid
   assign product_form_id = 'product-form-' | append: section.id
+
   assign selected_variant = product.selected_or_first_available_variant
+
+  for variant in product.variants
+    assign variant_title_down = variant.title | downcase
+
+    if variant_title_down contains '50'
+      assign selected_variant = variant
+      break
+    endif
+  endfor
 %}
 
 

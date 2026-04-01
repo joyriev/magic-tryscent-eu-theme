@@ -43,6 +43,12 @@
             "show_gift_card_recipient": true
           }
         },
+        "custom_liquid_nLrh7P": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% render 'pre-atc-blocks' %}"
+          }
+        },
         "text_668gJC": {
           "type": "text",
           "settings": {
@@ -206,6 +212,7 @@
         "price_MG94AW",
         "variant_picker_hH3Diz",
         "buy_buttons_eXWBwX",
+        "custom_liquid_nLrh7P",
         "text_668gJC",
         "reactive_atc_LBDQE9",
         "custom_liquid_QcxgR4",

@@ -57,6 +57,10 @@
     top: -100%
 }
 
+.bottom-0 {
+    bottom: 0px
+}
+
 .bottom-1 {
     bottom: 4px
 }
@@ -75,6 +79,10 @@
 
 .left-4 {
     left: 16px
+}
+
+.right-0 {
+    right: 0px
 }
 
 .right-1 {
@@ -103,14 +111,6 @@
 
 .top-3 {
     top: 12px
-}
-
-.bottom-0 {
-    bottom: 0px
-}
-
-.right-0 {
-    right: 0px
 }
 
 .isolate {
@@ -276,6 +276,10 @@
     margin-top: 8px
 }
 
+.mt-3 {
+    margin-top: 12px
+}
+
 .mt-4 {
     margin-top: 16px
 }
@@ -286,10 +290,6 @@
 
 .mt-auto {
     margin-top: auto
-}
-
-.mt-3 {
-    margin-top: 12px
 }
 
 .line-clamp-1 {
@@ -367,6 +367,11 @@
     height: 48px
 }
 
+.size-14 {
+    width: 56px;
+    height: 56px
+}
+
 .size-4 {
     width: 16px;
     height: 16px
@@ -390,11 +395,6 @@
 .size-\[60px\] {
     width: 60px;
     height: 60px
-}
-
-.size-14 {
-    width: 56px;
-    height: 56px
 }
 
 .\!h-8 {
@@ -773,6 +773,10 @@
     border-left-width: 1px
 }
 
+.border-l-2 {
+    border-left-width: 2px
+}
+
 .border-r-2 {
     border-right-width: 2px
 }
@@ -787,10 +791,6 @@
 
 .border-t-2 {
     border-top-width: 2px
-}
-
-.border-l-2 {
-    border-left-width: 2px
 }
 
 .border-solid {
@@ -1106,6 +1106,11 @@
     padding-right: 24px
 }
 
+.px-8 {
+    padding-left: 32px;
+    padding-right: 32px
+}
+
 .py-0\.5 {
     padding-top: 2px;
     padding-bottom: 2px
@@ -1154,11 +1159,6 @@
 .py-8 {
     padding-top: 32px;
     padding-bottom: 32px
-}
-
-.px-8 {
-    padding-left: 32px;
-    padding-right: 32px
 }
 
 .\!pb-3 {
@@ -1223,14 +1223,6 @@
 
 .pt-8 {
     padding-top: 32px
-}
-
-.pb-\[95px\] {
-    padding-bottom: 95px
-}
-
-.pt-4 {
-    padding-top: 16px
 }
 
 .text-left {
@@ -1538,6 +1530,12 @@
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)
 }
 
+.shadow-\[0_0_20px_5px_rgba\(0\2c 0\2c 0\2c 0\.1\)\] {
+    --tw-shadow: 0 0 20px 5px rgba(0,0,0,0.1);
+    --tw-shadow-colored: 0 0 20px 5px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)
+}
+
 .shadow-\[0_8px_30px_rgba\(239\2c 68\2c 68\2c 0\.15\)\] {
     --tw-shadow: 0 8px 30px rgba(239,68,68,0.15);
     --tw-shadow-colored: 0 8px 30px var(--tw-shadow-color);
@@ -1571,12 +1569,6 @@
 .shadow-xl {
     --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
     --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
-    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)
-}
-
-.shadow-\[0_0_20px_5px_rgba\(0\2c 0\2c 0\2c 0\.1\)\] {
-    --tw-shadow: 0 0 20px 5px rgba(0,0,0,0.1);
-    --tw-shadow-colored: 0 0 20px 5px var(--tw-shadow-color);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)
 }
 
@@ -1793,12 +1785,12 @@
         width: calc(25% - 12px)
     }
 
-    .md\:w-full {
-        width: 100%
-    }
-
     .md\:w-auto {
         width: auto
+    }
+
+    .md\:w-full {
+        width: 100%
     }
 
     .md\:scale-105 {
@@ -1884,10 +1876,6 @@
     .md\:py-20 {
         padding-top: 80px;
         padding-bottom: 80px
-    }
-
-    .md\:pb-4 {
-        padding-bottom: 16px
     }
 
     .md\:text-left {

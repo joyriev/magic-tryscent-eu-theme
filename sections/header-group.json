@@ -36,6 +36,7 @@
         },
         "text_39tt9p": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "MADE IN THE EU"
           }
@@ -43,17 +44,19 @@
         "text_DiPtyi": {
           "type": "text",
           "settings": {
-            "text": "FREE SHIPPING $65"
+            "text": "Kostenlose Lieferung ab €50"
           }
         },
         "text_7Mhc9j": {
           "type": "text",
+          "disabled": true,
           "settings": {
-            "text": "60-DAY GUARANTEE"
+            "text": "60-TAGE-GELD-ZURÜCK-GARANTIE"
           }
         },
         "text_QD7JEH": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "SAFE & SECURE CHECKOUT"
           }
@@ -66,7 +69,6 @@
         "text_7Mhc9j",
         "text_QD7JEH"
       ],
-      "disabled": true,
       "settings": {
         "text_size": "1.5",
         "background_color": "#000000",

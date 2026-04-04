@@ -22,8 +22,8 @@
       "name": "Homepage Hero",
       "settings": {
         "background_color": "#000000",
-        "background_image": "shopify://shop_images/banner_b437ab73-972d-433d-922b-817e1168a76c.webp",
-        "mobile_background_image": "shopify://shop_images/tryscent-mobile-home-bg.png",
+        "background_image": "shopify://shop_images/newheader.webp",
+        "mobile_background_image": "shopify://shop_images/newheader_mobile.webp",
         "title": "Homepage Hero",
         "subtitle": "3 kaufen – 1 gratis",
         "button_text": "FÜR MÄNNER",

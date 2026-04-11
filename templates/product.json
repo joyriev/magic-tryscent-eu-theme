@@ -148,7 +148,7 @@
           "settings": {
             "heading": "Wie lange hält das Parfüm?",
             "icon": "none",
-            "content": "<p>Die Haltbarkeit des Parfüms ist individuell unterschiedlich und beträgt dank unserer perfekt abgestimmten Duftkonzentration zwischen 8 und 12 Stunden.</p><p><br/>Das Parfüm sollte auf die Haut und nicht auf die Kleidung aufgetragen werden, um die Haltbarkeit zu verlängern. </p><p>Nach einiger Zeit entwickelt sich der Duft weiter und entfaltet seine tieferen Basisnoten.</p>",
+            "content": "<p>Die Haltbarkeit des Parfüms ist individuell unterschiedlich und beträgt dank unserer perfekt abgestimmten Duftkonzentration zwischen <strong>8 und 12 Stunden.</strong></p><p><br/>Das Parfüm sollte auf die Haut und nicht auf die Kleidung aufgetragen werden, um die Haltbarkeit zu verlängern. </p><p>Nach einiger Zeit entwickelt sich der Duft weiter und entfaltet seine tieferen Basisnoten.</p>",
             "page": ""
           }
         },
@@ -157,7 +157,7 @@
           "settings": {
             "heading": "Unterscheidet sich der inspirierte Duft?",
             "icon": "none",
-            "content": "<p>Nein, dieser Duft ist von ähnlichen Duftnoten inspiriert und gehört zur gleichen Duftfamilie.</p>",
+            "content": "<p>Dieser Duft ist von den gleichen Duftnoten inspiriert und gehört zur selben Duftfamilie — mit einer Konzentration von 19–21 %, die für eine besonders lange Haltbarkeit sorgt.</p>",
             "page": ""
           }
         },

@@ -284,7 +284,7 @@
           "settings": {
             "heading": "Warum sind Ihre Parfüms so billig?",
             "icon": "none",
-            "row_content": "<p>Wir konzentrieren uns auf den Duftinhalt.<strong>Kein</strong>luxuriöses Flakon,<strong>keine</strong>besondere Verpackung,<strong>keine</strong>teuren Läden &<strong>keine</strong>teuren Influencerdeals ermöglichen dir luxuriös zu riechen, ohne das Budget zu sprengen.</p>",
+            "row_content": "<p>Wir konzentrieren uns auf den Duftinhalt. <strong>Kein </strong>luxuriöses Flakon, <strong>keine </strong>besondere Verpackung, <strong>keine </strong>teuren Läden &<strong> keine </strong>teuren Influencerdeals ermöglichen dir luxuriös zu riechen, ohne das Budget zu sprengen.</p>",
             "page": ""
           }
         },
@@ -293,7 +293,7 @@
           "settings": {
             "heading": "Es ist ein Eau de Parfum mit bis zu 19% Duftöl-Konzentration?",
             "icon": "none",
-            "row_content": "<p>Ja, es ist ein parfümiertes Wasser – es enthält bis zu 19 % Essenz. Eau de Toilette zum Beispiel hat zwischen 5 und 8 % und die Essenz liegt bei 41 % aufwärts.</p>",
+            "row_content": "<p>Unsere Parfums liegen an der Grenze zwischen Eau de Parfum und Extrait de Parfum und enthalten eine Konzentration von 19% bis 21% Duftölen.<br/>Eau de Toilette (EDT) enthält 5% bis 8%.<br/>Extrait de Parfum hingegen 20% bis 40%.</p><p><strong>Die perfekte Konzentration, die dafür sorgt, dass der Duft mindestens 8 bis über 12 Stunden anhält — und gleichzeitig nicht zu intensiv oder aufdringlich ist.</strong></p>",
             "page": ""
           }
         },
@@ -302,7 +302,7 @@
           "settings": {
             "heading": "Wie lange hält das Parfüm?",
             "icon": "none",
-            "row_content": "<p>Das Parfüm hält je nach Person unterschiedlich lange an, von 3 bis 8 Stunden für einen ruhigen, intensiven Duft. Nach einer längeren Zeitspanne verblasst der Duft.</p>",
+            "row_content": "<p>Die Haltbarkeit des Parfüms ist individuell unterschiedlich und beträgt dank unserer perfekt abgestimmten Duftkonzentration zwischen <strong>8 und 12 Stunden.</strong></p><p><br/>Das Parfüm sollte auf die Haut und nicht auf die Kleidung aufgetragen werden, um die Haltbarkeit zu verlängern. </p><p>Nach einiger Zeit entwickelt sich der Duft weiter und entfaltet seine tieferen Basisnoten.</p>",
             "page": ""
           }
         },
@@ -311,16 +311,16 @@
           "settings": {
             "heading": "Unterscheidet sich der inspirierte Duft?",
             "icon": "none",
-            "row_content": "<p>Nein, dieser Duft gehört zur gleichen Duftfamilie und ist dem Original sehr ähnlich</p>",
+            "row_content": "<p>Dieser Duft ist von den gleichen Duftnoten inspiriert und gehört zur selben Duftfamilie — mit einer Konzentration von 19–21 %, die für eine besonders lange Haltbarkeit sorgt.</p>",
             "page": ""
           }
         },
         "collapsible_row_gJVQkB": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Was bedeutet 19% Parfüm?",
+            "heading": "Was bedeutet ein Duftölanteil von 19% bis 21%?",
             "icon": "none",
-            "row_content": "<p>Es bedeutet, dass der Inhalt des Flakons bis zu 19 % Parfümöl enthält. Originalflakons enthalten zwischen 16 und 21 % Parfüm für Eau de Parfum.</p>",
+            "row_content": "<p>Die meisten im Handel erhältlichen Eau de Parfums enthalten zwischen 16% und 21% Duftöl. Unsere Kompositionen enthalten zwischen 19% und 21% Duftöl und gehören damit zur Spitze hochwertiger Duftkompositionen.</p>",
             "page": ""
           }
         }

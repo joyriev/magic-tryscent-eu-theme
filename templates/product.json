@@ -119,7 +119,7 @@
         "collapsible_tab_FAAFhb": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Beschreibung",
+            "heading": "Duftprofil",
             "icon": "none",
             "content": "{{ product.description }}",
             "page": ""
@@ -130,7 +130,7 @@
           "settings": {
             "heading": "Warum sind Ihre Parfüms so billig?",
             "icon": "none",
-            "content": "<p>Wir konzentrieren uns auf den Duftinhalt.<strong>Kein</strong>luxuriöses Flakon,<strong>keine</strong>besondere Verpackung,<strong>keine</strong>teuren Läden &<strong>keine</strong>teuren Influencerdeals ermöglichen dir luxuriös zu riechen, ohne das Budget zu sprengen.</p>",
+            "content": "<p>Wir konzentrieren uns auf den Duftinhalt. <strong>Kein </strong>luxuriöses Flakon, <strong>keine </strong>besondere Verpackung, <strong>keine </strong>teuren Läden &<strong> keine </strong>teuren Influencerdeals ermöglichen dir luxuriös zu riechen, ohne das Budget zu sprengen.</p>",
             "page": ""
           }
         },

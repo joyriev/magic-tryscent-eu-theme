@@ -146,7 +146,7 @@
         "background_color": "#f7f7f7",
         "heading": "BESTSELLERS",
         "subheading": "",
-        "collection": "bestsellers",
+        "collection": "top-sellers",
         "show_all_button_text": "Alle Bestseller ansehen",
         "padding_top": 72,
         "padding_bottom": 72

@@ -81,6 +81,7 @@
     },
     "offer_timebar_4WVn7P": {
       "type": "offer-timebar",
+      "disabled": true,
       "name": "Offer Timebar",
       "settings": {
         "background_color": "#000000",

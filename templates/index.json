@@ -97,7 +97,7 @@
           "type": "perks",
           "settings": {
             "perk_image": "shopify://shop_images/DELIVERY.webp",
-            "perk_title": "Kostenloser Versand für alle Bestellungen über 50 €!",
+            "perk_title": "Kostenloser Versand für alle Bestellungen über €45!",
             "perk_content": ""
           }
         },
@@ -148,6 +148,49 @@
         "subheading": "",
         "collection": "top-sellers",
         "show_all_button_text": "Alle Bestseller ansehen",
+        "padding_top": 72,
+        "padding_bottom": 72
+      }
+    },
+    "home_tabs_fcxFYG": {
+      "type": "home-tabs",
+      "blocks": {
+        "collection_gRbYPe": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "tab_title": "🔥 BESTSELLERS",
+            "collection": "bestsellers",
+            "button_text": "Alle anzeigen"
+          }
+        },
+        "collection_xgUpzQ": {
+          "type": "collection",
+          "settings": {
+            "tab_title": "FÜR FRAUEN",
+            "collection": "top-seller-women",
+            "button_text": "Alle anzeigen"
+          }
+        },
+        "collection_3WBTm3": {
+          "type": "collection",
+          "settings": {
+            "tab_title": "FÜR MÄNNER",
+            "collection": "top-sellers-men",
+            "button_text": "Alle anzeigen"
+          }
+        }
+      },
+      "block_order": [
+        "collection_gRbYPe",
+        "collection_xgUpzQ",
+        "collection_3WBTm3"
+      ],
+      "name": "Homepage Products Tab",
+      "settings": {
+        "background_color": "#f7f7f7",
+        "heading": "Ein Duft für jede Facette Ihrer",
+        "subheading": "PersönlichkeitEntdecken Sie Parfums, die sich mit Ihrem Stil und Ihrer Ausstrahlung weiterentwickeln.",
         "padding_top": 72,
         "padding_bottom": 72
       }
@@ -232,49 +275,6 @@
       "name": "Bigger Than A Shave",
       "settings": {
         "heading": "Bigger Than A Shave"
-      }
-    },
-    "home_tabs_fcxFYG": {
-      "type": "home-tabs",
-      "blocks": {
-        "collection_gRbYPe": {
-          "type": "collection",
-          "disabled": true,
-          "settings": {
-            "tab_title": "🔥 BESTSELLERS",
-            "collection": "bestsellers",
-            "button_text": "Alle anzeigen"
-          }
-        },
-        "collection_xgUpzQ": {
-          "type": "collection",
-          "settings": {
-            "tab_title": "FÜR FRAUEN",
-            "collection": "top-seller-women",
-            "button_text": "Alle anzeigen"
-          }
-        },
-        "collection_3WBTm3": {
-          "type": "collection",
-          "settings": {
-            "tab_title": "FÜR MÄNNER",
-            "collection": "top-sellers-men",
-            "button_text": "Alle anzeigen"
-          }
-        }
-      },
-      "block_order": [
-        "collection_gRbYPe",
-        "collection_xgUpzQ",
-        "collection_3WBTm3"
-      ],
-      "name": "Homepage Products Tab",
-      "settings": {
-        "background_color": "#f7f7f7",
-        "heading": "Ein Duft für jede Facette Ihrer",
-        "subheading": "PersönlichkeitEntdecken Sie Parfums, die sich mit Ihrem Stil und Ihrer Ausstrahlung weiterentwickeln.",
-        "padding_top": 72,
-        "padding_bottom": 72
       }
     },
     "collapsible_content_JWRDn8": {

@@ -239,6 +239,7 @@
       "blocks": {
         "collection_gRbYPe": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "tab_title": "🔥 BESTSELLERS",
             "collection": "bestsellers",
@@ -780,9 +781,9 @@
     "image_and_text_nj4mfM",
     "feature_heighlights_EpJcyT",
     "popular_products_3gqnEi",
+    "home_tabs_fcxFYG",
     "image_and_text_TQajG3",
     "bigger_then_a_shave_nJQJzw",
-    "home_tabs_fcxFYG",
     "collapsible_content_JWRDn8",
     "massive_review_kTc3WW"
   ]

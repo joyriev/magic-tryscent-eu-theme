@@ -83,7 +83,7 @@
       "type": "offer-timebar",
       "name": "Offer Timebar",
       "settings": {
-        "background_color": "#157780",
+        "background_color": "#000000",
         "forground_color": "#15801f",
         "prepend_text": "🐣 Oster-Sale:",
         "ends_in_minutes": 300,

@@ -181,7 +181,7 @@
           "type": "collection",
           "settings": {
             "tab_title": "FÜR FRAUEN",
-            "collection": "top-seller-women",
+            "collection": "top-sellers-men",
             "button_text": "Alle anzeigen"
           }
         },
@@ -189,7 +189,7 @@
           "type": "collection",
           "settings": {
             "tab_title": "FÜR MÄNNER",
-            "collection": "top-sellers-men",
+            "collection": "top-seller-women",
             "button_text": "Alle anzeigen"
           }
         }

@@ -139,6 +139,19 @@
         "padding_bottom": 36
       }
     },
+    "popular_products_RyfRNL": {
+      "type": "popular-products",
+      "name": "Popular Products",
+      "settings": {
+        "background_color": "#fcfbf9",
+        "heading": "Neue, angesagte Düfte🔥",
+        "subheading": "",
+        "collection": "neue-angesagte-dufte",
+        "show_all_button_text": "Alle auswählen",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "popular_products_3gqnEi": {
       "type": "popular-products",
       "name": "Popular Products",
@@ -780,6 +793,7 @@
     "home_hero_XQyQrf",
     "image_and_text_nj4mfM",
     "feature_heighlights_EpJcyT",
+    "popular_products_RyfRNL",
     "popular_products_3gqnEi",
     "home_tabs_fcxFYG",
     "image_and_text_TQajG3",

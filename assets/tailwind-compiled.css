@@ -1992,6 +1992,10 @@
     text-align: left
 }
 
+.\[\&_\.path\]\:\!stroke-white .path {
+    stroke: #fff !important
+}
+
 .\[\&_br\]\:hidden br {
     display: none
 }

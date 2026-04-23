@@ -2011,3 +2011,7 @@
 .\[\&_p\]\:last\:mb-0:last-child p {
     margin-bottom: 0px
 }
+
+.\[\&_path\]\:stroke-white path {
+    stroke: #fff
+}

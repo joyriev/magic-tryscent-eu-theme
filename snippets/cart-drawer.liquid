@@ -529,9 +529,25 @@
             {%- endif -%}
           </div>
 
-          <div class="totals" role="status">
+          <div class="totals flex-wrap gap-4 !mb-3" role="status">
+            <h2 class="totals__total">Zwischensumme:</h2>
+            <p class="totals__total-value">
+              {{ cart.original_total_price | money_with_currency }}
+            </p>
+          </div>
+
+          <div class="totals flex-wrap gap-4 !mb-3" role="status">
+            <h2 class="totals__total">Rabatt:</h2>
+            <p class="totals__total-value">
+              <span class="text-green-700">-{{ cart.original_total_price | minus: cart.total_price | money_with_currency }}</span>
+            </p>
+          </div>
+
+          <div class="totals flex-wrap gap-4" role="status">
             <h2 class="totals__total">{{ 'sections.cart.estimated_total' | t }}</h2>
-            <p class="totals__total-value">{{ cart.total_price | money_with_currency }}</p>
+            <p class="totals__total-value">
+              <span>{{ cart.total_price | money_with_currency }}</span>
+            </p>
           </div>
 
           <small class="tax-note caption-large rte">
@@ -584,8 +600,7 @@
             disabled
             {% endif %}>
             {{ 'sections.cart.checkout' | t }}
-            <span style="color: #6c6c6c; margin: 0 5px;">•</span>
-            {{ cart.total_price | money_with_currency }}
+
           </button>
         </div>
         <img

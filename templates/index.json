@@ -27,7 +27,7 @@
         "title": "Homepage Hero",
         "subtitle": "3 kaufen – 1 gratis",
         "button_text": "FÜR MÄNNER",
-        "button_link": "shopify://collections/fuer-maenner",
+        "button_link": "shopify://collections/woman",
         "second_button_text": "FÜR FRAUEN",
         "second_button_link": "shopify://collections/fuer-frauen",
         "padding_top": 36,

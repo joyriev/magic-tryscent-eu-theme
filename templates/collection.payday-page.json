@@ -18,6 +18,23 @@
         "color_scheme": "scheme-2"
       }
     },
+    "1777318376529a1541": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_a001e92_KhHBV4": {
+          "type": "ai_gen_block_a001e92",
+          "settings": {
+            "desktop_image": "shopify://shop_images/TryScent_Payday_desktop.png",
+            "mobile_image": "shopify://shop_images/TryScent_Payday_mobile.png"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_a001e92_KhHBV4"
+      ],
+      "settings": {}
+    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
@@ -41,6 +58,7 @@
   },
   "order": [
     "banner",
+    "1777318376529a1541",
     "product-grid"
   ]
 }

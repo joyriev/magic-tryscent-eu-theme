@@ -133,10 +133,6 @@
     grid-column: span 2 / span 2
 }
 
-.col-span-3 {
-    grid-column: span 3 / span 3
-}
-
 .\!m-0 {
     margin: 0px !important
 }
@@ -472,16 +468,16 @@
     width: calc(50% - 8px)
 }
 
+.w-\[calc\(50\%-8px\)\] {
+    width: calc(50% - 8px)
+}
+
 .w-auto {
     width: auto
 }
 
 .w-full {
     width: 100%
-}
-
-.w-\[calc\(50\%-8px\)\] {
-    width: calc(50% - 8px)
 }
 
 .min-w-0 {
@@ -583,10 +579,6 @@
 
 .grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr))
-}
-
-.grid-cols-4 {
-    grid-template-columns: repeat(4, minmax(0, 1fr))
 }
 
 .grid-rows-3 {
@@ -1003,6 +995,16 @@
     background-color: rgb(255 255 255 / 0.5)
 }
 
+.bg-\[\#146b32\] {
+    --tw-bg-opacity: 1;
+    background-color: rgb(20 107 50 / var(--tw-bg-opacity, 1))
+}
+
+.bg-\[\#0c5224\] {
+    --tw-bg-opacity: 1;
+    background-color: rgb(12 82 36 / var(--tw-bg-opacity, 1))
+}
+
 .bg-opacity-20 {
     --tw-bg-opacity: 0.2
 }
@@ -1117,6 +1119,11 @@
     padding-bottom: 8px
 }
 
+.py-2\.5 {
+    padding-top: 10px;
+    padding-bottom: 10px
+}
+
 .py-20 {
     padding-top: 80px;
     padding-bottom: 80px
@@ -1147,11 +1154,6 @@
     padding-bottom: 32px
 }
 
-.py-2\.5 {
-    padding-top: 10px;
-    padding-bottom: 10px
-}
-
 .\!pb-3 {
     padding-bottom: 12px !important
 }
@@ -1180,10 +1182,6 @@
     padding-left: 0px
 }
 
-.pl-1 {
-    padding-left: 4px
-}
-
 .pl-12 {
     padding-left: 48px
 }
@@ -1194,10 +1192,6 @@
 
 .pl-8 {
     padding-left: 32px
-}
-
-.pr-3 {
-    padding-right: 12px
 }
 
 .pt-10 {
@@ -1427,11 +1421,6 @@
     color: rgb(29 78 216 / var(--tw-text-opacity, 1))
 }
 
-.text-gray-300 {
-    --tw-text-opacity: 1;
-    color: rgb(209 213 219 / var(--tw-text-opacity, 1))
-}
-
 .text-gray-400 {
     --tw-text-opacity: 1;
     color: rgb(156 163 175 / var(--tw-text-opacity, 1))
@@ -1584,6 +1573,11 @@
     outline-style: solid
 }
 
+.blur {
+    --tw-blur: blur(8px);
+    filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)
+}
+
 .drop-shadow {
     --tw-drop-shadow: drop-shadow(0 1px 2px rgb(0 0 0 / 0.1)) drop-shadow(0 1px 1px rgb(0 0 0 / 0.06));
     filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)
@@ -1684,6 +1678,36 @@
     }
 }
 
+.shimmer-btn {
+    position: relative;
+    overflow: hidden;
+}
+
+.shimmer-btn:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -150%;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(to right, #fff0, #fff3, #fff0);
+    transform: skew(-25deg);
+    animation: shimmer 3s infinite;
+    z-index: 1;
+}
+
+@keyframes shimmer {
+  0% {
+    left: -150%;
+  }
+  80% {
+    left: 150%;
+  }
+  100% {
+    left: 150%;
+  }
+}
+
 .hover\:scale-105:hover {
     --tw-scale-x: 1.05;
     --tw-scale-y: 1.05;
@@ -1713,6 +1737,11 @@
 .hover\:bg-slate-900:hover {
     --tw-bg-opacity: 1;
     background-color: rgb(15 23 42 / var(--tw-bg-opacity, 1))
+}
+
+.hover\:bg-\[\#17803d\]:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgb(23 128 61 / var(--tw-bg-opacity, 1))
 }
 
 .hover\:text-white:hover {
@@ -2014,12 +2043,4 @@
 
 .\[\&_p\]\:last\:mb-0:last-child p {
     margin-bottom: 0px
-}
-
-.\[\&_path\]\:stroke-white path {
-    stroke: #fff
-}
-
-.\[\&_path\]\:\!stroke-white path {
-    stroke: #fff !important
 }

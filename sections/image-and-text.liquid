@@ -94,6 +94,7 @@
                   {% when 'point' %}
                     <div class="relative pl-12 text-left" {{ block.shopify_attributes }}>
                       <img
+                          style="filter: blur(2px);"
                           class="size-8 object-contain object-center absolute top-0 left-0"
                           src="{{ block.settings.icon |  image_url }}"
                           alt="{{ block.settings.icon.alt }}"

@@ -1552,7 +1552,6 @@ a.product__text {
     height: auto !important;
     /* overflow: visible !important; */
   }
-  .product__media-container > *:first-child,
   .product__info-container > *:first-child {
     margin-top: 1rem;
   }

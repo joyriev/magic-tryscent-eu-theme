@@ -9,15 +9,6 @@
  */
 {
   "sections": {
-    "banner": {
-      "type": "main-collection-banner",
-      "disabled": true,
-      "settings": {
-        "show_collection_description": true,
-        "show_collection_image": false,
-        "color_scheme": "scheme-2"
-      }
-    },
     "popular_products_3Lx6bB": {
       "type": "popular-products",
       "name": "Popular Products",
@@ -29,6 +20,14 @@
         "show_all_button_text": "ANSEHEN",
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false,
+        "color_scheme": "scheme-2"
       }
     },
     "product-grid": {
@@ -53,8 +52,8 @@
     }
   },
   "order": [
-    "banner",
     "popular_products_3Lx6bB",
+    "banner",
     "product-grid"
   ]
 }

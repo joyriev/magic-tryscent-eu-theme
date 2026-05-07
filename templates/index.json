@@ -105,7 +105,7 @@
           "type": "perks",
           "settings": {
             "perk_image": "shopify://shop_images/SAVINGS.avif",
-            "perk_title": "Spezielle Rabatte für Stammkunden",
+            "perk_title": "Treuevorteile für Stammkunden",
             "perk_content": "Gutscheine bis zu 100€"
           }
         },

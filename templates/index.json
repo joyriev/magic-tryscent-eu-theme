@@ -121,8 +121,8 @@
           "type": "perks",
           "settings": {
             "perk_image": "shopify://shop_images/SSUPPORT.webp",
-            "perk_title": "Experten-Kundenservice",
-            "perk_content": "8:00 - 20:00, 7 Tage/Woche"
+            "perk_title": "Persönliche Beratung",
+            "perk_content": "täglich von 8 bis 20 Uhr"
           }
         }
       },

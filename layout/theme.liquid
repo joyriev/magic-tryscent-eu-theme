@@ -356,7 +356,7 @@ body {
       class="content-for-layout focus-none"
       role="main"
       tabindex="-1">
-      {% capture ICART_FULL_PAGE_LAYOUT %}{{ content_for_layout }}{% endcapture %}{% include 'icart-variables', ICART_FULL_PAGE_LAYOUT: ICART_FULL_PAGE_LAYOUT %}
+      {{ content_for_layout }}
     </main>
 
     {% sections 'footer-group' %}
@@ -417,13 +417,13 @@ body {
 
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:FILL@0..1" rel="stylesheet" />
-     {% unless template.name == 'product' %}
+    {% unless template.name == 'product' %}
       {% section 'fragrance-search' %}
-     {% endunless %}
-     {% render 'checkout-modal' %}
+    {% endunless %}
+  {% comment %} {% render 'checkout-modal' %} {% endcomment %}
   </body>
-  
-    <script>
+
+  <script>
       window.RAPI_HOOKS = {multiFormStore:{selector:".product__info-container .product-form" }}
-    </script>
+  </script>
 </html>

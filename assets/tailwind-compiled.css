@@ -113,6 +113,14 @@
     top: 24px
 }
 
+.bottom-6 {
+    bottom: 24px
+}
+
+.-top-10 {
+    top: -40px
+}
+
 .isolate {
     isolation: isolate
 }
@@ -127,6 +135,10 @@
 
 .z-\[99999\] {
     z-index: 99999
+}
+
+.z-\[9999\] {
+    z-index: 9999
 }
 
 .col-span-1 {
@@ -183,6 +195,11 @@
 .my-6 {
     margin-top: 24px;
     margin-bottom: 24px
+}
+
+.-mx-2 {
+    margin-left: -8px;
+    margin-right: -8px
 }
 
 .\!mb-0 {
@@ -401,6 +418,21 @@
     height: 32px
 }
 
+.size-7 {
+    width: 28px;
+    height: 28px
+}
+
+.size-20 {
+    width: 80px;
+    height: 80px
+}
+
+.size-5 {
+    width: 20px;
+    height: 20px
+}
+
 .h-10 {
     height: 40px
 }
@@ -439,6 +471,10 @@
 
 .h-full {
     height: 100%
+}
+
+.h-\[80vh\] {
+    height: 80vh
 }
 
 .max-h-full {
@@ -529,6 +565,10 @@
     max-width: 768px
 }
 
+.max-w-2xl {
+    max-width: 672px
+}
+
 .flex-1 {
     flex: 1 1 0%
 }
@@ -589,6 +629,10 @@
     cursor: pointer
 }
 
+.cursor-not-allowed {
+    cursor: not-allowed
+}
+
 .resize {
     resize: both
 }
@@ -623,6 +667,10 @@
 
 .items-start {
     align-items: flex-start
+}
+
+.items-end {
+    align-items: flex-end
 }
 
 .items-center {
@@ -709,6 +757,12 @@
     margin-bottom: calc(24px * var(--tw-space-y-reverse))
 }
 
+.space-y-2 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-y-reverse: 0;
+    margin-top: calc(8px * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(8px * var(--tw-space-y-reverse))
+}
+
 .overflow-hidden {
     overflow: hidden
 }
@@ -724,6 +778,10 @@
 .truncate {
     overflow: hidden;
     text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.whitespace-nowrap {
     white-space: nowrap
 }
 
@@ -766,6 +824,10 @@
 .rounded-t-lg {
     border-top-left-radius: 8px;
     border-top-right-radius: 8px
+}
+
+.rounded-tr-md {
+    border-top-right-radius: 6px
 }
 
 .border {
@@ -893,6 +955,16 @@
 .border-slate-900 {
     --tw-border-opacity: 1;
     border-color: rgb(15 23 42 / var(--tw-border-opacity, 1))
+}
+
+.border-green-700 {
+    --tw-border-opacity: 1;
+    border-color: rgb(21 128 61 / var(--tw-border-opacity, 1))
+}
+
+.border-green-600 {
+    --tw-border-opacity: 1;
+    border-color: rgb(22 163 74 / var(--tw-border-opacity, 1))
 }
 
 .bg-\[\#0F172A\] {
@@ -1028,6 +1100,20 @@
     background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1))
 }
 
+.bg-\[\#1E5834\] {
+    --tw-bg-opacity: 1;
+    background-color: rgb(30 88 52 / var(--tw-bg-opacity, 1))
+}
+
+.bg-\[\#b72f33\] {
+    --tw-bg-opacity: 1;
+    background-color: rgb(183 47 51 / var(--tw-bg-opacity, 1))
+}
+
+.bg-opacity-50 {
+    --tw-bg-opacity: 0.5
+}
+
 .bg-cover {
     background-size: cover
 }
@@ -1038,6 +1124,10 @@
 
 .bg-left {
     background-position: left
+}
+
+.fill-green-700 {
+    fill: #15803d
 }
 
 .object-contain {
@@ -1081,6 +1171,10 @@
 
 .p-8 {
     padding: 32px
+}
+
+.p-\[7px\] {
+    padding: 7px
 }
 
 .px-1 {
@@ -1241,6 +1335,14 @@
     padding-top: 32px
 }
 
+.pl-10 {
+    padding-left: 40px
+}
+
+.pr-4 {
+    padding-right: 16px
+}
+
 .text-left {
     text-align: left
 }
@@ -1298,6 +1400,10 @@
 .text-xs {
     font-size: 12px;
     line-height: 16px
+}
+
+.text-\[24px\] {
+    font-size: 24px
 }
 
 .font-\[700\] {
@@ -1362,6 +1468,10 @@
 
 .leading-tight {
     line-height: 1.25
+}
+
+.leading-normal {
+    line-height: 1.5
 }
 
 .\!tracking-normal {
@@ -1524,6 +1634,16 @@
     color: rgb(255 255 255 / 0.5)
 }
 
+.text-\[\#22613A\] {
+    --tw-text-opacity: 1;
+    color: rgb(34 97 58 / var(--tw-text-opacity, 1))
+}
+
+.text-gray-200 {
+    --tw-text-opacity: 1;
+    color: rgb(229 231 235 / var(--tw-text-opacity, 1))
+}
+
 .underline {
     text-decoration-line: underline
 }
@@ -1550,6 +1670,10 @@
 
 .opacity-75 {
     opacity: 0.75
+}
+
+.opacity-50 {
+    opacity: 0.5
 }
 
 .shadow {
@@ -1679,6 +1803,10 @@
     font-family: 'Plus Jakarta Sans'
 }
 
+.\[rotate\:-45deg\] {
+    rotate: -45deg
+}
+
 .\[transform\:rotate\(-3deg\)\] {
     transform: rotate(-3deg)
 }
@@ -1735,6 +1863,57 @@
   }
 }
 
+.before\:absolute::before {
+    content: var(--tw-content);
+    position: absolute
+}
+
+.before\:bottom-6::before {
+    content: var(--tw-content);
+    bottom: 24px
+}
+
+.before\:left-3::before {
+    content: var(--tw-content);
+    left: 12px
+}
+
+.before\:top-6::before {
+    content: var(--tw-content);
+    top: 24px
+}
+
+.before\:w-\[0px\]::before {
+    content: var(--tw-content);
+    width: 0px
+}
+
+.before\:border-0::before {
+    content: var(--tw-content);
+    border-width: 0px
+}
+
+.before\:border-r::before {
+    content: var(--tw-content);
+    border-right-width: 1px
+}
+
+.before\:border-dashed::before {
+    content: var(--tw-content);
+    border-style: dashed
+}
+
+.before\:border-green-700::before {
+    content: var(--tw-content);
+    --tw-border-opacity: 1;
+    border-color: rgb(21 128 61 / var(--tw-border-opacity, 1))
+}
+
+.before\:content-\[\'\'\]::before {
+    --tw-content: '';
+    content: var(--tw-content)
+}
+
 .hover\:scale-105:hover {
     --tw-scale-x: 1.05;
     --tw-scale-y: 1.05;
@@ -1776,6 +1955,16 @@
     background-color: rgb(15 23 42 / var(--tw-bg-opacity, 1))
 }
 
+.hover\:bg-\[\#368856\]:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgb(54 136 86 / var(--tw-bg-opacity, 1))
+}
+
+.hover\:bg-red-600:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgb(220 38 38 / var(--tw-bg-opacity, 1))
+}
+
 .hover\:text-white:hover {
     --tw-text-opacity: 1;
     color: rgb(255 255 255 / var(--tw-text-opacity, 1))
@@ -1795,6 +1984,14 @@
 }
 
 @media (min-width: 768px) {
+
+    .md\:-right-2 {
+        right: -8px
+    }
+
+    .md\:-top-2 {
+        top: -8px
+    }
 
     .md\:-order-1 {
         order: -1
@@ -1819,6 +2016,10 @@
 
     .md\:mt-12 {
         margin-top: 48px
+    }
+
+    .md\:mb-4 {
+        margin-bottom: 16px
     }
 
     .md\:line-clamp-1 {
@@ -1853,6 +2054,10 @@
 
     .md\:h-10 {
         height: 40px
+    }
+
+    .md\:h-\[90vh\] {
+        height: 90vh
     }
 
     .md\:w-1\/2 {
@@ -1903,6 +2108,10 @@
 
     .md\:items-end {
         align-items: flex-end
+    }
+
+    .md\:items-center {
+        align-items: center
     }
 
     .md\:justify-start {
@@ -1971,6 +2180,14 @@
     .md\:py-20 {
         padding-top: 80px;
         padding-bottom: 80px
+    }
+
+    .md\:pb-6 {
+        padding-bottom: 24px
+    }
+
+    .md\:pt-6 {
+        padding-top: 24px
     }
 
     .md\:text-left {

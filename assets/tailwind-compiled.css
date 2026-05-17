@@ -89,6 +89,10 @@
     right: 12px
 }
 
+.right-4 {
+    right: 16px
+}
+
 .top-0 {
     top: 0px
 }
@@ -101,28 +105,24 @@
     top: 12px
 }
 
-.top-6 {
-    top: 24px
-}
-
-.right-4 {
-    right: 16px
-}
-
 .top-4 {
     top: 16px
+}
+
+.top-6 {
+    top: 24px
 }
 
 .isolate {
     isolation: isolate
 }
 
-.z-10 {
-    z-index: 10
-}
-
 .-z-10 {
     z-index: -10
+}
+
+.z-10 {
+    z-index: 10
 }
 
 .z-\[99999\] {
@@ -509,6 +509,10 @@
     max-width: 896px
 }
 
+.max-w-\[1000px\] {
+    max-width: 1000px
+}
+
 .max-w-\[250px\] {
     max-width: 250px
 }
@@ -523,10 +527,6 @@
 
 .max-w-screen-md {
     max-width: 768px
-}
-
-.max-w-\[1000px\] {
-    max-width: 1000px
 }
 
 .flex-1 {
@@ -1540,12 +1540,12 @@
     opacity: 0
 }
 
-.opacity-70 {
-    opacity: 0.7
-}
-
 .opacity-25 {
     opacity: 0.25
+}
+
+.opacity-70 {
+    opacity: 0.7
 }
 
 .opacity-75 {
@@ -1761,6 +1761,11 @@
     background-color: rgb(243 244 246 / var(--tw-bg-opacity, 1))
 }
 
+.hover\:bg-gray-200:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgb(229 231 235 / var(--tw-bg-opacity, 1))
+}
+
 .hover\:bg-gray-800:hover {
     --tw-bg-opacity: 1;
     background-color: rgb(31 41 55 / var(--tw-bg-opacity, 1))
@@ -1769,11 +1774,6 @@
 .hover\:bg-slate-900:hover {
     --tw-bg-opacity: 1;
     background-color: rgb(15 23 42 / var(--tw-bg-opacity, 1))
-}
-
-.hover\:bg-gray-200:hover {
-    --tw-bg-opacity: 1;
-    background-color: rgb(229 231 235 / var(--tw-bg-opacity, 1))
 }
 
 .hover\:text-white:hover {
@@ -1942,6 +1942,10 @@
         background-position: center
     }
 
+    .md\:p-10 {
+        padding: 40px
+    }
+
     .md\:p-12 {
         padding: 48px
     }
@@ -1954,23 +1958,19 @@
         padding: 24px
     }
 
-    .md\:p-10 {
-        padding: 40px
-    }
-
     .md\:px-10 {
         padding-left: 40px;
         padding-right: 40px
     }
 
-    .md\:py-20 {
-        padding-top: 80px;
-        padding-bottom: 80px
-    }
-
     .md\:px-6 {
         padding-left: 24px;
         padding-right: 24px
+    }
+
+    .md\:py-20 {
+        padding-top: 80px;
+        padding-bottom: 80px
     }
 
     .md\:text-left {

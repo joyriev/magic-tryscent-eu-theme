@@ -30,6 +30,7 @@
         },
         "collapsible_tab_FAAFhb": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Duftprofil",
             "icon": "none",
@@ -197,6 +198,7 @@
     },
     "scent_breakdown_pqKDL9": {
       "type": "scent-breakdown",
+      "disabled": true,
       "name": "Scent Breakdown",
       "settings": {
         "background_color": "#f7f7f7",

@@ -2325,7 +2325,75 @@
         "shipping_method_not_available_due_to_unsatisfied_conditions": "Produkty w koszyku nie spełniają wymagań dotyczących ceny lub wagi, aby kwalifikować się do wysyłki. Zaktualizuj swój koszyk i spróbuj ponownie.",
         "title": "Wysyłka niedostępna",
         "invalid_selected_address": "Wybrany adres dostawy jest nieprawidłowy",
-        "invalid_selected_address_with_update_link": "Wybrany adres dostawy jest nieprawidłowy. %{update_address_link} lub wybierz inny adres"
+        "invalid_selected_address_with_update_link": "Wybrany adres dostawy jest nieprawidłowy. %{update_address_link} lub wybierz inny adres",
+        "unavailable_selected_address": "Wysyłka na wybrany adres niemożliwa",
+        "unavailable_selected_address_for_region": "Wysyłka nie jest dostępna dla {{region}}. Wybierz inny adres, aby kontynuować.",
+        "unavailable_addresses_only_countries": "Twoje zamówienie może być wysłane tylko do {{countriesList}}. Dodaj nowy adres, aby kontynuować.",
+        "unavailable_address_country": "Wysyłka nie jest dostępna dla wybranego przez ciebie kraju. Wybierz inny adres, aby kontynuować."
+      },
+      "stock": {
+        "continue_cta_label": "Kontynuuj realizację zamówienia"
+      },
+      "shop_policies": {
+        "refund_policy": "Prawo do odstąpienia od umowy",
+        "terms_of_service": "Warunki ogólne sprzedaży",
+        "legal_notice": "Informacje o wydawcy",
+        "purchase_options_policy": "Zasady dotyczące opcji zakupu",
+        "cookie_preferences": "Ciasteczka",
+        "policy_label": "Zasada",
+        "policies_label": "Zasady",
+        "select_policy_label": "Wybierz zasadę",
+        "terms_and_policies": "Warunki handlowe i zasady"
+      },
+      "split_delivery": {
+        "pickup_all_items": "Odbierz wszystkie artykuły",
+        "items_for_pickup": "Artykuł do odbioru",
+        "delivery_method": "Podzielona metoda dostawy",
+        "delivery_method_menu": "Menu dla podzielonej metody dostawy",
+        "inventory_issue_banner": {
+          "heading": {
+            "cannot_be_picked_up": {
+              "one": "Nie można odebrać %{count} artykułów",
+              "other": "Nie można odebrać %{count} artykułów"
+            },
+            "cannot_be_shipped": {
+              "one": "Nie można wysłać %{count} artykułów",
+              "other": "%{count} artykułów nie można wysłać"
+            }
+          },
+          "remove_item": {
+            "one": "Usuń artykuł",
+            "other": "Usuń artykuł"
+          },
+          "ship_separately": {
+            "one": "Wysyłaj osobno",
+            "other": "Wysyłaj osobno"
+          },
+          "pick_them_up_in_store": {
+            "other": "Odbierz w sklepie"
+          },
+          "remove_item_only": {
+            "one": "Usuń artykuł",
+            "other": "Usuń artykuł"
+          }
+        },
+        "items_for_shipping": "Artykuły do wysyłki",
+        "items_moved_to_shipping_toast": "Artykuły, których nie można odebrać osobiście, zostały przekierowane na wysyłkę",
+        "cross_border": {
+          "modal": {
+            "content": "W ten sposób wszystkie artykuły zostaną ustawione na wysyłkę. Twoje miejsca odbioru i wysyłki muszą znajdować się w tym samym kraju."
+          },
+          "banner": "Twoja metoda dostawy została zaktualizowana"
+        }
+      },
+      "shop_pay_external": {
+        "errors": {
+          "problem_loading": "Wystąpił problem podczas ładowania Shop Pay",
+          "try_again_later": "Sprawdź swoje połączenie lub zamknij to okno i spróbuj ponownie za kilka minut.",
+          "checkout_has_expired": "Twój proces realizacji zamówienia wygasł. Zamknij to okno i spróbuj ponownie dokonać zakupu w {{shopName}}."
+        },
+        "return_to_store_simple": "Powrót do sklepu",
+        "title": "Kasa Shop Pay"
       }
     }
   }

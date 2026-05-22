@@ -1072,7 +1072,85 @@
           }
         },
         "remove_chip": "Usuń artykuł",
-        "finalize_order_accessibility_label": "Zakończ zamówienie"
+        "finalize_order_accessibility_label": "Zakończ zamówienie",
+        "title": "Kasa – {{shopName}}",
+        "submit_order_button_label": "Wyślij zamówienie",
+        "submit_for_review_button_label": "Złożyć do sprawdzenia",
+        "submit_for_review_notice_label": "Płatność jest wymagana dopiero po sprawdzeniu twojego zamówienia",
+        "submit": "Wyślij",
+        "stepper": {
+          "increase": "zwiększyć {{type}}",
+          "decrease": "obniżyć {{type}}",
+          "minimum_reached": "Osiągnięto minimalną wartość {{value}}",
+          "maximum_reached": "Osiągnięto maksymalną wartość {{value}}"
+        }
+      },
+      "local_pickup": {
+        "location_information": {
+          "one": "W Twojej okolicy znajduje się %{count} lokalizacja z dostępnym zapasem.",
+          "other": "W Twojej okolicy jest %{count} lokalizacji z dostępnym zapasem."
+        },
+        "could_not_resolve_address": "Nie udało się zlokalizować twojego adresu. Spróbuj ponownie lub użyj innego adresu",
+        "all_stores_far_away": {
+          "title": "Następne lokalizacje są oddalone o %{distance}",
+          "ship_to_address_link": "Adres dostawy",
+          "change_location_link": "Zmień swoją lokalizację",
+          "title_with_specific_location": "Najbliższa lokalizacja z Twoim artykułem znajduje się w odległości większej niż %{distance} od %{location}",
+          "title_with_item": {
+            "one": "Najbliższa lokalizacja z Twoim artykułem znajduje się w odległości większej niż %{distance} od %{location}",
+            "other": "Najbliższa lokalizacja z twoimi artykułami znajduje się dalej niż %{distance} od %{location}"
+          }
+        },
+        "location_closest": "Najbliższa lokalizacja z twoim artykułem",
+        "location_information_far_away": {
+          "one": "Jest %{count} lokalizacja z twoim artykułem",
+          "other": "Jest %{count} lokalizacji z twoim artykułem"
+        },
+        "location_nearby": {
+          "one": "W pobliżu znajduje się %{count} lokalizacja z Twoim artykułem",
+          "other": "W pobliżu znajduje się %{count} lokalizacji z Twoim artykułem"
+        },
+        "location_nearby_short": {
+          "one": "%{count} lokalizacji w pobliżu z Twoim artykułem",
+          "other": "%{count} lokalizacji w pobliżu z twoim produktem"
+        },
+        "location_far_away": {
+          "one": "%{count} lokalizacja z twoim artykułem",
+          "other": "%{count} lokalizacji z twoim artykułem"
+        },
+        "location_closest_one_item": "Najbliższa lokalizacja z twoim artykułem",
+        "location_closest_other_items": "Najbliższa lokalizacja z twoimi artykułami",
+        "location_information_far_away_one_item": {
+          "one": "Jest %{count} lokalizacja z twoim artykułem",
+          "other": "Jest %{count} lokalizacji z twoim artykułem"
+        },
+        "location_information_far_away_other_items": {
+          "one": "Jest %{count} lokalizacja z twoimi artykułami",
+          "other": "Jest %{count} lokalizacji z twoimi artykułami"
+        },
+        "location_nearby_one_item": {
+          "one": "W pobliżu znajduje się %{count} lokalizacja z twoim artykułem",
+          "other": "W pobliżu znajduje się %{count} lokalizacji z twoim artykułem"
+        },
+        "location_nearby_other_items": {
+          "one": "W pobliżu znajduje się %{count} lokalizacji z twoimi artykułami",
+          "other": "W pobliżu znajduje się %{count} lokalizacji z twoimi artykułami"
+        },
+        "location_nearby_short_one_item": {
+          "one": "%{count} lokalizacja w pobliżu z twoim artykułem",
+          "other": "%{count} lokalizacje w pobliżu z twoim artykułem"
+        },
+        "location_nearby_short_other_items": {
+          "one": "%{count} lokalizacja w pobliżu z twoimi artykułami"
+        },
+        "location_far_away_one_item": {
+          "one": "%{count} lokalizacja z twoim artykułem",
+          "other": "%{count} lokalizacji z twoim artykułem"
+        },
+        "location_far_away_other_items": {
+          "one": "%{count} lokalizacja z twoimi artykułami",
+          "other": "%{count} lokalizacji z twoimi artykułami"
+        }
       }
     }
   }

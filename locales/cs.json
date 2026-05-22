@@ -1160,7 +1160,84 @@
         "sheet": {
           "expand": "Rozšířit"
         },
-        "loading": "Načítá se…"
+        "loading": "Načítá se…",
+        "skip_to_content": "Přejít přímo na obsah",
+        "tooltip_accessibility_label": "Více informací",
+        "submit_for_review_button_label": "Odevzdat k posouzení",
+        "submit_for_review_notice_label": "Platba je splatná až poté, co bude tvá objednávka zkontrolována",
+        "stepper": {
+          "increase": "{{type}} zvýšit",
+          "decrease": "snížit {{type}}",
+          "minimum_reached": "Bylo dosaženo minimální hodnoty {{value}}"
+        }
+      },
+      "local_pickup": {
+        "location_information": {
+          "one": "Ve tvém okolí je %{count} místo s dostupným skladem.",
+          "other": "Ve tvém okolí je %{count} míst s dostupným skladem."
+        },
+        "could_not_resolve_address": "Tvoji adresu se nepodařilo určit. Zkus to znovu nebo použij jinou adresu",
+        "all_stores_far_away": {
+          "title": "Další pobočky jsou vzdálené přes %{distance}",
+          "description": "Vyberte místo nebo %{ship_to_address_link}",
+          "ship_to_address_link": "Dodací adresa",
+          "change_location_link": "Změnit tvoji polohu",
+          "title_with_specific_location": "Nejbližší místo s tvým artiklem je více než %{distance} od %{location} vzdálené",
+          "title_with_item": {
+            "one": "Nejbližší místo s tvým artiklem je více než %{distance} od %{location} vzdálené",
+            "other": "Nejbližší místo s tvými položkami je více než %{distance} od %{location} vzdálené"
+          }
+        },
+        "location_closest": "Nejbližší místo s tvým artiklem",
+        "location_information_far_away": {
+          "one": "Existuje %{count} místo s tvým artiklem",
+          "other": "Existuje %{count} míst s tvým artiklem"
+        },
+        "location_nearby": {
+          "one": "V blízkosti je %{count} místo s tvým artiklem",
+          "other": "V blízkosti je %{count} míst s tvým artiklem"
+        },
+        "location_nearby_short": {
+          "one": "%{count} míst v blízkosti s tvým artiklem",
+          "other": "%{count} poboček v blízkosti s tvým artiklem"
+        },
+        "location_far_away": {
+          "one": "%{count} místo s tvým artiklem",
+          "other": "%{count} poboček s tvým artiklem"
+        },
+        "location_closest_one_item": "Nejbližší místo s tvým artiklem",
+        "location_closest_other_items": "Nejbližší místo s tvými položkami",
+        "location_information_far_away_one_item": {
+          "one": "Existuje %{count} místo s tvým artiklem",
+          "other": "Existuje %{count} míst s tvým artiklem"
+        },
+        "location_information_far_away_other_items": {
+          "one": "Existuje %{count} místo s tvými položkami",
+          "other": "Existuje %{count} míst s tvými položkami"
+        },
+        "location_nearby_one_item": {
+          "one": "V blízkosti se nachází %{count} místo s tvým artiklem",
+          "other": "V blízkosti je %{count} míst s tvým artiklem"
+        },
+        "location_nearby_other_items": {
+          "one": "V blízkosti je %{count} místo s tvými položkami",
+          "other": "V blízkosti je %{count} míst s tvými položkami"
+        },
+        "location_nearby_short_one_item": {
+          "one": "%{count} místo poblíž s tvým artiklem",
+          "other": "%{count} míst poblíž s tvým artiklem"
+        },
+        "location_nearby_short_other_items": {
+          "one": "%{count} místo poblíž s tvými položkami"
+        },
+        "location_far_away_one_item": {
+          "one": "%{count} místo s tvým artiklem",
+          "other": "%{count} míst s tvým artiklem"
+        },
+        "location_far_away_other_items": {
+          "one": "%{count} místo s tvými položkami",
+          "other": "%{count} míst s tvými položkami"
+        }
       }
     }
   }

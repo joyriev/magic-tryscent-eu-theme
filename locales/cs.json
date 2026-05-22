@@ -2731,6 +2731,116 @@
         "announcement": {
           "expand": "Rozšířit",
           "collapse": "Minimalizovat"
+        },
+        "confirmation_email_sent_text": "Potvrzovací e-mail byl odeslán na %{email}",
+        "customer_information_title": "Detaily objednávky",
+        "contact_information_title": "Kontaktní informace",
+        "company_tracking_number": "Sledovací číslo %{company}:",
+        "estimated_arrival": "Očekávané datum dodání:",
+        "confirmed": "Potvrzeno",
+        "confirmed_title": "Tvá objednávka byla potvrzena",
+        "confirmed_description": "Přijali jsme tvou objednávku a připravujeme ji. Navštiv tuto stránku, abys zjistil aktuální stav doručení své zásilky.",
+        "delivered": "Doručeno",
+        "delivered_title": "Tvá objednávka byla doručena",
+        "delivered_description_html": "Tvoje objednávka byla doručena na adresu, kterou jsi uvedl. %{contact_us}, pokud jsi objednávku neobdržel nebo máš nějaké jiné problémy.",
+        "contact_us_lowercase": "kontaktuj nás",
+        "failure": "Nedoručeno",
+        "failed_title": "Tvá objednávka nemohla být doručena",
+        "failed_contact_merchant": "Kontaktujte %{company}, abyste domluvili doručení.",
+        "failed_contact_merchant_no_company": "Kontaktujte nás, abychom dohodli doručení.",
+        "customer_information_hidden_fields_message": "Přihlas se, abys zobrazil všechny informace o zákaznících.",
+        "cancelled_title": "Tvá objednávka byla zrušena",
+        "customer_validation_error": "Zadejte platnou e-mailovou adresu nebo číslo objednávky.",
+        "fulfillment": {
+          "fulfilled_table_title": "Položky v tomto dodání",
+          "unfulfilled_table_title": "Položka v přípravě k odeslání",
+          "quantity_label": "Počet"
+        },
+        "delivered_local_title": "Tvá objednávka byla doručena",
+        "delivered_local_description_html": "Neobdrželi jste svou objednávku? %{let_us_know}.",
+        "gift_card_confirmation_by_text": "Pokud jsi ji neobdržel, pošli textovou zprávu znovu nebo nás kontaktuj.",
+        "gift_card_confirmation_by_email": "Pokud jsi ji neobdržel, pošli e-mail znovu nebo nás kontaktuj.",
+        "estimated_delivery": "Očekávané doručení:",
+        "company_location_title": "Poloha",
+        "first_payment_complete": "První platba dokončena",
+        "choose_payment_method_later": "Způsob platby vybrat později",
+        "gift_card_confirmation_by_text_typ": {
+          "one": "Během několika minut obdržíš textovou zprávu s tvým poukazem.",
+          "other": "Během několika minut obdržíš textovou zprávu se svými dárkovými poukazy."
+        },
+        "gift_card_confirmation_by_email_typ": {
+          "one": "Během několika minut obdržíš e-mail s tvým poukazem.",
+          "other": "Během několika minut obdržíš e-mail s tvými dárkovými poukazy."
+        },
+        "gift_card_email_title": {
+          "one": "Poukaz byl odeslán e-mailem",
+          "other": "Dárkové poukazy byly odeslány e-mailem"
+        },
+        "failed_pending_payment_page_title": "Vyskytl se problém s tvou platbou",
+        "company_location_section_title": "Podnik a místo",
+        "checkout_on_remote_shop_link_text": "Přejít k pokladně u %{remoteShopName}",
+        "confirmed_orders_title": "Tvé objednávky byly potvrzeny.",
+        "checkout_on_another_store": "Přejít k pokladně v jiném obchodě",
+        "checkout_again": "Znovu odhlásit",
+        "cashback_notice": "Obdržíš svůj cashback po 30 dnech",
+        "order_status_confirmed_order_with_email": "Obdržíš e-mail, jakmile bude tvá objednávka připravena.",
+        "order_status_confirmed_order_with_phone": "Možná obdržíš SMS, jakmile bude tvá objednávka připravena.",
+        "order_status_confirmed_order_with_email_and_phone": "Obdržíš e-mail, jakmile bude tvá objednávka připravena.",
+        "in_transit": "Na cestách",
+        "in_transit_title": "Tvá objednávka je na cestě",
+        "in_transit_description": "Dostaneš zprávy o stavu objednávky.",
+        "in_transit_description_days": "Objednávku bys měl obdržet během následujících %{number} dnů.",
+        "in_transit_description_today": "Měl bys dnes obdržet svou objednávku.",
+        "in_transit_description_tomorrow": "Měl bys svou objednávku obdržet zítra.",
+        "no_tracking_number": "Pro tuto objednávku není k dispozici žádné sledovací číslo.",
+        "non_shippable_title": "Tvá objednávka je dokončena",
+        "login_title": "Přihlas se, abys zobrazil všechny podrobnosti objednávky",
+        "login_description": "Číslo objednávky najdeš na dokladu, který jsi obdržel e-mailem.",
+        "login_description_phone": "Své číslo objednávky najdeš na dokladu, který jsi obdržel(a) prostřednictvím textové zprávy.",
+        "login_not_customer_html": "Ne %{name}? Můžeš %{link}",
+        "login_reorder_link_text": {
+          "one": "kupuji také tento výrobek",
+          "other": "také koupit tyto výrobky"
+        },
+        "marker": {
+          "current": "Aktuální místo zásilky"
+        },
+        "order_status_confirmed_order_with_email_pick_up": "Obdržíš e-mail, jakmile bude tvá objednávka připravena k vyzvednutí.",
+        "order_status_confirmed_order_with_phone_pick_up": "Obdržíš SMS, jakmile bude tvá objednávka připravena k vyzvednutí.",
+        "order_status_confirmed_order_with_email_and_phone_pick_up": "Obdržíš e-mail a SMS, jakmile bude tvá objednávka připravena k vyzvednutí.",
+        "order_status_confirmed_order_local": "Právě připravujeme tvou objednávku k doručení.",
+        "gift_card_sent_confirmation": "Dárkový poukaz odeslán",
+        "let_us_know": "Dej nám vědět",
+        "gift_card_title": "Dárkové poukazy",
+        "order_status_confirmed_order_with_email_payment": "Provedli jste platbu za vaši objednávku %{date}.",
+        "order_status_confirmed_order_with_phone_payment": "Provedli jste platbu za vaši objednávku %{date}.",
+        "order_status_confirmed_order_with_email_and_phone_payment": "Provedli jste platbu za vaši objednávku %{date}.",
+        "missing_shipping_address_banner": {
+          "title": "Objednávka nemá doručovací adresu",
+          "text_html": "%{contact_us}, abys přidal svou adresu",
+          "contact_us": "Kontaktujte nás"
+        },
+        "order_status_confirmed_with_installments_payment_return": "Obrať se znovu na prodejce.",
+        "order_status_confirmed_with_installments_payment_confirm": "Brzy obdržíš potvrzovací e-mail s číslem své objednávky a plánem splátek.",
+        "manage_order_label": "Správa objednávky",
+        "gift_card_text_title": {
+          "one": "Poukaz byl zaslán textovou zprávou",
+          "other": "Dárkové poukazy byly odeslány textovou zprávou"
+        },
+        "gift_card_resent_confirmation": {
+          "one": "Poukaz byl znovu odeslán.",
+          "other": "Dárkové poukazy byly znovu odeslány."
+        },
+        "gift_card_resend_failure": {
+          "one": "Při opětovném odesílání tvého poukazu došlo k potíži. Zkus to znovu nebo nás kontaktuj.",
+          "other": "Při opětovném odesílání tvých dárkových poukazů došlo k potíži. Zkus to znovu nebo nás kontaktuj."
+        },
+        "order_status_payments_app_failed_pending_payment": "Za tvou objednávku ti nebylo nic účtováno. Vrať se do svého nákupního košíku, abys svou objednávku zkontroloval a znovu zaplatil.",
+        "order_status_confirmed_order_local_pick_up": "Připravujeme tvou objednávku.",
+        "order_status_confirmed_order_local_payment": "Připravujeme tvou objednávku.",
+        "items_fulfilled_by_store": {
+          "one": "Položky, které jste zakoupili, budou odeslány %{remote_shop_name}.",
+          "other": "Zboží, které jste zakoupili, bude odesláno z jiných obchodů."
         }
       }
     }

@@ -3183,7 +3183,59 @@
       "invalid_format": "není číslo kreditní karty",
       "expired": "Platnost kreditní karty vypršela",
       "invalid_expiry_year": "není platný rok vypršení platnosti",
-      "blocked_address": "Toto místo není podporováno"
+      "blocked_address": "Toto místo není podporováno",
+      "taken": "již bylo využito",
+      "too_short": "je příliš krátký (minimální délka je %{count} znaků)",
+      "too_long": "je příliš dlouhý (maximální délka je %{count} znaků)",
+      "invalid_province_in_country": "není platnou provincií v %{country}",
+      "invalid_state_in_country": "není platný stát v %{country}",
+      "invalid_region_in_country": "není platný region v %{country}",
+      "invalid_type": "Omlouváme se, nepřijímáme karty tohoto druhu",
+      "invalid_start_date_or_issue_number_for_debit": "Je vyžadováno platné počáteční datum nebo číslo vydání",
+      "reset_password_html": "Tato e-mailová adresa je již použita. Pokud se jedná o tvůj uživatelský účet, můžeš <a href=\"/account/login#recover\">požádat o nové heslo</a>",
+      "verify_email": "Poslali jsme e-mail na %{customer_email}, prosím klikni na odkaz v něm obsažený, abys potvrdil(a) svou e-mailovou adresu.",
+      "product_not_available": "Produkt není pro tohoto zákazníka zveřejněn.",
+      "shop_404": {
+        "title": "Vytvořte si internetový obchod a prodávejte online! Obchodní software od Shopify",
+        "heros": {
+          "store_unavailable": "Omlouváme se, tento obchod momentálně není k dispozici.",
+          "no_storefront": "Tento obchod zatím nemá webové stránky."
+        },
+        "links": {
+          "explore_other_stores": "Objevte další obchody",
+          "start_free_trial": "Vyzkoušejte nyní zdarma"
+        },
+        "owner_ctas": {
+          "header": "Jsi majitelem obchodu?",
+          "fix_domain": "Dokonči nastavení své nové webové adresy, přejdi na %{domain_settings_link}. Klikni na „Připojit doménu“ a zadej: %{domain}.<br>Pokud máš potíže s přihlášením do svého obchodu, zkus to na stránce %{forgot_your_store_link}.",
+          "fix_domain_link_text": "nastavení tvé domény",
+          "forgot_your_store_link_text": "\"Zapomenutý obchod\"",
+          "add_storefront": "Můžeš nastavit svůj web přidáním kanálu online obchodu do svého %{admin_link}. Pokud máš problémy s přihlášením do svého obchodu, zkus to na stránce %{forgot_your_store_link}.",
+          "admin_link_text": "Správní oblast"
+        },
+        "ctas": {
+          "sell_in_person": {
+            "header": "Osobní prodej",
+            "caption": "Získej přístup k funkcím, které potřebuješ k vedení svého maloobchodního podniku, ať už právě začínáš, nebo chceš rozšířit své působení.",
+            "link_text": "Spustit bezplatnou zkoušku"
+          },
+          "open_a_store": {
+            "header": "Otevřít nový obchod Shopify",
+            "caption": "Začni třídenní bezplatnou zkoušku a poté plať 1 USD/měsíc po dobu následujících tří měsíců.",
+            "link_text": "Zaregistrujte se nyní"
+          },
+          "editions": {
+            "header": "Prohlédnout si vydání Shopify",
+            "caption": "S více než 100 aktualizacemi produktů můžeš jako obchodník jednat produktivněji, tvořivěji a výkonněji, než jsi si kdy dokázal představit.",
+            "link_text": "Zobrazit poslední vydání"
+          },
+          "store_owner": {
+            "header": "Jsi majitelem obchodu?",
+            "caption": "Máte potíže s přihlášením do svého obchodu? Vyzkoušejte funkci %{forgot_your_store_link}. Pokud chcete svůj obchod znovu aktivovat, obraťte se na %{shopify_support_link}.",
+            "shopify_support_link_text": "Podpora Shopify"
+          }
+        }
+      }
     },
     "email_marketing": {
       "subscribed": {
@@ -3225,6 +3277,15 @@
       },
       "sms_unsubscribe_confirm": {
         "message": "Jsi si jistý, že chceš odhlásit SMS reklamu?"
+      }
+    },
+    "links": {
+      "powered_by_shopify": "Poháněno Shopify"
+    },
+    "notices": {
+      "address": {
+        "created": "Adresa byla úspěšně vytvořena",
+        "deleted": "Adresa byla úspěšně odstraněna"
       }
     }
   }

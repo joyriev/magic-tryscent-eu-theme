@@ -1141,7 +1141,8 @@
           "other": "%{count} lokalizacje w pobliżu z twoim artykułem"
         },
         "location_nearby_short_other_items": {
-          "one": "%{count} lokalizacja w pobliżu z twoimi artykułami"
+          "one": "%{count} lokalizacja w pobliżu z twoimi artykułami",
+          "other": "%{count} lokalizacje w pobliżu z twoimi artykułami"
         },
         "location_far_away_one_item": {
           "one": "%{count} lokalizacja z twoim artykułem",
@@ -1150,6 +1151,62 @@
         "location_far_away_other_items": {
           "one": "%{count} lokalizacja z twoimi artykułami",
           "other": "%{count} lokalizacji z twoimi artykułami"
+        },
+        "your_location": "twoja lokalizacja",
+        "search_button": "Szukaj sklepów",
+        "paginator": {
+          "accessibility_label": "Numeracja stron dla odbioru osobistego",
+          "label": {
+            "one": "%{first}–%{last} z %{count} sklepów",
+            "other": "%{first}–%{last} z %{count} sklepów"
+          }
+        },
+        "reveal_more_label": {
+          "one": "Pokaż %{count} kolejnych lokalizacji",
+          "other": "Pokaż %{count} kolejnych lokalizacji"
+        },
+        "selected_pickup_option_no_longer_available": {
+          "title": "Twój wcześniej wybrany punkt lokalizacji nie jest już dostępny.",
+          "ship_to_address_link": "wybierz wysyłkę"
+        },
+        "pickup_unavailable_banner_body": {
+          "ship_items": "Wyślij artykuł",
+          "search_elsewhere": "szukaj gdzie indziej"
+        },
+        "toggle_multiple_locations": "Ponad %{count} innych lokalizacji",
+        "toggle_more_locations": {
+          "one": "%{count} kolejna lokalizacja",
+          "other": "%{count} kolejnych lokalizacji"
+        },
+        "pickup_unavailable_banner_title": {
+          "one": "Żaden lokal nie ma twojego artykułu",
+          "other": "Żadna lokalizacja nie ma twoich artykułów"
+        },
+        "pickup_unavailable_banner_title_with_country": {
+          "one": "Brak lokalizacji w %{country} posiadających Twój artykuł",
+          "other": "Brak lokalizacji w %{country} z twoimi artykułami"
+        }
+      },
+      "localized_fields": {
+        "additional_information": {
+          "tax_credential_br": "NIP/REGON",
+          "shipping_credential_br": "NIP/REGON",
+          "shipping_credential_kr": "Osobisty kodeks celny",
+          "shipping_credential_cn": "Numer dowodu osobistego",
+          "tax_credential_co": "Dowód osobisty/NIP",
+          "shipping_credential_co": "Dowód osobisty/NIP",
+          "shipping_credential_type_co": "Rodzaj dowodu osobistego",
+          "tax_credential_cr": "Numer identyfikacyjny/RUT",
+          "shipping_credential_cr": "Numer identyfikacyjny/RUT",
+          "tax_credential_ec": "CI/RUC/PDV",
+          "shipping_credential_ec": "CI/RUC/PDV",
+          "shipping_credential_gt": "NIP/NIP VAT",
+          "shipping_credential_my": "NIP/Numer rejestracyjny",
+          "shipping_credential_py": "CI/RUC/PDV",
+          "shipping_credential_pt": "NIP/VAT",
+          "shipping_credential_es": "DNI/NIP",
+          "shipping_credential_tw": "Numer dowodu osobistego/NIP",
+          "shipping_credential_tr": "Numer identyfikacyjny Republiki Turcji/NIP"
         }
       }
     }

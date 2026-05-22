@@ -1097,7 +1097,11 @@
             "saved_payment_methods_cvv_verification_disabled": "Vybraná platební metoda vyžaduje ověření CVV, které není pro tento obchod aktivováno. Zvolte jiný způsob platby."
           },
           "sale_attribution": {
-            "draft_order_not_exist": "Tato objednávka není v aktuálním obchodě k dispozici."
+            "draft_order_not_exist": "Tato objednávka není v aktuálním obchodě k dispozici.",
+            "staff_member_not_exist": "Tento zaměstnanec v aktuálním obchodě není k dispozici.",
+            "location_not_exist": "Toto místo není v aktuálním obchodě k dispozici.",
+            "point_of_sale_device_not_exist": "Toto prodejní zařízení není v aktuálním obchodě k dispozici.",
+            "unresolvable_target_merchandise_lines": "Navrhovaná přidělení prodeje jsou v současném kontextu vyjednávání neslučitelná."
           },
           "non_negotiable": {
             "missing_non_negotiable_terms": "Nabídka kupujícího musí obsahovat nepřekročitelné podmínky.",
@@ -1105,12 +1109,58 @@
           },
           "optional_duties": {
             "optional_duties_not_permitted": "Odmítnutí cel není v tomto pokladním procesu povoleno."
+          },
+          "session_identifier_not_unique_error": "Při tvé objednávce došlo k chybě, prosím zkus znovu dokončit nákup.",
+          "session_is_already_finished": "Tato pokladní relace již byla dokončena.",
+          "tax": {
+            "new_tax_must_be_accepted": "Daně spojené s tvou objednávkou se změnily. Zkontroluj je a zkus to znovu.",
+            "unresolvable_tax_terms": "Navrhované podmínky jsou v současném kontextu vyjednávání neslučitelné.",
+            "delivery_price_is_abstract": "Příslušná cena doručení je obecná.",
+            "tax_inclusivity_mismatch": "Vyjednejte znovu s konkrétní hodnotou totalTaxAndDutyAmount nebo totalAmountIncludedInTarget.",
+            "tax_exemption_not_supported": "Daňová osvobození nejsou v aktuálním jednání podporována.",
+            "delivery_tax_exemption_not_supported": "Osvobození od daně pro pořadí doručení momentálně nejsou podporována.",
+            "proposed_allocations_required": "Pole „Navrhovaná přiřazení“ chybí.",
+            "merchandise_terms_must_be_defined": "Podmínky pro zboží s potiskem musí být stanoveny.",
+            "delivery_terms_must_be_defined": "Podmínky doručení musí být stanoveny.",
+            "merchandise_discount_terms_must_be_defined": "Podmínky pro slevu na zboží s potiskem musí být stanoveny.",
+            "delivery_discount_terms_must_be_defined": "Podmínky pro slevu na doručení musí být stanoveny.",
+            "allocated_required": "Pole „Přiřazeno“ chybí.",
+            "value_required": "Pole „Hodnota“ chybí.",
+            "line_splits_not_supported": "Pole „Řady zboží“ musí být rozděleno tak, aby každý řádek tvořil samostatnou řadovou součást v nabídce prodejce."
+          },
+          "tip": {
+            "only_one_tip_line_allowed": "Více řad spropitného není podporováno.",
+            "tips_not_allowed_for_b2b": "Spropitné není v B2B obchodech povoleno.",
+            "currency_change_reset": "Spropitné bylo kvůli změně měny vynulováno.",
+            "tips_not_allowed_for_deferred_purchase_options": "Spropitné pro skryté kupní opce zatím není podporováno."
           }
         },
         "dropzone": {
           "add_file": "Přidat soubor",
           "dragged_over": "Přetáhněte soubor pro nahrání"
-        }
+        },
+        "pay_now_button_label": "Koupit nyní",
+        "print_policies_link_label": "Tisknout",
+        "expand_notice_label": "Zobrazit více",
+        "forwarding_indicator": {
+          "new_window": "Otevře nové okno.",
+          "external": "Otevírá externí webovou stránku.",
+          "external_and_new_window": "Otevírá externí webovou stránku v novém okně."
+        },
+        "full_title": "{{pageTitle}} – {{shopName}} – Pokladna",
+        "google_map_title": "Google Mapy",
+        "processing": "Zpracovává se...",
+        "remove_item": "%{label} odstranit",
+        "map": {
+          "cluster_title": {
+            "one": "Shluk s {{number}} značkami",
+            "other": "Shluk s {{number}} značkami"
+          }
+        },
+        "sheet": {
+          "expand": "Rozšířit"
+        },
+        "loading": "Načítá se…"
       }
     }
   }

@@ -1016,18 +1016,63 @@
             "saved_payment_methods_cvv_verification_disabled": "Wybrana metoda płatności wymaga weryfikacji CVV, która nie jest aktywna w tym sklepie. Wybierz inną metodę płatności."
           },
           "sale_attribution": {
-            "draft_order_not_exist": "Ten projekt zamówienia nie istnieje w aktualnym sklepie."
+            "draft_order_not_exist": "Ten projekt zamówienia nie istnieje w aktualnym sklepie.",
+            "staff_member_not_exist": "Ten pracownik nie jest dostępny w aktualnym sklepie.",
+            "location_not_exist": "Ta lokalizacja nie jest dostępna w obecnym sklepie.",
+            "point_of_sale_device_not_exist": "To urządzenie sprzedażowe nie jest dostępne w aktualnym sklepie.",
+            "unresolvable_target_merchandise_lines": "Proponowane przydziały sprzedaży są niezgodne z obecnym kontekstem negocjacji."
           },
           "non_negotiable": {
             "missing_non_negotiable_terms": "Oferta kupującego musi zawierać warunki niepodlegające negocjacjom."
           },
           "optional_duties": {
             "optional_duties_not_permitted": "Odrzucenie ceł nie jest dozwolone przy tym zamówieniu."
+          },
+          "session_identifier_not_unique_error": "Coś poszło nie tak z twoim zamówieniem, spróbuj ponownie dokonać płatności.",
+          "session_is_already_finished": "Ta sesja realizacji zamówienia została już zakończona.",
+          "tax": {
+            "new_tax_must_be_accepted": "Podatki związane z twoim zamówieniem uległy zmianie. Sprawdź je i spróbuj ponownie.",
+            "unresolvable_tax_terms": "Proponowane warunki są nie do pogodzenia w obecnym kontekście negocjacji.",
+            "tax_inclusivity_mismatch": "Negocjuj ponownie z konkretną wartością totalTaxAndDutyAmount lub totalAmountIncludedInTarget.",
+            "tax_exemption_not_supported": "Zwolnienia podatkowe nie są wspierane na bieżącym posiedzeniu negocjacyjnym.",
+            "delivery_tax_exemption_not_supported": "Zwolnienia podatkowe dla kolejności doręczeń nie są obecnie obsługiwane.",
+            "proposed_allocations_required": "Pole „Proponowane przypisania” jest nieobecne.",
+            "merchandise_terms_must_be_defined": "Warunki dotyczące artykułów promocyjnych muszą zostać określone.",
+            "delivery_terms_must_be_defined": "Należy określić warunki dostawy.",
+            "merchandise_discount_terms_must_be_defined": "Należy określić warunki udzielenia rabatu na artykuły promocyjne.",
+            "delivery_discount_terms_must_be_defined": "Należy określić warunki udzielenia rabatu na dostawy.",
+            "allocated_required": "Pole „Przypisane” jest nieobecne.",
+            "value_required": "Pole „Wartość” jest puste.",
+            "line_splits_not_supported": "Pole „Wiersze artykułów handlowych” musi być podzielone tak, aby każdy wiersz stanowił pojedynczy składnik wiersza w ofercie sprzedawcy."
+          },
+          "tip": {
+            "only_one_tip_line_allowed": "Kilka rzędów napiwków nie jest obsługiwanych.",
+            "currency_change_reset": "Napiwek został zresetowany z powodu zmiany waluty.",
+            "tips_not_allowed_for_deferred_purchase_options": "Napiwki za ukryte opcje zakupu nie są jeszcze obsługiwane."
           }
         },
         "dropzone": {
           "dragged_over": "Upuść plik do przesłania"
-        }
+        },
+        "page_title": "Kasa",
+        "pay_now_button_label": "Kup teraz",
+        "expand_notice_label": "Pokaż więcej",
+        "forwarding_indicator": {
+          "new_window": "Otwiera nowe okno."
+        },
+        "full_title": "{{pageTitle}} – {{shopName}} – Kasa",
+        "loading_title": "Kasa – {{shopName}}",
+        "google_map_title": "Mapy Google",
+        "processing": "W trakcie edycji...",
+        "remove_tag": "Usuń znacznik",
+        "map": {
+          "cluster_title": {
+            "one": "Klastr z {{number}} markerami",
+            "other": "Klastr z {{number}} markerami"
+          }
+        },
+        "remove_chip": "Usuń artykuł",
+        "finalize_order_accessibility_label": "Zakończ zamówienie"
       }
     }
   }

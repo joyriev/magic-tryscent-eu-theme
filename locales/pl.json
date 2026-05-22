@@ -3129,7 +3129,59 @@
         "created": "Adres pomyślnie utworzony",
         "error_creating": "Błąd podczas tworzenia adresu.",
         "deleted": "Adres pomyślnie usunięty",
-        "error_deleting": "Błąd podczas usuwania adresu."
+        "error_deleting": "Błąd podczas usuwania adresu.",
+        "updated": "Adres został pomyślnie zaktualizowany."
+      },
+      "customer": {
+        "password_reset_error": "Błąd podczas resetowania hasła",
+        "no_account_found": "Nie znaleziono konta z tym adresem e-mail.",
+        "invalid_credentials": "Adres e-mail lub hasło jest nieprawidłowe.",
+        "denylisted_reset_password": "Nie można uzyskać dostępu do twojego konta, ponieważ obecne hasło nie jest bezpieczne. Otrzymasz wiadomość e-mail z prośbą o zaktualizowanie hasła.",
+        "signup_disabled": "Tworzenie kont klientów zostało wyłączone.",
+        "subscribe_error": "Błąd podczas subskrypcji",
+        "unsubscribe_error": "Błąd podczas wypowiedzenia subskrypcji"
+      },
+      "cart": {
+        "only_n_items_available": "Do koszyka możesz dodać tylko %{count} %{name}.",
+        "too_many_items_in_cart": "Nie możesz dodać więcej produktów %{name} do koszyka.",
+        "all_items_in_cart": "Wszystkie %{count} %{name} znajdują się w Twoim koszyku.",
+        "missing_parameters": "brak ważnych parametrów ID lub wiersza",
+        "generic_error": "Błąd koszyka zakupów",
+        "too_many_line_items_error": "Twój koszyk nie może zawierać więcej niż %{max} artykułów.",
+        "link_no_longer_exists": "Link nie istnieje już.",
+        "stock_problems_html": "Jeden lub więcej artykułów nie jest już dostępnych. Utworzyliśmy <a href='%{link}'>zaktualizowany koszyk</a>.",
+        "items_changed": "Jeden lub więcej artykułów zostało zmienionych.",
+        "product_sold_out": "Produkt '%{name}' jest już wyprzedany.",
+        "variant_requires_selling_plan": "Wariant można nabyć tylko wraz z planem sprzedaży.",
+        "shipping_address_invalid": "Podczas obliczania twoich stawek za przesyłkę wystąpił problem. Kontynuuj do kasy, aby wybrać stawkę za przesyłkę, zanim zakończysz zamówienie.",
+        "selling_plan_not_applicable": "Plan sprzedaży nie może być zastosowany do wariantu",
+        "selling_plan_not_available_for_company_locations": "Zakupy jednorazowe są dostępne tylko dla zamówień B2B",
+        "digital_product_not_available_for_company_locations": "Ten artykuł nie może zostać dodany do zamówienia B2B.",
+        "product_not_available": "Produkt jest niedostępny",
+        "less_than_minimum": "Ten artykuł ma minimum %{min}.",
+        "more_than_maximum": "Ten artykuł ma maksymalnie %{max}.",
+        "not_respect_step": "Możesz dodać ten artykuł tylko w ilościach będących wielokrotnością %{step}.",
+        "bundle_requires_components": "Produkt zestawu \"%{name}\" nie może zostać dodany do koszyka.",
+        "gift_card_with_components_not_supported": "Produkt zestawu \"%{name}\" nie może zostać dodany do koszyka.",
+        "view_lines_limit_reached": "Wiersze muszą mieć długość mniejszą lub równą %{limit}",
+        "merchandise_line_transformers": {
+          "run_error": "W twoim koszyku wystąpił błąd."
+        },
+        "gift_card_price_must_be_greater_than_zero": "Produkt zestawu \"%{name}\" nie może zostać dodany do koszyka.",
+        "gift_card_recipient_validation_error": "Podany odbiorca kuponu jest nieprawidłowy",
+        "buyer_cannot_purchase_for_company_locations": "Brak możliwości zakupu dla tej lokalizacji",
+        "only_one_added_to_cart": "Z powodu dostępności do twojego koszyka dodano tylko 1 artykuł.",
+        "only_n_added_to_cart": "Z powodu dostępności do Twojego koszyka dodano tylko %{quantity} artykułów.",
+        "maximum_available_quantity_reached": "Maksymalna ilość tego artykułu znajduje się już w twoim koszyku.",
+        "merchandise_not_applicable": "Nie można kupić artykułu w skonfigurowanej formie.",
+        "not_found": "Koszyk nie znaleziony"
+      },
+      "line_item": {
+        "item_status": {
+          "add_variant": "dodano %{delta}",
+          "decrement_item": "%{delta} z %{total} pozostało",
+          "decrement_fulfilled_line_item": "%{delta} z %{total} zwróconych"
+        }
       }
     },
     "filters": {

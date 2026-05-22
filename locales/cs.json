@@ -233,40 +233,40 @@
   },
   "templates": {
     "search": {
-      "no_results": "Nebyly nalezeny žádné výsledky pro {{ terms }}. Zkontrolujte pravopis nebo zadejte jiné slovo či slovní spojení.",
+      "no_results": "Nebyly nalezeny žádné výsledky pro \"{{ terms }}\". Zkontrolujte pravopis nebo to zkuste s jiným vyhledávacím dotazem.",
       "title": "Výsledky hledání",
       "results_with_count": {
         "one": "{{ count }} výsledek",
-        "other": "Výsledky: {{ count }}",
+        "other": "{{ count }} výsledků",
         "few": "Výsledky: {{ count }}",
         "many": "Výsledky: {{ count }}"
       },
       "page": "Stránka",
       "products": "Produkty",
-      "search_for": "Vyhledat: {{ terms }}",
+      "search_for": "Hledat \"{{ terms }}\"",
       "results_with_count_and_term": {
-        "one": "Pro dotaz {{ terms }} byl nalezen {{ count }} výsledek",
-        "other": "Pro dotaz {{ terms }} byl nalezen tento počet výsledků: {{ count }}",
+        "one": "{{ count }} výsledků pro \"{{ terms }}\" nalezeno",
+        "other": "{{ count }} výsledků pro \"{{ terms }}\" nalezeno",
         "few": "Pro dotaz {{ terms }} byl nalezen tento počet výsledků: {{ count }}",
         "many": "Pro dotaz {{ terms }} byl nalezen tento počet výsledků: {{ count }}"
       },
       "results_pages_with_count": {
         "one": "{{ count }} stránka",
-        "other": "{{ count }} str.",
+        "other": "{{ count }} stran",
         "few": "{{ count }} str.",
         "many": "{{ count }} str."
       },
       "results_products_with_count": {
         "one": "{{ count }} produkt",
-        "other": "{{ count }} prod.",
+        "other": "{{ count }} produktů",
         "few": "{{ count }} prod.",
         "many": "{{ count }} prod."
       },
       "suggestions": "Návrhy",
       "pages": "Stránky",
       "results_suggestions_with_count": {
-        "one": "Počet návrhů: {{ count }}",
-        "other": "Počet návrhů: {{ count }}",
+        "one": "{{ count }} návrh",
+        "other": "{{ count }} návrhů",
         "few": "Počet návrhů: {{ count }}",
         "many": "Počet návrhů: {{ count }}"
       }
@@ -280,14 +280,14 @@
         "email": "E-mail",
         "phone": "Telefonní číslo",
         "comment": "Komentář",
-        "send": "Odeslat",
-        "post_success": "Děkujeme, že jste nás kontaktovali. Ozveme se vám co možná nejdříve.",
-        "error_heading": "Upravte prosím následující informace:",
+        "send": "Odesílání",
+        "post_success": "Děkujeme, že jste nás kontaktovali. Ozveme se vám co nejdříve.",
+        "error_heading": "Prosím, upravte následující:",
         "title": "Kontaktní formulář"
       }
     },
     "404": {
-      "title": "Stránka nebyla nalezena",
+      "title": "Stránka nenalezena",
       "subtext": "404"
     }
   },
@@ -3390,6 +3390,37 @@
         "other": "Vyhledávání: %{count} výsledků nalezeno pro \"%{terms}\""
       },
       "blog_or_article_with_error": "Chyba – %{title}"
+    },
+    "sentence": {
+      "two_words_connector": "a",
+      "last_word_connector": "a"
+    },
+    "store_availability": {
+      "pick_up_time": {
+        "one_hour": "Obvykle hotovo za 1 hodinu",
+        "two_hours": "Obvykle hotovo za 2 hodiny",
+        "four_hours": "Obvykle hotovo za 4 hodiny",
+        "twenty_four_hours": "Obvykle hotovo do 24 hodin",
+        "two_to_four_days": "Obvykle hotovo za 2 - 4 dny",
+        "five_or_more_days": "Obvykle hotovo za 5 nebo více dnů",
+        "zero_to_two_hours": "Obvykle hotovo za 2 hodiny",
+        "two_to_four_hours": "Obvykle hotovo za 4 hodiny",
+        "immediately": "Nyní připraveno k vyzvednutí",
+        "next_day": "K vyzvednutí následující den"
+      }
+    },
+    "search": {
+      "sorting": {
+        "relevance": "Relevance",
+        "price_ascending": "Cena (vzestupně)",
+        "price_descending": "Cena (sestupně)"
+      },
+      "error": "Při načítání výsledků vyhledávání došlo k problému. Obnov stránku nebo to zkus později znovu."
+    },
+    "subscriptions": {
+      "buyer_consent_product": "Tento produkt je opakovaný nákup nebo nákup s odloženou platbou. Pokračováním souhlasím s %{cancellationPolicyLink} a dávám vám oprávnění účtovat moji platební metodu za ceny uvedené na této stránce, v uvedené frekvenci a termínech, dokud nebude moje objednávka vyřízena nebo ji, pokud je to možné, nezruším.",
+      "buyer_consent_cart": "Jeden nebo více položek ve vašem košíku je opakovaný nákup nebo nákup s odloženou platbou. Pokračováním souhlasím s %{cancellationPolicyLink} a opravuji vás k účtování mé platební metody za ceny uvedené na této stránce, v uvedené frekvenci a termínech, dokud nebude moje objednávka vyřízena nebo ji, pokud je to možné, nezruším.",
+      "cancellation_policy": "Zásady storna"
     }
   }
 }

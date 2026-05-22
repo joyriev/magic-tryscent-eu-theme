@@ -296,8 +296,8 @@
       "announcement": "Ogłoszenie",
       "menu": "Menu",
       "cart_count": {
-        "one": "{{ count }} pozycja",
-        "other": "{{ count }} pozycje(-i)",
+        "one": "{{ count }} artykułów",
+        "other": "{{ count }} artykułów",
         "few": "{{ count }} pozycje(-i)",
         "many": "{{ count }} pozycje(-i)"
       }
@@ -327,44 +327,44 @@
       "new_estimated_total": "Nowa szacowana łączna kwota",
       "duties_and_taxes_included_shipping_at_checkout_with_policy_html": "W tym opłaty celne i podatki. Rabaty oraz <a href=\"{{ link }}\">wysyłka</a> zostaną naliczone podczas finalizacji zamówienia.",
       "duties_and_taxes_included_shipping_at_checkout_without_policy": "Wliczone opłaty celne i podatki. Rabaty oraz koszty wysyłki zostaną naliczone podczas finalizacji zamówienia.",
-      "taxes_included_shipping_at_checkout_with_policy_html": "Z wliczonymi podatkami. Obliczenie rabatów i <a href=\"{{ link }}\">wysyłki</a> przy realizacji zakupu.",
-      "taxes_included_shipping_at_checkout_without_policy": "Z wliczonymi podatkami. Obliczenie rabatów i wysyłki przy realizacji zakupu.",
+      "taxes_included_shipping_at_checkout_with_policy_html": "W tym podatki. Rabaty i <a href=\"{{ link }}\">wysyłka</a> zostaną naliczone podczas finalizacji zamówienia.",
+      "taxes_included_shipping_at_checkout_without_policy": "W tym podatek. Rabaty i koszty wysyłki zostaną naliczone przy finalizacji zamówienia.",
       "duties_included_taxes_at_checkout_shipping_at_checkout_with_policy_html": "W tym opłaty celne. Podatki, rabaty i <a href=\"{{ link }}\">wysyłka</a> zostaną naliczone podczas finalizacji zamówienia.",
       "duties_included_taxes_at_checkout_shipping_at_checkout_without_policy": "W tym cła. Podatki, zniżki i koszty wysyłki zostaną naliczone podczas finalizacji zamówienia.",
       "taxes_at_checkout_shipping_at_checkout_with_policy_html": "Podatki, rabaty i <a href=\"{{ link }}\">wysyłka</a> zostaną naliczone podczas finalizacji zamówienia.",
-      "taxes_at_checkout_shipping_at_checkout_without_policy": "Obliczenie podatków, rabatów i wysyłki przy realizacji zakupu."
+      "taxes_at_checkout_shipping_at_checkout_without_policy": "Podatki, rabaty i koszty wysyłki zostaną obliczone podczas finalizacji zamówienia."
     },
     "footer": {
       "payment": "Metody płatności"
     },
     "featured_blog": {
-      "view_all": "Wyświetl wszystkie",
-      "onboarding_title": "Post na blogu",
-      "onboarding_content": "Przedstaw swoim klientom podsumowanie swojego wpisu na blogu"
+      "view_all": "Pokaż wszystko",
+      "onboarding_title": "Wpis na blogu",
+      "onboarding_content": "Zapewnij swoim klientom przegląd swojego wpisu na blogu"
     },
     "featured_collection": {
-      "view_all": "Wyświetl wszystkie",
-      "view_all_label": "Wyświetl wszystkie produkty w kolekcji {{ collection_name }}"
+      "view_all": "Pokaż wszystko",
+      "view_all_label": "Pokaż wszystkie produkty w kolekcji {{ collection_name }}"
     },
     "collection_list": {
-      "view_all": "Wyświetl wszystkie"
+      "view_all": "Pokaż wszystko"
     },
     "collection_template": {
-      "title": "Kolekcja",
+      "title": "kategoria",
       "empty": "Nie znaleziono produktów",
-      "use_fewer_filters_html": "Użyj mniejszej ilości filtrów lub <a class=\"{{ class }}\" href=\"{{ link }}\">usuń wszystko</a>"
+      "use_fewer_filters_html": "Użyj mniej filtrów lub <a class=\"{{ class }}\" href=\"{{ link }}\">usuń wszystkie</a>"
     },
     "video": {
-      "load_video": "Załaduj film: {{ description }}"
+      "load_video": "Ładowanie wideo: {{ description }}"
     },
     "slideshow": {
-      "load_slide": "Wczytaj slajd",
+      "load_slide": "Ładowanie folii",
       "previous_slideshow": "Poprzedni slajd",
       "next_slideshow": "Następny slajd",
       "pause_slideshow": "Wstrzymaj pokaz slajdów",
       "play_slideshow": "Odtwórz pokaz slajdów",
       "carousel": "Karuzela",
-      "slide": "Slajd"
+      "slide": "Folia"
     },
     "page": {
       "title": "Tytuł strony"
@@ -377,33 +377,33 @@
       "announcement_bar": "Pasek ogłoszeń"
     },
     "quick_order_list": {
-      "product_total": "Suma częściowa dla produktu",
-      "view_cart": "Pokaż koszyk",
-      "each": "{{ money }}/szt.",
+      "product_total": "Suma częściowa produktu",
+      "view_cart": "Zobacz koszyk",
+      "each": "{{ money }}/sztuka",
       "product": "Produkt",
       "variant": "Wariant",
-      "variant_total": "Suma wariantów",
+      "variant_total": "Warianty łącznie",
       "items_added": {
-        "one": "Dodano {{ quantity }} pozycję",
-        "other": "Dodano {{ quantity }} pozycje(-i)",
+        "one": "Dodano {{ quantity }} artykułów",
+        "other": "Dodano {{ quantity }} artykułów",
         "few": "Dodano {{ quantity }} pozycje(-i)",
         "many": "Dodano {{ quantity }} pozycje(-i)"
       },
       "items_removed": {
-        "one": "Usunięto {{ quantity }} pozycję",
-        "other": "Usunięto {{ quantity }} pozycje(-i)",
+        "one": "Usunięto {{ quantity }} artykułów",
+        "other": "Usunięto {{ quantity }} artykułów",
         "few": "Usunięto {{ quantity }} pozycje(-i)",
         "many": "Usunięto {{ quantity }} pozycje(-i)"
       },
-      "product_variants": "Warianty produktów",
-      "total_items": "Pozycje łącznie",
-      "remove_all_items_confirmation": "Usunąć wszystkie {{ quantity }} pozycje(-i) z koszyka?",
+      "product_variants": "Warianty produktu",
+      "total_items": "Łączna liczba artykułów",
+      "remove_all_items_confirmation": "Usunąć wszystkie {{ quantity }} artykuły z Twojego koszyka?",
       "remove_all": "Usuń wszystko",
       "cancel": "Anuluj",
-      "remove_all_single_item_confirmation": "Czy usunąć 1 pozycję z Twojego koszyka?",
-      "min_error": "Pozycja ma minimalny limit {{ min }}",
-      "max_error": "Pozycja ma maksymalny limit {{ max }}",
-      "step_error": "Możesz dodać tę pozycję tylko z przyrostem o {{ step }}"
+      "remove_all_single_item_confirmation": "Usunąć 1 artykuł z koszyka?",
+      "min_error": "Ten artykuł ma minimum {{ min }}",
+      "max_error": "Ten artykuł ma maksimum {{ max }}",
+      "step_error": "Możesz dodać ten artykuł tylko w ilościach będących wielokrotnością {{ step }}."
     }
   },
   "localization": {

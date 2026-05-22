@@ -1253,7 +1253,10 @@
       "merchant_instruction_errors": {
         "empty_stable_id": "Instrukcja dla artykułu merchandisingowego %{position} %{name} zawiera pusty stabilny identyfikator.",
         "duplicate_variant_id": "Instrukcja dla artykułu merchandisingowego %{position} %{name} zawiera zduplikowany identyfikator wariantu %{variant_id}.",
-        "discount_not_supported": "Instrukcja dla sprzedawców dotycząca stosowania rabatów na artykuły merchandisingowe nie obsługuje tego rodzaju rabatu."
+        "discount_not_supported": "Instrukcja dla sprzedawców dotycząca stosowania rabatów na artykuły merchandisingowe nie obsługuje tego rodzaju rabatu.",
+        "invalid_stable_id_target": "Instrukcja dotycząca artykułu merchandisingowego %{position} %{name} odnosi się do stabilnego ID %{stable_id}, które jednak nie znajduje się w serii artykułów merchandisingowych.",
+        "invalid_variant_id_target": "Instrukcja dotycząca artykułu merchandisingowego %{name} odnosi się do identyfikatora wariantu %{variant_id}, który jednak nie znajduje się w linii artykułów merchandisingowych.",
+        "invalid_price_override_target": "Instrukcja dotycząca nadpisania ceny dla pozycji %{stable_id} jest nieprawidłowa, ponieważ jest to komponent zestawu."
       },
       "merchandise_unavailable_in_buyer_location": {
         "banner_title": {
@@ -1270,6 +1273,65 @@
       "memberships": {
         "delivery_promise_unfulfillable": "Ten adres nie jest obsługiwany dla bieżącego członkostwa.",
         "items_split_across_locations_unsupported": "Dostawa Prime nie jest dostępna dla twojego zamówienia. Twoje opcje wysyłki zostały zaktualizowane."
+      },
+      "mor_policies": {
+        "terms_and_conditions": "Warunki handlowe zarejestrowanego sprzedawcy",
+        "privacy_policy": "Polityka prywatności zarejestrowanego sprzedawcy"
+      },
+      "no_address_location": {
+        "header": "Nie ma adresu wysyłki dla tej lokalizacji",
+        "message": "Skontaktuj się z nami, aby dodać adres dla tej lokalizacji i dokończyć realizację zamówienia.",
+        "alt_header": "Brak adresu dostawy"
+      },
+      "notice_banner": {
+        "subscription_changed": "Jedna z twoich subskrypcji uległa zmianie.",
+        "company_location_changed": "Twój koszyk został zaktualizowany. Sprawdź swoje zamówienie, zanim je złożysz.",
+        "violations_title": "{{violation}} jest brakujące lub nieprawidłowe",
+        "individual_violations_title": {
+          "DeliveryViolations": "Adres dostawy",
+          "PaymentViolations": "Adres do faktury",
+          "OtherViolations": "Informacje o zamówieniu",
+          "UnhandledViolations": "Informacje o zamówieniu"
+        },
+        "all_violations_content": "Zadzwoń do nas lub {{emailLink}}, aby zaktualizować te informacje i dokończyć swoje zamówienie:",
+        "all_violations_email_link": "wyślij nam e-mail",
+        "editable_shipping_address_violations_message_title": "Dodaj te informacje, aby zakończyć swoje zamówienie:",
+        "editable_shipping_address_violations_message_footer": "Aby na stałe zaktualizować adres dla tej lokalizacji, {{emailLink}}.",
+        "company_location_changed_product_removed": "Twój koszyk został zaktualizowany, ponieważ niektóre produkty w tej lokalizacji są niedostępne. Sprawdź swoje zamówienie, zanim je złożysz.",
+        "shipping_address_incomplete_title": "Adres dostawy jest niekompletny",
+        "calculating_shipping": "Koszty wysyłki zostaną doliczone. Spróbuj ponownie za kilka sekund. Nie zostałeś obciążony żadną opłatą.",
+        "calculating_taxes": "Podatki są jeszcze naliczane. Spróbuj ponownie za kilka sekund. Nie zostały Ci nic naliczone.",
+        "generic_processing_error": {
+          "title": "Podczas realizacji twojego zamówienia wystąpił problem",
+          "body": "Nie pobrano od Ciebie żadnej opłaty. Spróbuj ponownie lub użyj innej metody płatności."
+        },
+        "contact_information": {
+          "header": "Aby zaktualizować swoje informacje, {{emailLink}}."
+        },
+        "payment_method_not_available_with_payment_terms": "Wybrana przez Ciebie metoda płatności nie jest już dostępna, ponieważ płatność za to zamówienie podlega teraz warunkom płatności {{paymentTerms}}.",
+        "payment_method_not_available_with_fulfillment_terms": "Wybrana przez ciebie metoda płatności nie jest już dostępna, ponieważ płatność za to zamówienie jest teraz należna przy realizacji.",
+        "payment_method_not_available_with_fixed_terms": "Wybrana przez Ciebie metoda płatności nie jest już dostępna, ponieważ płatność za to zamówienie jest wymagalna później.",
+        "payment_method_not_available_with_review_requirement": "Wybrana przez Ciebie metoda płatności nie jest już dostępna, ponieważ płatność jest wymagana dopiero po potwierdzeniu Twojego zamówienia.",
+        "validation_errors_banner": {
+          "section_label": {
+            "billing": "Faktura"
+          },
+          "heading": {
+            "one": "Występuje {{count}} błąd:",
+            "other": "Występuje {{count}} błąd:"
+          },
+          "errors_in_section": {
+            "one": "{{count}} błędów w sekcji {{section}}",
+            "other": "{{count}} błędów w sekcji {{section}}"
+          }
+        }
+      },
+      "note": {
+        "length_exceeds_maximum": "Zmniejsz rozmiar adnotacji do 5000 lub mniej znaków."
+      },
+      "offsite_payment_failed": {
+        "payment_not_processed_text": "Spróbuj ponownie zeskanować kod QR. Jeśli nadal nie działa, poinformuj nasz personel i wypróbuj inną metodę płatności.",
+        "payment_link_expired_text": "Spróbuj zeskanować kod QR ponownie."
       }
     }
   }

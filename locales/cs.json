@@ -1969,7 +1969,57 @@
         "paypal_wallet_label": "Peněženka PayPal",
         "simulated_express_checkout": "Peněženky nejsou kvůli tvému regionu nebo prohlížeči v náhledu dostupné",
         "separate_payments_label": "Tvé položky pocházejí z více než jednoho obchodu. Budeš účtován v %{separate_payments_link}.",
-        "separate_payments_text": "Oddělené platby"
+        "separate_payments_text": "Oddělené platby",
+        "supported_card_brands_more_label": "a více …",
+        "technical_error": "Platby momentálně nelze z technických důvodů zpracovat. Zkuste to prosím za pár minut znovu.",
+        "subscription_agreement_label_html": "Rozumím, že souhlasím s odběrem. Bude se prodlužovat za uvedenou cenu a v nastavené frekvenci, dokud nevyprší nebo nebude <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">zrušen</a>.",
+        "waiting_on_payment_methods": "Dotaz na dostupné způsoby platby...",
+        "subscription_card_update_agreement_label": "Změnou platební metody aktualizujete své předplatné a budoucí pravidelné platby.",
+        "update_payment_method": "Aktualizovat způsob platby",
+        "vaulting_agreement_label": "Uložit mé platební údaje pro rychlejší dokončení nákupu u %{company}.",
+        "waiting_on_taxes_message": "Pokud se tvé daně nevyčíslí během několika sekund, obnov stránku.",
+        "waiting_on_taxes_notice": "Daně jsou vypočítány",
+        "subscription_heading": "Smlouva o předplatném",
+        "use_location_billing_address_label": "Použít fakturační adresu místa",
+        "use_location_shipping_address_label": "Použít dodací adresu místa",
+        "swish_label": "Švih",
+        "usdc_cashback_title": "%{incentive_percentage} % Cashback",
+        "usdc_cashback_additional_info": "Zaplať USDC na Base a za 30 dní obdržíš %{incentive_percentage}% zpět do své peněženky.",
+        "vault_for_payment_later": {
+          "notice": "Tobě nyní nebude nic účtováno. Pokud budeš pokračovat v platbě, souhlasíš s tím, že tvá platební metoda bude při zpracování tvé objednávky automaticky zatížena."
+        }
+      },
+      "payment_errors": {
+        "credit_card_processing": "Tvá platba nemůže být z technických důvodů zpracována. Zkus to za pár minut znovu nebo použij jiný způsob platby.",
+        "checkout_amount_changed": "Tvá platba nemohla být zpracována, protože se částka splatná při dokončení nákupu změnila. Prosím zkontroluj svou objednávku a zkus to znovu.",
+        "deferred_amount_changed": "Tvá platba nemohla být zpracována, protože se změnila částka odkladu platby. Prosím zkontroluj svou objednávku a zkus to znovu.",
+        "deferred_date_changed": "Tvá platba nemohla být zpracována, protože se změnil termín odkladu platby. Prosím zkontroluj svou objednávku a zkus to znovu.",
+        "decision_rule_block": "Při zpracování tvé platby došlo k problému. Prosím, kontaktuj majitelku nebo majitele obchodu.",
+        "cannot_verify": "Tvé platební údaje nebylo možné ověřit. Zkontroluj údaje o kartě a zkus to znovu.",
+        "card_declined": "Tvá karta byla zamítnuta. Zkus to znovu nebo použij jiný způsob platby.",
+        "call_issuer": "Tvá karta byla zamítnuta. Použij jiný způsob platby nebo kontaktuj svou banku pro další informace.",
+        "available_methods_updated": "Dostupné způsoby platby byly aktualizovány.",
+        "amount_too_small": "Minimální částka k úhradě musí být větší než 0,50 USD. Zkus to znovu s vyšší částkou.",
+        "captcha_required": "Zadej své platební údaje a vyřeš CAPTCHA, abys dokončil svůj nákup.",
+        "captcha_required_without_payment_information": "Vyřeš CAPTCHA, abys dokončil svůj nákup.",
+        "cancelled_payment": "Tvá platba byla zrušena. Zkus to znovu nebo použij jiný způsob platby."
+      },
+      "payment_challenge_modal": {
+        "instructions": "Dokonči svůj nákup pomocí kódu {{paymentMethod}}.",
+        "timer_message": "Máte ještě {{timeLeft}}, abyste zaplatili.",
+        "copy_text": "Zkopírovat {{paymentMethod}} kód",
+        "header": "Zaplatit pomocí {{paymentMethod}}",
+        "qr_code": {
+          "instructions": "Dokonči svůj nákup pomocí kódu {{paymentMethod}}."
+        },
+        "external": {
+          "instructions": "Potvrď platbu v aplikaci, abys dokončil(a) tento nákup."
+        },
+        "close": "Uzavřít ověření totožnosti"
+      },
+      "payment_collection": {
+        "cancelled": "Tato platba již není potřeba. Na stránce objednávky najdeš další informace.",
+        "paid": "Tato platba již byla odeslána. Na stránce objednávky najdeš další informace."
       }
     }
   }

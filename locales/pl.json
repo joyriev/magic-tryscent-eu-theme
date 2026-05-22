@@ -1697,7 +1697,56 @@
         "discount_codes_removed_or_modified_summary": {
           "one": "Kod rabatowy %{count} został usunięty lub zmieniony",
           "other": "Usunięto lub zmieniono %{count} kodów rabatowych"
-        }
+        },
+        "gift_card_code_label": "Kod rabatowy",
+        "gift_card_balance_label": "Równowaga:",
+        "name_on_card_label": "Imię i nazwisko posiadacza karty",
+        "name_on_card_placeholder": "Imię i nazwisko posiadacza karty",
+        "ends_with_label": "kończy się na %{last_digits}",
+        "free_order_notice_html": "Twoje zamówienie jest <strong>bezpłatne</strong>. Nie jest wymagana żadna płatność.",
+        "express_checkout_free_order": "Za darmowe zamówienie nie zostaniesz obciążony żadną opłatą",
+        "missing_credit_card_error": "Wprowadź dane swojej karty, aby zakończyć płatność",
+        "generic_incorrect_card_info": "Nie udało się zweryfikować twoich danych płatności. Sprawdź dane karty i spróbuj ponownie.",
+        "klarna_pay_now_label": "Zapłać od razu za pomocą Klarna",
+        "klarna_pay_later_label": "Faktura z Klarna",
+        "eps_label": "przelew eps",
+        "expiry_long": "(Wygasa: %{month}/%{year})",
+        "expiry_short": "(Wygasa: %{month}/%{year})",
+        "ftd_vault_credit_card_label": "Zapisz tę kartę kredytową na moim koncie, aby przyspieszyć finalizację zakupu",
+        "google": {
+          "connect": "Kliknij tutaj, aby połączyć się ze swoim kontem Google Pay",
+          "error_authorizing": "Błąd podczas autoryzacji płatności"
+        },
+        "mor_disclaimer_html": "Klikając poniżej i finalizując zamówienie, zgadzasz się na zakup artykułu (artykułów) od Global-e jako zarejestrowanego sprzedawcy dla tej transakcji zgodnie z <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{mor_terms}\" href=\"%{terms_href}\">warunkami</a> oraz <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{privacy_policy}\" href=\"%{policy_href}\">polityką prywatności</a> Global-e. Global-e jest międzynarodowym dostawcą usług realizacji zamówień dla %{shop_name}",
+        "multibanco_label": "Multibank",
+        "fact_billing_address_label": "Adres do faktury",
+        "location_shipping_address_label": "Adres dostawy lokalizacji",
+        "expired_cards_info": {
+          "one": "Istnieje %{count} wygasła karta, którą możesz wyświetlić i edytować na swoim koncie.",
+          "other": "Istnieje %{count} wygasłych kart, które możesz wyświetlić i edytować na swoim koncie."
+        },
+        "local_payment_method_receiver_notice": "Po złożeniu zamówienia otrzymasz szczegóły płatności. Dokonaj płatności w ciągu {{dueDays}} dni w bankomacie lub online.",
+        "gift_card_wrapper": {
+          "heading": "Bon podarunkowy",
+          "apply_gift_card_label": "Zastosuj kupon",
+          "payment_tag": "Bon podarunkowy",
+          "apply_another_gift_card_label": "Zastosuj kolejny bon rabatowy",
+          "gift_card_label": "Kupon: %{identifier}",
+          "add_label": "Dodaj bon podarunkowy",
+          "manage_label": "Zarządzaj bonami podarunkowymi"
+        },
+        "markets_pro_disclaimer_label": "Składając zamówienie, zgadzasz się na zakupy jako zarejestrowany sprzedawca zgodnie z %{markets_pro_terms} oraz %{privacy_policy} Global-e i na udostępnianie swoich danych %{shop_name}.",
+        "markets_pro_disclaimer_terms_and_conditions": "Warunki handlowe",
+        "markets_pro_disclaimer_terms_and_conditions_title": "Warunki handlowe zarejestrowanego sprzedawcy",
+        "markets_pro_disclaimer_privacy_policy_title": "Polityka prywatności zarejestrowanego sprzedawcy",
+        "gift_card_store_credit": {
+          "add_label": "Dodaj bon lub saldo sklepu",
+          "manage_label": "Zarządzaj bonami podarunkowymi lub saldem sklepu"
+        },
+        "gift_cards_unavailable": "Twój bon podarunkowy nie może być już użyty do tego zamówienia i został usunięty.",
+        "network_card_payment_options": "Wybierz sieć kart",
+        "gift_card_checkbox_label": "Zastosuj kupon",
+        "kcp_creditcard_label": "KCP-Karta kredytowa"
       }
     }
   }

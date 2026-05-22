@@ -304,34 +304,34 @@
     },
     "cart": {
       "title": "Twój koszyk",
-      "caption": "Pozycje w koszyku",
+      "caption": "Przedmiot w koszyku",
       "remove_title": "Usuń {{ title }}",
-      "note": "Specjalne instrukcje do zamówienia",
-      "checkout": "Realizuj zakup",
+      "note": "Specjalne instrukcje zamówienia",
+      "checkout": "Zameldować się",
       "empty": "Twój koszyk jest pusty",
-      "cart_error": "Wystąpił błąd podczas aktualizowania Twojego koszyka. Spróbuj ponownie.",
-      "cart_quantity_error_html": "Możesz dodać do koszyka tylko {{ quantity }} sztuk(i) tej pozycji.",
+      "cart_error": "Podczas aktualizowania twojego koszyka wystąpił błąd. Proszę spróbuj ponownie.",
+      "cart_quantity_error_html": "Do koszyka możesz dodać tylko {{ quantity }} sztuk tego artykułu.",
       "update": "Aktualizuj",
       "headings": {
         "product": "Produkt",
         "price": "Cena",
-        "total": "Suma",
-        "quantity": "Ilość",
+        "total": "Suma całkowita",
+        "quantity": "Liczba",
         "image": "Obraz produktu"
       },
       "login": {
-        "title": "Masz już konto?",
-        "paragraph_html": "<a href=\"{{ link }}\" class=\"link underlined-link\">Zaloguj się</a>, aby szybciej realizować zakupy."
+        "title": "Masz konto?",
+        "paragraph_html": "<a href=\"{{ link }}\" class=\"link underlined-link\">Zaloguj się</a>, aby przy kasie było szybciej."
       },
-      "estimated_total": "Przewidywana suma",
-      "new_estimated_total": "Nowa przewidywana suma",
-      "duties_and_taxes_included_shipping_at_checkout_with_policy_html": "Z wliczonymi cłami i podatkami. Obliczenie rabatów i <a href=\"{{ link }}\">wysyłki</a> przy realizacji zakupu.",
-      "duties_and_taxes_included_shipping_at_checkout_without_policy": "Z wliczonymi cłami i podatkami. Obliczenie rabatów i wysyłki przy realizacji zakupu.",
+      "estimated_total": "Razem:",
+      "new_estimated_total": "Nowa szacowana łączna kwota",
+      "duties_and_taxes_included_shipping_at_checkout_with_policy_html": "W tym opłaty celne i podatki. Rabaty oraz <a href=\"{{ link }}\">wysyłka</a> zostaną naliczone podczas finalizacji zamówienia.",
+      "duties_and_taxes_included_shipping_at_checkout_without_policy": "Wliczone opłaty celne i podatki. Rabaty oraz koszty wysyłki zostaną naliczone podczas finalizacji zamówienia.",
       "taxes_included_shipping_at_checkout_with_policy_html": "Z wliczonymi podatkami. Obliczenie rabatów i <a href=\"{{ link }}\">wysyłki</a> przy realizacji zakupu.",
       "taxes_included_shipping_at_checkout_without_policy": "Z wliczonymi podatkami. Obliczenie rabatów i wysyłki przy realizacji zakupu.",
-      "duties_included_taxes_at_checkout_shipping_at_checkout_with_policy_html": "Z wliczonymi cłami. Obliczenie podatków, rabatów i <a href=\"{{ link }}\">wysyłki</a> przy realizacji zakupu.",
-      "duties_included_taxes_at_checkout_shipping_at_checkout_without_policy": "Z wliczonymi cłami. Obliczenie podatków, rabatów i wysyłki przy realizacji zakupu.",
-      "taxes_at_checkout_shipping_at_checkout_with_policy_html": "Obliczenie podatków, rabatów i <a href=\"{{ link }}\">wysyłki</a> przy realizacji zakupu.",
+      "duties_included_taxes_at_checkout_shipping_at_checkout_with_policy_html": "W tym opłaty celne. Podatki, rabaty i <a href=\"{{ link }}\">wysyłka</a> zostaną naliczone podczas finalizacji zamówienia.",
+      "duties_included_taxes_at_checkout_shipping_at_checkout_without_policy": "W tym cła. Podatki, zniżki i koszty wysyłki zostaną naliczone podczas finalizacji zamówienia.",
+      "taxes_at_checkout_shipping_at_checkout_with_policy_html": "Podatki, rabaty i <a href=\"{{ link }}\">wysyłka</a> zostaną naliczone podczas finalizacji zamówienia.",
       "taxes_at_checkout_shipping_at_checkout_without_policy": "Obliczenie podatków, rabatów i wysyłki przy realizacji zakupu."
     },
     "footer": {
@@ -371,7 +371,7 @@
     },
     "announcements": {
       "previous_announcement": "Poprzednie ogłoszenie",
-      "next_announcement": "Kolejne ogłoszenie",
+      "next_announcement": "Następne ogłoszenie",
       "carousel": "Karuzela",
       "announcement": "Ogłoszenie",
       "announcement_bar": "Pasek ogłoszeń"

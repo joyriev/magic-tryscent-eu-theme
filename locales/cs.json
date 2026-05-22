@@ -1601,7 +1601,29 @@
         },
         "tax_line": {
           "gst": "DPH"
-        }
+        },
+        "total_outstanding_label": "Částka k úhradě",
+        "vat_label_html": "včetně %{amount} DPH",
+        "total_updated_label": "Nová celková cena:",
+        "unit_price": {
+          "accessible_separator": "pro",
+          "per_item": {
+            "single": "%{price} za kus",
+            "one": "%{price} za %{count} položek",
+            "other": "%{price} za %{count} položek"
+          }
+        },
+        "total_updated_label_with_price": "Nová celková cena: %{totalPrice}",
+        "total_savings": "Celkové úspory",
+        "view_all_items": {
+          "one": "Zobrazit %{count} položek",
+          "other": "Zobrazit všechny %{count} položky"
+        },
+        "total_due_today_label": "Dnes splatná celková částka",
+        "total_due_later_label": "Celková částka splatná později",
+        "total_due_label": "Celková splatná částka",
+        "unconfirmed_label": "Neověřeno",
+        "total_paid_label": "Celková zaplacená částka"
       },
       "order_payment_collection": {
         "custom_line_item_description": "Částka k úhradě za objednávku %{order_name}",
@@ -1643,6 +1665,37 @@
             "signature_mismatch": "Podpis zboží neodpovídá pro položku %{stable_id}."
           }
         }
+      },
+      "payment": {
+        "amazon_payments_label": "Amazon Platba",
+        "amazon_payments_login_hint": "Budete vyzváni k přihlášení k Amazonu.",
+        "amazon_payments_failed_mfa_challenge": "Vybraný způsob platby nelze použít. Zvolte jiný způsob nebo kontaktujte svou banku či vydavatele karty.",
+        "amazon_payments_abandoned_mfa_challenge": "Tvá platba nemohla být dokončena. Zkus to s jiným způsobem platby nebo se obrať na svou banku či vydavatele karty.",
+        "amazon_payments_could_not_enqueue_authorize": "Při zpracování tvé platby došlo k problému. Zkus to znovu nebo použij jiný způsob platby.",
+        "amount_left_to_pay_label": "Částka",
+        "apple_pay_payment_error": "Tvá platba nemohla být dokončena. Zkus to znovu nebo použij jiný způsob platby.",
+        "apple": {
+          "connect": "Klikni zde pro propojení svého účtu Apple Pay",
+          "not_available": "Apple Pay není v tomto prohlížeči k dispozici. Pokud chcete propojit svůj účet Apple Pay, použijte prosím Safari na zařízení Apple."
+        },
+        "account_connected": "Účet propojen.",
+        "alternative_payment_currency_total_notice": "Poznámka: Bude ti účtováno %{amount_due}",
+        "add_credit_card_modal": {
+          "cancel": "Zavřít"
+        },
+        "afterpay_label": "Zaplať později",
+        "alternative_payment_currency_total_manual_payment_notice": "Poznámky: %{amount_due} celkem přepočteno.",
+        "bank_account_type": {
+          "checking": "Probíhá kontrola",
+          "savings": "Spořicí účet"
+        },
+        "bank_account_choose": "Vyberte účet pro bezpečné dokončení nákupu",
+        "bank_account_connect_another": "Přidej další bankovní účet",
+        "bank_account_connect": "Propojit bankovní účet",
+        "bank_account_missing": "Bankovní účet musí být propojený",
+        "bank_account_disclaimer": "Platby ACH mohou trvat až 4 pracovní dny na zpracování.",
+        "bank_account_generic_error": "Bankovní účet nelze přidat. Zkuste to později znovu.",
+        "add_payment_method": "Přidat způsob platby"
       }
     }
   }

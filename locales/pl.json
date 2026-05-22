@@ -2625,7 +2625,8 @@
           "other": "W ciągu kilku minut otrzymasz e-mail z twoimi bonami podarunkowymi."
         },
         "gift_card_email_title": {
-          "one": "Bon podarunkowy został wysłany e-mailem"
+          "one": "Bon podarunkowy został wysłany e-mailem",
+          "other": "Bony podarunkowe zostały wysłane e-mailem"
         },
         "failed_pending_payment_page_title": "Wystąpił problem z twoją płatnością",
         "confirmed_items_count": "%{confirmed_count} z %{total_count} artykułów jest potwierdzonych",
@@ -2633,7 +2634,63 @@
         "confirmed_orders_title": "Twoje zamówienia zostały potwierdzone.",
         "checkout_on_another_store": "Przejdź do kasy w innym sklepie",
         "checkout_again": "Ponownie wypożyczyć",
-        "cashback_notice": "Otrzymasz swoje cashback po 30 dniach"
+        "cashback_notice": "Otrzymasz swoje cashback po 30 dniach",
+        "order_status_confirmed_order_with_email": "Otrzymasz wiadomość e-mail, gdy twoje zamówienie będzie gotowe.",
+        "order_status_confirmed_order_with_phone": "Możesz otrzymać wiadomość SMS, gdy twoje zamówienie będzie gotowe.",
+        "order_status_confirmed_order_with_email_and_phone": "Otrzymasz wiadomość e-mail, gdy twoje zamówienie będzie gotowe.",
+        "in_transit_description": "Otrzymasz powiadomienia o statusie zamówienia.",
+        "in_transit_description_days": "Powinieneś otrzymać swoje zamówienie w ciągu najbliższych %{number} dni.",
+        "in_transit_description_today": "Powinieneś otrzymać swoje zamówienie dzisiaj.",
+        "in_transit_description_tomorrow": "Powinieneś otrzymać swoje zamówienie jutro.",
+        "no_tracking_number": "Dla tego zamówienia nie ma numeru śledzenia.",
+        "login_title": "Zaloguj się, aby zobaczyć wszystkie szczegóły zamówienia",
+        "login_description": "Numer zamówienia znajdziesz na dokumencie, który otrzymałeś e-mailem.",
+        "login_description_phone": "Numer zamówienia znajdziesz na dowodzie zakupu, który otrzymałeś w wiadomości tekstowej.",
+        "login_reorder_link_text": {
+          "one": "kup również ten produkt",
+          "other": "kup również te produkty"
+        },
+        "order_number_label": "Numer zamówienia",
+        "marker": {
+          "current": "Aktualna lokalizacja przesyłki",
+          "shipping": "Adres dostawy"
+        },
+        "order_status_confirmed_order_with_email_pick_up": "Otrzymasz wiadomość e-mail, gdy twoje zamówienie będzie gotowe do odbioru.",
+        "order_status_confirmed_order_with_phone_pick_up": "Otrzymasz wiadomość SMS, gdy twoje zamówienie będzie gotowe do odbioru.",
+        "order_status_confirmed_order_with_email_and_phone_pick_up": "Otrzymasz e-mail oraz wiadomość SMS, gdy twoje zamówienie będzie gotowe do odbioru.",
+        "order_status_confirmed_order_local": "Przygotowujemy twoje zamówienie do dostarczenia.",
+        "gift_card_sent_confirmation": "Bon podarunkowy wysłany",
+        "let_us_know": "Daj nam znać",
+        "gift_card_title": "Bony podarunkowe",
+        "order_status_confirmed_order_with_email_payment": "Dokonałeś płatności za swoje zamówienie %{date}.",
+        "order_status_confirmed_order_with_phone_payment": "Dokonałeś płatności za swoje zamówienie %{date}.",
+        "order_status_confirmed_order_with_email_and_phone_payment": "Dokonałeś płatności za swoje zamówienie %{date}.",
+        "missing_shipping_address_banner": {
+          "title": "Zamówienie nie ma adresu dostawy"
+        },
+        "order_status_confirmed_with_installments_payment_return": "Skontaktuj się ponownie ze sprzedawcą.",
+        "order_status_confirmed_with_installments_payment_confirm": "Wkrótce otrzymasz e-mail potwierdzający z numerem zamówienia oraz planem ratalnym.",
+        "in_store_purchase": "Zakup w sklepie",
+        "manage_order_label": "Zarządzaj zamówieniem",
+        "gift_card_text_title": {
+          "one": "Bon został wysłany za pomocą wiadomości tekstowej",
+          "other": "Bony podarunkowe zostały wysłane za pomocą wiadomości tekstowej"
+        },
+        "gift_card_resent_confirmation": {
+          "one": "Bon podarunkowy został ponownie wysłany.",
+          "other": "Bony podarunkowe zostały ponownie wysłane."
+        },
+        "gift_card_resend_failure": {
+          "one": "Podczas ponownego wysyłania twojego kuponu wystąpił problem. Spróbuj ponownie lub skontaktuj się z nami.",
+          "other": "Podczas ponownego wysyłania twoich bonów podarunkowych wystąpił problem. Spróbuj ponownie lub skontaktuj się z nami."
+        },
+        "order_status_payments_app_failed_pending_payment": "Nie zostały naliczone żadne opłaty za twoje zamówienie. Wróć do swojego koszyka, aby sprawdzić zamówienie i zapłacić ponownie.",
+        "order_status_confirmed_order_local_pick_up": "Przygotowujemy twoje zamówienie.",
+        "order_status_confirmed_order_local_payment": "Przygotowujemy twoje zamówienie.",
+        "items_fulfilled_by_store": {
+          "one": "Przedmioty, które kupiłeś, zostaną wysłane przez %{remote_shop_name}.",
+          "other": "Przedmioty, które kupiłeś, są wysyłane przez inne sklepy."
+        }
       }
     }
   }

@@ -2889,7 +2889,64 @@
         "order_status_payments_app_pending_payment_description_buyer_action_required_with_phone_payment": "Po dokončení platby obdržíte potvrzující SMS. Sledovat svou objednávku můžete pomocí aplikace obchodu.",
         "order_status_payments_app_pending_payment_description_buyer_action_required_with_phone_pick_up": "Po dokončení platby obdržíte potvrzující SMS. Sledovat svou objednávku můžete pomocí aplikace obchodu.",
         "order_status_payments_app_failed_pending_payment_payment": "Za tvou objednávku ti nebylo nic účtováno. Vrať se do svého nákupního košíku, abys svou objednávku zkontroloval a znovu zaplatil.",
-        "order_status_payments_app_failed_pending_payment_pick_up": "Za tvou objednávku ti nebylo nic účtováno. Vrať se do svého nákupního košíku, abys svou objednávku zkontroloval a znovu zaplatil."
+        "order_status_payments_app_failed_pending_payment_pick_up": "Za tvou objednávku ti nebylo nic účtováno. Vrať se do svého nákupního košíku, abys svou objednávku zkontroloval a znovu zaplatil.",
+        "return_to_store_link_label": "Vrátit se do obchodu",
+        "print_link_label": "Tisknout",
+        "shipping_information_title": "Informace o odeslání",
+        "shipping_address_map_title": "Google mapa zobrazující dodací adresu: %{address}",
+        "payment_method_title": "Způsob platby",
+        "shipping_method_title": "Způsob doručení",
+        "re-order": "Objednat stejné výrobky znovu",
+        "thank_you_confirmed_order_with_email": "Brzy obdržíš potvrzovací e-mail s číslem své objednávky.",
+        "thank_you_confirmed_order_with_phone": "Brzy obdržíš potvrzující SMS s číslem své objednávky.",
+        "thank_you_confirmed_order_with_email_and_phone": "Brzy obdržíš potvrzovací e-mail s číslem své objednávky.",
+        "thank_you_confirmed_order_with_missing": "Kontaktujte nás e-mailem nebo telefonicky, abyste obdrželi potvrzení objednávky.",
+        "pick_up_in_store_marker": {
+          "current": "Aktuální místo zásilky"
+        },
+        "thank_you_confirmed_order_with_email_pick_up": "Obdržíš e-mail, jakmile bude tvá objednávka připravena k vyzvednutí.",
+        "thank_you_confirmed_order_with_phone_pick_up": "Obdržíš SMS, jakmile bude tvá objednávka připravena k vyzvednutí.",
+        "thank_you_confirmed_order_with_email_and_phone_pick_up": "Obdržíš e-mail, jakmile bude tvá objednávka připravena k vyzvednutí.",
+        "ready_for_pickup_title": "Tvoje objednávka je připravena k vyzvednutí",
+        "ready_for_pickup_description": "Tvoje objednávka je připravena k vyzvednutí. Přines s sebou potvrzení o objednávce k jejímu vyzvednutí.",
+        "picked_up_title": "Tvá objednávka byla vyzvednuta",
+        "picked_up_description_html": "Tvoje objednávka byla vyzvednuta dne %{date} na místě %{location_name}.",
+        "shop_phone_description": "Obdržíš SMS se odkazem na aplikaci obchodu, abys mohl sledovat svou objednávku.",
+        "ready_for_delivery_title": "Tvá objednávka je připravena k doručení",
+        "ready_for_delivery_description": "Připravili jsme tvou objednávku.",
+        "qr_code": {
+          "title": "Sledování na telefonu",
+          "send_link_to_phone": "Nebo pošli odkaz na svůj telefon"
+        },
+        "resend_gift_cards": "Znovu odeslat dárkové poukazy",
+        "thank_you_confirmed_order_with_email_payment": "Provedli jste platbu za vaši objednávku %{date}.",
+        "thank_you_confirmed_order_with_phone_payment": "Provedli jste platbu za vaši objednávku %{date}.",
+        "thank_you_confirmed_order_with_email_and_phone_payment": "Provedli jste platbu za vaši objednávku %{date}.",
+        "shop_qr_with_sms_upsell": {
+          "qr_code": {
+            "title": "Naskenuj pomocí svého mobilního telefonu"
+          },
+          "sms": {
+            "title": "Nebo pošli odkaz do svého telefonu"
+          }
+        },
+        "thank_you_confirmed_order_with_draft": "Dáme ti vědět, pokud budeme potřebovat další informace nebo když bude tvoje objednávka potvrzena.",
+        "purchase_order_number_title": "Číslo objednávky %{purchase_order_number}",
+        "subscriptions_management": {
+          "description": "Přejdi ke svému účtu, abys mohl zobrazit a spravovat svá předplatná.",
+          "button_label": "Spravovat vaše předplatné"
+        },
+        "thank_you_confirmed_order_with_missing_payment": "Kontaktujte nás e-mailem nebo telefonicky, abyste obdrželi potvrzení objednávky.",
+        "thank_you_confirmed_order_with_missing_pick_up": "Kontaktujte nás e-mailem nebo telefonicky, abyste obdrželi potvrzení objednávky.",
+        "thank_you_confirmed_order_with_draft_payment": "Dáme ti vědět, pokud budeme potřebovat další informace nebo když bude tvoje objednávka potvrzena.",
+        "thank_you_confirmed_order_with_draft_pick_up": "Dáme ti vědět, pokud budeme potřebovat další informace nebo když bude tvoje objednávka potvrzena.",
+        "thank_you_confirmed_orders_with_email": "Brzy obdržíš samostatné potvrzovací e-maily s tvými čísly objednávek.",
+        "thank_you_confirmed_orders_with_phone": "Brzy obdržíš samostatné potvrzovací SMS s tvými čísly objednávek.",
+        "thank_you_confirmed_orders_with_email_and_phone": "Brzy obdržíš samostatné potvrzovací e-maily s tvými čísly objednávek.",
+        "payment_method_not_charged": "Nezatížený",
+        "thank_you_confirmed_with_email_and_phone_description": {
+          "multi_store": "Brzy obdržíte samostatné potvrzovací e-maily od každého obchodu."
+        }
       }
     }
   }

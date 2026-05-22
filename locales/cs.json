@@ -123,10 +123,10 @@
       "share": "Sdílet tento produkt",
       "sold_out": "Vyprodáno",
       "unavailable": "Není k dispozici",
-      "vendor": "Vendor",
-      "video_exit_message": "{{ title }} otevře ve stejném okně video na celé obrazovce.",
-      "xr_button": "Zobrazit ve vašem prostoru",
-      "xr_button_label": "Zobrazit ve vašem prostoru: Umožňuje načíst položku v okně rozšířené reality",
+      "vendor": "Poskytovatel",
+      "video_exit_message": "{{ title }} otevře video na stejné stránce v režimu celé obrazovky.",
+      "xr_button": "Zobrazit ve tvé oblasti",
+      "xr_button_label": "„Zobrazit ve vašem prostoru“ načte položku do okna rozšířené reality",
       "quantity": {
         "label": "Počet",
         "input_label": "Počet {{ product }}",
@@ -165,12 +165,12 @@
         "load_video": "Přehrát video {{ index }} v náhledovém zobrazení galerie",
         "image_available": "Obrázek {{ index }} je nyní k dispozici v náhledovém zobrazení galerie"
       },
-      "view_full_details": "Zobrazit veškeré podrobnosti",
+      "view_full_details": "Zobrazit úplné podrobnosti",
       "shipping_policy_html": "<a href=\"{{ link }}\">Doprava</a> bude vypočítána při dokončení objednávky",
       "choose_options": "Vybrat možnosti",
       "choose_product_options": "Vyberte možnosti pro {{ product_name }}",
       "value_unavailable": "{{ option_value }} – není k dispozici",
-      "variant_sold_out_or_unavailable": "Vyprodaná nebo nedostupná varianta",
+      "variant_sold_out_or_unavailable": "Varianta vyprodána nebo není k dispozici",
       "inventory_in_stock": "Skladem",
       "inventory_in_stock_show_count": "{{ quantity }} skladem",
       "inventory_low_stock": "Nízký stav zásob",
@@ -179,10 +179,10 @@
       "sku": "Kód produktu",
       "inventory_out_of_stock_continue_selling": "Skladem",
       "volume_pricing": {
-        "title": "Ceny s objemovou slevou",
-        "note": "Ceny s objemovou slevou k dispozici",
+        "title": "Cenotvorba závislá na objemu",
+        "note": "Cenová politika závislá na objemu dostupná",
         "minimum": "{{ quantity }} a více",
-        "price_at_each": "{{ price }} / ks",
+        "price_at_each": "za {{ price }}/kus",
         "price_range": "{{ minimum }}–{{ maximum }}"
       },
       "product_variants": "Varianty produktu",
@@ -543,19 +543,48 @@
   },
   "recipient": {
     "form": {
-      "checkbox": "Chci zboží poslat jako dárek",
-      "email_label": "E-mail příjemce",
+      "checkbox": "Chci to poslat jako dárek",
+      "email_label": "Příjemcův e-mail",
       "email": "E-mail",
       "name_label": "Jméno příjemce (volitelné)",
       "name": "Jméno",
       "message_label": "Zpráva (volitelné)",
       "message": "Zpráva",
-      "max_characters": "Maximální počet znaků: {{ max_chars }}",
-      "email_label_optional_for_no_js_behavior": "E-mail příjemce (volitelné)",
+      "max_characters": "Maximálně {{ max_chars }} znaků",
+      "email_label_optional_for_no_js_behavior": "E-mailová adresa příjemce (volitelné)",
       "send_on": "RRRR-MM-DD",
-      "send_on_label": "Datum odeslání (volitelné)",
-      "expanded": "Formulář pro příjemce dárkové karty se rozbalil.",
-      "collapsed": "Formulář pro příjemce dárkové karty se sbalil."
+      "send_on_label": "Odeslat dne (volitelné)",
+      "expanded": "Formulář pro příjemce dárkového poukazu rozšířený",
+      "collapsed": "Formulář pro příjemce dárkového poukazu zjednodušený"
+    }
+  },
+  "shopify": {
+    "attributes": {
+      "email": "E-mail",
+      "password": "Heslo",
+      "password_confirmation": "potvrzení hesla",
+      "first_name": "Jméno",
+      "last_name": "Příjmení",
+      "body": "Zpráva"
+    },
+    "addresses": {
+      "zip_code": "Poštovní směrovací číslo",
+      "postal_code": "Poštovní směrovací číslo",
+      "postcode": "Poštovní směrovací číslo",
+      "pincode": "Poštovní směrovací číslo",
+      "region": "Oblast",
+      "state": "Spolková země",
+      "county": "Provincie",
+      "governorate": "Správní oblast",
+      "confirm": "Jsi si jistý, že chceš tuto adresu smazat?"
+    },
+    "cart": {
+      "discounts_with_count": "Bylo vypočítáno %{count} slev"
+    },
+    "challenge": {
+      "message": "Chcete-li pokračovat, dej nám vědět, že nejsi robot.",
+      "error": "Tvoje odpověď nebyla správná, prosím zkus to znovu.",
+      "submit_button_text": "Odesílání"
     }
   }
 }

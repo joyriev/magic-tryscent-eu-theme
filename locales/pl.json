@@ -1583,7 +1583,57 @@
         "bank_account_choose": "Wybierz konto, aby bezpiecznie zakończyć zakup",
         "bank_account_connect_another": "Połącz kolejne konto bankowe",
         "bank_account_disclaimer": "Płatności ACH mogą potrwać do 4 dni roboczych na przetworzenie.",
-        "bank_account_generic_error": "Nie udało się dodać konta bankowego. Spróbuj ponownie później."
+        "bank_account_generic_error": "Nie udało się dodać konta bankowego. Spróbuj ponownie później.",
+        "card_security_notice": "Wszystkie transakcje są bezpieczne i zaszyfrowane.",
+        "card_expiry_label": "Ważne do (MM/RR)",
+        "card_expiry_placeholder": "Ważne do (MM/RR)",
+        "card_verification_value_label": "Kod bezpieczeństwa",
+        "card_verification_value_placeholder": "Kod bezpieczeństwa",
+        "card_verification_value_explanation": "Trzycyfrowy kod bezpieczeństwa, który zazwyczaj znajduje się na odwrocie twojej karty. Karty American Express mają czterocyfrowy kod na przedniej stronie.",
+        "card_verification_value_explanation_amex": "4-cyfrowy kod bezpieczeństwa na przedniej stronie twojej karty",
+        "card_verification_value_explanation_other": "3-cyfrowy kod bezpieczeństwa na odwrocie twojej karty",
+        "card_start_label": "Termin wystawy (MM / RR)",
+        "card_start_placeholder": "Termin wystawy (MM / RR)",
+        "card_issue_number_label": "Numer",
+        "card_issue_number_placeholder": "Numer",
+        "billing_address_title": "Adres do faktury",
+        "billing_address_description": "Wybierz adres powiązany z twoją kartą lub metodą płatności.",
+        "billing_address_description_no_shipping_address": "Wprowadź adres powiązany z twoją kartą lub metodą płatności.",
+        "card_fields_container_prefix": "Ramka dla pola:",
+        "card_fields_unavailable_html": {
+          "one": "Płatności kartami kredytowymi i debetowymi są obecnie niedostępne.<br>Proszę <a href=\"%{current_url}\">odśwież tę stronę</a> lub spróbuj ponownie później.",
+          "other": "Płatności kartami kredytowymi i debetowymi są obecnie niedostępne.<br>Proszę <a href=\"%{current_url}\">odśwież tę stronę</a> lub wypróbuj inną metodę płatności."
+        },
+        "card_fields_processing_error": "Wystąpił problem podczas przetwarzania płatności. Spróbuj odświeżyć tę stronę lub sprawdź swoje połączenie internetowe.",
+        "card_expiration_month_label": "Miesiąc ważności",
+        "card_expiration_year_label": "Rok ważności",
+        "card_information_notice": "Wszystkie transakcje są bezpieczne i szyfrowane. Informacje o kartach kredytowych nigdy nie są przechowywane.",
+        "billing_address_not_supported_for_payment_method_error": "Ta metoda płatności nie jest dostępna dla twojego adresu rozliczeniowego i waluty. Spróbuj użyć innej metody płatności.",
+        "card_security_vault_notice": "Do przyszłych płatności potrzebujemy twoich danych. Wszystkie transakcje są bezpieczne i zaszyfrowane.",
+        "card_expired": "Wygasło",
+        "card_verification_confirm": "Wpisz kod zabezpieczający swojej karty, aby potwierdzić tożsamość.",
+        "billing_address_associated_with_mandate_info": "Jeśli chcesz zmienić swój adres rozliczeniowy, usuń dane swojej karty kredytowej i wprowadź je ponownie.",
+        "card_vaulted_company_location": "Mapa dla tej lokalizacji zapisana",
+        "billing_must_match_shipping_notice": "Adres rozliczeniowy twojej metody płatności musi zgadzać się z adresem dostawy.",
+        "brand_not_available": "Ten sklep nie akceptuje {{brand}}. Użyj innej karty do płatności.",
+        "billing_address_invalid_phone": "Zaktualizuj numer telefonu w swoim adresie rozliczeniowym, aby kontynuować z {{label}} {{last_digits}}.",
+        "billing_address_invalid_phone_no_card": "Zaktualizuj numer telefonu w swoim adresie rozliczeniowym, aby kontynuować.",
+        "card_fields": {
+          "errors": {
+            "required": {
+              "issue_date": "Wprowadź ważną datę wystawienia",
+              "issue_number": "Wprowadź ważny numer wystawienia"
+            },
+            "invalid": {
+              "verification_value": "Wprowadź prawidłowy kod CVV lub kod bezpieczeństwa"
+            }
+          }
+        },
+        "business_customer_vaulting_payment_label": "Zapisz tę metodę płatności podczas finalizacji zamówienia i autoryzuj %{company} do obciążania jej przy przyszłych zakupach w tej lokalizacji. Wszyscy kontaktowi przypisani do tej lokalizacji mogą korzystać z tej metody płatności.",
+        "cashapppay_label": "Płatność Cash App",
+        "billing_address_rollup_accessibility_label": "Opcje dla adresu rozliczeniowego",
+        "business_customer_with_bank_account_vaulting_payment_label": "Zapisz tę metodę płatności podczas finalizacji zamówienia i udziel %{company} zgody na obciążanie Twojego konta za przyszłe zatwierdzone zakupy w tym miejscu, aż do momentu anulowania metody. Wszyscy użytkownicy przypisani do tego miejsca mogą korzystać z tej metody płatności.",
+        "bank_account_vaulted_company_location": "Konto bankowe zapisane dla tej lokalizacji"
       }
     }
   }

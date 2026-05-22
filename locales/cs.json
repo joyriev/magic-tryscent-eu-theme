@@ -585,6 +585,72 @@
       "message": "Chcete-li pokračovat, dej nám vědět, že nejsi robot.",
       "error": "Tvoje odpověď nebyla správná, prosím zkus to znovu.",
       "submit_button_text": "Odesílání"
+    },
+    "checkout": {
+      "contact": {
+        "address2_label": "Byt, pokoj atd.",
+        "city_label": "město",
+        "civic_number_warning": "Pokud je k dispozici, přidejte číslo popisné.",
+        "change_company_location_link_label": "Změnit sídlo společnosti",
+        "change_location_link_label": "Změnit místo"
+      },
+      "alternative_payment_method_banner": {
+        "express_checkout": "Rychlý nákup",
+        "or": "OBJEDNAT",
+        "show_more_options": "Zobrazit další možnosti",
+        "or_pay_another_way": "Nebo zaplatit jiným způsobem",
+        "or_check_out_another_way": "Nebo dokončit nákup jiným způsobem",
+        "or_pay_with_credit_card": "Nebo zaplatit kreditní kartou"
+      },
+      "change_currency": {
+        "credit_card_will_be_charged_html": "Tvá kreditní karta bude zatížena částkou %{amount}",
+        "payment_total_label": "Celková částka platby",
+        "change_currency_link": "Přepnout na %{currency_name}",
+        "card_provider_fx_charges_warning": "Tvůj poskytovatel karet může účtovat poplatky za transakce v %{currency_code}.",
+        "currency_not_supported_by_shop": "Vybraná měna již není dostupná. Všechny ceny jsou nyní uváděny v %{currency_code}."
+      },
+      "change_country": {
+        "cart_updated_based_on_country": "Tvůj nákupní košík byl aktualizován podle tvé země doručení.",
+        "cart_and_currency_updated_based_on_country": "Tvůj nákupní košík a měna byly aktualizovány podle země doručení.",
+        "currency_updated_for_country": "Měna pro %{country} aktualizována"
+      },
+      "change_cart_localization": {
+        "verify_shipping_address": "Tvá země / tvůj kraj byl aktualizován. Zadej svou doručovací adresu, abys mohl pokračovat k platbě."
+      },
+      "cart_checkout_validation": {
+        "runtime_error": "Při zpracování tvého požadavku došlo k problému. Prosím, kontaktuj majitelku nebo majitele obchodu."
+      },
+      "captcha": {
+        "title": "Dokončete CAPTCHA pro pokračování",
+        "errors": {
+          "not_solved": "Dokončete CAPTCHA pro pokračování"
+        }
+      },
+      "billing": {
+        "billing_address_title": "Faktura na",
+        "same_as_shipping": "Shodné s doručovací adresou",
+        "address_more": "Více akcí pro tuto adresu",
+        "address_delete": "Smazat adresu",
+        "address_confirm": "Opravdu chceš tuto adresu ze svého účtu odstranit?"
+      },
+      "company_location": {
+        "location_title": "Místo podnikání",
+        "location_rollup_accessibility_label": "Možnosti umístění podniku"
+      },
+      "clipboard": {
+        "failed_to_copy": "Nelze zkopírovat"
+      },
+      "artifact_errors": {
+        "artifact_dissatisfaction_without_violation": "Při zpracování tvé objednávky došlo k potíži. Zkus to prosím za pár minut znovu."
+      },
+      "b2b_errors": {
+        "lost_b2b_purchasing_permissions": "Nemáte již oprávnění zadávat B2B objednávky. %{logout_url}, abyste místo toho zadali soukromou objednávku.",
+        "lost_permissions_subtitle": "Nemáš už oprávnění zadávat B2B objednávky. Odhlás se, abys mohl zadat soukromou objednávku.",
+        "lost_permissions_title": "Žádná oprávnění k poloze"
+      },
+      "address_management": {
+        "saved_with_store": "Uloženo v tomto obchodě"
+      }
     }
   }
 }

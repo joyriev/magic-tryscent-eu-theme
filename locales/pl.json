@@ -580,6 +580,61 @@
     "challenge": {
       "error": "Twoja odpowiedź była niepoprawna, spróbuj ponownie.",
       "submit_button_text": "Wysyłanie"
+    },
+    "checkout": {
+      "contact": {
+        "address2_label": "Mieszkanie, pokój itp.",
+        "civic_number_warning": "Jeśli dostępne, dodaj numer domu."
+      },
+      "alternative_payment_method_banner": {
+        "express_checkout": "Szybka kasa",
+        "or_pay_another_way": "Lub zapłać w inny sposób",
+        "or_check_out_another_way": "Lub zakończ zakupy w inny sposób",
+        "or_pay_with_credit_card": "Lub zapłać kartą kredytową"
+      },
+      "change_currency": {
+        "payment_total_label": "Całkowita kwota płatności",
+        "change_currency_link": "Wymień na %{currency_name}",
+        "card_provider_fx_charges_warning": "Twój dostawca kart może pobierać opłaty za transakcje w %{currency_code}.",
+        "currency_not_supported_by_shop": "Wybrana waluta nie jest już dostępna. Wszystkie ceny będą teraz podawane w %{currency_code}."
+      },
+      "change_country": {
+        "currency_updated_for_country": "Waluta dla %{country} została zaktualizowana"
+      },
+      "change_cart_localization": {
+        "verify_shipping_address": "Twój kraj / twój region został zaktualizowany. Podaj swój adres dostawy, aby kontynuować realizację zamówienia."
+      },
+      "cart_checkout_validation": {
+        "runtime_error": "Podczas przetwarzania twojego zapytania wystąpił problem. Prosimy o kontakt z właścicielką lub właścicielem sklepu."
+      },
+      "captcha": {
+        "title": "Ukończ CAPTCHA, aby kontynuować",
+        "errors": {
+          "not_solved": "Ukończ CAPTCHA, aby kontynuować"
+        }
+      },
+      "billing": {
+        "billing_address_title": "Faktura do",
+        "same_as_shipping": "Identyczne z adresem dostawy",
+        "address_more": "Więcej akcji dla tego adresu",
+        "billing_address_rollup_accessibility_label": "Opcje faktury"
+      },
+      "company_location": {
+        "location_title": "Lokalizacja firmy"
+      },
+      "clipboard": {
+        "failed_to_copy": "Nie można było skopiować"
+      },
+      "artifact_errors": {
+        "artifact_dissatisfaction_without_violation": "Podczas realizacji twojego zamówienia wystąpił problem. Spróbuj ponownie za kilka minut."
+      },
+      "b2b_errors": {
+        "lost_b2b_purchasing_permissions": "Nie masz już uprawnień do składania zamówień B2B. %{logout_url}, aby złożyć prywatne zamówienie.",
+        "lost_permissions_subtitle": "Nie masz już uprawnień do składania zamówień B2B. Wyloguj się, aby złożyć zamówienie prywatne."
+      },
+      "address_management": {
+        "saved_with_store": "Zapisano w tym sklepie"
+      }
     }
   }
 }

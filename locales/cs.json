@@ -1916,7 +1916,60 @@
           "accessibility_label": "Vyberte způsob platby"
         },
         "payment_method_rollup_accessibility_label": "Možnosti platebních metod",
-        "new_bank_account_disclaimer": "Odesláním objednávky uděluješ %{shop_name} souhlas k inkasu níže uvedené částky prostřednictvím ACH z uvedeného účtu v určený čas."
+        "new_bank_account_disclaimer": "Odesláním objednávky uděluješ %{shop_name} souhlas k inkasu níže uvedené částky prostřednictvím ACH z uvedeného účtu v určený čas.",
+        "saved_by_payment_method": "Uloženo s %{payment_method}",
+        "same_billing_address_label": "Shodné s doručovací adresou",
+        "sofort_label": "Okamžitá platba",
+        "subscription_agreement_label": "Jeden nebo více položek ve tvém košíku je čekající nákup nebo předplatné. Pokračováním v platbě souhlasíš s tím, že tvá platební metoda bude automaticky účtována za cenu a s frekvencí uvedenou na této stránce, dokud platební metoda neskončí nebo ji nezrušíš. Všechna zrušení podléhají %{cancelled}.",
+        "subscription_agreement_cancelled": "Zásady storna",
+        "purchase_options_card_update_agreement_label_html": "Aktualizací své platební metody autorizujete platby za opakované nákupy nebo nákupy s odloženou platbou v souladu s <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{cancellation_policy}\" href=\"%{policy_href}\">stornovací politikou</a> tohoto obchodu.",
+        "receiver_payment_experience_hint": "Poté, co zadáš svou objednávku, obdržíš platební údaje. Proveď platbu do %{due_days} dnů přes Multibanco nebo online.",
+        "pending_payment": {
+          "due_notice": "Tvoje platba ve výši %{amount_due} je splatná k %{due_date}.",
+          "multibanco": {
+            "instruction_html": "Proveď platbu pomocí Multibanco nebo online podle níže uvedených údajů. Máš-li otázky nebo chceš aktualizovat své platební údaje, %{contact_us}.",
+            "reference": "Odkaz",
+            "find_nearest_atm": "Najít bankomat ve tvém okolí",
+            "buyer_action_info": "Tvoje platba ve výši %{amount_due} je splatná."
+          }
+        },
+        "purchase_options_agreement_label": "U jednoho nebo více položek ve tvém košíku se jedná o nákup s odloženou platbou, předplatné nebo opakovaný nákup. Pokud budeš pokračovat v platbě, souhlasíš s tím, že tvá platební metoda bude automaticky účtována za cenu a v frekvenci uvedené na této stránce, dokud smluvní doba neskončí nebo dokud nezrušíš objednávku. Všechna zrušení podléhají %{cancellation_policy_label}.",
+        "purchase_options_agreement_label_html": "Rozumím, že jeden nebo více položek v mém košíku je nákup s odloženou platbou, předplatné nebo opakující se nákup. Pokračováním souhlasím s\n<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">zásadami storna</a>\na dávám souhlas, aby byla moje platební metoda zatížena částkami, termíny a frekvencí uvedenými na této stránce, dokud nebude moje objednávka vyřízena nebo dokud ji nezruším, pokud je to povoleno.",
+        "store_credit": {
+          "label": "Zůstatek v obchodě",
+          "apply_label": "Použít zůstatek v obchodě",
+          "add_label": "Přidat zůstatek v obchodě",
+          "manage_label": "Správa zůstatku v obchodě",
+          "buying_gift_card": "Nemůžeš použít zůstatek v obchodě k nákupu poukazu.",
+          "no_fixed_selling_plans": "Nemůžeš použít zůstatek v obchodě pro možnosti nákupu s odloženou platbou."
+        },
+        "same_billing_address_checkbox_label": "Použít dodací adresu jako fakturační adresu",
+        "shipping_rate_updated": "Dostupné způsoby doručení byly aktualizovány. Potvrďte svůj výběr před dokončením objednávky.",
+        "preview_not_available": {
+          "content": "Nebojte se, tento expresní pokladna stále funguje pro vaše zákazníky.",
+          "button": "Dobře"
+        },
+        "simulated_checkout": "Náhled brzy k dispozici",
+        "purchase_options_and_vaulting_agreement_label": "Jeden nebo více položek ve tvém košíku tvoří čekající nákup nebo předplatné. Pokračováním v platbě souhlasíš s tím, že tvá platební metoda bude automaticky účtována za cenu a s frekvencí uvedenou na této stránce, dokud platební metoda neskončí nebo ji nezrušíš. Všechna zrušení podléhají %{cancellation_policy_label}.",
+        "purchase_options_cancellation_policy_label": "Zásady storna",
+        "saved_credit_card": "Tvoje uložená platební karta",
+        "saved_credit_cards_modal": {
+          "view_all_label": "Zobrazit všechny uložené karty",
+          "cancel": "Zavřít"
+        },
+        "purchase_order_number": {
+          "title": "Číslo objednávky",
+          "label": "Číslo objednávky (volitelné)"
+        },
+        "shop_pay_installments_label": "Nakupujte s platbou na splátky Shop Pay",
+        "purchase_options_agreement_label_wallets": "Pokračováním v platbě souhlasíš s budoucími poplatky uvedenými na této stránce a s pravidly pro ukončení smlouvy.",
+        "saved_credit_card_cvv_verification": "Zadej bezpečnostní kód své karty pro ověření.",
+        "proposed_gateway_unavailable": "Navrhovaný platební brána není k dispozici",
+        "shop_pay_ideal_unavailable_error": "iDEAL | Wero není pro tuto objednávku k dispozici. Vyberte jiný způsob platby.",
+        "paypal_wallet_label": "Peněženka PayPal",
+        "simulated_express_checkout": "Peněženky nejsou kvůli tvému regionu nebo prohlížeči v náhledu dostupné",
+        "separate_payments_label": "Tvé položky pocházejí z více než jednoho obchodu. Budeš účtován v %{separate_payments_link}.",
+        "separate_payments_text": "Oddělené platby"
       }
     }
   }

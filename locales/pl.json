@@ -1633,7 +1633,71 @@
         "cashapppay_label": "Płatność Cash App",
         "billing_address_rollup_accessibility_label": "Opcje dla adresu rozliczeniowego",
         "business_customer_with_bank_account_vaulting_payment_label": "Zapisz tę metodę płatności podczas finalizacji zamówienia i udziel %{company} zgody na obciążanie Twojego konta za przyszłe zatwierdzone zakupy w tym miejscu, aż do momentu anulowania metody. Wszyscy użytkownicy przypisani do tego miejsca mogą korzystać z tej metody płatności.",
-        "bank_account_vaulted_company_location": "Konto bankowe zapisane dla tej lokalizacji"
+        "bank_account_vaulted_company_location": "Konto bankowe zapisane dla tej lokalizacji",
+        "discount_button_action_label": "Użyj kodu rabatowego",
+        "detected_card_brand": "Rozpoznana marka karty: {brand}",
+        "credit_card_start_month": "Miesiąc wystawy",
+        "credit_card_start_year": "Rok wystawienia",
+        "delete_customer_mandate_modal_cancel": "Zamknij",
+        "credit_card_vaulting_sign_in_banner_info": "Zaloguj się lub załóż konto, aby zapisać informacje o swojej karcie kredytowej na przyszłe zakupy.",
+        "credit_card_vaulting_sign_in_banner_button_label": "Zaloguj się",
+        "delete_customer_mandate_modal_title": "Usunąć tę kartę płatniczą?",
+        "delete_customer_mandate_modal_body": "Jeśli usuniesz tę kartę, będziesz musiał dodać ją ponownie, zanim użyjesz jej do płatności.",
+        "delete_customer_mandate_modal_confirm": "Usuń kartę",
+        "clear": "Usuń",
+        "custom_onsite_payment_method_modal": {
+          "title": "Potwierdzenie niestandardowej płatności na miejscu"
+        },
+        "delete_credit_card_modal": {
+          "confirmation": "Czy na pewno chcesz usunąć następujący element: {{brandName}} z ostatnimi cyframi {{lastDigits}}?",
+          "cancel": "Zamknij"
+        },
+        "edit_credit_card_modal": {
+          "title": "Edytuj kartę",
+          "cancel": "Zamknij",
+          "description": "Możesz edytować tylko adres rozliczeniowy swojej karty.",
+          "fields": {
+            "default": "Ustaw jako domyślne",
+            "expiry": "Data ważności",
+            "security_code": "Kod bezpieczeństwa",
+            "name": "Imię i nazwisko posiadacza karty",
+            "billing": "Faktura do"
+          }
+        },
+        "crypto_modal": {
+          "header": "Zapłać %{total_price} USDC w %{shop_name}",
+          "error": {
+            "refresh": "Aktualizuj",
+            "web_component_error": "Wystąpił problem podczas ładowania tej strony"
+          }
+        },
+        "crypto_payment_method": {
+          "description": "Połącz swój portfel bezpiecznie. Twój stan konta i adres nie będą udostępniane.",
+          "tooltip": "Saldo twojego cyfrowego portfela oraz twój adres nie są udostępniane, a jedynie żądana kwota może zostać pobrana",
+          "cashback_descriptor": {
+            "one": "Otrzymasz swój zwrot gotówki po %{count} dniu",
+            "other": "Otrzymasz zwrot gotówki po %{count} dniach"
+          }
+        },
+        "discount_show_more_warnings": {
+          "one": "Pokaż %{count} więcej",
+          "other": "Pokaż %{count} więcej"
+        },
+        "discount_codes_removed_summary": {
+          "one": "Kod rabatowy %{count} został usunięty",
+          "other": "Usunięto %{count} kodów rabatowych"
+        },
+        "default": "Standardowy",
+        "continue_to_guest_checkout": "Do szybkiego zamówienia gościa",
+        "choose_new_payment_method": "Wybierz nową metodę płatności.",
+        "discount_codes_modified_summary": {
+          "one": "Kod rabatowy %{count} został zmieniony",
+          "other": "%{count} kodów rabatowych zostało zmienionych"
+        },
+        "discount_codes_removed_or_modified_summary": {
+          "one": "Kod rabatowy %{count} został usunięty lub zmieniony",
+          "other": "Usunięto lub zmieniono %{count} kodów rabatowych"
+        }
       }
     }
   }

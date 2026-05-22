@@ -2108,7 +2108,16 @@
         "no_pickup_points_found": "Nebyly nalezeny žádné místa pro vyzvednutí",
         "paginator": {
           "header": {
-            "one": "%{first} - %{last} z %{count} zobrazit umístění"
+            "one": "%{first} - %{last} z %{count} zobrazit umístění",
+            "other": "Zobrazit %{first} - %{last} z %{count} lokalit"
+          },
+          "selected_pickup_point_label": {
+            "one": "%{pickup_point_index} místo %{count}",
+            "other": "%{pickup_point_index} místa %{count}"
+          },
+          "selected_page": {
+            "one": "%{first}–%{last} umístění %{count}",
+            "other": "%{first}–%{last} lokalit z %{count}"
           }
         },
         "number_of_pickup_points_near_location": {
@@ -2123,7 +2132,54 @@
             "permission_denied": "Nelze zjistit tvoji polohu. Zkus to znovu."
           }
         },
-        "no_business_hours": "Není k dispozici žádná otevírací doba"
+        "no_business_hours": "Není k dispozici žádná otevírací doba",
+        "title": "Vydejní místo",
+        "selector_tabs": "Výběr míst vyzvednutí",
+        "waiting_on_pickup_point_location_notice": "Hledání míst vyzvednutí ...",
+        "pickup_unavailable_banner_title": {
+          "one": "Žádná dostupnost míst vyzvednutí pro tvé položky",
+          "other": "Žádná dostupnost míst vyzvednutí pro tvé položky"
+        }
+      },
+      "processing": {
+        "redirecting_page_title": "Přesměrování…",
+        "redirecting_title": "Přesměrování…",
+        "redirecting_notice": "Počkej, než tě přesměrujeme.",
+        "complete_your_purchase_title": "Dokonči svůj nákup",
+        "continue_to_payment_gateway_notice": "Pokračujte v platbě, abyste přidali své platební údaje.",
+        "complete_your_purchase_title_error": "Prosím, oprav své platební údaje",
+        "continue_to_payment_gateway_notice_error": "Vaše platební údaje nebylo možné ověřit.",
+        "continue_to_payment_gateway_button_label_error": "Aktualizovat platební údaje",
+        "page_title": "Objednávka se zpracovává",
+        "title": "Objednávka se zpracovává",
+        "your_order_has_been_received_title": "Děkujeme ti za tvou objednávku",
+        "you_will_receive_confirmation": "Právě dostáváme velmi mnoho objednávek. Potvrzení bys měl brzy obdržet e-mailem nebo SMS. Pokud jej během příští hodiny neobdržíš, dej nám vědět.",
+        "wait": {
+          "short": "Tvá objednávka je zpracovávána.",
+          "medium": {
+            "one": "Tvá objednávka je zpracovávána. Odhadovaná doba čekání je %{count} minuta.",
+            "other": "Tvá objednávka je zpracovávána. Odhadovaná doba čekání je %{count} minut."
+          },
+          "long": "Obdržíš e-mail, jakmile bude tvá objednávka vyřízena. V současné době evidujeme velké množství objednávek.",
+          "no_auto_refresh_html": "Pokud nebudete automaticky přesměrováni, %{link}.",
+          "refresh_this_page": "obnov stránku"
+        },
+        "you_will_not_be_charged": "Tobě zatím nic není účtováno",
+        "action_required": "Akce vyžadována",
+        "redirecting_to_bank": "Budete přesměrováni na {{bank}}"
+      },
+      "post_purchase": {
+        "escape_confirmation": "Zaplatil jsi svou objednávku.",
+        "components": {
+          "processing": "Zpracovává se...",
+          "submit": "Odesílání"
+        }
+      },
+      "redeemable_errors": {
+        "gift_card": {
+          "duplicate": "Poukaz byl již přidán k tvé objednávce",
+          "currency_mismatch": "Jsou akceptovány pouze dárkové poukazy v %{shop_currency}"
+        }
       }
     }
   }

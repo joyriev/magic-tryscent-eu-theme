@@ -1843,7 +1843,49 @@
         "shop_pay_ideal_unavailable_error": "iDEAL | Wero nie jest dostępne dla tego zamówienia. Wybierz inną metodę płatności.",
         "simulated_express_checkout": "Portfele nie są dostępne w podglądzie ze względu na twoją okolicę lub przeglądarkę.",
         "separate_payments_label": "Twoje artykuły pochodzą z więcej niż jednego sklepu. Zostaniesz rozliczony w %{separate_payments_link}.",
-        "separate_payments_text": "Oddzielne płatności"
+        "separate_payments_text": "Oddzielne płatności",
+        "supported_card_brands_more_label": "i więcej …",
+        "technical_error": "Płatności nie mogą być obecnie przetwarzane z przyczyn technicznych. Spróbuj ponownie za kilka minut.",
+        "subscription_agreement_label_html": "Rozumiem, że zgadzam się na subskrypcję. Będzie ona odnawiana po podanej cenie i w określonej częstotliwości, aż do wygaśnięcia lub \n<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">anulowania</a>.",
+        "subscription_card_update_agreement_label": "Zmieniając metodę płatności, aktualizujesz swoje subskrypcje oraz przyszłe powtarzające się płatności.",
+        "taxes_not_included": "Podatki nie są wliczone",
+        "vaulting_agreement_label": "Zapisz moje dane płatności, aby szybciej dokonywać zakupów w %{company}.",
+        "waiting_on_taxes_message": "Jeśli twoje podatki nie zostaną obliczone w ciągu najbliższych sekund, odśwież stronę.",
+        "waiting_on_taxes_notice": "Podatki zostaną naliczone",
+        "use_location_shipping_address_label": "Użyj adresu dostawy lokalizacji",
+        "swish_label": "Przesuń",
+        "usdc_cashback_title": "%{incentive_percentage} % Zwrot gotówki",
+        "usdc_cashback_additional_info": "Zapłać USDC na Base i otrzymaj w ciągu 30 dni %{incentive_percentage}% z powrotem do swojego portfela.",
+        "vault_for_payment_later": {
+          "notice": "Nie zostaniesz teraz obciążony. Kontynuując płatność, zgadzasz się, że Twoja metoda płatności zostanie automatycznie obciążona podczas realizacji zamówienia."
+        }
+      },
+      "payment_errors": {
+        "checkout_amount_changed": "Twoja płatność nie mogła zostać przetworzona, ponieważ kwota należna przy kasie uległa zmianie. Proszę sprawdź swoje zamówienie i spróbuj ponownie.",
+        "deferred_amount_changed": "Twoja płatność nie mogła zostać przetworzona, ponieważ zmieniła się kwota odroczenia płatności. Proszę sprawdź swoje zamówienie i spróbuj ponownie.",
+        "deferred_date_changed": "Twoja płatność nie mogła zostać przetworzona, ponieważ zmieniła się data odroczenia płatności. Proszę sprawdź swoje zamówienie i spróbuj ponownie.",
+        "decision_rule_block": "Podczas przetwarzania twojej płatności wystąpił problem. Proszę skontaktuj się z właścicielką lub właścicielem sklepu.",
+        "cannot_verify": "Nie udało się zweryfikować twoich danych płatności. Sprawdź dane karty i spróbuj ponownie.",
+        "call_issuer": "Twoja karta została odrzucona. Użyj innej metody płatności lub skontaktuj się ze swoim bankiem, aby uzyskać więcej informacji.",
+        "amount_too_small": "Minimalna kwota płatności musi być większa niż 0,50 USD. Spróbuj ponownie z wyższą kwotą.",
+        "captcha_required": "Wprowadź swoje dane płatności i rozwiąż CAPTCHA, aby zakończyć zakup.",
+        "captcha_required_without_payment_information": "Rozwiąż CAPTCHA, aby dokończyć zakup.",
+        "cancelled_payment": "Twoja płatność została anulowana. Spróbuj ponownie lub użyj innej metody płatności."
+      },
+      "payment_challenge_modal": {
+        "instructions": "Zakończ zakupy za pomocą kodu {{paymentMethod}}.",
+        "timer_message": "Masz jeszcze {{timeLeft}}, aby zapłacić.",
+        "qr_code": {
+          "instructions": "Zakończ zakupy za pomocą kodu {{paymentMethod}}."
+        },
+        "external": {
+          "instructions": "Potwierdź płatność w aplikacji, aby zakończyć ten zakup."
+        },
+        "close": "Zamknij weryfikację tożsamości"
+      },
+      "payment_collection": {
+        "cancelled": "Ta płatność nie jest już wymagana. Na stronie zamówienia znajdziesz więcej informacji.",
+        "paid": "Ta płatność została już przekazana. Na stronie zamówienia znajdziesz więcej informacji."
       }
     }
   }

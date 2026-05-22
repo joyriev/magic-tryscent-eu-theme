@@ -696,7 +696,24 @@
       "delivery_options": {
         "pick_up": "Vyzvednout",
         "none_method_definition": "Žádné zasílání",
-        "company_location_no_address_banner": "Objednávky odeslané na místa bez adresy budou předloženy k přezkoumání."
+        "company_location_no_address_banner": "Objednávky odeslané na místa bez adresy budou předloženy k přezkoumání.",
+        "ship": "Doprava",
+        "pick_up_in_two_hours": "Obvykle hotovo za 2 hodiny",
+        "pick_up_in_four_hours": "Obvykle hotovo za 4 hodiny",
+        "pick_up_next_day": "K vyzvednutí následující den",
+        "pick_up_in_one_hour": "Obvykle hotovo za 1 hodinu",
+        "pick_up_in_twenty_four_hours": "Obvykle hotovo do 24 hodin",
+        "pick_up_in_two_to_four_days": "Obvykle hotovo za 2 - 4 dny",
+        "pick_up_in_five_or_more_days": "Obvykle hotovo za 5 nebo více dnů",
+        "pick_up_in_zero_to_two_hours": "K vyzvednutí za 2 hodiny",
+        "pick_up_in_two_to_four_hours": "K vyzvednutí za 4 hodiny",
+        "pick_up_locations": "Místo vyzvednutí",
+        "pickup_point_method_definition": "Odeslat na místo vyzvednutí",
+        "retail_method_definition": "Maloobchodní zásilková služba",
+        "subscription_pickup_information": "Toto bude místo vyzvednutí všech budoucích objednávek tvého předplatného.",
+        "ship_to_address": "Odeslat na adresu",
+        "pick_up_from_store": "Vyzdvihnutí v obchodě",
+        "pickup_point_map_title": "Mapa s místem vyzvednutí"
       },
       "customer_account": {
         "have_an_account_label": "Máš účet?",
@@ -739,6 +756,106 @@
             "one": "Tento článek bude odstraněn z tvého nákupního košíku, protože pro tvou adresu nejsou dostupné žádné způsoby doručení.",
             "other": "Tyto položky budou odstraněny z tvého nákupního košíku, protože pro tvou adresu nejsou dostupné žádné způsoby doručení."
           }
+        }
+      },
+      "field_errors": {
+        "address_address2_blank": "Zadej byt, pokoj atd.",
+        "address_address1_too_long": "První řádek adresy je příliš dlouhý (maximálně 255 znaků)",
+        "address_address1_contains_html_tags": "Adresa 1 nesmí obsahovat HTML značky.",
+        "address_address2_contains_html_tags": "Adresa 2 nesmí obsahovat HTML značky.",
+        "address_address1_contains_emojis": "Adresa 1 nesmí obsahovat emotikony",
+        "address_address2_contains_emojis": "Adresa 2 nesmí obsahovat emotikony",
+        "address_address1_contains_mathematical_symbols": "První řádek adresy nesmí obsahovat matematické symboly",
+        "address_address2_contains_mathematical_symbols": "Druhý řádek adresy nesmí obsahovat matematické symboly",
+        "address_first_name_blank": "Zadej křestní jméno",
+        "address_last_name_blank": "Zadej příjmení",
+        "address_city_blank": "Zadej město",
+        "address_country_blank": "Vyberte zemi/oblast",
+        "address_country_not_supported": "Neposíláme do této země ani do tohoto regionu. Zadejte novou doručovací adresu a zkuste to znovu.",
+        "address_province_blank": "Vyberte spolkovou zemi/kanton",
+        "address_company_blank": "Zadejte název firmy",
+        "address_zip_blank": "Zadej poštovní směrovací číslo",
+        "address_zip_invalid_for_country": "Zadejte platné PSČ pro %{country}",
+        "address_zip_invalid_for_country_and_province": "Zadejte platné PSČ pro %{province}, %{country}",
+        "address_first_name_too_long": "Křestní jméno je příliš dlouhé (maximálně 255 znaků)",
+        "address_last_name_too_long": "Příjmení je příliš dlouhé (maximálně 255 znaků)",
+        "address_address2_too_long": "Druhý řádek adresy je příliš dlouhý (maximálně 255 znaků)",
+        "address_city_too_long": "Město je příliš dlouhé (maximálně 255 znaků)",
+        "address_company_too_long": "Název firmy je příliš dlouhý (maximálně 255 znaků)",
+        "address_first_name_contains_html_tags": "Křestní jméno nesmí obsahovat HTML značky.",
+        "address_last_name_contains_html_tags": "Příjmení nesmí obsahovat HTML značky.",
+        "address_city_contains_html_tags": "Město nesmí obsahovat HTML značky.",
+        "address_company_contains_html_tags": "Podnik nesmí obsahovat HTML značky.",
+        "address_first_name_contains_emojis": "Křestní jméno nesmí obsahovat emotikony",
+        "address_last_name_contains_emojis": "Příjmení nesmí obsahovat emotikony",
+        "address_city_contains_emojis": "Město nesmí obsahovat emotikony",
+        "address_company_contains_emojis": "Název firmy nesmí obsahovat emotikony",
+        "address_phone_contains_emojis": "Telefonní číslo nesmí obsahovat emotikony",
+        "address_zip_contains_emojis": "Poštovní směrovací číslo nesmí obsahovat emotikony",
+        "address_first_name_contains_url": "Křestní jméno nesmí obsahovat URL adresu",
+        "address_last_name_contains_url": "Příjmení nesmí obsahovat adresu URL",
+        "address_zip_not_supported": "Toto místo není podporováno",
+        "address_country_invalid": "Vyberte z seznamu zemi/oblast",
+        "address_zip_invalid": "Zadejte platné poštovní směrovací číslo",
+        "address_suggestion_did_you_mean_html": "Myslel jsi %{html}?",
+        "address_zip_invalid_for_province": "Zadejte platné PSČ pro %{province}",
+        "address_zip_too_long": "PSČ je příliš dlouhé (maximálně 255 znaků)",
+        "address_first_name_contains_mathematical_symbols": "Křestní jméno nesmí obsahovat matematické symboly",
+        "address_last_name_contains_mathematical_symbols": "Příjmení nesmí obsahovat matematické symboly",
+        "address_city_contains_mathematical_symbols": "Město nesmí obsahovat matematické symboly",
+        "address_company_contains_mathematical_symbols": "Název podniku nesmí obsahovat matematické symboly",
+        "address_zip_contains_mathematical_symbols": "Poštovní směrovací číslo nesmí obsahovat matematické symboly",
+        "address_province_invalid": "Vyberte platnou spolkovou zemi / platnou provincii",
+        "address_generic_invalid": "Neplatný záznam",
+        "address_zip_blocked_address": "Toto místo není podporováno",
+        "address_subdistrict_blank": "Zadejte podokres",
+        "address_subdistrict_too_long": "Unterbezirk je příliš dlouhý (maximálně {{count}} znaků)",
+        "address_subdistrict_contains_emojis": "Podokres nesmí obsahovat emoji",
+        "address_subdistrict_contains_html_tags": "Podokres nesmí obsahovat HTML značky.",
+        "address_subdistrict_contains_mathematical_symbols": "Podokres nesmí obsahovat matematické symboly"
+      },
+      "failed_payment": {
+        "page_title": "Platba nemohla být zpracována",
+        "title": "Platba nemohla být zpracována",
+        "payment_not_processed_title": "Tvá platba nemohla být zpracována.",
+        "payment_not_processed_text": "Tobě nebylo nic účtováno. Vrať se do svého nákupního košíku, abys dokončil svůj nákup.",
+        "return_to_cart_button_label": "Zpět do nákupního košíku"
+      },
+      "error_page": {
+        "terminal": {
+          "title": "Došlo k problému při našem dokončení nákupu",
+          "message": "Aktualizujte tuto stránku nebo to zkuste za pár minut znovu",
+          "action": {
+            "cta": "Znovu načíst stránku"
+          },
+          "request_id": "ID žádosti: {{requestId}}"
+        },
+        "embed_errors": {
+          "customer_account_required": "Pro dokončení nákupu je nutný zákaznický účet.",
+          "cart_completed": "Tato platba již byla dokončena.",
+          "not_authorized": "Ověření při placení selhalo. Zkontroluj své přihlašovací údaje.",
+          "killswitch_enabled": "Pokladna je dočasně nedostupná.",
+          "policy_violation": "Objednávku nelze dokončit kvůli omezením nastavení pravidel.",
+          "unrecoverable_failure": "Nákupní košík se nepodařilo načíst. Zkuste to znovu"
+        }
+      },
+      "discount_errors": {
+        "generic_error": "Tvá objednávka nemohla být zpracována, protože tvůj slevový kód již není k dispozici. Zkontroluj celkovou hodnotu objednávky a zkus to znovu."
+      },
+      "editor": {
+        "navigation": {
+          "store_logo_accessibility_label": "Přejít do internetového obchodu"
+        }
+      },
+      "embed": {
+        "header": {
+          "review_order": "Zkontrolovat vaši objednávku"
+        },
+        "shipping": {
+          "shipping_options": "Zobrazit všechny možnosti doručení"
+        },
+        "payment": {
+          "payment_options": "Zobrazit všechny možnosti platby"
         }
       }
     }

@@ -751,7 +751,59 @@
         "address_province_invalid": "Wybierz ważny kraj związkowy / ważną prowincję",
         "address_generic_blank": "Pole obowiązkowe",
         "address_subdistrict_too_long": "Unterbezirk jest za długi (maksymalnie {{count}} znaków)",
-        "address_subdistrict_contains_emojis": "Podokręg nie może zawierać emotikonów"
+        "address_subdistrict_contains_emojis": "Podokręg nie może zawierać emotikonów",
+        "handle_phone_invalid": "Wprowadź prawidłowy numer telefonu",
+        "handle_email_invalid": "Wprowadź prawidłowy adres e-mail",
+        "email_invalid": "Wprowadź prawidłowy adres e-mail",
+        "credit_card_name_blank": "Wpisz swoje imię dokładnie tak, jak jest napisane na twojej karcie",
+        "credit_card_name_invalid": "Wpisz swoje imię dokładnie tak, jak jest napisane na twojej karcie",
+        "credit_card_number_invalid": "Wprowadź prawidłowy numer karty",
+        "credit_card_expiry_invalid": "Wprowadź ważną datę ważności",
+        "credit_card_month_invalid": "Wprowadź ważny miesiąc ważności",
+        "credit_card_year_invalid": "Wprowadź ważny rok ważności",
+        "credit_card_start_invalid": "Wprowadź prawidłową datę rozpoczęcia karty",
+        "credit_card_start_month_invalid": "Wprowadź prawidłowy miesiąc rozpoczęcia karty",
+        "credit_card_start_year_invalid": "Wprowadź prawidłowy rok rozpoczęcia karty",
+        "credit_card_verification_value_blank": "Wprowadź kod CVV lub kod bezpieczeństwa z twojej karty",
+        "delivery_line_detail_changed": "Niektóre szczegóły dostawy mogły ulec zmianie. Sprawdź sposób wysyłki i spróbuj ponownie.",
+        "reduction_code_code_not_found": "Wprowadź ważny kod rabatowy lub bon",
+        "reduction_code_gift_card_code_invalid": "Wprowadź ważny kupon rabatowy",
+        "reduction_code_gift_card_unusable": "Nie możesz użyć bonu na zakup innego bonu.",
+        "gift_card_already_applied": "Ten bon został już dodany do twojego zamówienia",
+        "gift_card_disabled": "Ten bon nie jest już dostępny",
+        "gift_card_expired": "Ten bon jest nieważny",
+        "gift_card_depleted": "Na tym bonie nie ma już środków",
+        "gift_card_currency_mismatch": "Tylko bony podarunkowe w %{checkout_currency} mogą być użyte do tego zamówienia",
+        "payment_gateway_needs_paid_plan_error": "Ta metoda płatności jest obecnie niedostępna w sklepie",
+        "payment_gateway_incompatible_with_multi_currency": "Aby zakończyć zakup w walucie twojego kraju, musisz zapłacić kartą kredytową.",
+        "physical_gift_card_invalid_quantity": "Fizyczne kupony muszą mieć wartość odpowiadającą liczbie kodów kuponów.",
+        "physical_gift_card_duplicate_code": "Pozycja \"Bon podarunkowy\" zawiera podwójny kod.",
+        "physical_gift_card_invalid_code": "Kod kuponu jest nieprawidłowy.",
+        "payment_gateway_not_in_test_mode": "nie jest skonfigurowany do testowania zamówień. Ten sklep nie może przyjmować prawdziwych zamówień ani prawdziwych płatności.",
+        "payment_gateway_unsupported_for_subscriptions": "Ta metoda płatności nie jest dostępna dla zamówień abonamentowych.",
+        "gift_cards_not_supported_with_deferred_purchase_options": "Kupony nie są obsługiwane przy opcjach zakupu z odroczoną płatnością.",
+        "gift_card_buying_gift_card": "Nie możesz użyć bonu na zakup innego bonu.",
+        "payment_gateway_unsupported_for_country": "Ta metoda płatności nie jest dostępna dla twojego kraju wysyłki.",
+        "purchase_options_agreement_blank": "Aby kontynuować zakup, zaakceptuj zaległe lub powtarzające się warunki zakupu.",
+        "reduction_code_gift_cards_not_supported_with_deferred_purchase_options": "Kupony nie są obsługiwane przy opcjach zakupu z odroczoną płatnością.",
+        "delivery_zone_not_found": "Wskazana strefa nie została znaleziona w podanym kraju.",
+        "payment_gateway_unsupported_for_development_store_html": "Musisz użyć testowej bramki płatności, aby móc złożyć zamówienie testowe. Dowiedz się więcej o <a href=\"%{docs_link}\">testowaniu zamówień w sklepach deweloperskich</a>.",
+        "payment_gateway_unsupported_for_order_above_maximum_orders_html": "Osiągnąłeś limit zamówień w Development Shop z tym procesorem płatności. Musisz użyć testowej bramki płatności, aby złożyć kolejne zamówienie. Dowiedz się więcej o <a href=\"%{docs_link}\">testowaniu zamówień w Development Shops</a>.",
+        "email_blank": "Wprowadź adres e-mail",
+        "gift_card_invalid": "Kupon \"••••%{last_four_characters}\" jest już nieważny",
+        "credit_card_number_blank": "Wprowadź numer karty",
+        "invalid_delivery_address_reference_handle": "Nie można przypisać uchwytu odniesienia adresu dostawy do żadnego dostępnego adresu dostawy.",
+        "must_use_available_delivery_address": "Adres dostawy musi zostać wybrany spośród dostępnych adresów dostawy.",
+        "must_use_available_shipping_rate": "Stawka wysyłki musi zostać wybrana spośród dostępnych stawek wysyłkowych.",
+        "shipping_line_phone_invalid": "Wprowadź prawidłowy numer telefonu",
+        "tips_invalid_tip_amount": "Wprowadź napiwek poniżej %{amount}",
+        "vaulting_agreement_blank": "Twoja metoda płatności musi zostać zapisana, ponieważ płatność za kwotę tego zamówienia będzie wymagana później.",
+        "sms_marketing_phone_invalid": "Wprowadź prawidłowy numer telefonu",
+        "split_cart_international_shipping_not_supported": "Przy wysyłce międzynarodowej wszystkie przedmioty muszą korzystać z tej samej metody wysyłki. Zaktualizuj sposób dostawy lub złóż kilka zamówień.",
+        "shipping_method_invalid_phone_number": "Zaktualizuj numer telefonu w swoim adresie dostawy, aby wyświetlić dostępne metody wysyłki.",
+        "split_by_delivery_method_not_allowed": "Podział według metody dostawy nie jest możliwy dla tej sesji lub tego sklepu.",
+        "split_by_delivery_method_unsupported_method_type": "Próbowano podziału według metody dostawy z nieobsługiwanym typem metody dostawy.",
+        "split_by_delivery_method_requires_merchandise_from_single_location": "Podział według metody dostawy wymaga, aby poszczególne pozycje towarów były realizowane z jednego miejsca."
       },
       "failed_payment": {
         "page_title": "Nie udało się przetworzyć płatności",
@@ -794,6 +846,34 @@
         },
         "payment": {
           "payment_options": "Pokaż wszystkie opcje płatności"
+        }
+      },
+      "general": {
+        "continue_button_label": "Dalej",
+        "complete_purchase_button_label": "Kupować",
+        "back_to_cart": "Powrót do koszyka",
+        "back_to_contact_information": "Powrót do informacji",
+        "back_to_shipping_method": "Powrót do wysyłki",
+        "back_to_payment_method": "Powrót do płatności",
+        "choose_shipping_method": "Wybierz sposób wysyłki",
+        "choose_billing_address": "Wybierz adres do faktury",
+        "autocomplete_title": "Propozycje",
+        "autocomplete_single_item": "1 opcja dostępna",
+        "autocomplete_multi_item": "{{number}} dostępnych opcji",
+        "checkout_context": {
+          "step_one": "%{shop_name} - Kasa"
+        },
+        "autocomplete_zero_item": "Brak dostępnych artykułów",
+        "autocomplete_powered_by_google": "Wspierane przez {{brandName}}",
+        "dates": {
+          "months": {
+            "april": "kwiecień",
+            "december": "grudzień"
+          }
+        },
+        "datepicker": {
+          "in_range": "W dziedzinie",
+          "range_end": "koniec zakresu"
         }
       }
     }

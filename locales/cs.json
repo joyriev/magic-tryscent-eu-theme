@@ -1695,7 +1695,120 @@
         "bank_account_missing": "Bankovní účet musí být propojený",
         "bank_account_disclaimer": "Platby ACH mohou trvat až 4 pracovní dny na zpracování.",
         "bank_account_generic_error": "Bankovní účet nelze přidat. Zkuste to později znovu.",
-        "add_payment_method": "Přidat způsob platby"
+        "add_payment_method": "Přidat způsob platby",
+        "card_pay_with": "Zahrajte si s:",
+        "card_security_notice": "Všechny transakce jsou bezpečné a zašifrované.",
+        "card_expiry_label": "Platné do (MM/RR)",
+        "card_expiry_placeholder": "Platné do (MM/RR)",
+        "card_expiry_date_explanation": "Datum vypršení platnosti karty ve formátu: měsíc, měsíc, rok, rok",
+        "card_verification_value_explanation": "Tříciferný bezpečnostní kód, který se obvykle nachází na zadní straně tvé karty. Karty American Express mají čtyřciferný kód na přední straně.",
+        "card_verification_value_explanation_amex": "4místný bezpečnostní kód na přední straně tvé karty",
+        "card_verification_value_explanation_other": "3místný bezpečnostní kód na zadní straně tvé karty",
+        "card_start_label": "Datum výstavy (MM / RR)",
+        "card_start_placeholder": "Datum výstavy (MM / RR)",
+        "card_issue_number_label": "Číslo",
+        "card_issue_number_placeholder": "Číslo",
+        "billing_address_description": "Vyberte adresu spojenou s vaší kartou nebo platební metodou.",
+        "billing_address_description_no_shipping_address": "Zadej adresu spojenou s tvou kartou nebo platební metodou.",
+        "card_fields_container_prefix": "Rám pro pole:",
+        "card_fields_unavailable_html": {
+          "one": "Platby kreditními a debetními kartami momentálně nejsou k dispozici.<br>Prosím, <a href=\"%{current_url}\">obnovte tuto stránku</a> nebo to zkuste později znovu.",
+          "other": "Platby kreditními a debetními kartami momentálně nejsou k dispozici.<br>Prosím, <a href=\"%{current_url}\">obnovte tuto stránku</a> nebo vyzkoušejte jiný způsob platby."
+        },
+        "card_fields_processing_error": "Při zpracování platby došlo k problému. Zkus tuto stránku obnovit nebo zkontroluj své připojení k internetu.",
+        "card_expiration_month_label": "Měsíc ukončení",
+        "card_expiration_year_label": "Rok ukončení platnosti",
+        "card_information_notice": "Všechny transakce jsou bezpečné a šifrované. Informace o kreditních kartách nikdy nejsou ukládány.",
+        "billing_address_not_supported_for_payment_method_error": "Tato platební metoda není k dispozici pro tvoji fakturační adresu a měnu. Zkus to s jinou platební metodou.",
+        "card_security_vault_notice": "Pro budoucí platby potřebujeme tvé údaje. Všechny transakce jsou bezpečné a zašifrované.",
+        "card_expired": "Vypršelo",
+        "card_verification_confirm": "Zadej bezpečnostní kód své karty pro ověření.",
+        "billing_address_associated_with_mandate": "Použijte adresu spojenou s platební metodou",
+        "billing_address_associated_with_mandate_info": "Pokud chceš změnit svou fakturační adresu, odstraň údaje o své platební kartě a zadej je znovu.",
+        "card_vaulted_company_location": "Mapa pro toto místo uložena",
+        "billing_must_match_shipping_notice": "Fakturační adresa tvé platební metody musí souhlasit s doručovací adresou.",
+        "brand_not_available": "Tento obchod nepřijímá {{brand}}. Použijte pro platbu jinou kartu.",
+        "billing_address_invalid_phone": "Aktualizuj telefonní číslo ve své fakturační adrese, abys mohl pokračovat s {{label}} {{last_digits}}.",
+        "billing_address_invalid_phone_no_card": "Aktualizuj telefonní číslo ve své fakturační adrese, abys mohl pokračovat.",
+        "card_fields": {
+          "errors": {
+            "required": {
+              "issue_date": "Zadejte platné datum vystavení",
+              "issue_number": "Zadejte platné číslo výstavy"
+            },
+            "invalid": {
+              "verification_value": "Zadejte platný CVV nebo bezpečnostní kód"
+            }
+          }
+        },
+        "business_customer_vaulting_payment_label": "Tuto platební metodu při dokončení nákupu uložit a autorizovat %{company}, aby mohla být použita pro budoucí nákupy na tomto místě. Všichni kontakty přiřazení k tomuto místu mohou tuto platební metodu používat.",
+        "cashapppay_label": "Platba Cash App",
+        "billing_address_rollup_accessibility_label": "Možnosti pro fakturační adresu",
+        "business_customer_with_bank_account_vaulting_payment_label": "Uložte tuto platební metodu při dokončení nákupu a udělte %{company} povolení k účtování vašeho účtu za budoucí schválené nákupy na tomto místě, dokud metodu nezrušíte. Všichni kontakty přiřazení k tomuto místu mohou tuto platební metodu používat.",
+        "bank_account_vaulted_company_location": "Bankovní účet pro toto místo uložený",
+        "discount_button_action_label": "Využít slevový kód",
+        "detected_card_brand": "Rozpoznaná značka karty: {brand}",
+        "credit_card_start_month": "Výstavní měsíc",
+        "credit_card_start_year": "Rok výstavy",
+        "change_currency_section_description": "Vyberte měnovou možnost",
+        "different_credit_card_label": "Použij jinou platební kartu",
+        "delete_customer_mandate_modal_cancel": "Zavřít",
+        "credit_card_vaulting_sign_in_banner_title": "Ulož svou platební kartu",
+        "credit_card_vaulting_sign_in_banner_info": "Přihlas se nebo si vytvoř účet, abys mohl uložit informace o své platební kartě pro budoucí nákupy.",
+        "delete_customer_mandate_modal_title": "Odebrat tuto platební kartu?",
+        "delete_customer_mandate_modal_body": "Pokud tuto kartu odstraníš, budeš ji muset znovu přidat, než ji použiješ k platbám.",
+        "clear": "Smazat",
+        "custom_onsite_payment_method_modal": {
+          "title": "Potvrzení vlastní platby na místě"
+        },
+        "delete_credit_card_modal": {
+          "title": "Smazat kartu",
+          "confirmation": "Opravdu chcete smazat následující položku: {{brandName}} s posledními číslicemi {{lastDigits}}?",
+          "cancel": "Zavřít"
+        },
+        "edit_credit_card_modal": {
+          "cancel": "Zavřít",
+          "description": "Můžeš upravit pouze fakturační adresu své karty.",
+          "fields": {
+            "expiry": "Datum vypršení platnosti",
+            "name": "Jméno držitele karty",
+            "billing": "Faktura na"
+          }
+        },
+        "crypto_modal": {
+          "header": "Zaplatit %{total_price} USDC na %{shop_name}",
+          "error": {
+            "sandbox_error": "Něco se pokazilo",
+            "web_component_error": "Při načítání této stránky došlo k problému"
+          }
+        },
+        "crypto_payment_method": {
+          "description": "Bezpečně připoj svou peněženku. Tvůj zůstatek a adresa nebudou sdíleny.",
+          "tooltip": "Zůstatek tvé digitální peněženky a tvá adresa nebudou sdíleny a může být odečtena pouze požadovaná částka",
+          "cashback_descriptor": {
+            "one": "Obdržíš svůj cashback po %{count} dnech",
+            "other": "Obdržíš svůj cashback po %{count} dnech"
+          }
+        },
+        "discount_show_more_warnings": {
+          "one": "Zobrazit dalších %{count}",
+          "other": "Zobrazit dalších %{count}"
+        },
+        "discount_codes_removed_summary": {
+          "one": "%{count} slevový kód byl odstraněn",
+          "other": "%{count} slevových kódů bylo odstraněno"
+        },
+        "default": "Standardní",
+        "continue_to_guest_checkout": "K rychlému nákupu bez registrace",
+        "choose_new_payment_method": "Vyberte novou platební metodu.",
+        "discount_codes_modified_summary": {
+          "one": "%{count} slevový kód byl změněn",
+          "other": "%{count} slevových kódů bylo změněno"
+        },
+        "discount_codes_removed_or_modified_summary": {
+          "one": "%{count} slevový kód byl odstraněn nebo změněn",
+          "other": "%{count} slevových kódů bylo odstraněno nebo změněno"
+        }
       }
     }
   }

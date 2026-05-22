@@ -2457,6 +2457,141 @@
       },
       "store_credit_errors": {
         "generic_error": "Wystąpił problem z Twoim saldem sklepu. Spróbuj ponownie lub odśwież stronę."
+      },
+      "subscriptions": {
+        "recurring_totals": "%{total_price} za %{interval}",
+        "recurring_totals_with_policies": {
+          "first_cycles": {
+            "other": "Pierwsze %{count} płatności po %{total_price} każda"
+          },
+          "following_cycles": ", następnie %{total_price} co %{interval} lub każdą/n %{interval}"
+        },
+        "recurring_total_intervals": {
+          "day": {
+            "one": "Etykieta"
+          },
+          "week": {
+            "one": "Tydzień"
+          },
+          "month": {
+            "one": "Miesiąc",
+            "other": "%{count} miesięcy"
+          },
+          "year": {
+            "one": "Rok",
+            "other": "%{count} lat"
+          }
+        },
+        "recurring_totals_with_initial_order_shipping_discount": "Pierwsza płatność %{total_price_with_discount}, następnie %{recurring_total}",
+        "recurring_totals_with_initial_order_shipping_discount_with_policies": {
+          "first_cycles": {
+            "one": ", następnie %{count} płatność za %{total_price}",
+            "other": ", następnie %{count} płatności po %{total_price} każda"
+          }
+        }
+      },
+      "taxes": {
+        "tax_details": "Dalsze szczegóły podatkowe",
+        "vat_number": {
+          "field": {
+            "label": "NIP UE (opcjonalnie)",
+            "tooltip": "Sprawdza numer identyfikacji podatkowej VAT i automatycznie stosuje odwróconą odpowiedzialność podatkową przy uprawnionych zamówieniach"
+          },
+          "badge": "NIP UE: %{number}",
+          "domestic_order": "Zwolnienie z odwrotnego obciążenia podatkiem obowiązuje tylko przy zamówieniach transgranicznych w UE. Dla zamówień lokalnych stosuje się standardową stawkę podatku od wartości dodanej.",
+          "status": {
+            "invalid_format": {
+              "at": "Numery identyfikacji podatkowej VAT (USt-IdNr.) w Austrii składają się z oznaczenia AT oraz 9 znaków",
+              "be": "Numery identyfikacji podatku od wartości dodanej (USt-IdNr.) w Belgii składają się z oznaczenia BE oraz 10 znaków",
+              "bg": "Numery identyfikacji podatkowej VAT (USt-IdNr.) w Bułgarii składają się z przedrostka BG oraz 9–10 znaków",
+              "hr": "Numery identyfikacji podatkowej VAT (USt-IdNr.) w Chorwacji składają się z oznaczenia HR oraz 11 znaków",
+              "cy": "Numery identyfikacji podatkowej VAT (USt-IdNr.) na Cyprze składają się z oznaczenia CY i 9 znaków",
+              "cz": "Numery identyfikacji podatkowej VAT (USt-IdNr.) w Republice Czeskiej składają się z oznaczenia CZ oraz 8–10 znaków",
+              "dk": "Numery identyfikacji podatkowej VAT (USt-IdNr.) w Danii składają się z oznaczenia DK oraz 8 znaków",
+              "ee": "Numery identyfikacji podatkowej VAT (USt-IdNr.) w Estonii składają się z oznaczenia EE oraz 9 znaków",
+              "fi": "Numery identyfikacji podatku od wartości dodanej (USt-IdNr.) w Finlandii składają się z oznaczenia FI oraz 8 znaków",
+              "fr": "Numery identyfikacji podatkowej VAT (USt-IdNr.) we Francji składają się z oznaczenia FR oraz 11 znaków",
+              "de": "Numery identyfikacji podatkowej VAT (USt-IdNr.) w Niemczech składają się z oznaczenia DE oraz 9 znaków",
+              "gr": "Numery identyfikacji podatkowej VAT (USt-IdNr.) w Grecji składają się z oznaczenia EL oraz 9 znaków",
+              "hu": "Numery identyfikacji podatkowej VAT (USt-IdNr.) na Węgrzech składają się z oznaczenia HU oraz 8 znaków",
+              "ie": "Numery identyfikacji podatkowej VAT (USt-IdNr.) w Irlandii składają się z oznaczenia IE oraz 8–9 znaków",
+              "it": "Numery identyfikacji podatkowej VAT (USt-IdNr.) we Włoszech składają się z oznaczenia IT oraz 11 znaków",
+              "lv": "Numery identyfikacji podatkowej VAT (USt-IdNr.) na Łotwie składają się z oznaczenia LV oraz 11 znaków",
+              "lt": "Numery identyfikacji podatkowej VAT (USt-IdNr.) na Litwie składają się z oznaczenia LT oraz 9–12 znaków",
+              "lu": "Numery identyfikacji podatkowej VAT (USt-IdNr.) w Luksemburgu składają się z oznaczenia LU i 8 znaków",
+              "mt": "Numery identyfikacji podatkowej VAT (USt-IdNr.) na Malcie składają się z oznaczenia MT oraz 8 znaków",
+              "nl": "Numery identyfikacji podatkowej VAT (USt-IdNr.) w Holandii składają się z oznaczenia NL oraz 12 znaków",
+              "es": "Numery identyfikacji podatkowej VAT (USt-IdNr.) w Hiszpanii składają się z oznaczenia ES oraz 9 znaków",
+              "gb": "Numery identyfikacji podatkowej VAT (USt-IdNr.) w Zjednoczonym Królestwie składają się z oznaczenia GB lub XI oraz 5–12 znaków",
+              "pl": "Numery identyfikacji podatkowej VAT (USt-IdNr.) w Polsce składają się z oznaczenia PL oraz 10 znaków",
+              "pt": "Numery identyfikacji podatku od wartości dodanej (NIP VAT) w Portugalii składają się z oznaczenia PT i 9 znaków",
+              "ro": "Numery identyfikacji podatkowej VAT (USt-IdNr.) w Rumunii składają się z oznaczenia RO oraz 10 znaków",
+              "sk": "Numery identyfikacji podatkowej VAT (USt-IdNr.) na Słowacji składają się z oznaczenia SK i 10 znaków",
+              "si": "Numery identyfikacji podatkowej VAT (USt-IdNr.) w Słowenii składają się z oznaczenia SI oraz 8 znaków",
+              "se": "Numery identyfikacji podatkowej VAT (USt-IdNr.) w Szwecji składają się z oznaczenia SE oraz 12 znaków"
+            },
+            "invalid_number": {
+              "at": "Wprowadź ważny numer identyfikacji podatkowej VAT dla Austrii",
+              "be": "Wprowadź ważny numer identyfikacji podatkowej VAT dla Belgii",
+              "bg": "Wprowadź ważny numer identyfikacji podatkowej VAT dla Bułgarii",
+              "hr": "Wprowadź ważny numer identyfikacji podatkowej VAT dla Chorwacji",
+              "cy": "Wprowadź ważny numer identyfikacji podatkowej VAT dla Cypru",
+              "cz": "Wprowadź ważny numer identyfikacji podatkowej VAT dla Czech",
+              "dk": "Wprowadź ważny numer identyfikacji podatkowej VAT dla Danii",
+              "ee": "Wprowadź ważny numer identyfikacji podatkowej VAT dla Estonii",
+              "fi": "Wprowadź ważny numer identyfikacji podatkowej VAT dla Finlandii",
+              "fr": "Wprowadź ważny numer identyfikacji podatkowej VAT dla Francji",
+              "de": "Wprowadź ważny numer identyfikacji podatkowej VAT dla Niemiec",
+              "gr": "Wprowadź ważny numer identyfikacji podatkowej VAT dla Grecji",
+              "hu": "Wprowadź ważny numer identyfikacji podatkowej VAT dla Węgier",
+              "ie": "Wprowadź ważny numer identyfikacji podatkowej VAT dla Irlandii",
+              "it": "Wprowadź ważny numer identyfikacji podatkowej VAT dla Włoch",
+              "lv": "Wprowadź ważny numer identyfikacji podatkowej VAT dla Łotwy",
+              "lt": "Wprowadź ważny numer identyfikacji podatkowej VAT dla Litwy",
+              "lu": "Wprowadź ważny numer identyfikacji podatkowej VAT dla Luksemburga",
+              "mt": "Wprowadź ważny numer identyfikacji podatkowej VAT dla Malty",
+              "nl": "Wprowadź ważny numer identyfikacji podatkowej VAT dla Holandii",
+              "pl": "Wprowadź ważny numer identyfikacji podatkowej VAT dla Polski",
+              "pt": "Wprowadź ważny numer identyfikacji podatkowej VAT dla Portugalii",
+              "ro": "Wprowadź ważny numer identyfikacji podatkowej VAT dla Rumunii",
+              "sk": "Wprowadź ważny numer identyfikacji podatkowej VAT dla Słowacji",
+              "si": "Wprowadź ważny numer identyfikacji podatkowej VAT dla Słowenii",
+              "es": "Wprowadź ważny numer identyfikacji podatkowej VAT dla Hiszpanii",
+              "se": "Wprowadź ważny numer identyfikacji podatkowej VAT dla Szwecji",
+              "gb": "Wprowadź ważny numer identyfikacji podatkowej VAT dla Zjednoczonego Królestwa"
+            },
+            "service_unavailable": "Usługa weryfikacji niedostępna",
+            "service_error": "Usługa weryfikacji niedostępna"
+          },
+          "accessibility": {
+            "status": {
+              "validating": "Weryfikacja numeru identyfikacji podatkowej VAT jest wykonywana",
+              "valid": "Numer identyfikacji podatkowej VAT jest ważny",
+              "applied": "Zwolnienie z podatku od wartości dodanej zostało zastosowane",
+              "domestic": "Zwolnienie z podatku od sprzedaży nie zostało zastosowane",
+              "invalid_number": "Zwolnienie z podatku od towarów i usług nie powiodło się",
+              "service_unavailable": "Nie można zweryfikować zwolnienia z podatku od towarów i usług",
+              "service_error": "Nie można zweryfikować zwolnienia z podatku od towarów i usług"
+            }
+          },
+          "vaulted": "NIP UE: %{number}"
+        }
+      },
+      "thank_you": {
+        "billing_address_title": "Adres do faktury",
+        "attempted_delivery": "Dostawa",
+        "attempted_delivery_title": "Podjęto próbę dostarczenia twojego zamówienia",
+        "attempted_delivery_description_html": "Nie udało się dostarczyć Twojego zamówienia. %{contact_us}, aby umówić się na ponowną dostawę.",
+        "cancelled_description": "Twoje zamówienie zostało anulowane w dniu %{date}. Skontaktuj się z nami, jeśli masz pytania.",
+        "attempted_delivery_local_title": "Nieodebrana przesyłka",
+        "attempted_delivery_local_description_html": "Nie mogliśmy dostarczyć Twojego zamówienia. Aby umówić się na kolejną dostawę, %{contact_us}.",
+        "breadcrumbs_submitted": "Wysłano",
+        "breadcrumbs_in_review": "Oczekujące",
+        "breadcrumbs_confirmed": "Potwierdzono",
+        "announcement": {
+          "expand": "Rozszerz",
+          "collapse": "Minimalizuj"
+        }
       }
     }
   }

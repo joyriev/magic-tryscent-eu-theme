@@ -2945,7 +2945,63 @@
         "thank_you_confirmed_orders_with_email_and_phone": "Brzy obdržíš samostatné potvrzovací e-maily s tvými čísly objednávek.",
         "payment_method_not_charged": "Nezatížený",
         "thank_you_confirmed_with_email_and_phone_description": {
+          "multi_store": "Brzy obdržíte samostatné potvrzovací e-maily od každého obchodu.",
+          "single_store": "Brzy obdržíte potvrzovací e-mail."
+        },
+        "title": "Děkujeme ti za nákup!",
+        "thank_you_title": "Tvá objednávka byla potvrzena",
+        "thank_you_title_payment": "Tvá platba byla potvrzena.",
+        "thank_you_title_review": "Tvá objednávka byla odeslána ke kontrole",
+        "thank_you_ready_for_picked_up": "Tvoje objednávka byla vyzvednuta na adrese %{address}.",
+        "thank_you_title_payments_app_pending_default": "Tvá platba je zpracovávána",
+        "thank_you_title_payments_app_pending_buyer_action_required": "Tvá objednávka byla přijata",
+        "thank_you_title_payments_app_failed_pending_payment": "Tvá platba nemohla být zpracována.",
+        "thank_you_payments_app_failed_pending_payment": "Za tvou objednávku ti nebylo nic účtováno. Vrať se do svého nákupního košíku, abys svou objednávku zkontroloval a znovu zaplatil.",
+        "thank_you_payments_app_failed_pending_payment_payment": "Za tvou objednávku ti nebylo nic účtováno. Vrať se do svého nákupního košíku, abys svou objednávku zkontroloval a znovu zaplatil.",
+        "thank_you_payments_app_failed_pending_payment_pick_up": "Za tvou objednávku ti nebylo nic účtováno. Vrať se do svého nákupního košíku, abys svou objednávku zkontroloval a znovu zaplatil.",
+        "thank_you_payments_app_pending_payment_description_default_with_missing": "Kontaktujte nás e-mailem nebo telefonicky, abyste obdrželi potvrzení objednávky.",
+        "thank_you_payments_app_pending_payment_description_default_with_missing_payment": "Kontaktujte nás e-mailem nebo telefonicky, abyste obdrželi potvrzení objednávky.",
+        "thank_you_payments_app_pending_payment_description_default_with_missing_pick_up": "Kontaktujte nás e-mailem nebo telefonicky, abyste obdrželi potvrzení objednávky.",
+        "thank_you_payments_app_pending_payment_description_default_with_email_and_phone": "Brzy obdržíš potvrzovací e-mail s číslem své objednávky.",
+        "thank_you_payments_app_pending_payment_description_default_with_email_and_phone_payment": "Brzy obdržíš potvrzovací e-mail s číslem své objednávky.",
+        "thank_you_payments_app_pending_payment_description_default_with_email_and_phone_pick_up": "Brzy obdržíš potvrzovací e-mail s číslem své objednávky.",
+        "thank_you_payments_app_pending_payment_description_default_with_email": "Brzy obdržíš potvrzovací e-mail s číslem své objednávky.",
+        "thank_you_payments_app_pending_payment_description_default_with_email_payment": "Brzy obdržíš potvrzovací e-mail s číslem své objednávky.",
+        "thank_you_payments_app_pending_payment_description_default_with_email_pick_up": "Brzy obdržíš potvrzovací e-mail s číslem své objednávky.",
+        "thank_you_payments_app_pending_payment_description_default_with_phone": "Brzy obdržíš potvrzující SMS s číslem své objednávky.",
+        "thank_you_payments_app_pending_payment_description_default_with_phone_payment": "Brzy obdržíš potvrzující SMS s číslem své objednávky.",
+        "thank_you_payments_app_pending_payment_description_default_with_phone_pick_up": "Brzy obdržíš potvrzující SMS s číslem své objednávky.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_missing": "Kontaktujte nás e-mailem nebo telefonicky, abyste obdrželi potvrzení objednávky.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_missing_payment": "Kontaktujte nás e-mailem nebo telefonicky, abyste obdrželi potvrzení objednávky.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_missing_pick_up": "Kontaktujte nás e-mailem nebo telefonicky, abyste obdrželi potvrzení objednávky.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone": "Po dokončení platby obdržíte potvrzovací e-mail s číslem vaší objednávky.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone_payment": "Po dokončení platby obdržíte potvrzovací e-mail s číslem vaší objednávky.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone_pick_up": "Po dokončení platby obdržíte potvrzovací e-mail s číslem vaší objednávky.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email": "Po dokončení platby obdržíte potvrzovací e-mail s číslem vaší objednávky.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_payment": "Po dokončení platby obdržíte potvrzovací e-mail s číslem vaší objednávky.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_pick_up": "Po dokončení platby obdržíte potvrzovací e-mail s číslem vaší objednávky.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone": "Po dokončení platby obdržíte potvrzovací zprávu s číslem vaší objednávky.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone_payment": "Po dokončení platby obdržíte potvrzovací zprávu s číslem vaší objednávky.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone_pick_up": "Po dokončení platby obdržíte potvrzovací zprávu s číslem vaší objednávky.",
+        "thank_you_payments_app_pending_payment_description_provider_action_required_default": "Tvá platba je zpracovávána. Obdržíš e-mail, jakmile bude tvoje platba potvrzena.",
+        "thank_you_unconfirmed_items_heading": {
+          "other": "Některé položky nejsou potvrzené."
+        },
+        "thank_you_unconfirmed_items_description": {
+          "one": "Tobě za to nic neúčtovali.",
+          "other": "Tobě za to nic neúčtovali."
+        },
+        "thank_you_item_label": {
+          "one": "%{count} položek",
+          "other": "%{count} položek"
+        },
+        "thank_you_confirmed_with_email_description": {
+          "single_store": "Brzy obdržíte potvrzovací e-mail.",
           "multi_store": "Brzy obdržíte samostatné potvrzovací e-maily od každého obchodu."
+        },
+        "thank_you_confirmed_with_phone_description": {
+          "single_store": "Brzy obdržíš potvrzovací SMS.",
+          "multi_store": "Brzy obdržíte samostatné potvrzovací SMS od každého obchodu."
         }
       }
     }

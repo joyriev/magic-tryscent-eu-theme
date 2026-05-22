@@ -993,7 +993,118 @@
             "job_enqueue_failed": "Proces ověření Captcha nemohl být přidán do fronty.",
             "job_already_queued": "Ověření Captcha pro tento Captcha-token již bylo přidáno do fronty.",
             "token_expired": "Zadaný token Captcha vypršel. Dokončete nové ověření Captcha, abyste mohli pokračovat v dokončení nákupu.",
-            "token_invalid": "Zadaný token Captcha je neplatný. Dokončete nové ověření Captcha, abyste mohli pokračovat v dokončení nákupu."
+            "token_invalid": "Zadaný token Captcha je neplatný. Dokončete nové ověření Captcha, abyste mohli pokračovat v dokončení nákupu.",
+            "token_missing": "Pro dokončení nákupu je nutné zadat ověřovací token Captcha.",
+            "token_not_valid_for_session": "Zadaný token Captcha nelze v tomto pokladním procesu použít."
+          },
+          "line_item_limit_reached": "Bylo dosaženo maximálního počtu položek.",
+          "merchandise": {
+            "bundle_products_not_supported_for_b2b": "Seskupené položky nelze přidat do B2B objednávek pro toto místo.",
+            "gift_card_quantity_mismatch": "Při zadávání kódů dárkových poukazů se musí shodovat počet položek a počet kódů dárkových poukazů.",
+            "gift_card_not_supported": "Dárkové poukazy nejsou v tomto pokladním procesu podporovány.",
+            "gift_card_not_unique": "Poukaz s kódem {{code}} je v tomto pokladním procesu uveden více než jednou. Kódy jsou před porovnáním formátovány.",
+            "gift_card_used": "Slevový kód {{code}} je již přiřazen k jinému poukazu. Kódy jsou před porovnáním formátovány.",
+            "gift_card_invalid": "Dárkový poukaz s kódem {{code}} je neplatný.",
+            "gift_card_code_changed": "Dárkový poukaz s kódem {{proposed_code}} byl změněn na {{formatted_code}}, aby odpovídal pravidlům formátování.",
+            "gift_card_with_attributes_not_supported": "Dárkové poukazy s vlastními atributy nejsou v tomto pokladním procesu podporovány.",
+            "gift_card_with_components_not_supported": "Dárkové poukazy s komponentami nejsou v tomto pokladním procesu podporovány.",
+            "duplicated_stable_id": "Tato řada zboží s potiskem má stejný stabilní identifikátor jako jiná řada.",
+            "bundle_requires_components": "Tento balíček zboží nemá žádné součásti.",
+            "combined_listing_parent_not_purchasable": "Nadřazené produkty kombinované nabídky nelze koupit přímo.",
+            "only_value_constraint": "V zadávání zboží s propagačními předměty jsou povoleny pouze přesné hodnoty.",
+            "merchandise_not_found": "Produkt nebyl nalezen.",
+            "merchandise_not_applicable": "Tuto variantu výrobku nelze zakoupit.",
+            "selling_plan_not_supported_b2b": "Předplatné nejsou v B2B pokladně podporována.",
+            "price_mismatch": "Předtím navržená cena tohoto zboží byla neplatná a byla aktualizována.",
+            "inventory_not_found": "Pro tento reklamní předmět nebyl nalezen žádný skladový zásob.",
+            "product_not_published": "Produkt nebyl zveřejněn.",
+            "minimum_quantity_not_met": "Množství některých položek nesplňuje požadované minimální množství.",
+            "maximum_quantity_exceeded": "Množství některých položek překračuje maximální povolené množství.",
+            "quantity_increment_not_met": "Množství některých položek nesplňuje omezení objednávky.",
+            "quantity_rules_not_met": "Množství některých položek nesplňuje omezení objednávky.",
+            "title_empty": "Název zboží s propagačními předměty je prázdný.",
+            "mixed_currencies": "Pokladna obsahuje položky v různých měnách.",
+            "product_not_published_in_buyer_location": "Produkt není k dispozici na aktuální adrese kupujícího."
+          },
+          "delivery": {
+            "only_one_delivery_line_allowed": "Nákupní košík může obsahovat pouze jednu doručovací skupinu.",
+            "wrong_number_of_delivery_lines": "Pro každou skupinu zboží s potiskem musí být uvedena doručovací řada.",
+            "external_delivery_promise_error": "Vnější chyba při dotazu na datum doručení.",
+            "destination_address_required": "Pro pokračování je nutná cílová adresa.",
+            "pickup_points_unavailable": "Místa vyzvednutí momentálně nejsou k dispozici.",
+            "local_pickup_delivery_line_detail_changed": "Pro pokračování je nutné změnit aktuální způsob doručení pro osobní vyzvednutí.",
+            "local_pickup_no_delivery_strategy_available": "Nebyla nalezena žádná dostupná strategie doručení pro osobní odběr.",
+            "origin_location_id_required": "ID místa původu je vyžadována, pokud je požadována metoda doručení MALOOBCHOD.",
+            "invalid_origin_location_id": "Nebyl nalezen žádný místo odpovídající ID výchozího místa.",
+            "origin_location_id_not_allowed": "Požadované způsoby doručení nepodporují ID místa původu.",
+            "auto_fulfill_not_allowed": "Tato relace není oprávněna přepsat chování plnění.",
+            "auto_fulfill_required": "Automatické provedení je nutné, pokud je požadována doručovací metoda MALOOBCHOD.",
+            "prefetch_shipping_rates_used": "Předem vyžádané ceny za dopravu nesmí zahrnovat náklady na vrácení.",
+            "fulfillment_constraints_not_satisfied": "Jedna nebo více podmínek plnění nebylo splněno.",
+            "must_fulfill_from_constraint_not_satisfied": "Podmínky vyřízení nebyly splněny, protože položky nelze provést na požadovaných místech.",
+            "must_fulfill_from_same_location_constraint_not_satisfied": "Podmínky vyřízení nebyly splněny, protože položky nelze provést na stejném místě.",
+            "delivery_strategy_conditions_not_satisfied": "Pro tuto lokalitu jsou k dispozici doručovací strategie, jejichž podmínky však nebyly splněny.",
+            "out_of_stock_at_origin_location": "Na místě původu není žádný skladový zásoba.",
+            "invalid_signature": "Neplatný podpis slevy.",
+            "selected_pickup_option_no_longer_available": "Tvoje dříve vybraná možnost vyzvednutí již není k dispozici.",
+            "mixed_destination_countries": "Doručení není možné, protože doručovací adresy se nacházejí v několika zemích."
+          },
+          "discount": {
+            "discounts_not_allowed_for_b2b": "Slevy nejsou v B2B obchodech povoleny.",
+            "custom_discount_not_honoured": "Poskytnutá sleva pro zákazníka nebyla udělena.",
+            "unsupported_expectation": "Uvedená řada slev obsahovala očekávanou hodnotu, kterou směrnice nedokázala vyložit.",
+            "additional_requested_discount_code_discarded": "{{code}} je platný, ale nepoužitelný. Zkontrolujte podmínky slevy.",
+            "allocations_mismatch": "Tvůj slevový kód se změnil. Zkontroluj svůj nákupní košík a zkus to znovu.",
+            "discount_title_too_long": "Název slevy může obsahovat maximálně 255 znaků.",
+            "additional_requested_discount_discarded": "Tvá sleva je platná, ale nelze ji použít. Zkontroluj podmínky slevy.",
+            "mixed_destination_countries": "Slevy nejsou k dispozici, protože doručovací položky přesahují hranice několika zemí."
+          },
+          "inventory": {
+            "missing_quantity_value": "V zásobních řadách kupujícího chybí pole množství.",
+            "changing_behavior_not_allowed": "Tento zákazník nemá oprávnění měnit chování zásob.",
+            "only_one_inventory_behavior_allowed": "V současné době je povoleno pouze jedno chování zásob při jednom dokončení nákupu."
+          },
+          "fx_reconciliation_override": {
+            "shop_currency_mismatch": "Přijatá částka musí být uvedena v měně obchodu."
+          },
+          "checkout_source": {
+            "revoked": "Tato pokladna již není k dispozici."
+          },
+          "only_empty_terms_accepted": "Pro tuto podmínku jsou platné pouze prázdné vstupy.",
+          "payment": {
+            "manual_payments_not_allowed_for_b2b": "Ruční platby nejsou v B2B obchodech povoleny.",
+            "positive_amount_expected": "Částka k úhradě musí být větší než 0.",
+            "total_amount_mismatch": "Celková částka k úhradě neodpovídá součtu plateb.",
+            "credit_card_last_name_required": "\"Příjmení\" nemůže být nulové.",
+            "credit_card_update_failed": "Aktualizace platební karty se nezdařila.",
+            "invalid_address_type": "Zadaný typ adresy není pro tento způsob platby platný.",
+            "missing_retail_attributions": "Pro ručně zadané platby kreditní kartou jsou vyžadována přiřazení k maloobchodním prodejům.",
+            "unexpected_retail_attributions": "Byly neočekávaně uvedeny maloobchodní přiřazení pro platbu kreditní kartou.",
+            "invalid_card_source": "Tato relace nemá oprávnění používat tento zdroj map.",
+            "payment_instrument_not_found": "Platební metoda nebyla nalezena.",
+            "unauthorized_capture_method": "Nastavení způsobu zaznamenávání platby není povoleno.",
+            "saved_payment_methods_not_allowed": "Uložené způsoby platby nejsou povoleny.",
+            "saved_payment_methods_not_enabled": "Uložené způsoby platby nejsou pro tento obchod povoleny.",
+            "store_credit_not_enabled": "Zůstatek v obchodě není pro tento obchod aktivován.",
+            "store_credit_account_not_found": "Účet s kreditem v obchodě nebyl nalezen.",
+            "store_credit_account_mismatch": "Zůstatek na obchodním účtu neodpovídá totožnosti kupujícího.",
+            "store_credit_mismatched_currency": "Měna účtu s kreditem v obchodě neodpovídá měně při placení.",
+            "store_credit_insufficient_funds": "Zůstatek na účtu kreditu v obchodě není dostatečný.",
+            "store_credit_buying_gift_card": "Nemůžeš použít zůstatek v obchodě k nákupu poukazu.",
+            "gift_cards_not_allowed_for_b2b": "Dárkové poukazy nejsou v B2B obchodech povoleny.",
+            "method_required": "Musí být navržena platební metoda.",
+            "paypal_express_address_invalid": "PayPal vrátil neplatnou adresu.",
+            "saved_payment_methods_cvv_verification_disabled": "Vybraná platební metoda vyžaduje ověření CVV, které není pro tento obchod aktivováno. Zvolte jiný způsob platby."
+          },
+          "sale_attribution": {
+            "draft_order_not_exist": "Tato objednávka není v aktuálním obchodě k dispozici."
+          },
+          "non_negotiable": {
+            "missing_non_negotiable_terms": "Nabídka kupujícího musí obsahovat nepřekročitelné podmínky.",
+            "invalid_signature": "Podpis pro {{target_terms}} je neplatný."
+          },
+          "optional_duties": {
+            "optional_duties_not_permitted": "Odmítnutí cel není v tomto pokladním procesu povoleno."
           }
         },
         "dropzone": {

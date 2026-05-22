@@ -861,7 +861,14 @@
         "payment_gateway_missing": "Vyberte způsob platby.",
         "invalid_delivery_address_reference_handle": "K držadlu pro výběr dodací adresy nebyla přiřazena žádná dostupná dodací adresa.",
         "must_use_available_delivery_address": "Dodací adresu je nutné vybrat z dostupných dodacích adres.",
-        "must_use_available_shipping_rate": "Dopravní sazba musí být vybrána z dostupných dopravních sazeb."
+        "must_use_available_shipping_rate": "Dopravní sazba musí být vybrána z dostupných dopravních sazeb.",
+        "tips_invalid_tip_amount": "Zadejte spropitné pod %{amount}",
+        "vaulting_agreement_blank": "Tvůj způsob platby musí být uložen, protože platba za částku této objednávky bude splatná později.",
+        "split_cart_international_shipping_not_supported": "Při mezinárodním zasílání musí všechny položky používat stejný způsob dopravy. Aktualizujte způsob dopravy nebo vytvořte více objednávek.",
+        "shipping_method_invalid_phone_number": "Aktualizuj telefonní číslo ve své dodací adrese, aby se zobrazily dostupné způsoby doručení.",
+        "split_by_delivery_method_not_allowed": "Rozdělení podle způsobu doručení není pro tuto relaci nebo tento obchod možné.",
+        "split_by_delivery_method_unsupported_method_type": "Bylo provedeno rozdělení podle způsobu doručení s nepodporovaným typem způsobu doručení.",
+        "split_by_delivery_method_requires_merchandise_from_single_location": "Rozdělení podle způsobu doručení vyžaduje, aby jednotlivé položky zboží byly vyřízeny z jednoho místa."
       },
       "failed_payment": {
         "page_title": "Platba nemohla být zpracována",
@@ -905,6 +912,93 @@
         },
         "payment": {
           "payment_options": "Zobrazit všechny možnosti platby"
+        }
+      },
+      "general": {
+        "breadcrumb": "Strouhanka",
+        "complete_purchase_button_label": "Koupit",
+        "continue_to_shipping_method": "Pokračovat k odeslání",
+        "back_to_cart": "Zpět do nákupního košíku",
+        "back_to_contact_information": "Zpět k informacím",
+        "back_to_shipping_method": "Zpět k odeslání",
+        "choose_shipping_method": "Vyberte způsob doručení",
+        "choose_payment_method": "Vyberte způsob platby",
+        "choose_billing_address": "Vyberte fakturační adresu",
+        "contact_us_html": "Kontaktujte nás pro další informace",
+        "autocomplete_single_item": "1 možnost k dispozici",
+        "autocomplete_multi_item": "{{number}} dostupných možností",
+        "autocomplete_selection": "{{number}} z {{total}}",
+        "checkout_context": {
+          "step_one": "%{shop_name} - Pokladna"
+        },
+        "continue_to_payment_plans_button_label": "Pokračovat k platebním plánům",
+        "back_button_label": "Vrácení",
+        "choose_delivery_strategy": "Vyberte způsob doručení",
+        "autocomplete_powered_by_google": "Podporováno {{brandName}}",
+        "dates": {
+          "months": {
+            "february": "únor",
+            "august": "srpen",
+            "december": "prosinec",
+            "march": "březen",
+            "july": "Juli",
+            "september": "září"
+          },
+          "weekdays": {
+            "tuesday": "úterý",
+            "wednesday": "středa",
+            "thursday": "čtvrtek",
+            "saturday": "sobota"
+          },
+          "weekdays_abbreviation": {
+            "monday": "Mo",
+            "tuesday": "Di",
+            "wednesday": "Já",
+            "thursday": "Dělej",
+            "friday": "Pátek",
+            "saturday": "Sa",
+            "sunday": "Takže"
+          }
+        },
+        "datepicker": {
+          "range_start": "začátek oblasti",
+          "in_range": "V oblasti",
+          "range_end": "konec oblasti"
+        },
+        "errors": {
+          "buyer_identity": {
+            "business_customer_does_not_match_company": "Kontaktní osoba firmy nemá přístup k této firmě.",
+            "customer_account_required": "Musíš se přihlásit, abys mohl pokračovat.",
+            "contact_info_does_not_match_customer_account": "Kontaktní údaje musí odpovídat účtu, ke kterému jste právě přihlášeni.",
+            "email_required": "E-mail je povinný, pokud je zboží s potiskem zakoupeno v rámci předplatného.",
+            "email_domain_is_invalid": "Tuto zadanou doménu nelze rozpoznat.",
+            "missing_contact_method": "Chybí platný způsob kontaktu.",
+            "checkout_completion_target_is_missing": "Cíl pro dokončení pokladny chybí.",
+            "invalid_customer_profile": "Byl zadán neplatný zákaznický profil.",
+            "customer_profile_access_restricted": "Pokladna nemá oprávnění přistupovat k profilu zákazníka.",
+            "checkout_completion_target_is_invalid_proc": "Neplatný cíl pro dokončení nákupu.",
+            "company_location_required": "Zákazník musí pro pokračování vybrat podnikové místo.",
+            "lost_access_to_company": "Zákazník ztratil přístup ke všem podnikům.",
+            "company_purchase_permission_required": "Zákazník není oprávněn zadávat objednávky pro firmu.",
+            "personal_order_not_allowed": "Soukromé objednávky nejsou pro tento obchod možné.",
+            "buyer_identity_presentment_currency_does_not_match": "Při zpracování tvé objednávky došlo k potíži. Zkus to prosím za pár minut znovu."
+          },
+          "attribution": {
+            "retail_attribution_not_allowed": "Při tomto dokončení nákupu není povoleno přiřazení k maloobchodu.",
+            "retail_attribution_required": "Při tomto dokončení nákupu je vyžadováno přiřazení k maloobchodu."
+          },
+          "captcha": {
+            "metadata_missing": "Pro dokončení nákupu je nutné ověřit Captcha.",
+            "metadata_mismatch": "Uvedený poskytovatel Captcha a typ neodpovídají očekávaným hodnotám.",
+            "job_enqueue_failed": "Proces ověření Captcha nemohl být přidán do fronty.",
+            "job_already_queued": "Ověření Captcha pro tento Captcha-token již bylo přidáno do fronty.",
+            "token_expired": "Zadaný token Captcha vypršel. Dokončete nové ověření Captcha, abyste mohli pokračovat v dokončení nákupu.",
+            "token_invalid": "Zadaný token Captcha je neplatný. Dokončete nové ověření Captcha, abyste mohli pokračovat v dokončení nákupu."
+          }
+        },
+        "dropzone": {
+          "add_file": "Přidat soubor",
+          "dragged_over": "Přetáhněte soubor pro nahrání"
         }
       }
     }

@@ -933,7 +933,24 @@
             "gift_card_with_attributes_not_supported": "Bony podarunkowe z niestandardowymi atrybutami nie są obsługiwane w tym kasie.",
             "gift_card_with_components_not_supported": "Bony podarunkowe z komponentami nie są obsługiwane w tym kasie.",
             "duplicated_stable_id": "Ta seria artykułów z gadżetami ma ten sam identyfikator zestawu co inna seria.",
-            "bundle_requires_components": "Ten zestaw artykułów promocyjnych nie zawiera żadnych elementów."
+            "bundle_requires_components": "Ten zestaw artykułów promocyjnych nie zawiera żadnych elementów.",
+            "only_value_constraint": "W polu wprowadzania artykułów z gadżetami do sprzedaży dozwolone są tylko dokładne wartości.",
+            "merchandise_not_found": "Produkt nie został znaleziony.",
+            "merchandise_variant_not_found": "Wariant produktu nie został znaleziony.",
+            "merchandise_not_applicable": "Ta odmiana produktu nie może zostać zakupiona.",
+            "selling_plan_mismatch": "Subskrypcja została zaktualizowana.",
+            "selling_plan_not_supported_b2b": "Subskrypcje nie są obsługiwane w kasie B2B.",
+            "price_mismatch": "Wcześniej zaproponowana cena tego artykułu z gadżetami była nieprawidłowa i została zaktualizowana.",
+            "inventory_not_found": "Nie znaleziono zapasów dla tego artykułu z gadżetami.",
+            "product_not_published": "Produkt nie został opublikowany.",
+            "minimum_quantity_not_met": "Ilość niektórych artykułów nie spełnia wymaganego minimum.",
+            "maximum_quantity_exceeded": "Ilość niektórych artykułów przekracza maksymalną dozwoloną ilość.",
+            "quantity_increment_not_met": "Ilość niektórych artykułów nie spełnia ograniczeń zamówienia.",
+            "quantity_rules_not_met": "Ilość niektórych artykułów nie spełnia ograniczeń zamówienia.",
+            "title_too_long": "Tytuł artykułu z gadżetami jest zbyt długi.",
+            "title_empty": "Tytuł artykułu z gadżetami jest pusty.",
+            "mixed_currencies": "Kasa zawiera pozycje w różnych walutach.",
+            "product_not_published_in_buyer_location": "Produkt nie jest dostępny w bieżącej lokalizacji kupującego."
           },
           "delivery": {
             "only_one_delivery_line_allowed": "Koszyk może zawierać tylko jedną serię dostaw.",
@@ -974,6 +991,38 @@
           },
           "checkout_source": {
             "revoked": "Ten kasjer nie jest już dostępny."
+          },
+          "only_empty_terms_accepted": "Dla tego warunku ważne są tylko puste wpisy.",
+          "payment": {
+            "manual_payments_not_allowed_for_b2b": "Płatności gotówkowe nie są dozwolone w sklepach B2B.",
+            "total_amount_mismatch": "Całkowita kwota do zapłaty nie zgadza się z sumą wpłat.",
+            "missing_session_id": "Brakuje informacji o sesji karty kredytowej.",
+            "gateway_not_supported": "Brama płatności nie obsługuje zapisywania metody płatności.",
+            "credit_card_last_name_required": "„Nazwisko” nie może być równe zeru.",
+            "missing_retail_attributions": "Dla ręcznie wprowadzanych płatności kartą kredytową wymagane są przyporządkowania detaliczne.",
+            "unexpected_retail_attributions": "Nieoczekiwanie podano przypisania detaliczne dla płatności kartą kredytową.",
+            "invalid_card_source": "Ta sesja nie ma uprawnień do korzystania z tego źródła map.",
+            "wallet_content_missing": "Brakuje zawartości portfela.",
+            "payment_instrument_not_found": "Nie można znaleźć metody płatności.",
+            "unauthorized_capture_method": "Konfigurowanie metody rejestrowania płatności jest niedozwolone.",
+            "saved_payment_methods_not_allowed": "Zapisane metody płatności nie są dozwolone.",
+            "store_credit_not_enabled": "Saldo sklepu nie jest aktywowane dla tego sklepu.",
+            "store_credit_account_not_found": "Konto z saldem sklepowym nie zostało znalezione.",
+            "store_credit_account_mismatch": "Saldo konta sklepowego nie zgadza się z tożsamością kupującego.",
+            "store_credit_mismatched_currency": "Waluta konta z saldem sklepowym nie zgadza się z walutą podczas finalizacji zamówienia.",
+            "store_credit_insufficient_funds": "Saldo na koncie sklepowym jest niewystarczające.",
+            "store_credit_buying_gift_card": "Nie możesz użyć środków sklepowych do zakupu kuponu.",
+            "gift_cards_not_allowed_for_b2b": "Bony podarunkowe nie są dozwolone w sklepach B2B.",
+            "saved_payment_methods_cvv_verification_disabled": "Wybrana metoda płatności wymaga weryfikacji CVV, która nie jest aktywna w tym sklepie. Wybierz inną metodę płatności."
+          },
+          "sale_attribution": {
+            "draft_order_not_exist": "Ten projekt zamówienia nie istnieje w aktualnym sklepie."
+          },
+          "non_negotiable": {
+            "missing_non_negotiable_terms": "Oferta kupującego musi zawierać warunki niepodlegające negocjacjom."
+          },
+          "optional_duties": {
+            "optional_duties_not_permitted": "Odrzucenie ceł nie jest dozwolone przy tym zamówieniu."
           }
         },
         "dropzone": {

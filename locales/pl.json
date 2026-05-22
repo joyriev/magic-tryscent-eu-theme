@@ -868,12 +868,60 @@
         "dates": {
           "months": {
             "april": "kwiecień",
-            "december": "grudzień"
+            "december": "grudzień",
+            "march": "marzec",
+            "september": "wrzesień"
+          },
+          "weekdays": {
+            "saturday": "sobota",
+            "sunday": "niedziela"
+          },
+          "weekdays_abbreviation": {
+            "monday": "Mo",
+            "tuesday": "Di",
+            "wednesday": "Ja",
+            "thursday": "Zrób",
+            "saturday": "Sa",
+            "sunday": "Więc"
           }
         },
         "datepicker": {
           "in_range": "W dziedzinie",
           "range_end": "koniec zakresu"
+        },
+        "errors": {
+          "buyer_identity": {
+            "business_customer_does_not_match_company": "Kontakt firmowy nie ma dostępu do tej firmy.",
+            "customer_account_required": "Musisz się zalogować, aby kontynuować.",
+            "contact_info_does_not_match_customer_account": "Dane kontaktowe muszą zgadzać się z kontem, na które jesteś aktualnie zalogowany.",
+            "phone_number_does_not_match_expected_pattern": "Podany numer telefonu nie odpowiada oczekiwanemu wzorcowi.",
+            "email_required": "Adres e-mail jest wymagany, gdy artykuł z gadżetami jest kupowany w ramach subskrypcji.",
+            "email_domain_is_invalid": "Ta podana domena nie może zostać rozwiązana.",
+            "missing_contact_method": "Brakuje ważnej metody kontaktu.",
+            "checkout_completion_target_is_missing": "Brakuje celu dla zakończenia realizacji zamówienia.",
+            "customer_profile_access_restricted": "Proces finalizacji zamówienia nie ma uprawnień do dostępu do profilu klienta.",
+            "checkout_completion_target_is_invalid_proc": "Nieprawidłowy cel zakończenia realizacji zamówienia.",
+            "company_location_required": "Klient musi wybrać lokalizację firmy, aby kontynuować.",
+            "lost_access_to_company": "Klient utracił dostęp do wszystkich firm.",
+            "company_purchase_permission_required": "Klient nie jest uprawniony do składania zamówień firmowych.",
+            "personal_order_not_allowed": "Zamówienia prywatne nie są możliwe w tym sklepie.",
+            "buyer_identity_presentment_currency_does_not_match": "Podczas realizacji Twojego zamówienia wystąpił problem. Spróbuj ponownie za kilka minut."
+          },
+          "attribution": {
+            "retail_attribution_not_allowed": "Przypisanie do sprzedaży detalicznej nie jest dozwolone w tym procesie realizacji zamówienia.",
+            "retail_attribution_required": "Przypisanie do sprzedaży detalicznej jest wymagane przy tym zamówieniu."
+          },
+          "captcha": {
+            "metadata_missing": "W tym procesie zakupu wymagane jest ukończenie weryfikacji Captcha.",
+            "metadata_mismatch": "Podany dostawca Captcha i typ nie zgadzają się z oczekiwanymi wartościami.",
+            "job_enqueue_failed": "Proces weryfikacji Captcha nie mógł zostać dodany do kolejki.",
+            "job_already_queued": "Weryfikacja Captcha dla tego tokenu Captcha została już dodana do kolejki.",
+            "token_expired": "Podany token Captcha wygasł. Ukończ nową weryfikację Captcha, aby kontynuować realizację zamówienia.",
+            "token_invalid": "Podany token Captcha jest nieprawidłowy. Ukończ nową weryfikację Captcha, aby kontynuować realizację zamówienia."
+          }
+        },
+        "dropzone": {
+          "dragged_over": "Upuść plik do przesłania"
         }
       }
     }

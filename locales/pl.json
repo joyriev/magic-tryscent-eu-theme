@@ -2932,7 +2932,12 @@
             "address2": "Wprowadź mieszkanie, pokój itp.",
             "billing_address1": "Wprowadź adres do faktury",
             "billing_address2": "Wprowadź mieszkanie, pokój itp. dla tego adresu rozliczeniowego",
-            "billing_city": "Wpisz miasto dla tego adresu rozliczeniowego"
+            "billing_city": "Wpisz miasto dla tego adresu rozliczeniowego",
+            "city": "Wpisz nazwę miasta",
+            "province": "Wybierz kraj związkowy/kanton",
+            "billing_first_name": "Wpisz imię dla tego adresu rozliczeniowego",
+            "billing_province": "Wybierz kraj związkowy/kanton dla tego adresu rozliczeniowego",
+            "billing_zip": "Wprowadź kod pocztowy dla tego adresu rozliczeniowego"
           },
           "formatting": {
             "name_contains_emojis": "Usuń emotikony z twojego imienia",
@@ -2940,8 +2945,39 @@
             "first_name_too_long": "Imię zawiera zbyt wiele liter",
             "last_name_too_long": "Nazwisko zawiera zbyt wiele liter"
           },
-          "discount_code": "Ten kod rabatowy nie może zostać zastosowany. Sprawdź swój koszyk i spróbuj ponownie."
-        }
+          "discount_code": "Ten kod rabatowy nie może zostać zastosowany. Sprawdź swój koszyk i spróbuj ponownie.",
+          "unavailable": {
+            "title": "{{walletName}} niedostępny",
+            "description": "{{walletName}} nie jest dostępny. Spróbuj innej metody płatności lub spróbuj ponownie później.",
+            "instructions": "Wystąpił problem z {{walletName}}. Wróć do sklepu, aby spróbować ponownie, lub dokonaj płatności inną metodą.",
+            "unavailable_for_country": "{{walletName}} nie jest dostępny w {{countryName}}. Wybierz inną metodę płatności, aby dokończyć zakup."
+          },
+          "unsupported": {
+            "address": "Sprzedawca nie może dostarczyć do wybranego adresu dostawy.",
+            "wallet_is_unavailable": "{{walletName}} nie może być używany z tym adresem. Wybierz inny adres lub zamknij {{walletName}}, aby dokończyć zakup."
+          },
+          "outdated": {
+            "shipping_method": "Opcje wysyłki dla twojego zamówienia uległy zmianie. Sprawdź swój wybór.",
+            "payment_terms": "Warunki płatności uległy zmianie. Sprawdź swoje zamówienie."
+          },
+          "select_different_shipping_address_to_resolve_errors": "Twój adres dostawy jest nieprawidłowy. Wybierz inny adres lub użyj nowego.",
+          "unavailable_terminal": {
+            "instructions": "{{walletName}} jest obecnie niedostępny dla Twojego zamówienia. Aby kontynuować zakup, wybierz inną metodę płatności."
+          },
+          "processing_error_checkout_as_guest": "Wystąpił problem podczas przetwarzania Twojej płatności. Spróbuj ponownie lub {{checkout_as_guest_link}}.",
+          "subscription_review_required": "Twoje zamówienie zawiera subskrypcję. Musisz zapoznać się z poniższymi warunkami, zanim sfinalizujesz swoje zamówienie."
+        },
+        "return_to_store": "Powrót do sklepu",
+        "redirect_hint": "Zostaniesz poproszony o zalogowanie się za pomocą {{walletName}}.",
+        "logged_in": "Połączone z {{email}}",
+        "payment_in_progress_title": "Płatność jest przetwarzana",
+        "payment_in_progress_body": "Twoja płatność jest przetwarzana. Twoje zamówienie zostanie wkrótce zakończone.",
+        "redirection_notice": "Zostaniesz przekierowany do {{walletName}}, aby dokończyć zakup",
+        "return_to_checkout": "Powrót do kasy",
+        "scrim": {
+          "and_return_to_checkout": "i wróć do kasy"
+        },
+        "recovery_notice": "Wystąpił problem ze szczegółami zamówienia. Zaktualizuj swoje dane, aby dokończyć płatność."
       },
       "units": {
         "liter": "l",
@@ -2953,6 +2989,23 @@
         "square_foot": "stopy kwadratowe",
         "item": "Artykuł"
       }
+    },
+    "collections": {
+      "sorting": {
+        "manual": "Wybrano",
+        "best_selling": "najchętniej kupowane",
+        "az": "Alfabetycznie, A-Ż",
+        "price_ascending": "Cena, od najniższej do najwyższej",
+        "price_descending": "Cena, od najwyższej do najniższej",
+        "date_ascending": "Data, od najstarszych do najnowszych",
+        "date_descending": "Data, od nowego do starego",
+        "most_relevant": "Najbardziej istotne"
+      }
+    },
+    "checkpoint": {
+      "message": "Edytuj Captcha, aby kontynuować",
+      "error": "Weryfikacja Captcha nie powiodła się.",
+      "submit_button_text": "Wysyłanie"
     }
   }
 }

@@ -294,16 +294,16 @@
   "sections": {
     "header": {
       "announcement": "Oznámení",
-      "menu": "Nabídka",
+      "menu": "Menu",
       "cart_count": {
-        "one": "{{ count }} položka",
-        "other": "{{ count }} polož.",
+        "one": "{{ count }} položek",
+        "other": "{{ count }} položek",
         "few": "{{ count }} polož.",
         "many": "{{ count }} polož."
       }
     },
     "cart": {
-      "title": "Váš košík",
+      "title": "Tvůj nákupní košík",
       "caption": "Položka v košíku",
       "remove_title": "Odstranit {{ title }}",
       "note": "Speciální pokyny k objednávce",
@@ -327,12 +327,12 @@
       "new_estimated_total": "Nově odhadovaná celková částka",
       "duties_and_taxes_included_shipping_at_checkout_with_policy_html": "Včetně celních poplatků a daní. Slevy a <a href=\"{{ link }}\">doprava</a> budou vypočítány při dokončení objednávky.",
       "duties_and_taxes_included_shipping_at_checkout_without_policy": "Včetně celních poplatků a daní. Slevy a doprava budou vypočítány při dokončení objednávky.",
-      "taxes_included_shipping_at_checkout_with_policy_html": "Včetně daní. Slevy a <a href=\"{{ link }}\">poštovné</a> se vypočítají na pokladně.",
-      "taxes_included_shipping_at_checkout_without_policy": "Včetně daní. Slevy a poštovné se vypočítají na pokladně.",
+      "taxes_included_shipping_at_checkout_with_policy_html": "Včetně daní. Slevy a <a href=\"{{ link }}\">doprava</a> budou vypočítány při dokončení nákupu.",
+      "taxes_included_shipping_at_checkout_without_policy": "Včetně daní. Slevy a doprava budou vypočítány při dokončení objednávky.",
       "duties_included_taxes_at_checkout_shipping_at_checkout_with_policy_html": "Včetně celních poplatků. Daně, slevy a <a href=\"{{ link }}\">doprava</a> budou vypočítány při dokončení objednávky.",
       "duties_included_taxes_at_checkout_shipping_at_checkout_without_policy": "Včetně celních poplatků. Daně, slevy a doprava budou vypočítány při dokončení objednávky.",
       "taxes_at_checkout_shipping_at_checkout_with_policy_html": "Daně, slevy a <a href=\"{{ link }}\">doprava</a> budou vypočítány při dokončení nákupu.",
-      "taxes_at_checkout_shipping_at_checkout_without_policy": "Daně, slevy a poštovné se vypočítají na pokladně."
+      "taxes_at_checkout_shipping_at_checkout_without_policy": "Daně, slevy a doprava budou vypočítány při dokončení objednávky."
     },
     "footer": {
       "payment": "Platební metody"
@@ -340,7 +340,7 @@
     "featured_blog": {
       "view_all": "Zobrazit vše",
       "onboarding_title": "Blogový příspěvek",
-      "onboarding_content": "Shrňte pro zákazníky obsah svého blogového příspěvku"
+      "onboarding_content": "Poskytněte svým zákazníkům přehled o vašem blogovém příspěvku"
     },
     "featured_collection": {
       "view_all": "Zobrazit vše",
@@ -350,21 +350,21 @@
       "view_all": "Zobrazit vše"
     },
     "collection_template": {
-      "title": "Kolekce",
-      "empty": "Nenalezeny žádné produkty",
-      "use_fewer_filters_html": "Můžete použít méně filtrů nebo <a class=\"{{ class }}\" href=\"{{ link }}\">všechny odebrat</a>"
+      "title": "Kategorie",
+      "empty": "Nebyly nalezeny žádné produkty",
+      "use_fewer_filters_html": "Použij méně filtrů nebo <a class=\"{{ class }}\" href=\"{{ link }}\">odstraň všechny</a>"
     },
     "video": {
-      "load_video": "Načíst video: {{ description }}"
+      "load_video": "Video načítání: {{ description }}"
     },
     "slideshow": {
-      "load_slide": "Načíst snímek",
+      "load_slide": "Nahrát fólii",
       "previous_slideshow": "Předchozí snímek",
       "next_slideshow": "Další snímek",
-      "pause_slideshow": "Pozastavit prezentaci",
-      "play_slideshow": "Přehrát prezentaci",
-      "carousel": "Karusel",
-      "slide": "Snímek"
+      "pause_slideshow": "Pozastavit prezentaci snímků",
+      "play_slideshow": "Přehrát slideshow",
+      "carousel": "Kolotoč",
+      "slide": "Fólie"
     },
     "page": {
       "title": "Název stránky"
@@ -379,31 +379,31 @@
     "quick_order_list": {
       "product_total": "Mezisoučet produktu",
       "view_cart": "Zobrazit košík",
-      "each": "{{ money }} / ks",
+      "each": "{{ money }}/kus",
       "product": "Produkt",
       "variant": "Varianta",
-      "variant_total": "Varianta celkem",
+      "variant_total": "Celkem variant",
       "items_added": {
-        "one": "Byla přidána {{ quantity }} položka",
-        "other": "Byl přidán tento počet položek: {{ quantity }}",
+        "one": "{{ quantity }} položek přidáno",
+        "other": "{{ quantity }} položek přidáno",
         "few": "Byl přidán tento počet položek: {{ quantity }}",
         "many": "Byl přidán tento počet položek: {{ quantity }}"
       },
       "items_removed": {
-        "one": "Byla odebrána {{ quantity }} položka",
-        "other": "Byla odebrán tento počet položek: {{ quantity }}",
+        "one": "{{ quantity }} položek odstraněno",
+        "other": "{{ quantity }} položek odstraněno",
         "few": "Byla odebrán tento počet položek: {{ quantity }}",
         "many": "Byla odebrán tento počet položek: {{ quantity }}"
       },
       "product_variants": "Varianty produktu",
-      "total_items": "Celkový počet položek",
-      "remove_all_items_confirmation": "Chcete z košíku odebrat všechny položky ({{ quantity }})?",
+      "total_items": "Celkem položek",
+      "remove_all_items_confirmation": "Odebrat všechny {{ quantity }} položky z tvého košíku?",
       "remove_all": "Odebrat vše",
       "cancel": "Zrušit",
-      "remove_all_single_item_confirmation": "Chcete odebrat 1 položku z košíku?",
-      "min_error": "Tato položka vyžaduje minimum: {{ min }}",
-      "max_error": "Tato položka vyžaduje maximum: {{ max }}",
-      "step_error": "Tuto položku můžete přidat jen v přírůstcích hodnoty: {{ step }}"
+      "remove_all_single_item_confirmation": "Odebrat 1 položku z košíku?",
+      "min_error": "Tento produkt má minimální množství {{ min }}",
+      "max_error": "Tento článek má maximum {{ max }}",
+      "step_error": "Tento článek můžeš přidat pouze po krocích po {{ step }}."
     }
   },
   "localization": {

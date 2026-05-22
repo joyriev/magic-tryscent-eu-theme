@@ -2041,7 +2041,99 @@
       "redeemable_errors": {
         "gift_card": {
           "duplicate": "Bon podarunkowy został już dodany do twojego zamówienia",
-          "currency_mismatch": "Akceptowane są tylko bony podarunkowe w %{shop_currency}"
+          "currency_mismatch": "Akceptowane są tylko bony podarunkowe w %{shop_currency}",
+          "insufficient_funds": "Na tym bonie nie ma już środków",
+          "expired": "Ten bon jest nieważny",
+          "not_available": "Ten bon nie jest już dostępny",
+          "invalid": "Wprowadź ważny kupon rabatowy",
+          "generic": "Nie udało się dodać kuponu do kasy",
+          "throttle_limit_exceeded": "Przekroczyłeś maksymalną liczbę prób. Spróbuj ponownie później.",
+          "no_longer_available": "Ten kupon nie może być już użyty przy tym zamówieniu."
+        }
+      },
+      "review": {
+        "checkout_as_guest": "Wyloguj się jako gość",
+        "blocks": {
+          "billing_address_title": "Faktura do",
+          "shipping_address_title": "Dostarczyć do",
+          "shipping_method_title": "Sposób wysyłki",
+          "change_shipping_address_link_label": "Zmień adres dostawy",
+          "change_shipping_method_link_label": "Zmień sposób wysyłki",
+          "due_after_order_reviewed_html": "Płatne po sprawdzeniu zamówienia",
+          "review_title_free_order": "Sprawdź i zakończ zamówienie",
+          "payment_method_saved_company_location": "Zapisz mapę dla tej lokalizacji",
+          "pickup_items_at": {
+            "one": "Odbiór %{count} artykułów w",
+            "other": "Odbiór %{count} artykułów w"
+          },
+          "ship_items_to": {
+            "one": "Wysyłka %{count} artykułów do",
+            "other": "Wysyłka %{count} artykułów do"
+          }
+        },
+        "checkout_a_different_way": "Użyj innej opcji płatności",
+        "review_title": "Zakończ swoje zamówienie"
+      },
+      "remote": {
+        "errors": {
+          "currency_mismatch": "Ten przedmiot nie może zostać dodany do twojego koszyka, ponieważ pochodzi ze sklepu używającego innej waluty.",
+          "max_remote_shops_exceeded": "Nie można dodać tego produktu, ponieważ twój koszyk zawiera już maksymalną liczbę z innych sklepów.",
+          "currency_mismatch_removal": "Produkt został usunięty z twojego koszyka, ponieważ pochodzi ze sklepu używającego innej waluty.",
+          "only_remote_merchandise_lines": "Koszyk zawiera wyłącznie artykuły z gadżetami z innego sklepu. Aby sfinalizować zamówienie, konieczne jest przekierowanie do tego sklepu."
+        }
+      },
+      "remote_merchandise_only": {
+        "title": "Zakończ swój zakup",
+        "remote_only_notice": "Te artykuły są sprzedawane i wysyłane przez inne sklepy. Dokonaj zakupu w każdym sklepie, aby sfinalizować swoje zamówienie.",
+        "return_to_store_label": "Powrót do sklepu",
+        "checkout_on_shop_label": "Przejdź do kasy w %{shop_name}",
+        "single_shop_transition": "Zostaniesz przekierowany do %{advertiser}, aby dokończyć zakup.",
+        "detail_item_label": {
+          "one": "{{count}} artykułów",
+          "other": "{{count}} artykułów"
+        }
+      },
+      "remote_policies": {
+        "unavailable_policy": "Dla tego sklepu nie podano %{policy_name}. Aby uzyskać więcej informacji, skontaktuj się bezpośrednio z %{shop_name}."
+      },
+      "required_extensions": {
+        "errors": {
+          "interaction_required": "Aby zakończyć realizację zamówienia, wymagana jest dodatkowa interakcja."
+        }
+      },
+      "shipping": {
+        "arrives_time": "Wejście %{time}",
+        "arrives_time_range": "Wejście %{min_time}–%{max_time}",
+        "delivery_today": "Dostawa tego samego dnia o %{time}",
+        "delivery_tomorrow": "Dostawa następnego dnia o %{time}",
+        "delivery": "Dostawa za %{time}",
+        "duties_and_taxes_options": {
+          "ddu_title": "Płatność przy odbiorze",
+          "ddu_caption": "Mogą zostać naliczone dodatkowe opłaty",
+          "ddp_title": "Zapłać natychmiast",
+          "ddp_caption": "Brak dodatkowych opłat przy dostawie"
+        },
+        "add_delivery_instructions": "Dodaj instrukcje doręczenia",
+        "address_more": "Więcej akcji dla tego adresu",
+        "address_form": {
+          "generic_error": "Wystąpił problem podczas zapisywania twojego adresu. Spróbuj ponownie.",
+          "one_time_address_subtitle": "Użyć jednorazowego adresu dla tego zamówienia"
+        },
+        "different_shipping_method_summary": "Wprowadź inny adres dostawy, aby wyświetlić dostępne metody wysyłki",
+        "address_default": "Ustaw jako domyślne",
+        "add_shipping_address": "Dodaj adres dostawy",
+        "choose_new_address": "Wybierz nowy adres."
+      },
+      "session_errors": {
+        "session_not_unique": "Podczas realizacji twojego zamówienia wystąpił problem. Odśwież tę stronę, aby wrócić do sklepu.",
+        "session_already_finished": "To zamówienie zostało już złożone. Możesz wrócić do sklepu, aby złożyć nowe zamówienie."
+      },
+      "review_address_modal": {
+        "continue": "Kontynuuj pod tym adresem",
+        "return_to_cart": "Powrót do koszyka",
+        "subtitle_no_match": "Ten adres nie zgadza się z żadnym z twoich zapisanych adresów.",
+        "subtitle": {
+          "other": "To zamówienie zostanie wysłane na adres podany przez {{merchant}}. Wybierz adres dostawy."
         }
       }
     }

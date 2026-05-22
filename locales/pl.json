@@ -2332,7 +2332,67 @@
         "unavailable_address_country": "Wysyłka nie jest dostępna dla wybranego przez ciebie kraju. Wybierz inny adres, aby kontynuować."
       },
       "stock": {
-        "continue_cta_label": "Kontynuuj realizację zamówienia"
+        "continue_cta_label": "Kontynuuj realizację zamówienia",
+        "page_title": "Problemy z zapasami",
+        "title": "Wyprzedane",
+        "items_unavailable_notice": "Niektóre artykuły nie są już dostępne.",
+        "quantity_column_header": "Liczba",
+        "reduced_label": "Obniżone",
+        "go_back_to_cart_button_label": "Powrót do mojego koszyka",
+        "quantity_update": {
+          "description": "Dostępna ilość tych artykułów uległa zmianie i została zaktualizowana w twoim koszyku."
+        },
+        "unpurchasable_product": {
+          "title": "Produkt niekupiony",
+          "header": "Niektóre artykuły zostały usunięte z twojego koszyka",
+          "message": "Te artykuły nie są dostępne do zamówień B2B."
+        },
+        "unpurchasable_product_generic": {
+          "title": "Produkt niekupiony",
+          "header": "Niektóre artykuły zostały usunięte z twojego koszyka",
+          "message": "Te artykuły nie są dostępne."
+        },
+        "unshippable_product": {
+          "title": "Dostawa niedostępna",
+          "header": {
+            "one": "Dla %{count} artykułów dostawa nie jest dostępna",
+            "other": "Dla %{count} artykułów dostawa nie jest dostępna"
+          },
+          "message": {
+            "one": "Ten przedmiot zostanie usunięty z twojego koszyka, ponieważ dla twojego adresu nie są dostępne metody dostawy.",
+            "other": "Te artykuły zostaną usunięte z twojego koszyka, ponieważ dla twojego adresu nie są dostępne metody dostawy."
+          }
+        },
+        "price_update": {
+          "title": "Aktualizacja cen",
+          "description": "Ceny tych artykułów uległy zmianie i zostały zaktualizowane w twoim koszyku.",
+          "updated_price": "Zmieniona cena"
+        },
+        "return_to_store_label": "Powrót do sklepu",
+        "item_label": {
+          "one": "{{count}} artykułów",
+          "other": "{{count}} artykułów"
+        },
+        "out_of_stock": {
+          "description": "Te artykuły nie są już dostępne i zostaną usunięte z twojego koszyka.",
+          "items_unavailable": "Niektóre artykuły nie są już dostępne i zostaną usunięte z twojego koszyka."
+        },
+        "unfulfillable_product": {
+          "title": "Dostawa niedostępna",
+          "message": {
+            "one": "%{delivery_method} nie jest już dostępny dla tego artykułu.",
+            "other": "%{delivery_method} nie jest już dostępny dla tych artykułów."
+          },
+          "default_message": {
+            "one": "Wybrana metoda dostawy nie jest już dostępna dla tego artykułu.",
+            "other": "Wybrana metoda dostawy nie jest już dostępna dla tych artykułów."
+          }
+        },
+        "price_and_quantity_update": {
+          "title": "Aktualizacja cen i ilości",
+          "description": "Ceny i dostępne ilości tych artykułów uległy zmianie i zostały zaktualizowane w twoim koszyku."
+        },
+        "out_of_stock_in_context_label": "Ten produkt nie jest dostępny w twoim kraju / twojej okolicy."
       },
       "shop_policies": {
         "refund_policy": "Prawo do odstąpienia od umowy",
@@ -2394,6 +2454,9 @@
         },
         "return_to_store_simple": "Powrót do sklepu",
         "title": "Kasa Shop Pay"
+      },
+      "store_credit_errors": {
+        "generic_error": "Wystąpił problem z Twoim saldem sklepu. Spróbuj ponownie lub odśwież stronę."
       }
     }
   }

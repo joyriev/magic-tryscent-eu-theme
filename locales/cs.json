@@ -1860,7 +1860,63 @@
         "network_card_payment_options": "Vyberte síť karet",
         "gift_card_checkbox_label": "Uplatnit poukaz",
         "kcp_creditcard_label": "KCP-kreditní karta",
-        "multiple_primary_payment_not_allowed": "Neplatné způsoby platby"
+        "multiple_primary_payment_not_allowed": "Neplatné způsoby platby",
+        "pay_with_payment_method": "Platba přes %{payment_method}",
+        "order_covered_by_gift_cards_notice": {
+          "one": "Tvoje objednávka je pokryta tvým dárkovým poukazem.",
+          "other": "Tvoje objednávka bude pokryta tvými poukazy."
+        },
+        "offsite_gateway_redirect_hint": "Budeš přesměrován na %{gateway_label}, abys dokončil svůj nákup.",
+        "offsite_gateway_redirect_hint_multi_currency_html": "%{gateway_label} celkem %{total_shop_price}",
+        "no_js_credit_card_fields_redirect_hint": "Budeš přesměrován, abys přidal své platební údaje.",
+        "no_real_orders_dev_store": "Tento obchod nemůže přijímat skutečné objednávky ani skutečné platby.",
+        "no_taxes_banner_content": "Na tuto objednávku se nevztahují žádné daně. Po přijetí platby již nelze daně přidat.",
+        "paypal": {
+          "connect": "Klikni zde pro propojení svého účtu PayPal"
+        },
+        "paypal_modal": {
+          "order_contains_fixed_selling_plans": "Celková částka nemusí zahrnovat daně, poštovné, nevyřízené poplatky a některé slevy. Přejděte k pokladně, abyste viděli částku splatnou dnes."
+        },
+        "payment_method_saved": "Platební metoda uložena",
+        "order_covered_by_store_credit_notice": "Tvoje objednávka bude uhrazena z tvého kreditu v obchodě.",
+        "order_covered_by_redeemables_notice": "Tvoje objednávka je krytá.",
+        "no_working_method_error": "Tento obchod momentálně nemůže přijímat platby. Obnovte tuto stránku nebo to zkuste později znovu.",
+        "order_edit_banner_title": "Platba ve výši {{amount_owed}} je vyžadována",
+        "order_edit_banner_subtitle": "Tvoje objednávka {{order_number}} byla aktualizována. Zkontroluj tyto změny a poté zaplať, aby byla tvoje objednávka potvrzena.",
+        "order_edit_banner_multiple_items_added": "{{amount}} přidáno",
+        "order_edit_banner_single_item_removed": "Odstraněno",
+        "order_edit_banner_multiple_items_removed": "{{amount}} odstraněno",
+        "order_edit_banner_multiple_items_returned": "{{amount}} vráceno",
+        "order_edit_banner_items_added": {
+          "other": "%{count} přidáno"
+        },
+        "order_edit_banner_items_removed": {
+          "in_full": "Odstraněno",
+          "with_quantities": "{{delta}} od {{quantity}} vzdáleno"
+        },
+        "order_edit_banner_items_returned": {
+          "in_full": "{{quantity}} vráceno",
+          "with_quantities": "{{delta}} z {{quantity}} vráceno"
+        },
+        "payment_method": "Způsob platby",
+        "order_edit_banner_items_return_line_item_removed": {
+          "in_full": "Odebráno z vrácení",
+          "with_quantities": "{{delta}} odstraněno z vrácení"
+        },
+        "order_edit_banner_single_item_return_line_item_removed": "Odebráno z vrácení",
+        "order_edit_banner_multiple_items_return_line_item_removed": "{{amount}} odstraněno z vrácení",
+        "payment_method_not_available_for_shipping_address_error": "Platební metoda není pro vybranou doručovací adresu dostupná. Vyberte jiný způsob platby.",
+        "paypal_disconnect": "Odpojit spojení",
+        "payment_method_update_failed": "Aktualizace platební metody se nezdařila.",
+        "payment_flexibility_terms_id_mismatch": "ID podmínek platební pružnosti nesouhlasí",
+        "offsite_gateway_review_page_redirect_hint": "Poté, co zkontroluješ svou objednávku, budeš přesměrován na %{gateway_label}, aby sis dokončil nákup.",
+        "offsite_gateway_redirect_hint_no_button_label": "Budeš přesměrován na %{gateway_label}, abys dokončil svůj nákup.",
+        "network_card_persistence_description": "Vybraná síť bude uložena s tvým způsobem platby pro budoucí transakce.",
+        "payment_option": {
+          "accessibility_label": "Vyberte způsob platby"
+        },
+        "payment_method_rollup_accessibility_label": "Možnosti platebních metod",
+        "new_bank_account_disclaimer": "Odesláním objednávky uděluješ %{shop_name} souhlas k inkasu níže uvedené částky prostřednictvím ACH z uvedeného účtu v určený čas."
       }
     }
   }

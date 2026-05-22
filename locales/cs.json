@@ -2666,8 +2666,46 @@
               "mt": "Identifikační čísla k dani z přidané hodnoty (DIČ) na Maltě se skládají ze zkratky MT a 8 znaků",
               "nl": "Identifikační čísla k dani z přidané hodnoty (DIČ) v Nizozemsku se skládají ze zkratky NL a 12 znaků",
               "es": "Identifikační čísla k dani z přidané hodnoty (DIČ) ve Španělsku se skládají ze zkratky ES a 9 znaků",
-              "gb": "Identifikační čísla k dani z přidané hodnoty (DIČ) ve Spojeném království se skládají ze zkratky GB nebo XI a 5–12 znaků"
-            }
+              "gb": "Identifikační čísla k dani z přidané hodnoty (DIČ) ve Spojeném království se skládají ze zkratky GB nebo XI a 5–12 znaků",
+              "pl": "Identifikační čísla k dani z přidané hodnoty (DIČ) v Polsku se skládají ze zkratky PL a 10 znaků",
+              "pt": "Identifikační čísla k dani z přidané hodnoty (DIČ) v Portugalsku se skládají ze zkratky PT a 9 znaků",
+              "ro": "Identifikační čísla k dani z přidané hodnoty (DIČ) v Rumunsku se skládají ze zkratky RO a 10 znaků",
+              "sk": "Identifikační čísla k dani z přidané hodnoty (DIČ) na Slovensku se skládají ze zkratky SK a 10 znaků",
+              "si": "Identifikační čísla k dani z přidané hodnoty (DIČ) ve Slovinsku se skládají ze zkratky SI a 8 znaků",
+              "se": "Identifikační čísla k dani z přidané hodnoty (DIČ) ve Švédsku se skládají ze zkratky SE a 12 znaků"
+            },
+            "invalid_number": {
+              "at": "Zadejte platné DIČ pro Rakousko",
+              "be": "Zadejte platné DIČ pro Belgii",
+              "bg": "Zadejte platné DIČ pro Bulharsko",
+              "hr": "Zadejte platné DIČ pro Chorvatsko",
+              "cy": "Zadejte platné DIČ pro Kypr",
+              "cz": "Zadejte platné DIČ pro Českou republiku",
+              "dk": "Zadejte platné DIČ pro Dánsko",
+              "ee": "Zadejte platné DIČ pro Estonsko",
+              "fi": "Zadejte platné DIČ pro Finsko",
+              "fr": "Zadejte platné DIČ pro Francii",
+              "de": "Zadejte platné DIČ pro Německo",
+              "gr": "Zadejte platné DIČ pro Řecko",
+              "hu": "Zadejte platné DIČ pro Maďarsko",
+              "ie": "Zadejte platné DIČ pro Irsko",
+              "it": "Zadejte platné DIČ pro Itálii",
+              "lv": "Zadejte platné DIČ pro Lotyšsko",
+              "lt": "Zadejte platné DIČ pro Litvu",
+              "lu": "Zadejte platné DIČ pro Lucembursko",
+              "mt": "Zadejte platné DIČ pro Maltu",
+              "nl": "Zadejte platné DIČ pro Nizozemsko",
+              "pl": "Zadejte platné DIČ pro Polsko",
+              "pt": "Zadejte platné DIČ pro Portugalsko",
+              "ro": "Zadejte platné DIČ pro Rumunsko",
+              "sk": "Zadejte platné DIČ pro Slovensko",
+              "si": "Zadejte platné DIČ pro Slovinsko",
+              "es": "Zadejte platné DIČ pro Španělsko",
+              "se": "Zadejte platné DIČ pro Švédsko",
+              "gb": "Zadejte platné DIČ pro Spojené království"
+            },
+            "service_unavailable": "Služba ověřování není k dispozici",
+            "service_error": "Služba ověřování není k dispozici"
           },
           "accessibility": {
             "status": {
@@ -2680,6 +2718,19 @@
               "service_error": "Ověření osvobození od daně z přidané hodnoty není možné"
             }
           }
+        }
+      },
+      "thank_you": {
+        "attempted_delivery": "Doručení",
+        "attempted_delivery_title": "Byl učiněn pokus o doručení tvé objednávky",
+        "attempted_delivery_description_html": "Nepodařilo se doručit vaši objednávku. %{contact_us}, abyste domluvili nové doručení.",
+        "cancelled_description": "Tvoje objednávka byla zrušena dne %{date}. Kontaktuj nás, pokud máš nějaké otázky.",
+        "attempted_delivery_local_title": "Doručení zmeškáno",
+        "attempted_delivery_local_description_html": "Nemohli jsme doručit vaši objednávku. Pro domluvení dalšího doručení %{contact_us}.",
+        "breadcrumbs_in_review": "čekající",
+        "announcement": {
+          "expand": "Rozšířit",
+          "collapse": "Minimalizovat"
         }
       }
     }

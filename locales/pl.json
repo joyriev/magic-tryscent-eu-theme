@@ -2178,7 +2178,124 @@
         },
         "shipping_method_rollup_accessibility_label": "Opcje sposobów wysyłki",
         "shipping_address_rollup_accessibility_label": "Opcje adresów dostawy",
-        "invalid_shipping_method_summary_selected": "Wybierz inny adres dostawy, aby wyświetlić dostępne metody wysyłki"
+        "invalid_shipping_method_summary_selected": "Wybierz inny adres dostawy, aby wyświetlić dostępne metody wysyłki",
+        "shipping_method_title": "Wysyłka",
+        "shipping_rate_discounted_amount": "Przed: %{original_amount}. Po: %{amount}",
+        "subscription_delivery_description": {
+          "prepaid_delivery_frequency": {
+            "one": "na %{count} dostawę",
+            "other": "na %{count} dostaw"
+          },
+          "initial_order_discounted": "Koszt pierwszej wysyłki %{discounted_shipping_cost}, następnie %{frequency_description}",
+          "prepaid_initial_order_discounted": "Koszt pierwszej wysyłki %{discounted_shipping_price} %{prepaid_delivery_frequency}",
+          "prepaid_initial_order_discounted_with_per_delivery_price": "Koszt pierwszej wysyłki %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery})",
+          "prepaid_initial_order_discounted_with_per_delivery_price_and_renewal": "Koszt pierwszej wysyłki %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery}), następnie %{shipping_price} %{billing_cycle}",
+          "first_order_shipping_price_included": "Pierwsze zamówienie wliczone, następnie %{recurring_order_shipping_price}",
+          "first_n_order_free": {
+            "one": "Pierwsze zamówienie jest bezpłatne",
+            "other": "Pierwsze %{count} zamówień jest bezpłatnych"
+          },
+          "free_for_first_n_order": {
+            "one": "Na pierwsze zamówienie",
+            "other": "Dla pierwszych %{count} zamówień"
+          },
+          "free_shipping_cycles": {
+            "one": "Darmowa wysyłka przy %{count} kolejnych dostawach",
+            "other": "Darmowa wysyłka przy %{count} kolejnych dostawach"
+          },
+          "free_shipping_cycles_delivery_not_included": {
+            "one": "Darmowa wysyłka dla %{count} dostaw",
+            "other": "Darmowa wysyłka przy %{count} dostawach"
+          },
+          "first_n_order_free_with_cycle": {
+            "one": "Darmowa wysyłka dla %{count} kolejnych dostaw, potem %{recurring_order_shipping_price}",
+            "other": "Darmowa wysyłka dla %{count} kolejnych dostaw, potem %{recurring_order_shipping_price}"
+          },
+          "first_n_order_free_with_cycle_delivery_not_included": {
+            "one": "Darmowa wysyłka dla %{count} dostaw, potem %{recurring_order_shipping_price}",
+            "other": "Darmowa wysyłka dla %{count} dostaw, potem %{recurring_order_shipping_price}"
+          },
+          "max_cycles_base_shipping": {
+            "one": "%{count} dodatkowa dostawa za %{shipping_price}",
+            "other": "%{count} kolejnych dostaw za %{shipping_price}"
+          },
+          "max_cycles_base_shipping_delivery_not_included": {
+            "one": "%{count} dostaw za %{shipping_price}",
+            "other": "%{count} kolejnych dostaw za %{shipping_price} każda"
+          },
+          "prepaid_free_shipping_with_cycles": {
+            "one": "Darmowa wysyłka w pierwszym %{cycle}, potem %{recurring_order_shipping_price}",
+            "other": "Darmowa wysyłka w pierwszych %{cycle}, potem %{recurring_order_shipping_price}"
+          },
+          "subscription_delivery_frequency": {
+            "day": {
+              "one": "jeden dzień"
+            },
+            "week": {
+              "other": "co %{count} tygodni"
+            },
+            "month": {
+              "one": "jeden miesiąc",
+              "other": "co %{count} miesięcy"
+            },
+            "year": {
+              "one": "co roku",
+              "other": "co %{count} lat"
+            }
+          },
+          "prepaid_initial_order_discounted_with_renewal": "Koszt pierwszej wysyłki %{discounted_shipping_price} %{prepaid_delivery_frequency}, następnie %{shipping_price} %{billing_cycle}",
+          "shipping_price_included": "Zawarte",
+          "recurring_order_shipping_price": "następnie %{recurring_order_shipping_price}",
+          "prepaid_order_one_cycle": {
+            "one": "%{shipping_price} za %{count} dodatkową dostawę",
+            "other": "%{shipping_price} za %{count} dodatkowych dostaw (%{per_delivery_cost})"
+          },
+          "prepaid_order_one_cycle_delivery_not_included": {
+            "one": "%{shipping_price} za %{count} dostawę",
+            "other": "%{shipping_price} za %{count} dostaw (%{per_delivery_cost})"
+          },
+          "prepaid_order_no_cycle": {
+            "one": "%{shipping_price} za %{count} kolejną dostawę, następnie %{recurring_order_shipping_price}",
+            "other": "%{shipping_price} za %{count} kolejnych dostaw (%{per_delivery_cost}), następnie %{recurring_order_shipping_price}"
+          },
+          "prepaid_order_no_cycle_delivery_not_included": {
+            "one": "%{shipping_price} za %{count} dostawę, następnie %{recurring_order_shipping_price}",
+            "other": "%{shipping_price} za %{count} dostaw (%{per_delivery_cost}), następnie %{recurring_order_shipping_price}"
+          }
+        },
+        "shipping_used_as_billing_notice": "Ta będzie również używana jako twój adres rozliczeniowy dla tego zamówienia.",
+        "split_shipping_merchandise_quantity_label_standard": "%{quantity} artykułów",
+        "split_shipping_merchandise_shipment_number": "Dostawa %{number} z %{total}",
+        "split_shipping_shipped_by_shop": "Wysyłka przez %{shop_name}",
+        "split_shipping_multiple_shipment_label": "Kilka dostaw",
+        "split_shipping_shipping_label": "Sztuka",
+        "split_shipping_multiple_shipment_quantity_label": "%{quantity} dostaw",
+        "split_shipping_multiple_shipment_notice": "Twoje zamówienie zostanie dostarczone w kilku przesyłkach",
+        "split_shipping_multiple_shipment_notice_one_time_purchase": "Twoje zamówienie zostanie dostarczone w %{quantity} przesyłkach",
+        "split_shipping_more_shipping_options": "Inne opcje wysyłki",
+        "split_shipping_shipment_number": "Dostawa %{number}",
+        "split_shipping_option_fastest": "Najszybciej",
+        "split_shipping_option_recommended": "Polecane",
+        "split_shipping_shipment_notice": "Twoje zamówienie zostanie dostarczone w %{quantity_shipments}.",
+        "waiting_on_rate_notice": "Pobieranie dostępnych stawek wysyłki…",
+        "waiting_on_pickup_location_notice": "Pobieranie dostępnych miejsc odbioru…",
+        "subscription_shipping": "Koszty wysyłki przy subskrypcji",
+        "subscription_local_delivery": "Subskrypcja na dostawę lokalną",
+        "subscription_pickup": "Subskrypcja na odbiór",
+        "two_day_delivery": "Dostawa w 2 dni do %{time}",
+        "unbranded_default_description": "Gotowy do wysyłki",
+        "third_party_address_timeout": "Nie można załadować adresów. Spróbuj ponownie i użyj innego adresu.",
+        "third_party_address_error": "Wystąpił błąd podczas ładowania wyboru adresu. Proszę, wpisz swój adres poniżej ręcznie.",
+        "third_party_payment_timeout": "Metody płatności nie mogą zostać załadowane. Spróbuj ponownie lub użyj innej metody płatności.",
+        "third_party_payment_error": "Wystąpił błąd podczas ładowania wyboru płatności. Użyj innej metody płatności.",
+        "unbranded_description_with_fulfillment_days": {
+          "one": "Wysyłka następnego dnia roboczego",
+          "other": "Wysyłka w %{count} dni robocze"
+        },
+        "unbranded_description_with_fulfillment_weeks": {
+          "one": "Wysyłka w %{count} tygodniu",
+          "other": "Wysyłka za %{count} tygodni"
+        }
       },
       "session_errors": {
         "session_not_unique": "Podczas realizacji twojego zamówienia wystąpił problem. Odśwież tę stronę, aby wrócić do sklepu.",
@@ -2191,6 +2308,24 @@
         "subtitle": {
           "other": "To zamówienie zostanie wysłane na adres podany przez {{merchant}}. Wybierz adres dostawy."
         }
+      },
+      "shipping_errors": {
+        "shipping_method": "Opcje wysyłki dla twojego zamówienia uległy zmianie. Sprawdź swój wybór.",
+        "shipping_method_not_available": "Twój koszyk został zaktualizowany, a dodane przez ciebie przedmioty nie mogą zostać dostarczone na twój adres. Usuń przedmioty, aby dokończyć zamówienie.",
+        "shipping_method_not_available_generic": {
+          "one": "Twoje zamówienie nie może zostać wysłane na wybrany adres. Sprawdź poprawność swojego adresu i spróbuj ponownie lub wybierz inny adres.",
+          "other": "Niektóre artykuły w twoim koszyku nie mogą zostać wysłane na podany przez ciebie adres. Sprawdź poprawność swojego adresu i spróbuj ponownie lub wybierz inny adres."
+        },
+        "shipping_method_not_available_updated": {
+          "one": "Dodany przez ciebie przedmiot nie jest wysyłany do twojej lokalizacji. Usuń go przed finalizacją zamówienia lub skontaktuj się ze sklepem.",
+          "other": "Przynajmniej jeden z dodanych przez ciebie przedmiotów nie jest wysyłany do twojej lokalizacji. Usuń go przed finalizacją zamówienia lub skontaktuj się ze sklepem."
+        },
+        "payment_method_not_supported": "Nie możesz użyć tej metody płatności dla %{country}. Użyj innej metody płatności, aby wysłać do tego kraju.",
+        "empty_state": "Wpisz swój adres dostawy, aby wyświetlić dostępne metody wysyłki.",
+        "shipping_method_not_available_due_to_unsatisfied_conditions": "Produkty w koszyku nie spełniają wymagań dotyczących ceny lub wagi, aby kwalifikować się do wysyłki. Zaktualizuj swój koszyk i spróbuj ponownie.",
+        "title": "Wysyłka niedostępna",
+        "invalid_selected_address": "Wybrany adres dostawy jest nieprawidłowy",
+        "invalid_selected_address_with_update_link": "Wybrany adres dostawy jest nieprawidłowy. %{update_address_link} lub wybierz inny adres"
       }
     }
   }

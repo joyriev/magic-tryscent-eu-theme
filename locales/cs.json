@@ -1511,7 +1511,49 @@
         "discount_code_replaced": "Slevový kód %{old_code} byl odstraněn a %{code} byl použit.",
         "discount_code_replaced_multiple": "Bylo odstraněno několik slevových kódů a byl použit %{code}.",
         "discount_applies_to_subscription_items_only": "Tato sleva platí pouze pro předplatné zboží",
-        "estimated_taxes_finalization_tooltip_content_short": "Daň byla po zaplacení dokončena"
+        "estimated_taxes_finalization_tooltip_content_short": "Daň byla po zaplacení dokončena",
+        "gift_card_and_discount_title": "Slevový kód nebo poukaz",
+        "gift_card_and_discount_label": "Slevový kód nebo poukaz",
+        "gift_card_and_discount_placeholder": "Slevový kód nebo poukaz",
+        "gift_card_has_been_removed": "Poukaz byl zrušen",
+        "payment_due_label": "Splatné do",
+        "gift_card_savings_notice": "Na %{gift_card_amount} ve formě dárkových poukazů",
+        "order_total_updated_label": "Aktualizovaný celkový součet",
+        "no_pickup_location": "Není k dispozici žádné místo vyzvednutí.",
+        "information_estimated_taxes_label": "Daně (odhadované)",
+        "gift_card_ending": "Poukaz s koncovkou %{last_characters}",
+        "multiple_shipping_lines_label": "Celkové náklady na dopravu",
+        "gift_card_subscriptions_notice": "Dárkové poukazy budou platné pouze pro tvou první platbu",
+        "payment_terms_totals": {
+          "due_today": "Celková částka splatná dnes",
+          "due_later": "Celková částka splatná k %{due_at}",
+          "due_later_checkout_to_draft": "Celková částka splatná později",
+          "due_on_fulfillment": "Celková částka splatná při vyřízení objednávky",
+          "due_on_receipt": "Celková částka splatná při převzetí",
+          "due_today_next": "Dnes splatné",
+          "due_on_fulfillment_next": "Splatné při vyřízení objednávky"
+        },
+        "higher_value_discount_applied": "<strong style=\"text-transform:uppercase\">%{code}</strong> nemohl být použit s tvými stávajícími slevami.",
+        "maximum_discount_code_limit_reached": "Dosáhli jste maximálního počtu slevových kódů. Odstraňte existující kód, abyste mohli použít <strong style=\"text-transform:uppercase\">%{code}</strong>.",
+        "order_total_label": "Celková hodnota objednávky",
+        "may_be_charged_on_delivery": "Mohou být vybrány při doručení",
+        "group_title_label": "Součást \"%{group_title}\"",
+        "gift_card_applied": "Poukaz uplatněn",
+        "more_items_modal": {
+          "empty_results": "Nebyly nalezeny žádné výsledky pro \"%{searchText}\". Zkontrolujte pravopis nebo to zkuste s jiným vyhledávacím dotazem.",
+          "number_items_shown": "%{shownNumber} z %{totalNumber} položek",
+          "search_item": "Hledat"
+        },
+        "number_items": {
+          "one": "%{count} položek",
+          "other": "%{count} položek"
+        },
+        "from_shop_heading": "Od %{shop_name}",
+        "from_other_stores_heading": "Od jiných obchodů",
+        "order_discounts_apply_to_local_shop": "Objednávkové slevy platí pouze na zboží od %{shop_name}.",
+        "gift_cards_apply_to_local_shop": "Dárkové karty platí pouze na zboží od %{shop_name}.",
+        "from_multiple_stores_heading": "Z několika obchodů",
+        "pay_merchant_label": "Zaplatit u %{merchant_name}"
       },
       "order_payment_collection": {
         "custom_line_item_description": "Částka k úhradě za objednávku %{order_name}",

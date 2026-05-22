@@ -2218,7 +2218,13 @@
         },
         "block_title": "Zkontroluj své údaje",
         "checkout_a_different_way": "Použít jinou možnost platby",
-        "account_more_actions": "Více akcí pro tento účet"
+        "account_more_actions": "Více akcí pro tento účet",
+        "title": "Zkontrolovat",
+        "review_title": "Dokonči svou objednávku",
+        "item_header": {
+          "section": "Oddíl"
+        },
+        "review_and_confirm_title": "Zkontrolovat a potvrdit"
       },
       "remote": {
         "errors": {
@@ -2244,6 +2250,43 @@
       "required_extensions": {
         "errors": {
           "interaction_required": "Pro dokončení pokladny je vyžadována další interakce."
+        }
+      },
+      "shipping": {
+        "cheapest_rate_label": "Nejdostupnější",
+        "arrives_time": "Vstup %{time}",
+        "arrives_time_range": "Vstup %{min_time}–%{max_time}",
+        "delivery_today": "Doručení ve stejný den do %{time}",
+        "delivery_tomorrow": "Doručení následující den do %{time}",
+        "delivery": "Doručení do %{time}",
+        "duties_and_taxes_options": {
+          "ddu_caption": "Mohou být účtovány dodatečné poplatky",
+          "ddp_title": "Zaplatit ihned"
+        },
+        "add_delivery_instructions": "Přidat pokyny pro doručení",
+        "address_more": "Více akcí pro tuto adresu",
+        "address_delete": "Smazat adresu",
+        "address_confirm": "Opravdu chceš tuto adresu ze svého účtu odstranit?",
+        "address_form": {
+          "generic_error": "Při ukládání tvé adresy došlo k problému. Zkus to prosím znovu.",
+          "one_time_address_subtitle": "Použít pro tuto objednávku jedinečnou adresu"
+        },
+        "different_shipping_method_summary": "Zadejte jinou doručovací adresu pro zobrazení dostupných způsobů dopravy",
+        "default_description": "Doručení do 1 pracovního dne",
+        "choose_new_address": "Vyberte novou adresu.",
+        "delivery_to": "Doručení na"
+      },
+      "session_errors": {
+        "session_not_unique": "Při zpracování tvé objednávky došlo k problému. Obnov tuto stránku, abys se vrátil do obchodu.",
+        "session_already_finished": "Tato objednávka již byla odeslána. Můžeš se vrátit do obchodu a zadat novou objednávku."
+      },
+      "review_address_modal": {
+        "return_to_cart": "Zpět do nákupního košíku",
+        "subtitle_no_match": "Tato adresa neodpovídá žádné z tvých uložených adres.",
+        "subtitle_must_use": "Tvá objednávka bude odeslána na tuto adresu.",
+        "subtitle": {
+          "one": "Tato objednávka bude odeslána na adresu uvedenou {{merchant}}.",
+          "other": "Tato objednávka bude odeslána na adresu uvedenou {{merchant}}. Vyberte doručovací adresu."
         }
       }
     }

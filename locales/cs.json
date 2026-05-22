@@ -3002,7 +3002,103 @@
         "thank_you_confirmed_with_phone_description": {
           "single_store": "Brzy obdržíš potvrzovací SMS.",
           "multi_store": "Brzy obdržíte samostatné potvrzovací SMS od každého obchodu."
+        },
+        "tracking_number": "Sledovací číslo:",
+        "updated_time": "Naposledy aktualizováno: %{time_ago}",
+        "unfulfilled_items_title": "Příprava na odeslání",
+        "unfulfilled_items_description": "Právě připravujeme tyto položky k odeslání.",
+        "verify_shop_account_title": "Ověřit účet obchodu",
+        "verify_shop_account_message": "Tvé informace byly uloženy v obchodě Shop. Ověř svůj účet, aby bylo možné jej automaticky používat v milionech obchodů.",
+        "verify_shop_account_cta": "Ověřit tvůj účet",
+        "verify_shop_account_confirmation": "Údaje o platbě uloženy",
+        "track_your_order_link_text": "Sleduj své objednávky"
+      },
+      "tips": {
+        "description": "Poděkuj týmu %{shop_name}",
+        "message": "Mnohokrát děkujeme, vážíme si toho.",
+        "not_available_with_spi": "Není dostupné s platbou na splátky přes Shop Pay"
+      },
+      "throttle": {
+        "line_to_check_out": "Jsi ve frontě u pokladny",
+        "cart_summary_heading": "Tvůj nákupní košík",
+        "merchandise": {
+          "available": "Dostupné"
+        },
+        "inventory": {
+          "partial_inventory_banner": "Část tvého nákupního košíku je vyprodaná a při dokončení nákupu není k dispozici ke koupi.",
+          "sold_out": {
+            "heading": "Tvůj košík je vyprodán",
+            "no_storefront_body": "Bohužel zboží, které chcete koupit, již není k dispozici."
+          }
+        },
+        "time_to_checkout_title": "Čas na dokončení nákupu – {{shopName}}",
+        "estimated_wait_time": {
+          "calculating": "Přibližná doba čekání je vypočítána",
+          "less_than_one": "Odhadovaná doba čekání: Méně než minuta",
+          "one": "Odhadovaná doba čekání je {{count}} minuta",
+          "other": "Odhadovaná doba čekání je {{count}} minut"
+        },
+        "last_checked": "(Naposledy zkontrolováno: {{time}})",
+        "footer": {
+          "heading": "Nepřekresluj tuto stránku. Aktualizuje se automaticky.",
+          "body": "Položky ve tvém nákupním košíku nejsou rezervovány až do dokončení objednávky."
+        },
+        "too_many_attempts": {
+          "description": "Zkus to znovu za pár minut"
         }
+      },
+      "tooltip": {
+        "accessibility_label_context": "Více informací o %{context}",
+        "additional_payment_methods": "Další způsoby platby"
+      },
+      "too_many_requests": {
+        "title": "Příliš mnoho pokusů o dokončení nákupu",
+        "body": "Prosím, počkej několik minut, poté se vrať do svého nákupního košíku a zkus to znovu.",
+        "return_to_cart": "Zpět do nákupního košíku",
+        "body_no_cart": "Prosím, počkej několik minut a zkus to znovu."
+      },
+      "wallets": {
+        "errors": {
+          "generic": "Došlo k problému s nákupem pomocí {{walletName}}. Vraťte se do obchodu a zkuste to znovu, nebo dokončete nákup jinou metodou.",
+          "detour": {
+            "stock_problems": "Některé položky již nejsou k dispozici. Zavři {{walletName}} a zkus to znovu.",
+            "price_change": "Některé ceny položek se změnily. Zavři {{walletName}}, zkontroluj svou objednávku a zkus to znovu.",
+            "queue": "Byli jste přidáni do fronty na dokončení nákupu. Zavřete {{walletName}}, abyste mohli pokračovat.",
+            "currency_change": "S {{walletName}} nemůžeš použít jinou adresu. Použij původní adresu nebo zkus jinou platební metodu."
+          },
+          "invalid": {
+            "shipping_option": "Vyberte platnou možnost doručení",
+            "email": "Zadejte platnou e-mailovou adresu",
+            "zone": "Zadej platnou spolkovou zemi/platnou provincii",
+            "postal_code": "Zadejte platné poštovní směrovací číslo",
+            "reduction_code": "Zadej platný slevový kód nebo poukaz",
+            "billing_must_match_shipping": "Musí souhlasit s doručovací adresou",
+            "phone": "Zadejte platné telefonní číslo",
+            "emirate": "Zadejte platné emiráty",
+            "billing_zone": "Zadejte platný spolkový stát/platný kanton pro tuto fakturační adresu",
+            "billing_phone": "Zadejte platné telefonní číslo pro tuto fakturační adresu",
+            "billing_zip": "Zadejte platné poštovní směrovací číslo pro tuto fakturační adresu"
+          },
+          "missing": {
+            "address2": "Zadej byt, pokoj atd.",
+            "billing_address2": "Zadej byt, pokoj atd. pro tuto fakturační adresu",
+            "billing_city": "Zadej město pro tuto fakturační adresu"
+          },
+          "formatting": {
+            "name_contains_emojis": "Odstranit emotikony z tvého jména",
+            "postal_code_contains_emoji": "Odstranit emoji z tvého poštovního směrovacího čísla",
+            "first_name_too_long": "Křestní jméno obsahuje příliš mnoho písmen",
+            "last_name_too_long": "Příjmení obsahuje příliš mnoho písmen"
+          },
+          "discount_code": "Tento slevový kód nelze použít. Zkontroluj svůj nákupní košík a zkus to znovu."
+        }
+      },
+      "units": {
+        "pound": "libra",
+        "inch": "v",
+        "foot": "stopa",
+        "square_foot": "stopa čtvereční",
+        "item": "Položka"
       }
     }
   }

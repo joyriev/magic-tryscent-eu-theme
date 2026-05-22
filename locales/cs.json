@@ -2002,7 +2002,54 @@
         "amount_too_small": "Minimální částka k úhradě musí být větší než 0,50 USD. Zkus to znovu s vyšší částkou.",
         "captcha_required": "Zadej své platební údaje a vyřeš CAPTCHA, abys dokončil svůj nákup.",
         "captcha_required_without_payment_information": "Vyřeš CAPTCHA, abys dokončil svůj nákup.",
-        "cancelled_payment": "Tvá platba byla zrušena. Zkus to znovu nebo použij jiný způsob platby."
+        "cancelled_payment": "Tvá platba byla zrušena. Zkus to znovu nebo použij jiný způsob platby.",
+        "generic_error": "Při zpracování tvé platby došlo k problému. Zkus to znovu nebo použij jiný způsob platby.",
+        "rejected_transaction": "Tvá platba byla zamítnuta. Zkus to znovu nebo použij jiný způsob platby.",
+        "order_total_changed": "Celková částka za objednávku se změnila. Zkontroluj ji a zkus to znovu.",
+        "payment_processing": "Tvá platba nemůže být z technických důvodů zpracována. Zkus to znovu nebo použij jiný způsob platby.",
+        "paypal_zero_amount": "Nemůžeš použít PayPal pro objednávky v hodnotě %{amount}. Potvrď, že je tvoje objednávka správná, a dokonči nákup bez PayPalu.",
+        "paypal_invalid_token": "PayPal není k dispozici. Zkuste to znovu nebo použijte jinou možnost platby.",
+        "pay_later_failed": "Při zpracování tvé platby na fakturu došlo k chybě. Zvol jiný způsob platby a zkus to znovu.",
+        "three_d_secure_failed": "Tvá platba nemohla být ověřena. Zkus to znovu nebo použij jiný způsob platby.",
+        "three_d_secure_throttled": "Příliš mnoho pokusů. Prosím, počkej, než to zkusíš znovu.",
+        "subscription_agreement_blank": "Aby sis mohl/a předplatné zakoupit, musí být uloženy tvé platební údaje. Pro pokračování potvrď, že souhlasíš s položkou předplatného, nebo ji odeber ze své objednávky.",
+        "three_d_secure_failed_duplicate": "Ověření kreditní karty pomocí 3D Secure selhalo, protože již probíhá jiné ověření.",
+        "insufficient_funds": "Tvá platba byla zamítnuta kvůli nedostatku prostředků. Zkus to znovu nebo použij jiný způsob platby.",
+        "payment_processing_no_retry": "Tvá platba nemůže být z technických důvodů zpracována. Zkus to s jiným způsobem platby.",
+        "deferred_payment_not_allowed": "Není povoleno odkládání platby. Zkontroluj prosím svou objednávku a zkus to znovu.",
+        "deferred_payment_required": "Pro tuto objednávku je třeba odklad platby. Prosím zkontroluj svou objednávku a zkus to znovu.",
+        "multiple_deferred_payment_not_allowed": "Je povolen pouze jeden odklad platby na žádost. Zkontroluj svou žádost a zkus to znovu.",
+        "shipping_must_match_billing": "Fakturační adresa musí být shodná s dodací adresou. Použij jiný způsob platby.",
+        "pick_up_card": "Tvá karta byla zamítnuta. Zkus to znovu nebo použij jiný způsob platby.",
+        "invalid_number": "Zadej platné číslo karty",
+        "invalid_expiry_date": "Zadejte platné datum vypršení platnosti",
+        "invalid_cvc": "Zadej platný bezpečnostní kód",
+        "expired_card": "Tvá karta vypršela. Použij jiný způsob platby.",
+        "processing_error": "Při zpracování tvé platby došlo k problému. Zkus to znovu nebo použij jiný způsob platby.",
+        "test_mode_live_card": "Tento obchod nemůže přijímat skutečné objednávky ani skutečné platby.",
+        "transient_error": "Při zpracování tvé platby došlo k problému. Zkus tuto stránku obnovit nebo zkontroluj své připojení k internetu.",
+        "missing_shipping_address": "Tvá platba nemohla být zpracována, protože jsi neuvedl doručovací adresu. Přidej doručovací adresu a zkus to znovu.",
+        "invalid_shipping_address": "Tvá platba nemohla být zpracována, protože jsme nemohli najít tvou doručovací adresu. Zkontroluj svou doručovací adresu a zkus to znovu.",
+        "successful_offsite_with_gift_card_error": "Při zpracování tvé platby dárkovým poukazem došlo k problému. Zkus to znovu nebo použij jiný způsob platby.",
+        "development_store_order_limit_reached": "Dosáhl(a) jste limitu pro objednávky v Development Shopu s tímto platebním zpracovatelem. Pro zadání další objednávky musíte použít testovací platební bránu. Více informací o %{development_store_order_testing_docs_link}.",
+        "development_store_with_order_limit": "Musíte použít testovací platební bránu, abyste mohli zadat testovací objednávku. Více informací o %{development_store_order_testing_docs_link}.",
+        "development_store_order_testing_docs_link": "Testování objednávek v vývojových obchodech",
+        "method_not_available": "Požadovaný způsob platby není k dispozici. Vyberte jiný způsob platby a zkuste to znovu.",
+        "selected_payment_method": "Tvůj způsob platby nemohl být zatížen a nebylo ti nic účtováno. Zkus to znovu nebo použij jiný způsob platby.",
+        "payment_method_billing_address": "Došlo k problému s fakturační adresou u vybrané platební metody. Zkontroluj adresu a zkus to znovu, nebo použij jinou platební metodu.",
+        "processing_error_checkout_as_guest": "Při zpracování tvé platby došlo k problému. Zkus to znovu s jinou platební metodou nebo {{checkout_as_guest_link}}.",
+        "payment_above_threshold": "Částka platby překračuje měnový limit pro tento region. Snižte celkovou částku a zkuste to znovu.",
+        "risky": "Při zpracování tvé platby došlo k problému. Zkus to znovu nebo použij jiný způsob platby.",
+        "expired_buyer_action": "Provádění platební metody trvalo příliš dlouho. Zkuste to znovu.",
+        "three_d_secure_failed_payment_method": "Tvá karta nemohla být ověřena. Zkus to znovu nebo přidej jinou kartu.",
+        "name_mismatch": "Zkontroluj údaje na své kartě. Jméno na tvé kartě a fakturační adresa se neshodují.",
+        "payment_method_not_applicable": "Tento způsob platby nelze použít. Použijte jiný způsob platby.",
+        "market_manager_blocks_wallet_payments": "Platební metoda ve tvé zemi není podporována.",
+        "paypal_over_capture": "Částka tvé objednávky byla aktualizována. Zaplať pomocí {{walletName}}, abys dokončil svou objednávku.",
+        "test_mode_enabled_only_test_cards": "Testovací režim je aktivován, lze přidávat pouze testovací kreditní karty.",
+        "shipping_company_required_error": "{{shopName}} vyžaduje název firmy pro doručovací adresu.",
+        "payment_credential_delegation_error": "Při zpracování tvé platby došlo k problému. Vyber novou platební metodu.",
+        "installments_payment_method_incompatible": "Vybraná platební metoda nemůže být použita pro platby na splátky. Zvolte jinou platební metodu."
       },
       "payment_challenge_modal": {
         "instructions": "Dokonči svůj nákup pomocí kódu {{paymentMethod}}.",
@@ -2020,6 +2067,63 @@
       "payment_collection": {
         "cancelled": "Tato platba již není potřeba. Na stránce objednávky najdeš další informace.",
         "paid": "Tato platba již byla odeslána. Na stránce objednávky najdeš další informace."
+      },
+      "payment_summary": {
+        "gift_card_current_balance_notice": "Aktuální zůstatek: %{amount}",
+        "credit_card_expires_on_notice": "Platné do %{month}/%{year}",
+        "manual_payment_gateway_label": "Ruční"
+      },
+      "payment_gateway": {
+        "cash_on_delivery_label": "Dobírka",
+        "money_order_label": "Peníze na pokyn",
+        "deferred_payment_label": "Způsob platby vybrat později",
+        "generic_payment_terms": "Pro tebe platí podmínky \"{{translatedName}}\". Tvá platba je splatná dne {{dueDate}}.",
+        "login_prompt": {
+          "no_access": {
+            "message": "{{logIn}} do účtu, který má přístup k této lokalitě, abyste mohli přidat nebo použít uložené způsoby platby.",
+            "link": "Přihlas se"
+          }
+        },
+        "direct_payment_terms": "Pro tebe platí podmínky \"{{translatedName}}\". Tvá karta bude zatížena dne {{dueDate}}.",
+        "order_due_on_fulfillment_choose_later": "Tvoje platba je splatná, jakmile bude tvoje objednávka vyřízena.",
+        "order_due_on_fulfillment_payment": "Tvá karta bude zatížena, jakmile bude tvá objednávka vyřízena.",
+        "draft_order_payment_due_later_no_terms": "Tvoje platba je splatná, jakmile bude tvoje objednávka potvrzena.",
+        "draft_order_payment_due_later_no_terms_payment_selected": "Tvá karta bude zatížena, jakmile bude tvá objednávka potvrzena.",
+        "draft_order_payment_due_later_terms": "Pro tebe platí podmínky \"{{translatedName}}\", jakmile bude tvá objednávka potvrzena.",
+        "draft_order_payment_due_on_fulfillment": "Tvoje platba je splatná, jakmile bude tvoje objednávka potvrzena a vyřízena.",
+        "fixed_payment_label": "Tvoje platba je splatná dne {{dueDate}}.",
+        "fixed_direct_payment_terms": "Tvá karta bude zatížena dne {{dueDate}}.",
+        "order_deposit_due_now": "{{depositAmount}} jsou dnes splatné. Pro zbývající částku platí podmínky \"{{translatedName}}\" a je splatná dne {{dueDate}}.",
+        "order_deposit_due_on_fulfillment": "{{depositAmount}} je dnes splatná. Zbývající částka bude splatná, jakmile bude vaše objednávka vyřízena.",
+        "order_due_on_receipt_choose_later": "Platba je splatná při převzetí.",
+        "draft_order_deposit_due_later": "{{depositAmount}} je splatná, jakmile je vaše objednávka potvrzena. Následující podmínky platí pro zůstatek: {{translatedName}}.",
+        "draft_order_deposit_due_on_fulfillment": "{{depositAmount}} je splatná při potvrzení vaší objednávky. Zbývající částka bude splatná, jakmile bude vaše objednávka realizována.",
+        "order_deposit_due_on_receipt": "{{depositAmount}} je dnes splatná. Částka je splatná později.",
+        "order_deposit_due_on_fixed_date": "{{depositAmount}} je splatná dnes. Částka je splatná k {{dueDate}}."
+      },
+      "pickup_point": {
+        "could_not_resolve_address": "Tvoji adresu se nepodařilo určit. Zkus to znovu nebo použij jinou adresu",
+        "no_pickup_points_near_you": "V blízkosti vybrané adresy nebyla nalezena žádná místa pro vyzvednutí",
+        "no_pickup_points_near_location": "V blízkosti tvé polohy nebyla nalezena žádná místa pro vyzvednutí",
+        "no_pickup_points_found": "Nebyly nalezeny žádné místa pro vyzvednutí",
+        "paginator": {
+          "header": {
+            "one": "%{first} - %{last} z %{count} zobrazit umístění"
+          }
+        },
+        "number_of_pickup_points_near_location": {
+          "one": "%{count} odběrných míst nalezeno poblíž tvé polohy",
+          "other": "%{count} odběrných míst nalezeno poblíž tvé polohy"
+        },
+        "change": "Změnit místo",
+        "geolocation": {
+          "errors": {
+            "unsuported_by_browser": "Zjišťování zeměpisné polohy není ve tvém prohlížeči podporováno. Zkus to znovu nebo použij jiný prohlížeč.",
+            "permission_not_allowed": "Schvalte sdílení své polohy.",
+            "permission_denied": "Nelze zjistit tvoji polohu. Zkus to znovu."
+          }
+        },
+        "no_business_hours": "Není k dispozici žádná otevírací doba"
       }
     }
   }

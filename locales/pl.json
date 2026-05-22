@@ -1746,7 +1746,104 @@
         "gift_cards_unavailable": "Twój bon podarunkowy nie może być już użyty do tego zamówienia i został usunięty.",
         "network_card_payment_options": "Wybierz sieć kart",
         "gift_card_checkbox_label": "Zastosuj kupon",
-        "kcp_creditcard_label": "KCP-Karta kredytowa"
+        "kcp_creditcard_label": "KCP-Karta kredytowa",
+        "pay_with_payment_method": "Płatność przez %{payment_method}",
+        "order_covered_by_gift_cards_notice": {
+          "one": "Twoje zamówienie zostanie pokryte przez twój bon.",
+          "other": "Twoje zamówienie zostanie pokryte przez twoje kupony."
+        },
+        "offsite_gateway_redirect_hint": "Zostaniesz przekierowany do %{gateway_label}, aby dokończyć zakup.",
+        "offsite_gateway_redirect_hint_multi_currency_html": "%{gateway_label} łącznie %{total_shop_price}",
+        "no_js_credit_card_fields_redirect_hint": "Zostaniesz przekierowany, aby dodać swoje dane płatnicze.",
+        "no_method_error": "Ten sklep obecnie nie może przyjmować płatności.",
+        "not_configured_error": "Ten sklep obecnie nie może przyjmować płatności.",
+        "no_taxes_banner_content": "Do tego zamówienia nie są naliczane żadne podatki. Po otrzymaniu płatności nie można już dodać podatków.",
+        "paypal": {
+          "connect": "Kliknij tutaj, aby połączyć swoje konto PayPal"
+        },
+        "paypal_modal": {
+          "order_contains_fixed_selling_plans": "Całkowita kwota może nie obejmować podatków, kosztów wysyłki, zaległych opłat ani niektórych rabatów. Przejdź do kasy, aby zobaczyć kwotę należną dzisiaj."
+        },
+        "payment_method_saved": "Metoda płatności zapisana",
+        "order_covered_by_store_credit_notice": "Twoje zamówienie zostanie pokryte z twojego salda sklepowego.",
+        "order_covered_by_redeemables_notice": "Twoje zamówienie jest zabezpieczone.",
+        "no_working_method_error": "Ten sklep obecnie nie może przyjmować płatności. Odśwież tę stronę lub spróbuj ponownie później.",
+        "order_edit_banner_title": "Wymagana płatność w wysokości {{amount_owed}}",
+        "order_edit_banner_subtitle": "Twoje zamówienie {{order_number}} zostało zaktualizowane. Sprawdź te zmiany, a następnie zapłać, aby potwierdzić swoje zamówienie.",
+        "order_edit_banner_multiple_items_added": "dodano {{amount}}",
+        "order_edit_banner_multiple_items_removed": "{{amount}} usunięto",
+        "order_edit_banner_multiple_items_returned": "{{amount}} zwrócone",
+        "order_edit_banner_items_removed": {
+          "with_quantities": "{{delta}} od {{quantity}} entfernt"
+        },
+        "order_edit_banner_items_returned": {
+          "in_full": "{{quantity}} zwrócone",
+          "with_quantities": "{{delta}} z {{quantity}} zwróconych"
+        },
+        "order_edit_banner_items_return_line_item_removed": {
+          "in_full": "Usunięte z zwrotu",
+          "with_quantities": "{{delta}} usunięte z zwrotu"
+        },
+        "order_edit_banner_single_item_return_line_item_removed": "Usunięte z zwrotu",
+        "order_edit_banner_multiple_items_return_line_item_removed": "Usunięto {{amount}} z zwrotu",
+        "payment_method_not_available_for_shipping_address_error": "Metoda płatności nie jest dostępna dla wybranego adresu dostawy. Wybierz inną metodę płatności.",
+        "paypal_disconnect": "Rozłącz połączenie",
+        "payment_method_update_failed": "Aktualizacja sposobu płatności nie powiodła się.",
+        "payment_flexibility_terms_id_mismatch": "ID warunków elastyczności płatności nie zgadza się",
+        "offsite_gateway_review_page_redirect_hint": "Po sprawdzeniu zamówienia zostaniesz przekierowany do %{gateway_label}, aby sfinalizować zakup.",
+        "offsite_gateway_redirect_hint_no_button_label": "Zostaniesz przekierowany do %{gateway_label}, aby dokończyć zakup.",
+        "network_card_persistence_description": "Wybrana sieć zostanie zapisana z twoją metodą płatności do przyszłych transakcji.",
+        "payment_method_incompatible_with_payment_terms": "Metoda płatności nie jest zgodna z warunkami płatności.",
+        "payment_method_rollup_accessibility_label": "Opcje metod płatności",
+        "new_bank_account_disclaimer": "Kończąc zamówienie, udzielasz %{shop_name} zgody na pobranie poniższej kwoty z podanego konta za pomocą ACH w określonym terminie.",
+        "saved_by_payment_method": "Zapisano z %{payment_method}",
+        "same_billing_address_label": "Identyczne z adresem dostawy",
+        "sofort_label": "Przelew natychmiastowy",
+        "subscription_agreement_label": "Jeden lub więcej artykułów w Twoim koszyku to zakup oczekujący lub zakup subskrypcyjny. Kontynuując płatność, zgadzasz się, że Twoja metoda płatności zostanie automatycznie obciążona kwotą i z częstotliwością podaną na tej stronie, aż do zakończenia metody płatności lub jej anulowania. Wszystkie anulowania podlegają %{cancelled}.",
+        "subscription_agreement_cancelled": "Zasady anulowania rezerwacji",
+        "purchase_options_card_update_agreement_label_html": "Aktualizując metodę płatności, autoryzujesz płatności za powtarzające się zakupy lub zakupy z odroczoną płatnością zgodnie z <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{cancellation_policy}\" href=\"%{policy_href}\">polityką anulowania</a> tego sklepu.",
+        "receiver_payment_experience_hint": "Po złożeniu zamówienia otrzymasz szczegóły płatności. Dokonaj płatności w ciągu %{due_days} dni w Multibanco lub online.",
+        "pending_payment": {
+          "due_notice": "Twoja płatność w wysokości %{amount_due} jest wymagana do %{due_date}.",
+          "multibanco": {
+            "instruction_html": "Dokonaj płatności za pomocą Multibanco lub online, korzystając z poniższych szczegółów. W razie pytań lub chęci aktualizacji danych płatności %{contact_us}.",
+            "reference": "Odniesienie",
+            "find_nearest_atm": "Znajdź bankomat w swojej okolicy",
+            "buyer_action_info": "Twoja płatność w wysokości %{amount_due} jest wymagana."
+          }
+        },
+        "purchase_options_agreement_label": "W jednym lub kilku artykułach w Twoim koszyku znajduje się zakup z odroczoną płatnością, subskrypcja lub zakup cykliczny. Kontynuując płatność, zgadzasz się, że Twoja metoda płatności będzie automatycznie obciążana kwotą i w częstotliwości podanej na tej stronie, aż do zakończenia okresu lub anulowania. Wszystkie anulacje podlegają %{cancellation_policy_label}.",
+        "purchase_options_agreement_label_html": "Rozumiem, że jeden lub więcej artykułów w moim koszyku to zakup z odroczoną płatnością, subskrypcja lub zakup cykliczny. Kontynuując, zgadzam się z\n<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">polityką anulowania</a>\ni wyrażam zgodę, aby moja metoda płatności była obciążana zgodnie z cenami, terminami i częstotliwością podanymi na tej stronie, aż do realizacji mojego\nzamówienia lub do momentu anulowania, jeśli jest to dozwolone.",
+        "store_credit": {
+          "label": "Saldo sklepu",
+          "apply_label": "Zastosuj saldo sklepu",
+          "add_label": "Dodaj saldo sklepu",
+          "manage_label": "Zarządzaj saldem sklepu",
+          "buying_gift_card": "Nie możesz użyć środków sklepowych do zakupu kuponu.",
+          "no_fixed_selling_plans": "Nie możesz używać środków sklepowych do opcji zakupu z odroczoną płatnością"
+        },
+        "same_billing_address_checkbox_label": "Użyj adresu dostawy jako adresu do faktury",
+        "shipping_rate_updated": "Dostępne metody wysyłki zostały zaktualizowane. Potwierdź swój wybór przed finalizacją zamówienia.",
+        "preview_not_available": {
+          "content": "Nie martw się, ten ekspresowy kasjer nadal działa dla twoich klientów.",
+          "button": "Dobrze"
+        },
+        "simulated_checkout": "Podgląd wkrótce dostępny",
+        "purchase_options_and_vaulting_agreement_label": "Jeden lub więcej artykułów w Twoim koszyku to zakup oczekujący lub zakup subskrypcyjny. Kontynuując płatność, zgadzasz się, że Twoja metoda płatności zostanie automatycznie obciążona kwotą i z częstotliwością podaną na tej stronie, aż do zakończenia metody płatności lub jej anulowania. Wszystkie anulacje podlegają %{cancellation_policy_label}.",
+        "purchase_options_cancellation_policy_label": "Zasady anulowania rezerwacji",
+        "saved_credit_card": "Twoja zapisana karta kredytowa",
+        "saved_credit_cards_modal": {
+          "view_all_label": "Pokaż wszystkie zapisane karty",
+          "cancel": "Zamknij"
+        },
+        "shop_pay_installments_label": "Zakupy na raty z Shop Pay",
+        "purchase_options_agreement_label_wallets": "Kontynuując płatność, wyrażasz zgodę na przyszłe opłaty wymienione na tej stronie oraz na zasady wypowiedzenia.",
+        "saved_credit_card_cvv_verification": "Wpisz kod zabezpieczający swojej karty, aby potwierdzić tożsamość.",
+        "proposed_gateway_unavailable": "Proponowana brama płatności jest niedostępna",
+        "shop_pay_ideal_unavailable_error": "iDEAL | Wero nie jest dostępne dla tego zamówienia. Wybierz inną metodę płatności.",
+        "simulated_express_checkout": "Portfele nie są dostępne w podglądzie ze względu na twoją okolicę lub przeglądarkę.",
+        "separate_payments_label": "Twoje artykuły pochodzą z więcej niż jednego sklepu. Zostaniesz rozliczony w %{separate_payments_link}.",
+        "separate_payments_text": "Oddzielne płatności"
       }
     }
   }

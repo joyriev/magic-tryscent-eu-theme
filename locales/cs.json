@@ -3157,6 +3157,75 @@
       "message": "Upravte captcha pro pokračování",
       "error": "Ověření Captcha selhalo.",
       "submit_button_text": "Odesílání"
+    },
+    "errors": {
+      "blank": "nesmí být prázdné",
+      "credit_card_session_expired": "Platnost autorizace kreditní karty vypršela, prosím zadej své platební údaje znovu. Tvá karta nebyla zatížena.",
+      "empty": "nesmí být prázdné",
+      "invalid_email": "musí být platná e-mailová adresa",
+      "discount_limit_reached": "Tato sleva dosáhla svého limitu využití",
+      "discount_not_found": "Nebyl nalezen žádný platný slevový kód odpovídající zadanému kódu",
+      "customer_already_used_once_per_customer_discount_notice": "Tato sleva dosáhla svého limitu využití",
+      "gift_card_already_applied": "Kód byl již použit na tvou objednávku",
+      "gift_card_code_invalid": "Neplatný kód",
+      "gift_card_currency_mismatch": "Tento poukaz nelze použít pro tento nákup. Kontaktujte %{shop_name}, aby vám byl vystaven nový.",
+      "gift_card_depleted": "Na této dárkové kartě již není žádný zůstatek",
+      "gift_card_disabled": "Dárková karta je zablokována",
+      "gift_card_expired": "Dárková karta vypršela",
+      "invalid": "je neplatný",
+      "bad_domain": "obsahuje neplatné doménové jméno",
+      "contains_html_tags": "nesmí obsahovat HTML značky",
+      "contains_spaces": "začíná nebo končí mezerou.",
+      "invalid_for_country": "není platné pro %{country}",
+      "invalid_for_country_and_province": "není platné pro %{province} a %{country}",
+      "full_name_required": "Zadejte jméno a příjmení.",
+      "invalid_for_card_type": "není platný pro tento typ karty",
+      "invalid_format": "není číslo kreditní karty",
+      "expired": "Platnost kreditní karty vypršela",
+      "invalid_expiry_year": "není platný rok vypršení platnosti",
+      "blocked_address": "Toto místo není podporováno"
+    },
+    "email_marketing": {
+      "subscribed": {
+        "confirmation": "Děkujeme, že jste se přihlásili k odběru našeho seznamu pošty.",
+        "disclaimer": "Můžeš se kdykoli znovu odhlásit.",
+        "unsubscribe": "Odhlásit se"
+      },
+      "unsubscribed": {
+        "confirmation": "Odhlásili jste se z našeho seznamu poštovních zpráv.",
+        "disclaimer": "Od nás již neobdržíš žádné marketingové novinky. Můžeš se kdykoli znovu přihlásit.",
+        "preview": "Vidíš náhled toho, co zákazníci uvidí při odhlašování."
+      },
+      "open_tracking": {
+        "opt_in": {
+          "opted_in_html": "<b>Máte zapnuté sledování otevřených e-mailů.</b>",
+          "visibility": "Míry otevírání e-mailů jsou zaznamenávány anonymně. Vidíme pouze jako součást souhrnné míry otevírání e-mailů, zda jste e-mail otevřeli.",
+          "opt_out_html": "Můžeš <a style='text-decoration:underline;' href='%{link}'>vypnout</a> sledování otevřených e-mailů, pokud tyto informace nechceš sdílet.",
+          "preview_bar": "Vidíš náhled toho, co se zákazníkům zobrazí, když zapnou sledování otevřených e-mailů."
+        },
+        "opt_out": {
+          "opted_out_html": "<b>Zakázal(a) jsi sledování otevřených e-mailů.</b>",
+          "visibility": "Nemůžeme zjistit, zda jste naše e-maily otevřeli.",
+          "opt_in_html": "<a style='text-decoration:underline;' href='%{link}'>Aktivuj</a> sledování otevřených e-mailů.",
+          "preview_bar": "Vidíš náhled toho, co se zákazníkům zobrazí, když vypnou sledování otevřených e-mailů."
+        },
+        "no_longer_track": {
+          "status_html": "<b>Už nesledujeme, zda otevíráš e-maily.</b>",
+          "privacy_policy": "Poté, co byl tento e-mail odeslán, jsme aktualizovali naše zásady ochrany osobních údajů a již nesledujeme otevřené e-maily."
+        },
+        "track": {
+          "status_html": "<b>Sledování otevřených e-mailů je odesíláno.</b>",
+          "visibility": "Vidíme pouze jako součást souhrnné míry otevření e-mailu, zda jste e-mail otevřeli."
+        },
+        "updated_policy": {
+          "status_html": "<b>Sledování otevřených e-mailů je odesíláno.</b>",
+          "visibility": "Aktualizovali jsme naše zásady ochrany osobních údajů a sledujeme otevření e-mailů. Míry otevírání e-mailů jsou zaznamenávány anonymně. Vidíme pouze jako součást souhrnné míry otevírání e-mailů, zda jste e-mail otevřeli.",
+          "opt_out_html": "Pokud tyto informace nechceš sdílet, můžeš <a style='text-decoration:underline;' href='%{link}'>zrušit odběr</a>."
+        }
+      },
+      "sms_unsubscribe_confirm": {
+        "message": "Jsi si jistý, že chceš odhlásit SMS reklamu?"
+      }
     }
   }
 }

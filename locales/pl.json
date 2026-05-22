@@ -2904,6 +2904,54 @@
         "body": "Proszę, poczekaj kilka minut, następnie wróć do swojego koszyka i spróbuj ponownie.",
         "return_to_cart": "Powrót do koszyka",
         "body_no_cart": "Proszę poczekaj kilka minut i spróbuj ponownie."
+      },
+      "wallets": {
+        "call_to_action": "Zapłać za pomocą {{walletName}}",
+        "errors": {
+          "generic": "Wystąpił problem z Buy with {{walletName}}. Wróć do sklepu, aby spróbować ponownie, lub dokonaj zakupu inną metodą.",
+          "detour": {
+            "stock_problems": "Niektóre artykuły nie są już dostępne. Zamknij {{walletName}} i spróbuj ponownie.",
+            "price_change": "Niektóre ceny artykułów uległy zmianie. Zamknij {{walletName}}, aby sprawdzić swoje zamówienie i spróbuj ponownie.",
+            "queue": "Zostałeś dodany do kolejki do kasy. Zamknij {{walletName}}, aby kontynuować.",
+            "currency_change": "Nie możesz użyć innego adresu z {{walletName}}. Użyj oryginalnego adresu lub spróbuj innej metody płatności."
+          },
+          "invalid": {
+            "shipping_address": "Wprowadź prawidłowy adres dostawy",
+            "email": "Wprowadź prawidłowy adres e-mail",
+            "zone": "Wprowadź prawidłowy kraj związkowy/prawidłową prowincję",
+            "postal_code": "Wprowadź prawidłowy kod pocztowy",
+            "reduction_code": "Wprowadź ważny kod rabatowy lub bon",
+            "billing_must_match_shipping": "Musi zgadzać się z adresem dostawy",
+            "phone": "Wprowadź prawidłowy numer telefonu",
+            "emirate": "Wprowadź ważne emirat",
+            "billing_zone": "Wprowadź prawidłowy kraj związkowy/prawidłowy kanton dla tego adresu rozliczeniowego",
+            "billing_phone": "Wprowadź prawidłowy numer telefonu dla tego adresu rozliczeniowego",
+            "billing_zip": "Wprowadź prawidłowy kod pocztowy dla tego adresu rozliczeniowego"
+          },
+          "missing": {
+            "address2": "Wprowadź mieszkanie, pokój itp.",
+            "billing_address1": "Wprowadź adres do faktury",
+            "billing_address2": "Wprowadź mieszkanie, pokój itp. dla tego adresu rozliczeniowego",
+            "billing_city": "Wpisz miasto dla tego adresu rozliczeniowego"
+          },
+          "formatting": {
+            "name_contains_emojis": "Usuń emotikony z twojego imienia",
+            "postal_code_contains_emoji": "Usuń emotikony z twojego kodu pocztowego",
+            "first_name_too_long": "Imię zawiera zbyt wiele liter",
+            "last_name_too_long": "Nazwisko zawiera zbyt wiele liter"
+          },
+          "discount_code": "Ten kod rabatowy nie może zostać zastosowany. Sprawdź swój koszyk i spróbuj ponownie."
+        }
+      },
+      "units": {
+        "liter": "l",
+        "ounce": "uncja",
+        "pound": "funt",
+        "gallon": "galeria",
+        "inch": "w",
+        "foot": "stóp",
+        "square_foot": "stopy kwadratowe",
+        "item": "Artykuł"
       }
     }
   }

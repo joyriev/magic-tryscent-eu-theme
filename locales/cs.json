@@ -72,40 +72,40 @@
     "button_label": "Přihlásit k odběru"
   },
   "accessibility": {
-    "skip_to_text": "Přejít k obsahu",
+    "skip_to_text": "Přejít přímo na obsah",
     "close": "Zavřít",
-    "unit_price_separator": "za",
-    "vendor": "Vendor:",
+    "unit_price_separator": "pro",
+    "vendor": "Poskytovatel:",
     "error": "Chyba",
-    "refresh_page": "Po volbě výběru se obnoví celá stránka.",
-    "loading": "Načítání...",
+    "refresh_page": "Pokud si vyberete možnost, stránka se kompletně aktualizuje.",
+    "loading": "Načítá se...",
     "link_messages": {
       "new_window": "Otevře se v novém okně.",
-      "external": "Otevře externí webovou stránku."
+      "external": "Otevírá externí webovou stránku."
     },
-    "skip_to_product_info": "Přejít na informace o produktu",
-    "total_reviews": "celkový počet recenzí",
+    "skip_to_product_info": "Přejít k informacím o produktu",
+    "total_reviews": "Celkové hodnocení",
     "star_reviews_info": "{{ rating_value }} z {{ rating_max }} hvězdiček",
-    "collapsible_content_title": "Sbalitelný obsah",
+    "collapsible_content_title": "Sklopný obsah",
     "complementary_products": "Doplňkové produkty"
   },
   "blogs": {
     "article": {
       "blog": "Blog",
-      "read_more_title": "Přečtěte si více: {{ title }}",
-      "moderated": "Upozorňujeme, že komentáře musí být před zveřejněním schváleny.",
-      "comment_form_title": "Napište komentář",
-      "name": "Název",
+      "read_more_title": "Číst dále: {{ title }}",
+      "moderated": "Vezměte prosím na vědomí, že komentáře musí být schváleny před zveřejněním.",
+      "comment_form_title": "Zanechte komentář",
+      "name": "Jméno",
       "email": "E-mail",
       "message": "Komentář",
-      "post": "Zveřejnit komentář",
+      "post": "Přidat komentář",
       "back_to_blog": "Zpět na blog",
-      "share": "Nasdílet tento článek",
-      "success": "Váš komentář byl úspěšně publikován! Děkujeme!",
-      "success_moderated": "Váš komentář byl úspěšně publikován. Zveřejníme jej až za chvíli, protože náš blog je moderován.",
+      "share": "Sdílet tento článek",
+      "success": "Váš komentář byl úspěšně zveřejněn! Děkujeme!",
+      "success_moderated": "Tvůj komentář byl úspěšně zveřejněn. Protože náš blog je moderován, bude zveřejněn až po krátké době.",
       "comments": {
         "one": "{{ count }} komentář",
-        "other": "Počet komentářů: {{ count }}",
+        "other": "{{ count }} komentářů",
         "few": "Počet komentářů: {{ count }}",
         "many": "Počet komentářů: {{ count }}"
       }
@@ -418,33 +418,33 @@
   "customer": {
     "account": {
       "title": "Účet",
-      "details": "Podrobnosti účtu",
+      "details": "Detaily účtu",
       "view_addresses": "Zobrazit adresy",
-      "return": "Vrátit se k podrobnostem účtu"
+      "return": "Zpět k podrobnostem účtu"
     },
     "account_fallback": "Účet",
     "log_in": "Přihlásit se",
     "log_out": "Odhlásit se",
     "activate_account": {
       "title": "Aktivovat účet",
-      "subtext": "Vytvořte heslo pro aktivaci účtu.",
+      "subtext": "Vytvoř si heslo pro aktivaci svého účtu.",
       "password": "Heslo",
       "password_confirm": "Potvrdit heslo",
       "submit": "Aktivovat účet",
-      "cancel": "Odmítnout pozvánku"
+      "cancel": "Odmítnout pozvání"
     },
     "addresses": {
       "title": "Adresy",
-      "default": "Výchozí",
+      "default": "Standardní",
       "add_new": "Přidat novou adresu",
       "edit_address": "Upravit adresu",
       "first_name": "Jméno",
       "last_name": "Příjmení",
-      "company": "Společnost",
+      "company": "Podnikání",
       "address1": "Adresa 1",
       "address2": "Adresa 2",
-      "city": "Město",
-      "country": "Země/oblast",
+      "city": "Místo",
+      "country": "Země/Oblast",
       "province": "Provincie",
       "zip": "PSČ",
       "phone": "Telefon",
@@ -453,8 +453,8 @@
       "update": "Aktualizovat adresu",
       "cancel": "Zrušit",
       "edit": "Upravit",
-      "delete": "Odstranit",
-      "delete_confirm": "Opravdu chcete tuto adresu odstranit?"
+      "delete": "Smazat",
+      "delete_confirm": "Jsi si jistý, že chceš tuto adresu smazat?"
     },
     "login_page": {
       "cancel": "Zrušit",

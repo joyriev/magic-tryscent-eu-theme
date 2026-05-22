@@ -74,38 +74,38 @@
   "accessibility": {
     "skip_to_text": "Przejdź do treści",
     "close": "Zamknij",
-    "unit_price_separator": "na",
+    "unit_price_separator": "profesjonalny",
     "vendor": "Dostawca:",
     "error": "Błąd",
-    "refresh_page": "Zaznaczenie wyboru powoduje całkowite odświeżenie strony.",
+    "refresh_page": "Jeśli wybierzesz opcję, strona zostanie całkowicie odświeżona.",
     "loading": "Ładowanie...",
     "link_messages": {
       "new_window": "Otwiera się w nowym oknie.",
       "external": "Otwiera zewnętrzną stronę internetową."
     },
-    "skip_to_product_info": "Pomiń, aby przejść do informacji o produkcie",
-    "total_reviews": "suma recenzji",
+    "skip_to_product_info": "Przejdź do informacji o produkcie",
+    "total_reviews": "Oceny łącznie",
     "star_reviews_info": "{{ rating_value }} z {{ rating_max }} gwiazdek",
-    "collapsible_content_title": "Zwijana treść",
+    "collapsible_content_title": "Zawartość składana",
     "complementary_products": "Produkty uzupełniające"
   },
   "blogs": {
     "article": {
       "blog": "Blog",
       "read_more_title": "Czytaj dalej: {{ title }}",
-      "moderated": "Pamiętaj, że komentarze muszą zostać zatwierdzone przed ich opublikowaniem.",
+      "moderated": "Proszę pamiętać, że komentarze muszą zostać zatwierdzone przed opublikowaniem.",
       "comment_form_title": "Zostaw komentarz",
       "name": "Nazwa",
       "email": "E-mail",
       "message": "Komentarz",
       "post": "Opublikuj komentarz",
-      "back_to_blog": "Powrót do blogu",
+      "back_to_blog": "Powrót do bloga",
       "share": "Udostępnij ten artykuł",
-      "success": "Twój komentarz został opublikowany pomyślnie! Dziękujemy!",
-      "success_moderated": "Twój komentarz został opublikowany pomyślnie. Opublikujemy go za chwilę, ponieważ nasz blog jest moderowany.",
+      "success": "Twój komentarz został pomyślnie opublikowany! Bardzo dziękujemy!",
+      "success_moderated": "Twój komentarz został pomyślnie opublikowany. Ponieważ nasz blog jest moderowany, opublikujemy go dopiero po krótkim czasie.",
       "comments": {
         "one": "{{ count }} komentarz",
-        "other": "{{ count }} komentarze(-y)",
+        "other": "{{ count }} komentarzy",
         "few": "{{ count }} komentarze(-y)",
         "many": "{{ count }} komentarze(-y)"
       }
@@ -419,15 +419,15 @@
     "account": {
       "title": "Konto",
       "details": "Szczegóły konta",
-      "view_addresses": "Wyświetl adresy",
-      "return": "Wróć do szczegółów konta"
+      "view_addresses": "Pokaż adresy",
+      "return": "Powrót do szczegółów konta"
     },
     "account_fallback": "Konto",
     "log_in": "Zaloguj się",
     "log_out": "Wyloguj",
     "activate_account": {
       "title": "Aktywuj konto",
-      "subtext": "Utwórz hasło, aby aktywować konto.",
+      "subtext": "Utwórz hasło, aby aktywować swoje konto.",
       "password": "Hasło",
       "password_confirm": "Potwierdź hasło",
       "submit": "Aktywuj konto",
@@ -435,7 +435,7 @@
     },
     "addresses": {
       "title": "Adresy",
-      "default": "Domyślne",
+      "default": "Standardowy",
       "add_new": "Dodaj nowy adres",
       "edit_address": "Edytuj adres",
       "first_name": "Imię",
@@ -443,8 +443,8 @@
       "company": "Firma",
       "address1": "Adres 1",
       "address2": "Adres 2",
-      "city": "Miasto",
-      "country": "Kraj/region",
+      "city": "Miejsce",
+      "country": "Kraj/Region",
       "province": "Prowincja",
       "zip": "Kod pocztowy",
       "phone": "Telefon",

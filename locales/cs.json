@@ -2479,7 +2479,67 @@
         "unavailable_address_country": "Doručení není pro zvolenou zemi dostupné. Vyberte jinou adresu pro pokračování."
       },
       "stock": {
-        "continue_cta_label": "Pokračovat v pokladně"
+        "continue_cta_label": "Pokračovat v pokladně",
+        "page_title": "Problémy s zásobami",
+        "title": "Vyprodáno",
+        "items_unavailable_notice": "Některé položky již nejsou k dispozici.",
+        "quantity_column_header": "Počet",
+        "reduced_with_quantity_label": "Zbývá pouze %{quantity_available}",
+        "go_back_to_cart_button_label": "Zpět do mého nákupního košíku",
+        "remove": "Odstranit",
+        "empty_cart_label": "Tvůj nákupní košík je prázdný",
+        "quantity_update": {
+          "description": "Dostupné množství těchto položek se změnilo a bylo ve tvém nákupním košíku aktualizováno."
+        },
+        "unpurchasable_product": {
+          "title": "Produkt nezakoupený",
+          "header": "Některé položky byly odstraněny z tvého nákupního košíku",
+          "message": "Tyto položky nejsou k dispozici pro objednávky mezi podniky (B2B)."
+        },
+        "unpurchasable_product_generic": {
+          "title": "Produkt nezakoupený",
+          "header": "Některé položky byly odstraněny z tvého nákupního košíku",
+          "message": "Tyto položky nejsou k dispozici."
+        },
+        "unshippable_product": {
+          "title": "Doručení není k dispozici",
+          "header": {
+            "one": "Pro %{count} položek není doručení k dispozici",
+            "other": "Pro %{count} položek není doručení k dispozici"
+          },
+          "message": {
+            "one": "Tento článek bude odstraněn z tvého nákupního košíku, protože pro tvou adresu nejsou dostupné žádné způsoby doručení.",
+            "other": "Tyto položky budou odstraněny z tvého nákupního košíku, protože pro tvou adresu nejsou dostupné žádné způsoby doručení."
+          }
+        },
+        "price_update": {
+          "title": "Aktualizace ceny",
+          "description": "Ceny těchto položek se změnily a byly ve tvém nákupním košíku aktualizovány.",
+          "updated_price": "Změněná cena"
+        },
+        "item_label": {
+          "one": "{{count}} položek",
+          "other": "{{count}} položek"
+        },
+        "out_of_stock": {
+          "description": "Tyto položky již nejsou k dispozici a budou odstraněny z tvého košíku.",
+          "items_unavailable": "Některé položky již nejsou k dispozici a budou odstraněny z tvého košíku."
+        },
+        "unfulfillable_product": {
+          "title": "Doručení není k dispozici",
+          "message": {
+            "one": "%{delivery_method} již není pro tento produkt k dispozici.",
+            "other": "%{delivery_method} již není pro tyto položky k dispozici."
+          },
+          "default_message": {
+            "one": "Vybraná metoda doručení již pro tento článek není k dispozici.",
+            "other": "Vybraná metoda doručení již pro tyto položky není k dispozici."
+          }
+        },
+        "price_and_quantity_update": {
+          "description": "Ceny a dostupné množství těchto položek se změnily a byly ve tvém nákupním košíku aktualizovány."
+        },
+        "out_of_stock_in_context_label": "Tento výrobek není ve tvé zemi / tvém regionu dostupný."
       },
       "shop_policies": {
         "refund_policy": "Právo na odstoupení od smlouvy",
@@ -2536,6 +2596,91 @@
           "checkout_has_expired": "Platnost tvého nákupu vypršela. Zavři toto okno a zkus to znovu dokončit v {{shopName}}."
         },
         "return_to_store": "Zpět do {{shopName}}"
+      },
+      "store_credit_errors": {
+        "generic_error": "Došlo k problému s tvým zůstatkem v obchodě. Zkus to znovu nebo obnov stránku."
+      },
+      "subscriptions": {
+        "recurring_totals": "%{total_price} za %{interval}",
+        "recurring_totals_with_policies": {
+          "first_cycles": {
+            "one": "První platba %{total_price}",
+            "other": "Prvních %{count} plateb po %{total_price}"
+          },
+          "following_cycles": ", následně %{total_price} všechny nebo každou %{interval}"
+        },
+        "recurring_total_intervals": {
+          "day": {
+            "one": "Značka",
+            "other": "%{count} dní"
+          },
+          "week": {
+            "one": "Týden",
+            "other": "%{count} týdnů"
+          },
+          "month": {
+            "one": "Měsíc",
+            "other": "%{count} měsíců"
+          },
+          "year": {
+            "one": "Rok",
+            "other": "%{count} let"
+          }
+        },
+        "recurring_totals_with_initial_order_shipping_discount": "První platba %{total_price_with_discount}, následně %{recurring_total}",
+        "recurring_totals_with_initial_order_shipping_discount_with_policies": {
+          "first_cycles": {
+            "one": ", následně %{count} platba za %{total_price}",
+            "other": ", následně %{count} plateb po %{total_price} každá"
+          }
+        }
+      },
+      "taxes": {
+        "tax_details": "Další podrobnosti o daních",
+        "vat_number": {
+          "field": {
+            "label": "DIČ (volitelné)",
+            "tooltip": "Ověřuje DIČ a u oprávněných objednávek automaticky uplatňuje režim přenesení daňové povinnosti"
+          },
+          "domestic_order": "Osvobození od přenesení daňové povinnosti platí pouze pro přeshraniční objednávky v rámci EU. Pro místní objednávky se uplatňuje standardní sazba daně z přidané hodnoty.",
+          "status": {
+            "invalid_format": {
+              "at": "Identifikační čísla k dani z přidané hodnoty (DIČ) v Rakousku se skládají ze zkratky AT a 9 znaků",
+              "be": "Identifikační čísla k dani z přidané hodnoty (DIČ) v Belgii se skládají ze zkratky BE a 10 znaků",
+              "bg": "Identifikační čísla k dani z přidané hodnoty (DIČ) v Bulharsku se skládají ze zkratky BG a 9–10 znaků",
+              "hr": "Identifikační čísla k dani z přidané hodnoty (DIČ) v Chorvatsku se skládají ze zkratky HR a 11 znaků",
+              "cy": "Identifikační čísla k dani z přidané hodnoty (DIČ) na Kypru se skládají ze zkratky CY a 9 znaků",
+              "cz": "Identifikační čísla k DPH (DIČ) v České republice se skládají ze zkratky CZ a 8–10 znaků",
+              "dk": "Identifikační čísla k dani z přidané hodnoty (DIČ) v Dánsku se skládají ze zkratky DK a 8 znaků",
+              "ee": "Identifikační čísla k dani z přidané hodnoty (DIČ) v Estonsku se skládají ze zkratky EE a 9 znaků",
+              "fi": "Identifikační čísla k dani z přidané hodnoty (DIČ) ve Finsku se skládají ze zkratky FI a 8 znaků",
+              "fr": "Identifikační čísla k dani z přidané hodnoty (DIČ) ve Francii se skládají ze zkratky FR a 11 znaků",
+              "de": "Identifikační čísla k dani z přidané hodnoty (DIČ) v Německu se skládají ze zkratky DE a 9 znaků",
+              "gr": "Identifikační čísla k dani z přidané hodnoty (DIČ) v Řecku se skládají ze zkratky EL a 9 znaků",
+              "hu": "Identifikační čísla k dani z přidané hodnoty (DIČ) v Maďarsku se skládají ze zkratky HU a 8 znaků",
+              "ie": "Identifikační čísla k dani z přidané hodnoty (DIČ) v Irsku se skládají ze zkratky IE a 8–9 znaků",
+              "it": "Identifikační čísla k dani z přidané hodnoty (DIČ) v Itálii se skládají ze zkratky IT a 11 znaků",
+              "lv": "Identifikační čísla k dani z přidané hodnoty (DIČ) v Lotyšsku se skládají ze zkratky LV a 11 znaků",
+              "lt": "Identifikační čísla k dani z přidané hodnoty (DIČ) v Litvě se skládají ze zkratky LT a 9–12 znaků",
+              "lu": "Identifikační čísla k dani z přidané hodnoty (DIČ) v Lucembursku se skládají ze zkratky LU a 8 znaků",
+              "mt": "Identifikační čísla k dani z přidané hodnoty (DIČ) na Maltě se skládají ze zkratky MT a 8 znaků",
+              "nl": "Identifikační čísla k dani z přidané hodnoty (DIČ) v Nizozemsku se skládají ze zkratky NL a 12 znaků",
+              "es": "Identifikační čísla k dani z přidané hodnoty (DIČ) ve Španělsku se skládají ze zkratky ES a 9 znaků",
+              "gb": "Identifikační čísla k dani z přidané hodnoty (DIČ) ve Spojeném království se skládají ze zkratky GB nebo XI a 5–12 znaků"
+            }
+          },
+          "accessibility": {
+            "status": {
+              "validating": "Probíhá ověřování DIČ (daňového identifikačního čísla).",
+              "valid": "DIČ je platné",
+              "applied": "Bylo uplatněno osvobození od daně z přidané hodnoty",
+              "domestic": "Uplatnění osvobození od daně z přidané hodnoty nebylo provedeno",
+              "invalid_number": "Osvobození od daně z přidané hodnoty se nezdařilo",
+              "service_unavailable": "Ověření osvobození od daně z přidané hodnoty není možné",
+              "service_error": "Ověření osvobození od daně z přidané hodnoty není možné"
+            }
+          }
+        }
       }
     }
   }

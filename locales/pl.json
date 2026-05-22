@@ -2122,7 +2122,63 @@
         "different_shipping_method_summary": "Wprowadź inny adres dostawy, aby wyświetlić dostępne metody wysyłki",
         "address_default": "Ustaw jako domyślne",
         "add_shipping_address": "Dodaj adres dostawy",
-        "choose_new_address": "Wybierz nowy adres."
+        "choose_new_address": "Wybierz nowy adres.",
+        "no_rates_for_cart_or_destination_notice": "Nie ma dostępnych metod wysyłki dla twojego koszyka lub adresu",
+        "no_pickup_location_notice": "Przynajmniej jeden z twoich produktów nie jest gotowy do odbioru",
+        "no_rates_for_country_notice": "Dla tego adresu nie znaleziono stawek wysyłki.",
+        "free_rate_label": "Darmowy",
+        "estimated_delivery_date": {
+          "other": "%{count} dni roboczych"
+        },
+        "shipping_line_phone": "Dostawca przesyłki może użyć tego numeru, aby się z tobą skontaktować.",
+        "other_method": {
+          "zero": "Brak dostępnych innych metod",
+          "one": "%{count} inna metoda dostępna pod",
+          "other": "Dostępne %{count} inne metody zaczynające się od"
+        },
+        "shipping_line_delivery_phone": "W razie potrzeby otrzymasz aktualne informacje o dostawie.",
+        "optional_shipping_line_delivery_instructions_label": "Instrukcje doręczenia (opcjonalnie)",
+        "shipping_line_delivery_instructions": "Wprowadź wymagane informacje, takie jak kody do drzwi lub instrukcje dotyczące dostawy.",
+        "shipping_method_one_time_purchase_group_title": "Jednorazowy zakup",
+        "one_time_purchase_shipping": "Jednorazowa wysyłka",
+        "estimated_delivery_time": "Przewidywana dostawa: %{time}",
+        "estimated_delivery_time_range": "Przewidywana dostawa: %{min_time}–%{max_time}",
+        "estimated_time": "Przewidywany czas %{time}",
+        "estimated_time_range": "Przewidywany czas %{min_time}–%{max_time}",
+        "duties_and_taxes_title": "Opłaty celne i podatki",
+        "shipping_information_required_notice": "Informacje o wysyłce są wymagane. {{link}}.",
+        "shipping_information_redirect_link": "Wpisz tutaj swoje informacje",
+        "loading_progressive_rates": "Szukaj więcej taryf...",
+        "no_other_methods_available": "Brak dostępnych innych metod",
+        "shipping_address_title": "Wysyłka do",
+        "invalid_shipping_method_summary": "Wprowadź prawidłowy adres dostawy, aby wyświetlić dostępne metody wysyłki.",
+        "method_summary": {
+          "incomplete_address_entered": "Wprowadź pełny adres dostawy, aby wyświetlić dostępne metody wysyłki.",
+          "incomplete_address_selected": "Wybierz pełny adres dostawy, aby wyświetlić dostępne metody wysyłki."
+        },
+        "local_pickup": {
+          "search_address": "Szukaj według adresu",
+          "rollup_title": "Miejsce odbioru",
+          "rollup_accessibility_label": "Opcje miejsca odbioru"
+        },
+        "missing_shipping_address": "Brak adresu dostawy",
+        "shipping_method_first_shipment_group_title": {
+          "one": "Pierwsza dostawa",
+          "other": "Pierwsze dostawy"
+        },
+        "shipping_method_recurring_shipments_group_title": {
+          "one": "Regularna dostawa",
+          "other": "Regularne dostawy"
+        },
+        "pre_order_ships_now": "Wysyłane teraz",
+        "pre_order_ships_later": "Zostanie wysłane później",
+        "pre_order_ships_date": "Wysyłka %{date}",
+        "prime_not_available": {
+          "default": "Dostawa Prime nie jest dostępna dla twojego zamówienia. Twoje opcje wysyłki zostały zaktualizowane."
+        },
+        "shipping_method_rollup_accessibility_label": "Opcje sposobów wysyłki",
+        "shipping_address_rollup_accessibility_label": "Opcje adresów dostawy",
+        "invalid_shipping_method_summary_selected": "Wybierz inny adres dostawy, aby wyświetlić dostępne metody wysyłki"
       },
       "session_errors": {
         "session_not_unique": "Podczas realizacji twojego zamówienia wystąpił problem. Odśwież tę stronę, aby wrócić do sklepu.",

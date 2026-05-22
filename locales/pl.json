@@ -660,7 +660,21 @@
       "delivery_options": {
         "pick_up": "Odbiór",
         "free_total_label": "Darmowy",
-        "company_location_no_address_banner": "Zamówienia wysyłane do miejsc bez adresu są przekazywane do weryfikacji."
+        "company_location_no_address_banner": "Zamówienia wysyłane do miejsc bez adresu są przekazywane do weryfikacji.",
+        "ship": "Wysyłka",
+        "pick_up_in_two_hours": "Zwykle gotowe w 2 godziny",
+        "pick_up_in_four_hours": "Zwykle gotowe w 4 godziny",
+        "pick_up_in_one_hour": "Zwykle gotowe w 1 godzinę",
+        "pick_up_in_twenty_four_hours": "Zwykle gotowe w 24 godziny",
+        "pick_up_in_two_to_four_days": "Zwykle gotowe w ciągu 2 - 4 dni",
+        "pick_up_in_five_or_more_days": "Zwykle gotowe w ciągu 5 lub więcej dni",
+        "shipping_address": "Adres dostawy",
+        "pick_up_locations": "Miejsce odbioru",
+        "pickup_point_method_definition": "Wysłać do punktu odbioru",
+        "retail_method_definition": "Wysyłka detaliczna",
+        "subscription_pickup_information": "To będzie miejsce odbioru wszystkich przyszłych zamówień Twojej subskrypcji.",
+        "ship_to_address": "Wyślij na adres",
+        "pickup_point_map_title": "Mapa z miejscem odbioru"
       },
       "customer_account": {
         "have_an_account_label": "Masz konto?",
@@ -696,6 +710,58 @@
             "one": "Ten przedmiot zostanie usunięty z twojego koszyka, ponieważ dla twojego adresu nie są dostępne metody dostawy.",
             "other": "Te artykuły zostaną usunięte z twojego koszyka, ponieważ dla twojego adresu nie są dostępne metody dostawy."
           }
+        }
+      },
+      "field_errors": {
+        "address_address2_blank": "Wprowadź mieszkanie, pokój itp.",
+        "address_address1_too_long": "Pierwszy wiersz adresu jest za długi (maksymalnie 255 znaków)",
+        "address_address1_contains_html_tags": "Adres 1 nie może zawierać znaczników HTML.",
+        "address_address2_contains_html_tags": "Adres 2 nie może zawierać znaczników HTML.",
+        "address_address1_contains_emojis": "Adres 1 nie może zawierać emotikonów",
+        "address_address2_contains_emojis": "Adres 2 nie może zawierać emotikonów",
+        "address_address1_contains_mathematical_symbols": "Pierwszy wiersz adresu nie może zawierać symboli matematycznych"
+      },
+      "failed_payment": {
+        "page_title": "Nie udało się przetworzyć płatności",
+        "title": "Nie udało się przetworzyć płatności",
+        "payment_not_processed_title": "Twoja płatność nie mogła zostać przetworzona.",
+        "payment_not_processed_text": "Nie zostało Ci nic naliczone. Wróć do swojego koszyka, aby dokończyć zakupy.",
+        "return_to_cart_button_label": "Powrót do koszyka"
+      },
+      "error_page": {
+        "terminal": {
+          "title": "Wystąpił problem podczas finalizacji zamówienia",
+          "message": "Odśwież tę stronę lub spróbuj ponownie za kilka minut",
+          "action": {
+            "cta": "Załaduj stronę ponownie"
+          },
+          "request_id": "ID zapytania: {{requestId}}"
+        },
+        "embed_errors": {
+          "storefront_password_required": "Ten sklep jest chroniony hasłem.",
+          "customer_account_required": "Do zakończenia realizacji zamówienia wymagane jest konto klienta.",
+          "cart_completed": "To zamówienie zostało już zrealizowane.",
+          "invalid_cart": "Koszyk nie jest już ważny.",
+          "not_authorized": "Uwierzytelnianie przy kasie nie powiodło się. Sprawdź swoje dane logowania.",
+          "killswitch_enabled": "Kasa jest tymczasowo niedostępna.",
+          "policy_violation": "Nie można zakończyć realizacji zamówienia z powodu ograniczeń wynikających z konfiguracji zasad.",
+          "unrecoverable_failure": "Nie udało się załadować kasy. Spróbuj ponownie"
+        }
+      },
+      "discount_errors": {
+        "generic_error": "Twoje zamówienie nie mogło zostać zrealizowane, ponieważ twój kod rabatowy nie jest już dostępny. Sprawdź łączną wartość zamówienia i spróbuj ponownie."
+      },
+      "editor": {
+        "navigation": {
+          "store_logo_accessibility_label": "Przejdź do sklepu internetowego"
+        }
+      },
+      "embed": {
+        "shipping": {
+          "shipping_options": "Pokaż wszystkie opcje wysyłki"
+        },
+        "payment": {
+          "payment_options": "Pokaż wszystkie opcje płatności"
         }
       }
     }

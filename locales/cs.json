@@ -625,7 +625,16 @@
         "optional_postcode_label": "Poštovní směrovací číslo (volitelné)",
         "optional_pincode_label": "PIN kód (volitelně)",
         "phone_country_code_label": "Předvolba země telefonního čísla",
-        "optional_subdistrict_label": "Podokres (volitelné)"
+        "optional_subdistrict_label": "Podokres (volitelné)",
+        "state_label": "Spolková země",
+        "state_placeholder": "Spolková země",
+        "region_placeholder": "Oblast",
+        "zip_code_label": "Poštovní směrovací číslo",
+        "zip_code_placeholder": "Poštovní směrovací číslo",
+        "ship_to_company": "Odeslat s {{companyName}}",
+        "shipping_used_as_billing_notice": "Tato adresa bude také použita jako tvoje fakturační adresa pro tuto objednávku.",
+        "storefront_link": "Webová stránka prodejce",
+        "subdistrict_label": "Podokres"
       },
       "alternative_payment_method_banner": {
         "express_checkout": "Rychlý nákup",
@@ -683,6 +692,54 @@
       },
       "address_management": {
         "saved_with_store": "Uloženo v tomto obchodě"
+      },
+      "delivery_options": {
+        "pick_up": "Vyzvednout",
+        "none_method_definition": "Žádné zasílání",
+        "company_location_no_address_banner": "Objednávky odeslané na místa bez adresy budou předloženy k přezkoumání."
+      },
+      "customer_account": {
+        "have_an_account_label": "Máš účet?",
+        "save_my_information_label": "Uložit mé údaje a příště zaplatit rychleji",
+        "incomplete_address": "Vybraná adresa je neúplná. %{update_address_link} nebo vyberte jinou adresu.",
+        "invalid_shipping_method_summary": "Vyberte platnou doručovací adresu pro zobrazení dostupných způsobů dopravy.",
+        "saved_address_modal_title": "Použít mou uloženou adresu",
+        "saved_address_option_description": {
+          "one": "Máš {{count}} uloženou adresu.",
+          "other": "Máš {{count}} uložených adres."
+        }
+      },
+      "customer_payment_methods": {
+        "delete_customer_mandate": {
+          "generic_error": "Při zpracování tvé žádosti došlo k problému.",
+          "success_message": "Tvůj způsob platby byl úspěšně odstraněn"
+        }
+      },
+      "contextual_availability": {
+        "title": {
+          "one": "Produkt není k dispozici",
+          "other": "Nedostupné výrobky"
+        },
+        "products_not_available": {
+          "one": "Tento výrobek bude odstraněn z tvého nákupního košíku, protože není dostupný ve tvé zemi / tvém regionu.",
+          "other": "Tyto produkty budou odstraněny z tvého nákupního košíku, protože nejsou dostupné ve tvé zemi/regionu."
+        },
+        "all_products_in_cart_unavailable": {
+          "one": "Tento výrobek není ve tvé zemi / tvém regionu dostupný.",
+          "other": "Tyto výrobky nejsou ve tvé zemi / tvém regionu dostupné."
+        }
+      },
+      "deliverability": {
+        "not_deliverable": {
+          "title": {
+            "one": "Pro %{count} položek není doručení k dispozici",
+            "other": "Pro %{count} položek není doručení k dispozici"
+          },
+          "message": {
+            "one": "Tento článek bude odstraněn z tvého nákupního košíku, protože pro tvou adresu nejsou dostupné žádné způsoby doručení.",
+            "other": "Tyto položky budou odstraněny z tvého nákupního košíku, protože pro tvou adresu nejsou dostupné žádné způsoby doručení."
+          }
+        }
       }
     }
   }

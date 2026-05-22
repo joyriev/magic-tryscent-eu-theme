@@ -10,11 +10,11 @@
 {
   "general": {
     "password_page": {
-      "login_form_heading": "Zadejte heslo, abyste mohli vstoupit do obchodu:",
-      "login_password_button": "Vstoupit pomocí hesla",
+      "login_form_heading": "Vstup do obchodu s heslem:",
+      "login_password_button": "Vstup s heslem",
       "login_form_password_label": "Heslo",
-      "login_form_password_placeholder": "Vaše heslo",
-      "login_form_error": "Heslo není správné!",
+      "login_form_password_placeholder": "Tvé heslo",
+      "login_form_error": "Nesprávné heslo!",
       "login_form_submit": "Zadat",
       "admin_link_html": "Jste majitelem obchodu? <a href=\"/admin\" class=\"link underlined-link\">Přihlaste se zde</a>",
       "powered_by_shopify_html": "Obchod bude využívat platformu {{ shopify }}"
@@ -22,8 +22,8 @@
     "social": {
       "alt_text": {
         "share_on_facebook": "Sdílet na Facebooku",
-        "share_on_twitter": "Sdílení přes X",
-        "share_on_pinterest": "Připnout na Pinterestu"
+        "share_on_twitter": "Sdílet na X",
+        "share_on_pinterest": "Připnout na Pinterest"
       },
       "links": {
         "twitter": "X (Twitter)",
@@ -37,16 +37,16 @@
         "tiktok": "TikTok"
       }
     },
-    "continue_shopping": "Pokračovat v nákupu",
+    "continue_shopping": "Pokračovat v nakupování",
     "pagination": {
-      "label": "Stránkování",
+      "label": "Číslování stran",
       "page": "Strana {{ number }}",
       "next": "Další stránka",
       "previous": "Předchozí stránka"
     },
     "search": {
-      "search": "Hledání",
-      "reset": "Vymazat hledaný termín"
+      "search": "Hledat",
+      "reset": "Vymazat hledaný výraz"
     },
     "cart": {
       "view": "Zobrazit košík ({{ count }})",
@@ -56,13 +56,13 @@
     "share": {
       "copy_to_clipboard": "Kopírovat odkaz",
       "share_url": "Odkaz",
-      "success_message": "Odkaz byl zkopírován do schránky",
-      "close": "Zavřít okno pro sdílení"
+      "success_message": "Odkaz zkopírován do schránky",
+      "close": "Zavřít sdílení"
     },
     "slider": {
-      "of": "z",
-      "next_slide": "Snímek vpravo",
-      "previous_slide": "Snímek vlevo",
+      "of": "od",
+      "next_slide": "Posunout doprava",
+      "previous_slide": "Posunout doleva",
       "name": "Posuvník"
     }
   },
@@ -445,9 +445,9 @@
       "address2": "Adresa 2",
       "city": "Místo",
       "country": "Země/Oblast",
-      "province": "Provincie",
+      "province": "Spolková země/Provincie",
       "zip": "PSČ",
-      "phone": "Telefon",
+      "phone": "Telefonní číslo",
       "set_default": "Nastavit jako výchozí adresu",
       "add": "Přidat adresu",
       "update": "Aktualizovat adresu",
@@ -460,29 +460,29 @@
       "cancel": "Zrušit",
       "create_account": "Vytvořit účet",
       "email": "E-mail",
-      "forgot_password": "Zapomněli jste heslo?",
+      "forgot_password": "Zapomněli jste své heslo?",
       "guest_continue": "Pokračovat",
       "guest_title": "Pokračovat jako host",
       "password": "Heslo",
-      "title": "Přihlášení",
+      "title": "Přihlásit se",
       "sign_in": "Přihlásit se",
-      "submit": "Odeslat",
+      "submit": "Odesílání",
       "alternate_provider_separator": "nebo"
     },
     "orders": {
       "title": "Historie objednávek",
       "order_number": "Objednávka",
-      "order_number_link": "Číslo objednávky: {{ number }}",
+      "order_number_link": "Číslo objednávky {{ number }}",
       "date": "Datum",
       "payment_status": "Stav platby",
-      "fulfillment_status": "Stav plnění",
-      "total": "Celkem",
-      "none": "Zatím jste nezadali žádné objednávky."
+      "fulfillment_status": "Stav vyřízení objednávky",
+      "total": "Celková částka",
+      "none": "Ještě jste neprovedli žádné objednávky."
     },
     "recover_password": {
-      "title": "Resetujte si heslo",
-      "subtext": "Pošleme vám e-mail, abyste si mohli resetovat heslo",
-      "success": "Poslali jsme vám e-mail s odkazem na aktualizaci hesla."
+      "title": "Obnovte své heslo",
+      "subtext": "Pošleme ti e-mail pro obnovení tvého hesla",
+      "success": "Poslali jsme ti e-mail s odkazem pro aktualizaci tvého hesla."
     },
     "register": {
       "title": "Vytvořit účet",
@@ -493,37 +493,37 @@
       "submit": "Vytvořit"
     },
     "reset_password": {
-      "title": "Resetujte heslo účtu",
+      "title": "Obnovit heslo k účtu",
       "subtext": "Zadejte nové heslo",
       "password": "Heslo",
       "password_confirm": "Potvrdit heslo",
-      "submit": "Resetovat heslo"
+      "submit": "Obnovit heslo"
     },
     "order": {
       "title": "Objednávka {{ name }}",
-      "date_html": "Datum vytvoření: {{ date }}",
-      "cancelled_html": "Datum zrušení objednávky: {{ date }}",
+      "date_html": "Odesláno dne {{ date }}",
+      "cancelled_html": "Objednávka zrušena dne {{ date }}",
       "cancelled_reason": "Důvod: {{ reason }}",
       "billing_address": "Fakturační adresa",
       "payment_status": "Stav platby",
       "shipping_address": "Dodací adresa",
-      "fulfillment_status": "Stav plnění",
+      "fulfillment_status": "Stav vyřízení objednávky",
       "discount": "Sleva",
       "shipping": "Doprava",
       "tax": "Daň",
       "product": "Produkt",
-      "sku": "SKU",
+      "sku": "Kód produktu",
       "price": "Cena",
       "quantity": "Množství",
-      "total": "Celkem",
-      "fulfilled_at_html": "Splněno: {{ date }}",
+      "total": "Celková částka",
+      "fulfilled_at_html": "Provedeno dne {{ date }}",
       "track_shipment": "Sledovat zásilku",
-      "tracking_url": "Odkaz pro sledování",
-      "tracking_company": "Dopravce",
-      "tracking_number": "Číslo pro sledování",
+      "tracking_url": "Sledovací odkaz",
+      "tracking_company": "dopravce zásilek",
+      "tracking_number": "Sledovací číslo",
       "subtotal": "Mezisoučet",
-      "total_duties": "Cla",
-      "total_refunded": "Vrácená částka"
+      "total_duties": "cla",
+      "total_refunded": "Vráceno"
     }
   },
   "gift_cards": {

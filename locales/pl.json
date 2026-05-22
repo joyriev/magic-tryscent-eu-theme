@@ -2591,7 +2591,49 @@
         "announcement": {
           "expand": "Rozszerz",
           "collapse": "Minimalizuj"
-        }
+        },
+        "confirmation_email_sent_text": "Wysłano e-mail potwierdzający na adres %{email}",
+        "estimated_arrival": "Przewidywana data dostawy:",
+        "confirmed": "Potwierdzono",
+        "confirmed_title": "Twoje zamówienie zostało potwierdzone",
+        "confirmed_description": "Przyjęliśmy twoje zamówienie i przygotowujemy je. Odwiedź tę stronę, aby sprawdzić aktualny status dostawy twojej przesyłki.",
+        "delivered_description_html": "Twoje zamówienie zostało dostarczone na podany przez Ciebie adres. %{contact_us}, jeśli nie otrzymałeś zamówienia lub masz jakiekolwiek inne problemy.",
+        "failed_title": "Twoje zamówienie nie mogło zostać dostarczone",
+        "failed_contact_merchant": "Skontaktuj się z %{company}, aby ustalić dostawę.",
+        "failed_contact_merchant_no_company": "Skontaktuj się z nami, aby ustalić dostawę.",
+        "customer_information_hidden_fields_message": "Zaloguj się, aby wyświetlić wszystkie informacje o kliencie.",
+        "cancelled_title": "Twoje zamówienie zostało anulowane",
+        "customer_validation_error": "Wprowadź prawidłowy adres e-mail lub numer zamówienia.",
+        "fulfillment": {
+          "fulfilled_table_title": "Artykuł w tej dostawie",
+          "unfulfilled_table_title": "Artykuł w przygotowaniu do wysyłki",
+          "quantity_label": "Liczba"
+        },
+        "delivery_information_label": "Informacje dotyczące dostawy:",
+        "delivered_local_description_html": "Nie otrzymałeś swojego zamówienia? %{let_us_know}.",
+        "gift_card_confirmation_by_text": "Jeśli jej nie otrzymałeś, wyślij wiadomość tekstową ponownie lub skontaktuj się z nami.",
+        "gift_card_confirmation_by_email": "Jeśli nie otrzymałeś jej, wyślij e-mail ponownie lub skontaktuj się z nami.",
+        "estimated_delivery": "Obecnie przewidywana dostawa:",
+        "first_payment_complete": "Pierwsza płatność zakończona",
+        "choose_payment_method_later": "Wybierz metodę płatności później",
+        "gift_card_confirmation_by_text_typ": {
+          "one": "W ciągu kilku minut otrzymasz wiadomość tekstową z twoim bonem.",
+          "other": "W ciągu kilku minut otrzymasz wiadomość tekstową ze swoimi bonami podarunkowymi."
+        },
+        "gift_card_confirmation_by_email_typ": {
+          "one": "W ciągu kilku minut otrzymasz e-mail z twoim bonem.",
+          "other": "W ciągu kilku minut otrzymasz e-mail z twoimi bonami podarunkowymi."
+        },
+        "gift_card_email_title": {
+          "one": "Bon podarunkowy został wysłany e-mailem"
+        },
+        "failed_pending_payment_page_title": "Wystąpił problem z twoją płatnością",
+        "confirmed_items_count": "%{confirmed_count} z %{total_count} artykułów jest potwierdzonych",
+        "checkout_on_remote_shop_link_text": "Przejdź do kasy w %{remoteShopName}",
+        "confirmed_orders_title": "Twoje zamówienia zostały potwierdzone.",
+        "checkout_on_another_store": "Przejdź do kasy w innym sklepie",
+        "checkout_again": "Ponownie wypożyczyć",
+        "cashback_notice": "Otrzymasz swoje cashback po 30 dniach"
       }
     }
   }

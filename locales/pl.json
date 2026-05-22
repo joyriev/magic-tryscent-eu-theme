@@ -3006,6 +3006,72 @@
       "message": "Edytuj Captcha, aby kontynuować",
       "error": "Weryfikacja Captcha nie powiodła się.",
       "submit_button_text": "Wysyłanie"
+    },
+    "errors": {
+      "blank": "nie może być puste",
+      "credit_card_session_expired": "Autoryzacja karty kredytowej wygasła, prosimy o ponowne podanie danych płatniczych. Twoja karta nie została obciążona.",
+      "empty": "nie może być puste",
+      "invalid_email": "musi być prawidłowy adres e-mail",
+      "discount_expired": "Ten rabat jest już nieważny",
+      "discount_limit_reached": "Ten rabat osiągnął swój limit wykorzystania",
+      "discount_not_found": "Nie znaleziono ważnego rabatu odpowiadającego wprowadzonego kodowi",
+      "customer_already_used_once_per_customer_discount_notice": "Ten rabat osiągnął swój limit wykorzystania",
+      "gift_card_already_applied": "Kod został już zastosowany do twojego zamówienia",
+      "gift_card_code_invalid": "Nieprawidłowy kod",
+      "gift_card_currency_mismatch": "Ten kupon nie może zostać użyty przy tym zakupie. Skontaktuj się z %{shop_name}, aby go ponownie wystawić.",
+      "gift_card_depleted": "Na tej karcie podarunkowej nie ma już środków.",
+      "gift_card_disabled": "Karta podarunkowa jest zablokowana",
+      "gift_card_expired": "Karta podarunkowa wygasła",
+      "invalid": "jest nieprawidłowy",
+      "contains_html_tags": "nie może zawierać znaczników HTML",
+      "contains_spaces": "zaczyna się lub kończy spacją.",
+      "invalid_for_country": "nie jest ważny dla %{country}",
+      "invalid_for_country_and_province": "nie jest ważne dla %{province} i %{country}",
+      "full_name_required": "Wpisz imię i nazwisko.",
+      "invalid_for_card_type": "nie jest ważny dla tego typu karty",
+      "invalid_format": "to nie jest numer karty kredytowej",
+      "expired": "Karta kredytowa wygasła"
+    },
+    "email_marketing": {
+      "subscribed": {
+        "confirmation": "Dziękujemy, że zapisałeś się na naszą listę mailingową.",
+        "disclaimer": "Możesz się wylogować w każdej chwili.",
+        "unsubscribe": "Wyloguj się"
+      },
+      "unsubscribed": {
+        "confirmation": "Wypisałeś się z naszej listy mailingowej.",
+        "disclaimer": "Nie będziesz już otrzymywać od nas aktualizacji marketingowych. Możesz się ponownie zapisać w dowolnym momencie.",
+        "preview": "Widzisz podgląd tego, co klienci zobaczą podczas wylogowywania."
+      },
+      "open_tracking": {
+        "opt_in": {
+          "opted_in_html": "<b>Włączyłeś śledzenie otwartych wiadomości e-mail.</b>",
+          "visibility": "Wskaźniki otwarć e-maili są rejestrowane anonimowo. Widzimy jedynie, jako część zbiorczego wskaźnika otwarć e-maili, czy otworzyłeś wiadomość e-mail.",
+          "opt_out_html": "Możesz <a style='text-decoration:underline;' href='%{link}'>wyłączyć</a> śledzenie otwartych e-maili, jeśli nie chcesz udostępniać tych informacji.",
+          "preview_bar": "Widzisz podgląd tego, co klienci zobaczą, gdy włączą śledzenie otwartych wiadomości e-mail."
+        },
+        "opt_out": {
+          "opted_out_html": "<b>Wyłączyłeś śledzenie otwartych wiadomości e-mail.</b>",
+          "visibility": "Nie możemy zobaczyć, czy otworzyłeś nasze e-maile.",
+          "opt_in_html": "<a style='text-decoration:underline;' href='%{link}'>Aktywuj</a> śledzenie otwartych e-maili.",
+          "preview_bar": "Widzisz podgląd tego, co klienci zobaczą, gdy wyłączą śledzenie otwartych wiadomości e-mail."
+        },
+        "no_longer_track": {
+          "status_html": "<b>Nie śledzimy już, czy otwierasz e-maile.</b>",
+          "privacy_policy": "Po wysłaniu tego e-maila zaktualizowaliśmy naszą politykę prywatności i nie śledzimy już otwartych wiadomości e-mail."
+        },
+        "track": {
+          "status_html": "<b>Śledzenie otwartych wiadomości e-mail jest przesyłane.</b>",
+          "visibility": "Widzimy tylko jako część zbiorczego wskaźnika otwarć wiadomości e-mail, czy otworzyłeś wiadomość."
+        },
+        "updated_policy": {
+          "status_html": "<b>Śledzenie otwartych wiadomości e-mail jest przesyłane.</b>",
+          "visibility": "Zaktualizowaliśmy naszą politykę prywatności i śledzimy otwarcia wiadomości e-mail. Wskaźniki otwarć e-maili są rejestrowane anonimowo. Widzimy jedynie, jako część zbiorczego wskaźnika otwarć, czy otworzyłeś wiadomość e-mail."
+        }
+      },
+      "sms_unsubscribe_confirm": {
+        "message": "Czy na pewno chcesz zrezygnować z marketingu SMS?"
+      }
     }
   }
 }

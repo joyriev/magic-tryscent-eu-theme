@@ -3338,9 +3338,58 @@
         "item_status": {
           "add_variant": "%{delta} přidáno",
           "decrement_item": "%{delta} od %{total} vzdáleno",
-          "decrement_fulfilled_line_item": "%{delta} z %{total} vráceno"
+          "decrement_fulfilled_line_item": "%{delta} z %{total} vráceno",
+          "increment_item": "%{delta} přidáno",
+          "decrement_return_line_item": "%{delta} odebráno z vrácení"
         }
+      },
+      "order": {
+        "financial_status": {
+          "pending": "čekající",
+          "unpaid": "Nezaplaceno",
+          "partially_refunded": "Částečně proplaceno",
+          "expired": "Vypršelo"
+        },
+        "fulfillment_status": {
+          "complete": "úplný",
+          "partial": "Částečně",
+          "unfulfilled": "Neprovedeno",
+          "restocked": "Opět k dispozici"
+        },
+        "transaction_status": {
+          "success": "Úspěch",
+          "pending": "čekající",
+          "failure": "Oznámení o poruše"
+        },
+        "cancel_reason": {
+          "inventory": "Položka není k dispozici",
+          "fraud": "Špatná objednávka",
+          "customer": "Objednávka zákazníkem změněna/zrušena",
+          "other": "Ostatní",
+          "staff": "Chyba zaměstnance"
+        },
+        "cash_on_delivery": "Dobírka (COD)"
+      },
+      "storefront": {
+        "invalid_password": "Heslo je nesprávné, zkuste to prosím znovu."
+      },
+      "tags": {
+        "add_articles": "Omezit vyhledávání na položky, které mají také štítek %{tag}",
+        "add_products": "Omezit výběr na produkty odpovídající štítku %{tag}",
+        "remove_articles": "Rozšířit vyhledávání na produkty, které nejsou označeny %{tag}"
       }
+    },
+    "page_titles": {
+      "shopping_cart": "Tvůj nákupní košík",
+      "reset_account": "Obnovit účet",
+      "search": "Hledat",
+      "not_found": "404 Nenalezeno",
+      "checkpoint": "Kontrolní stanoviště",
+      "search_results": {
+        "one": "Vyhledávání: %{count} výsledek nalezen pro \"%{terms}\"",
+        "other": "Vyhledávání: %{count} výsledků nalezeno pro \"%{terms}\""
+      },
+      "blog_or_article_with_error": "Chyba – %{title}"
     }
   }
 }

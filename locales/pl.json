@@ -3030,7 +3030,54 @@
       "full_name_required": "Wpisz imię i nazwisko.",
       "invalid_for_card_type": "nie jest ważny dla tego typu karty",
       "invalid_format": "to nie jest numer karty kredytowej",
-      "expired": "Karta kredytowa wygasła"
+      "expired": "Karta kredytowa wygasła",
+      "taken": "zostało już wykorzystane",
+      "too_short": "jest za krótki (minimalna długość to %{count} znaków)",
+      "too_long": "jest za długi (maksymalna długość to %{count} znaków)",
+      "password_mismatch": "musi zgadzać się z podanym hasłem",
+      "invalid_province_in_country": "nie jest prawidłową prowincją w %{country}",
+      "invalid_state_in_country": "nie jest prawidłowym państwem w %{country}",
+      "invalid_region_in_country": "nie jest prawidłowym regionem w %{country}",
+      "less_than_or_equal_to": "musi być mniejsze lub równe %{count}",
+      "not_supported": "nie jest obsługiwany",
+      "invalid_type": "Przepraszamy, nie akceptujemy kart tego rodzaju",
+      "invalid_start_date_or_issue_number_for_debit": "Wymagane jest ważne data rozpoczęcia lub numer wydania",
+      "reset_password_html": "Ten adres e-mail jest już zajęty. Jeśli to twoje konto użytkownika, możesz <a href=\"/account/login#recover\">zażądać nowego hasła</a>",
+      "verify_email": "Wysłaliśmy e-mail na %{customer_email}, prosimy kliknij w zawarty w nim link, aby potwierdzić swój adres e-mail.",
+      "product_not_available": "Produkt nie jest opublikowany dla tego klienta.",
+      "shop_404": {
+        "title": "Stwórz stronę internetową do handlu elektronicznego i sprzedawaj online! Oprogramowanie do handlu elektronicznego od Shopify",
+        "links": {
+          "explore_other_stores": "Odkryj inne sklepy",
+          "start_free_trial": "Wypróbuj teraz za darmo"
+        },
+        "owner_ctas": {
+          "fix_domain": "Dokończ konfigurację swojej nowej domeny, przejdź do %{domain_settings_link}. Kliknij „Połącz domenę” i wpisz: %{domain}.<br>Jeśli masz problemy z logowaniem do swojego sklepu, spróbuj na stronie %{forgot_your_store_link}.",
+          "fix_domain_link_text": "twoich ustawieniach domeny",
+          "forgot_your_store_link_text": "\"Zapomniany sklep\"",
+          "add_storefront": "Możesz skonfigurować swoją stronę internetową, dodając kanał sklepu internetowego w swoim %{admin_link}. Jeśli masz problemy z zalogowaniem się do swojego sklepu, spróbuj na stronie %{forgot_your_store_link}.",
+          "admin_link_text": "Obszar administracyjny"
+        },
+        "ctas": {
+          "sell_in_person": {
+            "caption": "Uzyskaj dostęp do funkcji, których potrzebujesz, aby prowadzić swój sklep detaliczny, niezależnie od tego, czy dopiero zaczynasz, czy chcesz się rozwinąć.",
+            "link_text": "Rozpocznij bezpłatny test"
+          },
+          "open_a_store": {
+            "header": "Otworzyć nowy sklep Shopify",
+            "caption": "Rozpocznij trzydniowy bezpłatny okres próbny, a następnie płać 1 USD/miesiąc przez kolejne trzy miesiące."
+          },
+          "editions": {
+            "header": "Zobacz wydania Shopify",
+            "caption": "Dzięki ponad 100 aktualizacjom produktów możesz działać jako sprzedawca bardziej wydajnie, twórczo i skutecznie, niż kiedykolwiek sobie wyobrażałeś.",
+            "link_text": "Zobacz ostatnie wydania"
+          },
+          "store_owner": {
+            "caption": "Masz problemy z zalogowaniem się do swojego sklepu? Wypróbuj funkcję %{forgot_your_store_link}. Jeśli chcesz ponownie aktywować swój sklep, skontaktuj się z %{shopify_support_link}.",
+            "shopify_support_link_text": "Wsparcie Shopify"
+          }
+        }
+      }
     },
     "email_marketing": {
       "subscribed": {
@@ -3071,6 +3118,25 @@
       },
       "sms_unsubscribe_confirm": {
         "message": "Czy na pewno chcesz zrezygnować z marketingu SMS?"
+      }
+    },
+    "links": {
+      "powered_by_shopify": "Zasilane przez Shopify"
+    },
+    "notices": {
+      "address": {
+        "error_updating": "Błąd podczas aktualizacji adresu",
+        "created": "Adres pomyślnie utworzony",
+        "error_creating": "Błąd podczas tworzenia adresu.",
+        "deleted": "Adres pomyślnie usunięty",
+        "error_deleting": "Błąd podczas usuwania adresu."
+      }
+    },
+    "filters": {
+      "availability": {
+        "value": {
+          "out_of_stock": "Brak w magazynie"
+        }
       }
     }
   }

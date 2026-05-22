@@ -1971,7 +1971,16 @@
         "no_pickup_points_found": "Nie znaleziono miejsc odbioru",
         "paginator": {
           "header": {
-            "one": "%{first} - %{last} z %{count} lokalizacji wyświetlanych"
+            "one": "%{first} - %{last} z %{count} lokalizacji wyświetlanych",
+            "other": "Wyświetl %{first} - %{last} z %{count} lokalizacji"
+          },
+          "selected_pickup_point_label": {
+            "one": "%{pickup_point_index} lokalizacja %{count}",
+            "other": "%{pickup_point_index} lokalizacje z %{count}"
+          },
+          "selected_page": {
+            "one": "Lokalizacja od %{first} do %{last} z %{count}",
+            "other": "Lokalizacje od %{first} do %{last} z %{count}"
           }
         },
         "number_of_pickup_points_near_location": {
@@ -1985,7 +1994,55 @@
             "permission_denied": "Nie udało się ustalić twojej lokalizacji. Spróbuj ponownie."
           }
         },
-        "open_twenty_four_hours": "Otwarte przez całą dobę"
+        "open_twenty_four_hours": "Otwarte przez całą dobę",
+        "search_button": "Szukaj",
+        "selector_tabs": "Wybór punktów odbioru",
+        "waiting_on_pickup_point_location_notice": "Szukam punktów odbioru...",
+        "pickup_unavailable_banner_title": {
+          "one": "Brak dostępnych miejsc odbioru dla twoich artykułów",
+          "other": "Brak dostępnych miejsc odbioru dla twoich artykułów"
+        }
+      },
+      "processing": {
+        "redirecting_page_title": "Przekierowywanie…",
+        "redirecting_title": "Przekierowywanie…",
+        "redirecting_notice": "Proszę czekać, przekierowujemy Cię dalej.",
+        "complete_your_purchase_title": "Zakończ swój zakup",
+        "continue_to_payment_gateway_notice": "Kontynuuj płatność, aby dodać swoje dane płatnicze.",
+        "complete_your_purchase_title_error": "Proszę popraw swoje dane płatności",
+        "continue_to_payment_gateway_notice_error": "Twoje informacje płatnicze nie mogły zostać zweryfikowane.",
+        "continue_to_payment_gateway_button_label_error": "Aktualizuj informacje o płatności",
+        "page_title": "Zamówienie jest przetwarzane",
+        "title": "Zamówienie jest przetwarzane",
+        "your_order_has_been_received_title": "Dziękujemy za twoje zamówienie",
+        "you_will_receive_confirmation": "Otrzymujemy właśnie bardzo dużo zamówień. Powinieneś wkrótce otrzymać potwierdzenie e-mailem lub SMS-em. Jeśli nie otrzymasz go w ciągu najbliższej godziny, daj nam znać.",
+        "wait": {
+          "medium": {
+            "one": "Twoje zamówienie jest przetwarzane. Szacowany czas oczekiwania wynosi %{count} minutę.",
+            "other": "Twoje zamówienie jest przetwarzane. Szacowany czas oczekiwania wynosi %{count} minut."
+          },
+          "long": "Otrzymasz wiadomość e-mail, gdy twoje zamówienie zostanie przetworzone. Obecnie odnotowujemy dużą liczbę zamówień.",
+          "no_auto_refresh_html": "Jeśli nie zostaniesz automatycznie przekierowany, %{link}.",
+          "refresh_this_page": "załaduj stronę ponownie"
+        },
+        "you_will_not_be_charged": "Nie zostaniesz jeszcze obciążony kosztami",
+        "action_required": "Wymagana akcja",
+        "redirecting_to_bank": "Zostaniesz przekierowany do {{bank}}",
+        "modal_notice": "Skontaktujemy się z {{paymentMethod}}"
+      },
+      "post_purchase": {
+        "escape_confirmation": "Zapłaciłeś za swoje zamówienie.",
+        "components": {
+          "expand": "Pokaż więcej",
+          "processing": "W trakcie edycji...",
+          "submit": "Wysyłanie"
+        }
+      },
+      "redeemable_errors": {
+        "gift_card": {
+          "duplicate": "Bon podarunkowy został już dodany do twojego zamówienia",
+          "currency_mismatch": "Akceptowane są tylko bony podarunkowe w %{shop_currency}"
+        }
       }
     }
   }

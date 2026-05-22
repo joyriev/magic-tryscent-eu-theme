@@ -1929,6 +1929,63 @@
       "payment_collection": {
         "cancelled": "Ta płatność nie jest już wymagana. Na stronie zamówienia znajdziesz więcej informacji.",
         "paid": "Ta płatność została już przekazana. Na stronie zamówienia znajdziesz więcej informacji."
+      },
+      "payment_summary": {
+        "gift_card_current_balance_notice": "Aktualne saldo: %{amount}",
+        "credit_card_expires_on_notice": "Ważne do %{month}/%{year}",
+        "express_payment_gateway_label": "Ekspres",
+        "manual_payment_gateway_label": "Ręczny",
+        "billing_address_title": "Adres do faktury",
+        "free_label": "Darmowy"
+      },
+      "payment_gateway": {
+        "bank_deposit_label": "Przelew bankowy",
+        "cash_on_delivery_label": "Pobranie",
+        "deferred_payment_label": "Wybierz metodę płatności później",
+        "generic_payment_terms": "Dla Ciebie obowiązują warunki \"{{translatedName}}\". Twoja płatność jest wymagana do {{dueDate}}.",
+        "login_prompt": {
+          "no_access": {
+            "message": "{{logIn}} do konta, które ma dostęp do tej lokalizacji, aby dodać lub użyć zapisanych metod płatności."
+          }
+        },
+        "direct_payment_terms": "Dla Ciebie obowiązują warunki \"{{translatedName}}\". Twoja karta zostanie obciążona {{dueDate}}.",
+        "order_due_on_fulfillment_choose_later": "Twoja płatność jest należna, gdy tylko twoje zamówienie zostanie zrealizowane.",
+        "order_due_on_fulfillment_payment": "Twoja karta zostanie obciążona, gdy Twoje zamówienie zostanie zrealizowane.",
+        "draft_order_payment_due_later_no_terms": "Twoja płatność jest wymagana, gdy tylko twoje zamówienie zostanie potwierdzone.",
+        "draft_order_payment_due_later_no_terms_payment_selected": "Twoja karta zostanie obciążona, gdy tylko Twoje zamówienie zostanie potwierdzone.",
+        "draft_order_payment_due_later_terms": "Dla Ciebie obowiązują warunki \"{{translatedName}}\", gdy tylko Twoje zamówienie zostanie potwierdzone.",
+        "draft_order_payment_due_on_fulfillment": "Twoja płatność jest należna, gdy tylko twoje zamówienie zostanie potwierdzone i zrealizowane.",
+        "fixed_payment_label": "Twoja płatność jest wymagana do {{dueDate}}.",
+        "fixed_direct_payment_terms": "Twoja karta zostanie obciążona {{dueDate}}.",
+        "order_deposit_due_now": "{{depositAmount}} jest dziś wymagalna. Na pozostałą kwotę mają zastosowanie warunki \"{{translatedName}}\" i jest ona wymagalna w dniu {{dueDate}}.",
+        "order_deposit_due_on_fulfillment": "{{depositAmount}} jest dziś płatne. Pozostała kwota będzie wymagana, gdy Twoje zamówienie zostanie zrealizowane.",
+        "order_due_on_receipt_choose_later": "Twoja płatność jest należna przy odbiorze.",
+        "draft_order_deposit_due_later": "{{depositAmount}} jest należne w momencie potwierdzenia Twojego zamówienia. Następujące warunki dotyczą salda: {{translatedName}}.",
+        "draft_order_deposit_due_on_fulfillment": "{{depositAmount}} jest należna w momencie potwierdzenia Twojego zamówienia. Pozostała kwota będzie należna, gdy Twoje zamówienie zostanie zrealizowane.",
+        "order_deposit_due_on_receipt": "{{depositAmount}} jest dziś wymagalna. Kwota jest wymagalna później.",
+        "order_deposit_due_on_fixed_date": "{{depositAmount}} jest dziś wymagalne. Kwota jest wymagalna {{dueDate}}."
+      },
+      "pickup_point": {
+        "could_not_resolve_address": "Nie udało się zlokalizować twojego adresu. Spróbuj ponownie lub użyj innego adresu",
+        "no_pickup_points_near_location": "Nie znaleziono punktów odbioru w pobliżu twojej lokalizacji",
+        "no_pickup_points_found": "Nie znaleziono miejsc odbioru",
+        "paginator": {
+          "header": {
+            "one": "%{first} - %{last} z %{count} lokalizacji wyświetlanych"
+          }
+        },
+        "number_of_pickup_points_near_location": {
+          "one": "Znaleziono %{count} punkt odbioru w pobliżu Twojej lokalizacji",
+          "other": "Znaleziono %{count} punktów odbioru w pobliżu Twojej lokalizacji"
+        },
+        "geolocation": {
+          "errors": {
+            "unsuported_by_browser": "Pobieranie lokalizacji geograficznej nie jest obsługiwane przez Twoją przeglądarkę. Spróbuj ponownie lub użyj innej przeglądarki.",
+            "permission_not_allowed": "Zezwól na udostępnienie swojej lokalizacji.",
+            "permission_denied": "Nie udało się ustalić twojej lokalizacji. Spróbuj ponownie."
+          }
+        },
+        "open_twenty_four_hours": "Otwarte przez całą dobę"
       }
     }
   }

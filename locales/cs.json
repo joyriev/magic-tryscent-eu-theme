@@ -2368,6 +2368,42 @@
           "prepaid_free_shipping_with_cycles": {
             "one": "Doprava zdarma v prvním %{cycle}, poté %{recurring_order_shipping_price}",
             "other": "Doprava zdarma během prvních %{cycle}, poté %{recurring_order_shipping_price}"
+          },
+          "subscription_delivery_frequency": {
+            "day": {
+              "one": "jeden den",
+              "other": "každých %{count} dní"
+            },
+            "week": {
+              "other": "každé %{count} týdny"
+            },
+            "month": {
+              "one": "jeden měsíc",
+              "other": "každých %{count} měsíců"
+            },
+            "year": {
+              "other": "každých %{count} let"
+            }
+          },
+          "prepaid_shipping_price_label": "%{shipping_price} za doručení x %{delivery_interval_count}",
+          "prepaid_initial_order_discounted_with_renewal": "Náklady na první odeslání %{discounted_shipping_price} %{prepaid_delivery_frequency}, poté %{shipping_price} %{billing_cycle}",
+          "shipping_price_included": "Obsahuje",
+          "recurring_order_shipping_price": "následováno %{recurring_order_shipping_price}",
+          "prepaid_order_one_cycle": {
+            "one": "%{shipping_price} za %{count} další doručení",
+            "other": "%{shipping_price} za %{count} dalších doručení (%{per_delivery_cost})"
+          },
+          "prepaid_order_one_cycle_delivery_not_included": {
+            "one": "%{shipping_price} za %{count} doručení",
+            "other": "%{shipping_price} za %{count} doručení (%{per_delivery_cost})"
+          },
+          "prepaid_order_no_cycle": {
+            "one": "%{shipping_price} za %{count} další doručení, poté %{recurring_order_shipping_price}",
+            "other": "%{shipping_price} za %{count} dalších dodávek (%{per_delivery_cost}), poté %{recurring_order_shipping_price}"
+          },
+          "prepaid_order_no_cycle_delivery_not_included": {
+            "one": "%{shipping_price} za %{count} doručení, poté %{recurring_order_shipping_price}",
+            "other": "%{shipping_price} za %{count} dodávek (%{per_delivery_cost}), poté %{recurring_order_shipping_price}"
           }
         },
         "shipping_used_as_billing_notice": "Tato adresa bude také použita jako tvoje fakturační adresa pro tuto objednávku.",
@@ -2384,7 +2420,28 @@
         "split_shipping_shipment_number": "Doručení %{number}",
         "split_shipping_option_fastest": "Nejrychleji",
         "split_shipping_shipment_notice": "Tvoje objednávka bude doručena ve %{quantity_shipments}.",
-        "split_shipping_first_shipment_notice": "Tvá první objednávka bude doručena ve %{quantity_shipments}"
+        "split_shipping_first_shipment_notice": "Tvá první objednávka bude doručena ve %{quantity_shipments}",
+        "title": "Doprava",
+        "waiting_on_rate_notice": "Dostupné sazby za dopravu se načítají…",
+        "waiting_on_pickup_location_notice": "Dostupná místa vyzvednutí se načítají…",
+        "subscription_shipping": "Předplatné - poštovné",
+        "subscription_local_delivery": "Předplatné pro místní doručení",
+        "subscription_pickup": "Předplatné pro vyzvednutí",
+        "two_day_delivery": "Doručení do 2 dnů za %{time}",
+        "unbranded_default_description": "Připraveno k odeslání",
+        "third_party_address_timeout": "Adresy nelze načíst. Zkus to znovu a použij jinou adresu.",
+        "third_party_address_error": "Při načítání výběru adresy došlo k chybě. Prosím, zadej svou adresu níže ručně.",
+        "third_party_payment_timeout": "Platební metody nelze načíst. Zkus to znovu nebo použij jiný způsob platby.",
+        "third_party_payment_error": "Při načítání výběru platby došlo k chybě. Použijte jiný způsob platby.",
+        "unbranded_description_same_day": "Odeslání ve stejný pracovní den",
+        "unbranded_description_with_fulfillment_days": {
+          "one": "Odeslání následující pracovní den",
+          "other": "Doručení do %{count} pracovních dnů"
+        },
+        "unbranded_description_with_fulfillment_weeks": {
+          "one": "Doručení za %{count} týden",
+          "other": "Doručení za %{count} týdnů"
+        }
       },
       "session_errors": {
         "session_not_unique": "Při zpracování tvé objednávky došlo k problému. Obnov tuto stránku, abys se vrátil do obchodu.",
@@ -2398,6 +2455,24 @@
           "one": "Tato objednávka bude odeslána na adresu uvedenou {{merchant}}.",
           "other": "Tato objednávka bude odeslána na adresu uvedenou {{merchant}}. Vyberte doručovací adresu."
         }
+      },
+      "shipping_errors": {
+        "shipping_method": "Možnosti doručení tvé objednávky se změnily. Zkontroluj svůj výběr.",
+        "shipping_method_not_available": "Tvůj nákupní košík byl aktualizován a přidané položky nelze doručit na tvou adresu. Odeber položky, abys mohl dokončit svou objednávku.",
+        "shipping_method_not_available_generic": {
+          "one": "Tvá objednávka nemůže být odeslána na vybranou adresu. Zkontroluj správnost své adresy a zkus to znovu, nebo vyber jinou adresu.",
+          "other": "Některé položky ve tvém košíku nelze doručit na zadanou adresu. Zkontroluj správnost své adresy a zkus to znovu, nebo vyber jinou adresu."
+        },
+        "shipping_method_not_available_updated": {
+          "one": "Položka, kterou jste přidali, nebude odeslána na vaši adresu. Odstraňte ji před dokončením nákupu nebo kontaktujte obchod.",
+          "other": "Alespoň jedna z položek, které jste přidal, nebude odeslána na vaši adresu. Odstraňte ji před dokončením nákupu nebo kontaktujte obchod."
+        },
+        "payment_method_not_supported": "Tuto platební metodu nelze použít pro %{country}. Použijte jinou platební metodu pro odeslání do této země.",
+        "empty_state": "Zadej svou dodací adresu, abys zobrazil dostupné způsoby doručení.",
+        "shipping_method_not_available_due_to_unsatisfied_conditions": "Položky v košíku nesplňují cenové nebo hmotnostní požadavky pro způsobilost k odeslání. Aktualizujte svůj košík a zkuste to znovu.",
+        "title": "Doručení není k dispozici",
+        "invalid_selected_address": "Vybraná dodací adresa je neplatná",
+        "invalid_selected_address_with_update_link": "Vybraná dodací adresa je neplatná. %{update_address_link} nebo vyberte jinou adresu"
       }
     }
   }

@@ -3180,8 +3180,49 @@
         "item_status": {
           "add_variant": "dodano %{delta}",
           "decrement_item": "%{delta} z %{total} pozostało",
-          "decrement_fulfilled_line_item": "%{delta} z %{total} zwróconych"
+          "decrement_fulfilled_line_item": "%{delta} z %{total} zwróconych",
+          "increment_item": "dodano %{delta}",
+          "decrement_return_line_item": "%{delta} usunięto z zwrotu"
         }
+      },
+      "order": {
+        "financial_status": {
+          "authorized": "Autoryzowany",
+          "pending": "Oczekujące",
+          "paid": "Zapłacono",
+          "unpaid": "Nieopłacone",
+          "voided": "Anulowano",
+          "partially_paid": "Częściowo opłacone",
+          "partially_refunded": "Częściowo zwrócone",
+          "refunded": "Zwrócono pieniądze",
+          "expired": "Wygasło"
+        },
+        "fulfillment_status": {
+          "fulfilled": "Spełnione",
+          "complete": "Całkowicie",
+          "unfulfilled": "Nie wykonano",
+          "restocked": "Ponownie dostępne"
+        },
+        "transaction_status": {
+          "success": "Sukces",
+          "pending": "Oczekujące",
+          "failure": "Zgłoszenie usterki"
+        },
+        "cancel_reason": {
+          "inventory": "Artykuł niedostępny",
+          "fraud": "Błędne zamówienie",
+          "customer": "Zamówienie zmienione/anulowane przez klienta",
+          "other": "Inne"
+        },
+        "cash_on_delivery": "Pobranie (za pobraniem)"
+      },
+      "storefront": {
+        "invalid_password": "Hasło nieprawidłowe, proszę spróbować ponownie."
+      },
+      "tags": {
+        "add_articles": "Ogranicz wyszukiwanie do artykułów, które mają również tag %{tag}",
+        "add_products": "Ogranicz wybór do produktów pasujących do tagu %{tag}",
+        "remove_articles": "Rozszerz wyszukiwanie na produkty, które nie są oznaczone %{tag}"
       }
     },
     "filters": {
@@ -3190,6 +3231,18 @@
           "out_of_stock": "Brak w magazynie"
         }
       }
+    },
+    "pagination": {
+      "previous": "Poprzedni",
+      "next": "Następny"
+    },
+    "page_titles": {
+      "shopping_cart": "Twój koszyk",
+      "search_results": {
+        "one": "Wyszukano: %{count} wynik dla \"%{terms}\"",
+        "other": "Szukaj: znaleziono %{count} wyników dla \"%{terms}\""
+      },
+      "blog_or_article_with_error": "Błąd – %{title}"
     }
   }
 }

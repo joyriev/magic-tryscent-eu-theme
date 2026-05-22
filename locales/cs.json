@@ -3082,7 +3082,15 @@
           "missing": {
             "address2": "Zadej byt, pokoj atd.",
             "billing_address2": "Zadej byt, pokoj atd. pro tuto fakturační adresu",
-            "billing_city": "Zadej město pro tuto fakturační adresu"
+            "billing_city": "Zadej město pro tuto fakturační adresu",
+            "first_name": "Zadej křestní jméno",
+            "last_name": "Zadej příjmení",
+            "city": "Zadej město",
+            "province": "Vyberte spolkovou zemi/kanton",
+            "zip": "Zadej poštovní směrovací číslo",
+            "billing_first_name": "Zadejte křestní jméno pro tuto fakturační adresu",
+            "billing_province": "Vyberte spolkovou zemi/kanton pro tuto fakturační adresu",
+            "billing_zip": "Zadejte poštovní směrovací číslo pro tuto fakturační adresu"
           },
           "formatting": {
             "name_contains_emojis": "Odstranit emotikony z tvého jména",
@@ -3090,8 +3098,40 @@
             "first_name_too_long": "Křestní jméno obsahuje příliš mnoho písmen",
             "last_name_too_long": "Příjmení obsahuje příliš mnoho písmen"
           },
-          "discount_code": "Tento slevový kód nelze použít. Zkontroluj svůj nákupní košík a zkus to znovu."
-        }
+          "discount_code": "Tento slevový kód nelze použít. Zkontroluj svůj nákupní košík a zkus to znovu.",
+          "unavailable": {
+            "description": "{{walletName}} není k dispozici. Zkuste jiný způsob platby nebo to zkuste později znovu.",
+            "instructions": "Došlo k problému s {{walletName}}. Vraťte se do obchodu a zkuste to znovu, nebo dokončete nákup jinou metodou.",
+            "unavailable_for_country": "{{walletName}} není v {{countryName}} k dispozici. Vyberte jiný způsob platby, abyste dokončili svůj nákup."
+          },
+          "terminal": "Došlo k problému s {{walletName}}. Použijte jinou platební metodu.",
+          "unsupported": {
+            "address": "Prodejce nemůže doručit na vybranou dodací adresu.",
+            "postal_code": "Toto místo není podporováno",
+            "wallet_is_unavailable": "{{walletName}} nelze použít s touto adresou. Vyberte jinou adresu nebo zavřete {{walletName}}, abyste dokončili nákup."
+          },
+          "outdated": {
+            "shipping_method": "Možnosti doručení tvé objednávky se změnily. Zkontroluj svůj výběr.",
+            "payment_terms": "Platební podmínky se změnily. Zkontroluj svou objednávku."
+          },
+          "select_different_shipping_address_to_resolve_errors": "Tvá dodací adresa je neplatná. Vyber jinou adresu nebo použij novou.",
+          "unavailable_terminal": {
+            "instructions": "{{walletName}} momentálně není pro vaši objednávku k dispozici. Pro pokračování v nákupu vyberte jinou metodu platby."
+          },
+          "processing_error_checkout_as_guest": "Při zpracování tvé platby došlo k problému. Zkus to znovu nebo {{checkout_as_guest_link}}.",
+          "subscription_review_required": "Tvá objednávka obsahuje předplatné. Musíš zkontrolovat níže uvedené podmínky, než dokončíš svou objednávku."
+        },
+        "redirect_hint": "Budete vyzváni k přihlášení pomocí {{walletName}}.",
+        "logged_in": "Připojeno k {{email}}",
+        "payment_in_progress_title": "Platba se zpracovává",
+        "payment_in_progress_body": "Tvá platba se zpracovává. Tvá objednávka bude brzy dokončena.",
+        "redirection_notice": "Budeš přesměrován do {{walletName}}, abys dokončil svůj nákup",
+        "return_to_checkout": "Zpět k pokladně",
+        "scrim": {
+          "continue_purchase_in_window": "Pokračujte v nákupu ve {{walletName}} okně",
+          "and_return_to_checkout": "a zpět k pokladně"
+        },
+        "recovery_notice": "Vyskytl se problém s podrobnostmi objednávky. Aktualizujte své údaje, abyste dokončili platbu."
       },
       "units": {
         "pound": "libra",
@@ -3100,6 +3140,23 @@
         "square_foot": "stopa čtvereční",
         "item": "Položka"
       }
+    },
+    "collections": {
+      "sorting": {
+        "manual": "Vybráno",
+        "best_selling": "nejprodávanější",
+        "az": "Abecedně, A-Z",
+        "za": "Abecedně, Z-A",
+        "price_ascending": "Cena, od nejnižší po nejvyšší",
+        "price_descending": "Cena, od nejvyšší po nejnižší",
+        "date_ascending": "Datum, starší než nové",
+        "date_descending": "Datum, ne příliš staré"
+      }
+    },
+    "checkpoint": {
+      "message": "Upravte captcha pro pokračování",
+      "error": "Ověření Captcha selhalo.",
+      "submit_button_text": "Odesílání"
     }
   }
 }

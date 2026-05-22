@@ -2796,8 +2796,114 @@
         "thank_you_confirmed_orders_with_email_and_phone": "Wkrótce otrzymasz osobne e-maile potwierdzające z numerami twoich zamówień.",
         "payment_method_not_charged": "Nie obciążony",
         "thank_you_confirmed_with_email_and_phone_description": {
+          "multi_store": "Wkrótce otrzymasz osobne e-maile potwierdzające z każdego sklepu.",
+          "single_store": "Wkrótce otrzymasz wiadomość e-mail z potwierdzeniem."
+        },
+        "title": "Dziękujemy za zakupy!",
+        "thank_you_title": "Twoje zamówienie zostało potwierdzone",
+        "thank_you_title_payment": "Twoja płatność została potwierdzona.",
+        "thank_you_title_review": "Twoje zamówienie zostało wysłane do sprawdzenia",
+        "thank_you_ready_for_picked_up": "Twoje zamówienie zostało odebrane w lokalizacji %{address}.",
+        "thank_you_title_payments_app_failed_pending_payment": "Twoja płatność nie mogła zostać przetworzona.",
+        "thank_you_payments_app_failed_pending_payment": "Nie zostały naliczone żadne opłaty za twoje zamówienie. Wróć do swojego koszyka, aby sprawdzić zamówienie i zapłacić ponownie.",
+        "thank_you_payments_app_failed_pending_payment_payment": "Nie zostały naliczone żadne opłaty za twoje zamówienie. Wróć do swojego koszyka, aby sprawdzić zamówienie i zapłacić ponownie.",
+        "thank_you_payments_app_failed_pending_payment_pick_up": "Nie zostały naliczone żadne opłaty za twoje zamówienie. Wróć do swojego koszyka, aby sprawdzić zamówienie i zapłacić ponownie.",
+        "thank_you_payments_app_pending_payment_description_default_with_missing": "Skontaktuj się z nami przez e-mail lub telefon, aby otrzymać potwierdzenie zamówienia.",
+        "thank_you_payments_app_pending_payment_description_default_with_missing_payment": "Skontaktuj się z nami przez e-mail lub telefon, aby otrzymać potwierdzenie zamówienia.",
+        "thank_you_payments_app_pending_payment_description_default_with_missing_pick_up": "Skontaktuj się z nami przez e-mail lub telefon, aby otrzymać potwierdzenie zamówienia.",
+        "thank_you_payments_app_pending_payment_description_default_with_email_and_phone": "Wkrótce otrzymasz e-mail z potwierdzeniem oraz numerem zamówienia.",
+        "thank_you_payments_app_pending_payment_description_default_with_email_and_phone_payment": "Wkrótce otrzymasz e-mail z potwierdzeniem oraz numerem zamówienia.",
+        "thank_you_payments_app_pending_payment_description_default_with_email_and_phone_pick_up": "Wkrótce otrzymasz e-mail z potwierdzeniem oraz numerem zamówienia.",
+        "thank_you_payments_app_pending_payment_description_default_with_email": "Wkrótce otrzymasz e-mail z potwierdzeniem oraz numerem zamówienia.",
+        "thank_you_payments_app_pending_payment_description_default_with_email_payment": "Wkrótce otrzymasz e-mail z potwierdzeniem oraz numerem zamówienia.",
+        "thank_you_payments_app_pending_payment_description_default_with_email_pick_up": "Wkrótce otrzymasz e-mail z potwierdzeniem oraz numerem zamówienia.",
+        "thank_you_payments_app_pending_payment_description_default_with_phone": "Wkrótce otrzymasz SMS z numerem zamówienia jako potwierdzenie.",
+        "thank_you_payments_app_pending_payment_description_default_with_phone_payment": "Wkrótce otrzymasz SMS z numerem zamówienia jako potwierdzenie.",
+        "thank_you_payments_app_pending_payment_description_default_with_phone_pick_up": "Wkrótce otrzymasz SMS z numerem zamówienia jako potwierdzenie.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_missing": "Skontaktuj się z nami przez e-mail lub telefon, aby otrzymać potwierdzenie zamówienia.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_missing_payment": "Skontaktuj się z nami przez e-mail lub telefon, aby otrzymać potwierdzenie zamówienia.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_missing_pick_up": "Skontaktuj się z nami przez e-mail lub telefon, aby otrzymać potwierdzenie zamówienia.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone": "Po zakończeniu płatności otrzymasz wiadomość e-mail z potwierdzeniem oraz numerem zamówienia.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone_payment": "Po zakończeniu płatności otrzymasz wiadomość e-mail z potwierdzeniem oraz numerem zamówienia.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone_pick_up": "Po zakończeniu płatności otrzymasz wiadomość e-mail z potwierdzeniem oraz numerem zamówienia.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email": "Po zakończeniu płatności otrzymasz wiadomość e-mail z potwierdzeniem oraz numerem zamówienia.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_payment": "Po zakończeniu płatności otrzymasz wiadomość e-mail z potwierdzeniem oraz numerem zamówienia.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_pick_up": "Po zakończeniu płatności otrzymasz wiadomość e-mail z potwierdzeniem oraz numerem zamówienia.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone": "Po zakończeniu płatności otrzymasz wiadomość potwierdzającą z numerem zamówienia.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone_payment": "Po zakończeniu płatności otrzymasz wiadomość potwierdzającą z numerem zamówienia.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone_pick_up": "Po zakończeniu płatności otrzymasz wiadomość potwierdzającą z numerem zamówienia.",
+        "thank_you_payments_app_pending_payment_description_provider_action_required_default": "Twoja płatność jest przetwarzana. Otrzymasz wiadomość e-mail, gdy Twoja płatność zostanie potwierdzona.",
+        "thank_you_unconfirmed_items_heading": {
+          "one": "1 artykuł nie jest potwierdzony",
+          "other": "Niektóre artykuły nie zostały potwierdzone."
+        },
+        "thank_you_unconfirmed_items_description": {
+          "one": "Nie zostały Ci za to naliczone żadne opłaty.",
+          "other": "Nie zostały Ci za to naliczone żadne opłaty."
+        },
+        "thank_you_item_label": {
+          "one": "%{count} artykułów",
+          "other": "%{count} artykułów"
+        },
+        "thank_you_confirmed_with_email_description": {
+          "single_store": "Wkrótce otrzymasz wiadomość e-mail z potwierdzeniem.",
           "multi_store": "Wkrótce otrzymasz osobne e-maile potwierdzające z każdego sklepu."
+        },
+        "thank_you_confirmed_with_phone_description": {
+          "single_store": "Wkrótce otrzymasz wiadomość potwierdzającą SMS.",
+          "multi_store": "Wkrótce otrzymasz osobne potwierdzenia SMS od każdego sklepu."
+        },
+        "updated_time": "Ostatnia aktualizacja: %{time_ago}",
+        "unfulfilled_items_description": "Przygotowujemy te artykuły do wysyłki.",
+        "verify_shop_account_title": "Zweryfikuj konto sklepu",
+        "verify_shop_account_message": "Twoje informacje zostały zapisane w sklepie Shop. Zweryfikuj swoje konto, aby automatycznie korzystać z niego w milionach sklepów.",
+        "verify_shop_account_confirmation": "Szczegóły zamówienia zapisane",
+        "track_your_order_link_text": "Śledź swoje zamówienia"
+      },
+      "tips": {
+        "description": "Podziękuj zespołowi %{shop_name}",
+        "presets_description": "Wybierz procent napiwku",
+        "custom_label": "Niestandardowa napiwek",
+        "message": "Bardzo dziękujemy, doceniamy to.",
+        "not_available_with_spi": "Niedostępne przy płatności ratalnej Shop Pay"
+      },
+      "throttle": {
+        "line_to_check_out": "Jesteś w kolejce do kasy",
+        "merchandise": {
+          "available": "Dostępny"
+        },
+        "inventory": {
+          "partial_inventory_banner": "Część twojego koszyka jest wyprzedana i nie jest dostępna do zakupu podczas finalizacji zamówienia.",
+          "sold_out": {
+            "heading": "Twój koszyk jest wyprzedany",
+            "no_storefront_body": "Niestety artykuł, który chcesz kupić, nie jest już dostępny.",
+            "link": "Powrót do sklepu"
+          }
+        },
+        "time_to_checkout_title": "Czas na finalizację zamówienia – {{shopName}}",
+        "estimated_wait_time": {
+          "calculating": "Szacowany czas oczekiwania jest obliczany",
+          "less_than_one": "Szacowany czas oczekiwania: Mniej niż minuta",
+          "one": "Szacowany czas oczekiwania wynosi {{count}} minutę",
+          "other": "Szacowany czas oczekiwania wynosi {{count}} minut"
+        },
+        "last_checked": "(Ostatnia weryfikacja: {{time}})",
+        "footer": {
+          "heading": "Nie odświeżaj tej strony. Będzie się automatycznie aktualizować.",
+          "body": "Przedmioty w twoim koszyku nie są rezerwowane aż do zakończenia realizacji zamówienia."
+        },
+        "too_many_attempts": {
+          "message": "Zbyt wiele prób"
         }
+      },
+      "tooltip": {
+        "accessibility_label_context": "Więcej informacji o %{context}"
+      },
+      "too_many_requests": {
+        "title": "Zbyt wiele prób finalizacji zamówienia",
+        "body": "Proszę, poczekaj kilka minut, następnie wróć do swojego koszyka i spróbuj ponownie.",
+        "return_to_cart": "Powrót do koszyka",
+        "body_no_cart": "Proszę poczekaj kilka minut i spróbuj ponownie."
       }
     }
   }

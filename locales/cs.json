@@ -2472,7 +2472,70 @@
         "shipping_method_not_available_due_to_unsatisfied_conditions": "Položky v košíku nesplňují cenové nebo hmotnostní požadavky pro způsobilost k odeslání. Aktualizujte svůj košík a zkuste to znovu.",
         "title": "Doručení není k dispozici",
         "invalid_selected_address": "Vybraná dodací adresa je neplatná",
-        "invalid_selected_address_with_update_link": "Vybraná dodací adresa je neplatná. %{update_address_link} nebo vyberte jinou adresu"
+        "invalid_selected_address_with_update_link": "Vybraná dodací adresa je neplatná. %{update_address_link} nebo vyberte jinou adresu",
+        "unavailable_selected_address": "Doručení na vybranou adresu není možné",
+        "unavailable_selected_address_for_region": "Doručení do {{region}} není k dispozici. Vyberte jinou adresu pro pokračování.",
+        "unavailable_addresses_only_countries": "Tvá objednávka může být odeslána pouze do {{countriesList}}. Přidej novou adresu pro pokračování.",
+        "unavailable_address_country": "Doručení není pro zvolenou zemi dostupné. Vyberte jinou adresu pro pokračování."
+      },
+      "stock": {
+        "continue_cta_label": "Pokračovat v pokladně"
+      },
+      "shop_policies": {
+        "refund_policy": "Právo na odstoupení od smlouvy",
+        "privacy_policy": "Prohlášení o ochraně osobních údajů",
+        "terms_of_service": "Všeobecné obchodní podmínky",
+        "legal_notice": "Impressum",
+        "terms_of_sale": "Prodejní podmínky",
+        "subscription_policy": "Zrušení objednávek",
+        "purchase_options_policy": "Pokyny pro nákupní možnosti",
+        "purchase_options_cancellation_policy": "Zrušení objednávek",
+        "cookie_preferences": "Sušenky",
+        "policy_label": "Směrnice",
+        "policies_label": "Pokyny",
+        "select_policy_label": "Vyberte zásadu",
+        "terms_and_policies": "Obchodní podmínky a zásady"
+      },
+      "split_delivery": {
+        "items_for_pickup": "Položky k vyzvednutí",
+        "delivery_method": "Rozdělený způsob doručení",
+        "delivery_method_menu": "Nabídka pro rozdělený způsob doručení",
+        "inventory_issue_banner": {
+          "heading": {
+            "cannot_be_picked_up": {
+              "one": "%{count} položek nelze vyzvednout"
+            },
+            "cannot_be_shipped": {
+              "one": "%{count} položek nelze odeslat"
+            }
+          },
+          "remove_item": {
+            "one": "Odebrat položku",
+            "other": "Odebrat položku"
+          },
+          "ship_separately": {
+            "one": "Odeslat zvlášť",
+            "other": "Odeslat zvlášť"
+          },
+          "remove_item_only": {
+            "one": "Odebrat položku",
+            "other": "Odebrat položku"
+          }
+        },
+        "items_moved_to_shipping_toast": "Položky, které nelze vyzvednout, byly převedeny na zaslání.",
+        "cross_border": {
+          "modal": {
+            "content": "Tím se všechny položky nastaví zpět na odeslání. Tvé místa vyzvednutí a odeslání musí být ve stejné zemi."
+          },
+          "banner": "Tvůj způsob doručení byl aktualizován"
+        }
+      },
+      "shop_pay_external": {
+        "errors": {
+          "try_again_later": "Zkontroluj své připojení nebo zavři toto okno a zkus to znovu za pár minut.",
+          "checkout_has_expired": "Platnost tvého nákupu vypršela. Zavři toto okno a zkus to znovu dokončit v {{shopName}}."
+        },
+        "return_to_store": "Zpět do {{shopName}}"
       }
     }
   }

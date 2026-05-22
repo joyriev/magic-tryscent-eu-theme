@@ -2739,7 +2739,65 @@
         "order_status_payments_app_pending_payment_description_buyer_action_required_with_phone_payment": "Po zakończeniu płatności otrzymasz potwierdzającą wiadomość SMS. Śledź swoje zamówienie za pomocą aplikacji sklepowej.",
         "order_status_payments_app_pending_payment_description_buyer_action_required_with_phone_pick_up": "Po zakończeniu płatności otrzymasz potwierdzającą wiadomość SMS. Śledź swoje zamówienie za pomocą aplikacji sklepowej.",
         "order_status_payments_app_failed_pending_payment_payment": "Nie zostały naliczone żadne opłaty za twoje zamówienie. Wróć do swojego koszyka, aby sprawdzić zamówienie i zapłacić ponownie.",
-        "order_status_payments_app_failed_pending_payment_pick_up": "Nie zostały naliczone żadne opłaty za twoje zamówienie. Wróć do swojego koszyka, aby sprawdzić zamówienie i zapłacić ponownie."
+        "order_status_payments_app_failed_pending_payment_pick_up": "Nie zostały naliczone żadne opłaty za twoje zamówienie. Wróć do swojego koszyka, aby sprawdzić zamówienie i zapłacić ponownie.",
+        "return_to_store_link_label": "Powrót do sklepu",
+        "print_link_label": "Drukuj",
+        "payment_information_title": "Dane płatności",
+        "shipping_address_title": "Adres dostawy",
+        "shipping_address_map_title": "Mapa Google pokazująca adres dostawy: %{address}",
+        "shipping_method_title": "Sposób wysyłki",
+        "re-order": "Zamów te same produkty ponownie",
+        "thank_you_confirmed_order_with_email": "Wkrótce otrzymasz e-mail z potwierdzeniem oraz numerem zamówienia.",
+        "thank_you_confirmed_order_with_phone": "Wkrótce otrzymasz SMS z numerem zamówienia jako potwierdzenie.",
+        "thank_you_confirmed_order_with_email_and_phone": "Wkrótce otrzymasz e-mail z potwierdzeniem oraz numerem zamówienia.",
+        "thank_you_confirmed_order_with_missing": "Skontaktuj się z nami przez e-mail lub telefon, aby otrzymać potwierdzenie zamówienia.",
+        "pick_up_in_store_marker": {
+          "current": "Aktualna lokalizacja przesyłki",
+          "shipping": "Miejsce odbioru"
+        },
+        "thank_you_confirmed_order_with_email_pick_up": "Otrzymasz wiadomość e-mail, gdy twoje zamówienie będzie gotowe do odbioru.",
+        "thank_you_confirmed_order_with_phone_pick_up": "Otrzymasz wiadomość SMS, gdy twoje zamówienie będzie gotowe do odbioru.",
+        "thank_you_confirmed_order_with_email_and_phone_pick_up": "Otrzymasz wiadomość e-mail, gdy twoje zamówienie będzie gotowe do odbioru.",
+        "ready_for_pickup_description": "Twoje zamówienie jest gotowe do odbioru. Przynieś potwierdzenie zamówienia, aby odebrać zamówienie.",
+        "picked_up_description_html": "Twoje zamówienie zostało odebrane %{date} w lokalizacji %{location_name}.",
+        "shop_phone_description": "Otrzymasz SMS z łączem do aplikacji sklepowej, aby śledzić swoje zamówienie.",
+        "ready_for_delivery_title": "Twoje zamówienie jest gotowe do dostarczenia",
+        "ready_for_delivery_description": "Przygotowaliśmy twoje zamówienie.",
+        "qr_code": {
+          "title": "Śledzenie na telefonie",
+          "send_link_to_phone": "Lub wyślij link na swój telefon"
+        },
+        "resend_gift_cards": "Wyślij ponownie bony podarunkowe",
+        "thank_you_confirmed_order_with_email_payment": "Dokonałeś płatności za swoje zamówienie %{date}.",
+        "thank_you_confirmed_order_with_phone_payment": "Dokonałeś płatności za swoje zamówienie %{date}.",
+        "thank_you_confirmed_order_with_email_and_phone_payment": "Dokonałeś płatności za swoje zamówienie %{date}.",
+        "shop_qr_with_sms_upsell": {
+          "qr_code": {
+            "title": "Zeskanuj za pomocą swojego telefonu komórkowego"
+          },
+          "sms": {
+            "title": "Lub wyślij link na swój telefon"
+          }
+        },
+        "thank_you_confirmed_order_with_draft": "Poinformujemy cię, jeśli będziemy potrzebować dodatkowych informacji lub gdy twoje zamówienie zostanie potwierdzone.",
+        "ready_for_delivery": "Gotowe do dostarczenia",
+        "subscriptions_management": {
+          "description": "Przejdź do swojego konta, aby wyświetlić i zarządzać swoimi subskrypcjami.",
+          "button_label": "Zarządzaj swoim abonamentem"
+        },
+        "resend_gift_cards_by_email": "Wyślij e-mail ponownie",
+        "resend_gift_cards_by_text": "Wyślij wiadomość tekstową ponownie",
+        "thank_you_confirmed_order_with_missing_payment": "Skontaktuj się z nami przez e-mail lub telefon, aby otrzymać potwierdzenie zamówienia.",
+        "thank_you_confirmed_order_with_missing_pick_up": "Skontaktuj się z nami przez e-mail lub telefon, aby otrzymać potwierdzenie zamówienia.",
+        "thank_you_confirmed_order_with_draft_payment": "Poinformujemy cię, jeśli będziemy potrzebować dodatkowych informacji lub gdy twoje zamówienie zostanie potwierdzone.",
+        "thank_you_confirmed_order_with_draft_pick_up": "Poinformujemy cię, jeśli będziemy potrzebować dodatkowych informacji lub gdy twoje zamówienie zostanie potwierdzone.",
+        "thank_you_confirmed_orders_with_email": "Wkrótce otrzymasz osobne e-maile potwierdzające z numerami twoich zamówień.",
+        "thank_you_confirmed_orders_with_phone": "Wkrótce otrzymasz osobne potwierdzające SMS-y z numerami zamówień.",
+        "thank_you_confirmed_orders_with_email_and_phone": "Wkrótce otrzymasz osobne e-maile potwierdzające z numerami twoich zamówień.",
+        "payment_method_not_charged": "Nie obciążony",
+        "thank_you_confirmed_with_email_and_phone_description": {
+          "multi_store": "Wkrótce otrzymasz osobne e-maile potwierdzające z każdego sklepu."
+        }
       }
     }
   }

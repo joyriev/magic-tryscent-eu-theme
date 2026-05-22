@@ -2178,7 +2178,72 @@
       "redeemable_errors": {
         "gift_card": {
           "duplicate": "Poukaz byl již přidán k tvé objednávce",
-          "currency_mismatch": "Jsou akceptovány pouze dárkové poukazy v %{shop_currency}"
+          "currency_mismatch": "Jsou akceptovány pouze dárkové poukazy v %{shop_currency}",
+          "insufficient_funds": "Na tomto poukazu již není žádný zůstatek",
+          "expired": "Tento poukaz je prošlý",
+          "not_available": "Tento poukaz již není k dispozici",
+          "invalid": "Zadej platný poukaz",
+          "generic": "Poukaz nelze přidat k dokončení nákupu",
+          "throttle_limit_exceeded": "Překročil jsi maximální počet pokusů. Zkus to později znovu.",
+          "no_longer_available": "Tento poukaz již nelze při tomto dokončení nákupu použít"
+        }
+      },
+      "review": {
+        "checkout_as_guest": "Odhlásit se jako host",
+        "blocks": {
+          "billing_address_title": "Faktura na",
+          "shipping_address_title": "Doručit na",
+          "shipping_method_title": "Způsob doručení",
+          "payment_method_title": "Způsob platby",
+          "change_shipping_method_link_label": "Změnit způsob doručení",
+          "change_payment_method_link_label": "Změnit způsob platby",
+          "pick_up_in_store_shipping_method_html": "Vyzdvihnutí v obchodě · %{location_name}",
+          "purchase_order_number_title": "Číslo objednávky",
+          "change_purchase_order_number_label": "Změnit číslo objednávky",
+          "change_delivery_method_link_label": "Způsob doručení změnit",
+          "no_purchase_order_number": "(Žádné číslo objednávky)",
+          "due_after_order_reviewed_html": "Splatné, jakmile bude objednávka ověřena",
+          "review_title_free_order": "Objednávku zkontrolovat a dokončit",
+          "payment_method_saved_company_location": "Uložit mapu pro toto místo",
+          "company_location": "Místo podnikání",
+          "change_company_location_link_label": "Změnit sídlo společnosti",
+          "pickup_items_at": {
+            "one": "Vyzdvihnutí %{count} položek u",
+            "other": "Vyřízení %{count} položek u"
+          },
+          "ship_items_to": {
+            "one": "Odeslání %{count} položek na",
+            "other": "Odeslání %{count} položek na"
+          }
+        },
+        "block_title": "Zkontroluj své údaje",
+        "checkout_a_different_way": "Použít jinou možnost platby",
+        "account_more_actions": "Více akcí pro tento účet"
+      },
+      "remote": {
+        "errors": {
+          "currency_mismatch": "Tento výrobek nelze vložit do tvého nákupního košíku, protože pochází z obchodu, který používá jinou měnu.",
+          "max_remote_shops_exceeded": "Tento výrobek nelze přidat, protože tvůj košík již obsahuje maximální počet z jiných obchodů.",
+          "currency_mismatch_removal": "Položka byla odebrána z tvého košíku, protože pochází z obchodu, který používá jinou měnu.",
+          "only_remote_merchandise_lines": "Pokladna obsahuje pouze zboží s potiskem z jiného obchodu. Pro dokončení nákupu je nutné přesměrování do tohoto obchodu."
+        }
+      },
+      "remote_merchandise_only": {
+        "title": "Dokonči svůj nákup",
+        "remote_only_notice": "Tyto položky prodávají a odesílají jiné obchody. Dokonči nákup v každém obchodě, abys dokončil svou objednávku.",
+        "checkout_on_shop_label": "K pokladně v %{shop_name}",
+        "single_shop_transition": "Budete přesměrováni na %{advertiser}, abyste dokončili svůj nákup.",
+        "detail_item_label": {
+          "one": "{{count}} položek",
+          "other": "{{count}} položek"
+        }
+      },
+      "remote_policies": {
+        "unavailable_policy": "Pro tento obchod nebylo uvedeno žádné %{policy_name}. Pro další informace se obraťte přímo na %{shop_name}."
+      },
+      "required_extensions": {
+        "errors": {
+          "interaction_required": "Pro dokončení pokladny je vyžadována další interakce."
         }
       }
     }

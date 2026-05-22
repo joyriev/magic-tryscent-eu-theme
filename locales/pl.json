@@ -119,79 +119,79 @@
     "product": {
       "add_to_cart": "Dodaj do koszyka",
       "description": "Opis",
-      "on_sale": "W promocji",
+      "on_sale": "Wyprzedaż",
       "share": "Udostępnij ten produkt",
       "sold_out": "Wyprzedane",
-      "unavailable": "Niedostępny",
+      "unavailable": "Niedostępne",
       "vendor": "Dostawca",
-      "video_exit_message": "{{ title }} otwiera film w trybie pełnoekranowym w tym samym oknie.",
-      "xr_button": "Zobacz w swojej przestrzeni",
-      "xr_button_label": "„Widok w Twojej przestrzeni” wczytuje przedmiot do okna rzeczywistości rozszerzonej",
+      "video_exit_message": "{{ title }} otwiera wideo na tej samej stronie w trybie pełnoekranowym.",
+      "xr_button": "Zobacz w twoim obszarze",
+      "xr_button_label": "„Widok w twoim pomieszczeniu” otwiera artykuł w oknie rozszerzonej rzeczywistości",
       "quantity": {
-        "label": "Ilość",
-        "input_label": "Ilość dla {{ product }}",
+        "label": "Liczba",
+        "input_label": "Liczba {{ product }}",
         "increase": "Zwiększ ilość dla {{ product }}",
         "decrease": "Zmniejsz ilość dla {{ product }}",
-        "minimum_of": "Minimum {{ quantity }}",
-        "maximum_of": "Maksimum {{ quantity }}",
-        "multiples_of": "Przyrost o {{ quantity }}",
+        "minimum_of": "Co najmniej {{ quantity }}",
+        "maximum_of": "Maksymalnie {{ quantity }}",
+        "multiples_of": "W krokach po {{ quantity }}",
         "in_cart_html": "<span class=\"quantity-cart\">{{ quantity }}</span> w koszyku",
-        "note": "Wyświetl reguły ilości",
-        "min_of": "Min. {{ quantity }}",
-        "max_of": "Maks. {{ quantity }}"
+        "note": "Pokaż zasady ilości",
+        "min_of": "Co najmniej {{ quantity }}",
+        "max_of": "Maksymalnie {{ quantity }}"
       },
       "price": {
         "from_price_html": "Od {{ price }}",
-        "regular_price": "Cena regularna",
-        "sale_price": "Cena promocyjna",
-        "unit_price": "Cena jednostkowa"
+        "regular_price": "Normalna cena",
+        "sale_price": "Cena sprzedaży",
+        "unit_price": "Cena za sztukę"
       },
       "pickup_availability": {
-        "view_store_info": "Wyświetl informacje o sklepie",
+        "view_store_info": "Pokaż informacje o sklepie",
         "check_other_stores": "Sprawdź dostępność w innych sklepach",
-        "pick_up_available": "Odbiór jest możliwy",
-        "pick_up_available_at_html": "Odbiór możliwy w <span class=\"color-foreground\">{{ location_name }}</span>",
-        "pick_up_unavailable_at_html": "Odbiór w <span class=\"color-foreground\">{{ location_name }}</span> jest obecnie niemożliwy",
-        "unavailable": "Nie można załadować gotowości do odbioru",
-        "refresh": "Odśwież"
+        "pick_up_available": "Odbiór dostępny",
+        "pick_up_available_at_html": "Odbiór w <span class=\"color-foreground\">{{ location_name }}</span> dostępny",
+        "pick_up_unavailable_at_html": "Odbiór w <span class=\"color-foreground\">{{ location_name }}</span> obecnie niedostępny",
+        "unavailable": "Nie udało się załadować dostępności do odbioru",
+        "refresh": "Aktualizuj"
       },
       "media": {
-        "open_media": "Otwórz multimedia {{ index }} w oknie modalnym",
-        "play_model": "Uruchom przeglądarkę 3D",
-        "play_video": "Odtwórz film",
+        "open_media": "Otwórz media {{ index }} w oknie modalnym",
+        "play_model": "Odtwórz przeglądarkę 3D",
+        "play_video": "Odtwórz wideo",
         "gallery_viewer": "Przeglądarka galerii",
-        "load_image": "Załaduj obraz {{ index }} do widoku galerii",
-        "load_model": "Załaduj model 3D {{ index }} do widoku galerii",
-        "load_video": "Odtwórz film {{ index }} w widoku galerii",
+        "load_image": "Załaduj obraz {{ index }} w widoku galerii",
+        "load_model": "Załaduj model 3D {{ index }} w widoku galerii",
+        "load_video": "Odtwórz wideo {{ index }} w widoku galerii",
         "image_available": "Obraz {{ index }} jest teraz dostępny w widoku galerii"
       },
-      "view_full_details": "Pokaż kompletne dane",
-      "shipping_policy_html": "<a href=\"{{ link }}\">Koszt wysyłki</a> obliczony przy realizacji zakupu.",
+      "view_full_details": "Pokaż pełne szczegóły",
+      "shipping_policy_html": "<a href=\"{{ link }}\">Wysyłka</a> zostanie naliczona przy realizacji zamówienia",
       "choose_options": "Wybierz opcje",
       "choose_product_options": "Wybierz opcje dla {{ product_name }}",
-      "value_unavailable": "{{ option_value }} - niedostępny",
+      "value_unavailable": "{{ option_value }} – niedostępne",
       "variant_sold_out_or_unavailable": "Wariant wyprzedany lub niedostępny",
       "inventory_in_stock": "W magazynie",
-      "inventory_in_stock_show_count": "{{ quantity }} w magazynie",
-      "inventory_low_stock": "Niski poziom zapasów",
-      "inventory_low_stock_show_count": "Niski poziom zapasów: pozostało {{ quantity }}",
-      "inventory_out_of_stock": "Zapas wyczerpany",
+      "inventory_in_stock_show_count": "{{ quantity }} na stanie",
+      "inventory_low_stock": "Niski stan magazynowy",
+      "inventory_low_stock_show_count": "Niski stan magazynowy: pozostało {{ quantity }}",
+      "inventory_out_of_stock": "Brak w magazynie",
       "inventory_out_of_stock_continue_selling": "W magazynie",
-      "sku": "SKU",
+      "sku": "Numer katalogowy",
       "volume_pricing": {
-        "title": "Ceny zależne od wolumenu",
-        "note": "Ceny zależne od wolumenu są dostępne",
+        "title": "Cennik zależny od ilości",
+        "note": "Dostępne ceny zależne od ilości",
         "minimum": "{{ quantity }}+",
-        "price_at_each": "{{ price }}/szt.",
+        "price_at_each": "przy {{ price }} za sztukę",
         "price_range": "{{ minimum }} - {{ maximum }}"
       },
-      "product_variants": "Warianty produktów",
-      "taxes_included": "Z wliczonymi podatkami.",
-      "duties_included": "Z wliczonymi cłami.",
-      "duties_and_taxes_included": "Z wliczonymi cłami i podatkami."
+      "product_variants": "Warianty produktu",
+      "taxes_included": "W tym podatki.",
+      "duties_included": "W tym opłaty celne.",
+      "duties_and_taxes_included": "W tym cła i podatki."
     },
     "modal": {
-      "label": "Galeria multimediów"
+      "label": "Galeria mediów"
     },
     "facets": {
       "apply": "Zastosuj",
@@ -543,19 +543,43 @@
   },
   "recipient": {
     "form": {
-      "checkbox": "Chcę to wysłać jako prezent",
-      "email_label": "E-mail odbiorcy",
+      "checkbox": "Chciałbym to wysłać jako prezent",
+      "email_label": "Adres e-mail odbiorcy",
       "email": "E-mail",
       "name_label": "Nazwa odbiorcy (opcjonalnie)",
-      "name": "Nazwisko",
-      "message_label": "Wiadomość (opcjonalna)",
+      "name": "Nazwa",
+      "message_label": "Wiadomość (opcjonalnie)",
       "message": "Wiadomość",
-      "max_characters": "Maks. {{ max_chars }} znaki(-ów)",
+      "max_characters": "Maksymalnie {{ max_chars }} znaków",
       "email_label_optional_for_no_js_behavior": "Adres e-mail odbiorcy (opcjonalnie)",
       "send_on": "RRRR-MM-DD",
-      "send_on_label": "Wyślij dnia (opcjonalnie)",
-      "expanded": "Rozwinięty formularz odbiorcy karty prezentowej",
-      "collapsed": "Zwinięty formularz odbiorcy karty prezentowej"
+      "send_on_label": "Wysyłka dnia (opcjonalnie)",
+      "expanded": "Formularz dla odbiorcy bonu podarunkowego rozszerzony",
+      "collapsed": "Formularz dla odbiorcy bonu podarunkowego zminimalizowany"
+    }
+  },
+  "shopify": {
+    "attributes": {
+      "email": "E-mail",
+      "password": "Hasło",
+      "password_confirmation": "potwierdzenie hasła",
+      "first_name": "Imię",
+      "last_name": "Nazwisko",
+      "body": "Wiadomość"
+    },
+    "addresses": {
+      "pincode": "Kod pocztowy",
+      "province": "Prowincja",
+      "state": "Kraj związkowy",
+      "state_and_territory": "Państwo/Terytorium",
+      "county": "Prowincja"
+    },
+    "cart": {
+      "discounts_with_count": "Obliczono %{count} rabatów"
+    },
+    "challenge": {
+      "error": "Twoja odpowiedź była niepoprawna, spróbuj ponownie.",
+      "submit_button_text": "Wysyłanie"
     }
   }
 }

@@ -1345,7 +1345,11 @@
         "confirmation_number_label": "Numer potwierdzenia %{confirmation_number}",
         "deferred_payment_info": {
           "description_html": "Skontaktuj się z %{contact_us}, jeśli masz pytania dotyczące swojego zamówienia.",
-          "due_on_fulfillment_title": "Płatność w wysokości %{amount_due} jest należna przy realizacji zamówienia"
+          "due_on_fulfillment_title": "Płatność w wysokości %{amount_due} jest należna przy realizacji zamówienia",
+          "title": "Płatność w wysokości %{amount_due} jest wymagana do %{due_at}",
+          "paid_today": "Całkowita kwota zapłacona dzisiaj",
+          "due_on_receipt_title": "Płatność w wysokości %{amount_due} jest wymagana przy odbiorze",
+          "paid_today_next": "Dzisiaj zapłacono"
         },
         "collapse_component_information": {
           "one": "Ukryj %{count} artykułów",
@@ -1357,7 +1361,100 @@
           "due_on_fulfillment_title": "Saldo w wysokości {{amount_due}} jest należne przy realizacji zamówienia"
         },
         "cost_table_item_column_header": "Artykuł",
-        "automatic_discount_tooltip": "Automatycznie zastosowane rabaty nie mogą zostać usunięte"
+        "automatic_discount_tooltip": "Automatycznie zastosowane rabaty nie mogą zostać usunięte",
+        "discount_has_been_applied": "Rabat został wykorzystany",
+        "discount_has_been_removed": "Rabat został anulowany",
+        "discount_already_applied": "Do tego zamówienia przyznano rabat. Nie możesz dodać kolejnego rabatu.",
+        "discount_requires_customer_notice": "Wprowadź swoje dane wysyłkowe, aby skorzystać z kodu rabatowego <strong style=\"text-transform:uppercase\">%{code}</strong>",
+        "discount_and_gift_card_savings_notice": "Do %{discount_amount} rabatu oraz %{gift_card_amount} w formie bonów upominkowych",
+        "discount_savings_notice": "Po %{discount_amount} rabatu",
+        "expand_order_summary_short": "Wyświetlaj",
+        "estimated_taxes_finalization_tooltip_content": "Ostateczny podatek i całkowita kwota zostaną potwierdzone e-mailem lub SMS-em po złożeniu zamówienia.",
+        "discount_code_application_failed": "<strong style=\"text-transform:uppercase\">%{code}</strong> obecnie nie działa. Skontaktuj się z nami, aby uzyskać pomoc.",
+        "due_on_fulfillment": "Płatne przy realizacji zamówienia",
+        "duties_label": "Opłaty celne",
+        "duties_and_taxes_label": "Opłaty celne i podatki",
+        "error_duties_tooltip": "To zamówienie zostanie wysłane z innego kraju. Oznacza to, że mogą zostać naliczone opłaty celne i podatki za dostawę.",
+        "deferred_total_due_date_label": "Całkowita kwota do zapłaty w dniu {{date}}",
+        "expand_component_information": {
+          "one": "Pokaż %{count} artykułów",
+          "other": "Pokaż %{count} artykułów"
+        },
+        "discount_discovery": {
+          "merchandise_quantity_label": {
+            "one": "%{count} artykułów",
+            "other": "%{count} artykułów"
+          },
+          "back_to_finalize_order": "Powrót do finalizacji zamówienia"
+        },
+        "discount_order_stacking": {
+          "one": "Rabat za zamówienie",
+          "other": "Rabat na zamówienia"
+        },
+        "discount_not_found": "Nie znaleziono ważnego rabatu odpowiadającego wprowadzonego kodowi",
+        "enter_shipping_address": "Wprowadź adres dostawy",
+        "discount_code_applied": "Kod rabatowy zastosowany",
+        "discount_code_applied_with_code": "Kod rabatowy %{code} został zastosowany",
+        "duties_included_label": "Kwota całkowita zawiera podatki i opłaty celne. Brak dodatkowych opłat przy dostawie.",
+        "eligible_customer_missing_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> Kod rabatowy wymaga uprawnionego klienta",
+        "deposit_label": "Zaliczka",
+        "deferred_total_due_date_label_next": "Płatne do %{date}",
+        "estimated_taxes_label_short": "Szacowany",
+        "discount_code_removed": "Kod rabatowy %{code} został usunięty.",
+        "discount_code_replaced": "Kod rabatowy %{old_code} został usunięty, a %{code} został zastosowany.",
+        "discount_code_replaced_multiple": "Kilka kodów rabatowych zostało usuniętych, a %{code} został zastosowany.",
+        "discount_applies_to_subscription_items_only": "Ten rabat dotyczy tylko artykułów na abonament",
+        "estimated_taxes_finalization_tooltip_content_short": "Podatek opłacony po dokonaniu płatności",
+        "gift_card_title": "Karta podarunkowa",
+        "gift_card_label": "Karta podarunkowa",
+        "gift_card_placeholder": "Karta podarunkowa",
+        "gift_card_and_discount_title": "Kod rabatowy lub bon",
+        "gift_card_and_discount_label": "Kod rabatowy lub bon",
+        "gift_card_and_discount_placeholder": "Kod rabatowy lub bon",
+        "gift_card_has_been_applied": "Karta podarunkowa została użyta",
+        "gift_card_has_been_removed": "Kupon został anulowany",
+        "partial_total_label": "Razem",
+        "free_total_label": "Darmowy",
+        "free_shipping_total_label": "Darmowy",
+        "paid_label": "Zapłacono",
+        "payment_due_label": "Płatne do",
+        "gift_card_savings_notice": "Do %{gift_card_amount} w formie bonów podarunkowych",
+        "order_total_updated_label": "Zaktualizowana suma całkowita",
+        "no_pickup_location": "Nie ma dostępnych miejsc odbioru.",
+        "information_estimated_taxes_label": "Podatki (szacunkowo)",
+        "gift_card_ending": "Kupon z końcówką %{last_characters}",
+        "multiple_shipping_lines_label": "Całkowite koszty wysyłki",
+        "original_price": "Cena pierwotna",
+        "gift_card_subscriptions_notice": "Bony podarunkowe będą ważne tylko przy twojej pierwszej wpłacie",
+        "payment_terms_totals": {
+          "due_today": "Całkowita kwota do zapłaty dzisiaj",
+          "due_later": "Całkowita kwota do zapłaty %{due_at}",
+          "due_later_checkout_to_draft": "Całkowita kwota płatna później",
+          "due_on_fulfillment": "Całkowita kwota do zapłaty przy realizacji zamówienia",
+          "due_on_receipt": "Całkowita kwota do zapłaty przy odbiorze",
+          "due_today_next": "Dziś do zapłaty",
+          "due_on_fulfillment_next": "Do zapłaty przy realizacji zamówienia"
+        },
+        "higher_value_discount_applied": "<strong style=\"text-transform:uppercase\">%{code}</strong> nie mógł zostać użyty z Twoimi aktualnymi rabatami.",
+        "maximum_discount_code_limit_reached": "Osiągnąłeś maksymalną liczbę kodów rabatowych. Usuń istniejący kod, aby użyć <strong style=\"text-transform:uppercase\">%{code}</strong>.",
+        "order_total_label": "Całkowita wartość zamówienia",
+        "may_be_charged_on_delivery": "Mogą być pobierane przy dostawie",
+        "group_title_label": "Część \"%{group_title}\"",
+        "gift_card_applied": "Kupon zastosowany",
+        "more_items_modal": {
+          "empty_results": "Nie znaleziono wyników dla \"%{searchText}\". Sprawdź pisownię lub spróbuj użyć innego zapytania.",
+          "number_items_shown": "%{shownNumber} z %{totalNumber} artykułów",
+          "search_item": "Szukaj"
+        },
+        "number_items": {
+          "one": "%{count} artykułów",
+          "other": "%{count} artykułów"
+        },
+        "for_add_on": "Dla: %{group_title}",
+        "from_shop_heading": "Od %{shop_name}",
+        "from_other_stores_heading": "Od innych sklepów",
+        "order_discounts_apply_to_local_shop": "Rabaty za zamówienia obowiązują tylko na artykuły ze %{shop_name}.",
+        "gift_cards_apply_to_local_shop": "Karty podarunkowe obowiązują tylko na artykuły ze %{shop_name}."
       },
       "order_payment_collection": {
         "custom_line_item_description": "Do zapłaty za zamówienie %{order_name}",

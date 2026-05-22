@@ -1531,7 +1531,8 @@
           "due_on_fulfillment": "Celková částka splatná při vyřízení objednávky",
           "due_on_receipt": "Celková částka splatná při převzetí",
           "due_today_next": "Dnes splatné",
-          "due_on_fulfillment_next": "Splatné při vyřízení objednávky"
+          "due_on_fulfillment_next": "Splatné při vyřízení objednávky",
+          "total_paid": "Celková zaplacená částka"
         },
         "higher_value_discount_applied": "<strong style=\"text-transform:uppercase\">%{code}</strong> nemohl být použit s tvými stávajícími slevami.",
         "maximum_discount_code_limit_reached": "Dosáhli jste maximálního počtu slevových kódů. Odstraňte existující kód, abyste mohli použít <strong style=\"text-transform:uppercase\">%{code}</strong>.",
@@ -1553,7 +1554,54 @@
         "order_discounts_apply_to_local_shop": "Objednávkové slevy platí pouze na zboží od %{shop_name}.",
         "gift_cards_apply_to_local_shop": "Dárkové karty platí pouze na zboží od %{shop_name}.",
         "from_multiple_stores_heading": "Z několika obchodů",
-        "pay_merchant_label": "Zaplatit u %{merchant_name}"
+        "pay_merchant_label": "Zaplatit u %{merchant_name}",
+        "title": "Přehled objednávky",
+        "shopping_cart_label": "Košík",
+        "remove_gift_card_label": "Smazat dárkovou kartu",
+        "shipping_information_does_not_meet_discount_requirements_notice": "Slevový kód <strong style=\"text-transform:uppercase\">%{code}</strong> není pro vaši doručovací adresu dostupný",
+        "shipping_label": "Doprava",
+        "shipping_default_value": "Bude vypočteno v dalším kroku",
+        "shipping_pending_value": "Bude účtováno navíc",
+        "shipping_pending_message": "Bude účtováno navíc",
+        "shipping_policy_link": "Viz poštovné",
+        "quantity_label": "Počet",
+        "scroll_order_summary": "Pro další položky posuňte stránku dolů",
+        "pickup_label": "Vyzdvihnutí v obchodě",
+        "sale_price": "nabídková cena",
+        "recurring_subtotal_label": "Opakující se mezisoučet",
+        "recurring_total_label": "Opakující se celková částka",
+        "recurring_total_tooltip": "Nezahrnuje náklady na dopravu, daně, clo ani platné slevy.",
+        "percent_off_shipping": "%{percent} % na dopravu",
+        "subscriptions": "Předplatné",
+        "recurring_payments": "Opakující se platby",
+        "recurring_total_multiple_label": "Tato částka zahrnuje opakující se poplatky za několik položek.",
+        "price_per_item": {
+          "accessibility_label": "%{price} za položku",
+          "label": "%{price}/kus"
+        },
+        "return_restocking_fee_label": "Poplatek za opětovné uložení",
+        "return_shipping_fee_label": "Zpětné zaslání zásilky",
+        "shipping_discount_title": "Sleva na poštovné",
+        "subtotal_label_with_quantity": {
+          "one": "Mezisoučet · %{count} položek",
+          "other": "Mezisoučet · %{count} položek"
+        },
+        "product_image_quantity_label": "Počet",
+        "price_after_discount_aria_text": "Zlevněná cena",
+        "pickup_unavailable_banner_body": {
+          "ship_to_address": "Odeslat na adresu"
+        },
+        "pickup_unavailable_banner_title": {
+          "one": "Žádná dostupnost obchodů s tvým zbožím",
+          "other": "Žádná dostupnost obchodů s tvým zbožím"
+        },
+        "pickup_unavailable_banner_title_with_country": {
+          "one": "Žádné obchody s tvým artiklem nejsou v %{country} dostupné",
+          "other": "Žádné obchody s tvými položkami nejsou v %{country} dostupné"
+        },
+        "tax_line": {
+          "gst": "DPH"
+        }
       },
       "order_payment_collection": {
         "custom_line_item_description": "Částka k úhradě za objednávku %{order_name}",

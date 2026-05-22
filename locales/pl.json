@@ -1331,7 +1331,72 @@
       },
       "offsite_payment_failed": {
         "payment_not_processed_text": "Spróbuj ponownie zeskanować kod QR. Jeśli nadal nie działa, poinformuj nasz personel i wypróbuj inną metodę płatności.",
-        "payment_link_expired_text": "Spróbuj zeskanować kod QR ponownie."
+        "payment_link_expired_text": "Spróbuj zeskanować kod QR ponownie.",
+        "payment_not_processed_title": "Płatność nie powiodła się",
+        "title": "Zewnętrzna płatność nie powiodła się"
+      },
+      "order_summary": {
+        "add_discount_or_gift_card": "Dodaj kod rabatowy lub bon",
+        "applied_discount_message": "%{amount} rabatu od ceny całkowitej",
+        "cart_does_not_meet_discount_requirements_notice": "Kod rabatowy <strong style=\"text-transform:uppercase\">%{code}</strong> nie jest ważny dla produktów w Twoim koszyku",
+        "customer_does_not_meet_discount_requirements_notice": "Kod rabatowy <strong style=\"text-transform:uppercase\">%{code}</strong> jest obecnie niedostępny dla Ciebie",
+        "customer_already_used_once_per_customer_discount_notice": "Kod rabatowy <strong style=\"text-transform:uppercase\">%{code}</strong> został już użyty",
+        "cost_table_title": "Przegląd kosztów",
+        "confirmation_number_label": "Numer potwierdzenia %{confirmation_number}",
+        "deferred_payment_info": {
+          "description_html": "Skontaktuj się z %{contact_us}, jeśli masz pytania dotyczące swojego zamówienia.",
+          "due_on_fulfillment_title": "Płatność w wysokości %{amount_due} jest należna przy realizacji zamówienia"
+        },
+        "collapse_component_information": {
+          "one": "Ukryj %{count} artykułów",
+          "other": "Ukryj %{count} artykułów"
+        },
+        "alternative_payment_currency_total": "Obliczone jako %{amount_due}",
+        "deferred_balance_info": {
+          "title": "Saldo w wysokości {{amount_due}} jest płatne do {{due_at}}",
+          "due_on_fulfillment_title": "Saldo w wysokości {{amount_due}} jest należne przy realizacji zamówienia"
+        },
+        "cost_table_item_column_header": "Artykuł",
+        "automatic_discount_tooltip": "Automatycznie zastosowane rabaty nie mogą zostać usunięte"
+      },
+      "order_payment_collection": {
+        "custom_line_item_description": "Do zapłaty za zamówienie %{order_name}",
+        "changes_summary": {
+          "added": {
+            "one": "Dodano"
+          },
+          "removed": "Usunięto",
+          "subtracted": "%{count} usunięto",
+          "returned": "%{count} zwróconych",
+          "return_line_item_removed": "Usunięto %{count} z zwrotu"
+        },
+        "additional_payment_requested": "Wymagana płatność w wysokości %{total_outstanding}",
+        "checkout_review_and_pay": "Twoje zamówienie %{order_name} zostało zaktualizowane. Sprawdź te zmiany, a następnie dokonaj płatności, aby potwierdzić zamówienie.",
+        "order_review_and_pay": "Twoje zamówienie zostało zaktualizowane. Proszę sprawdź i opłać kwotę, aby potwierdzić zamówienie."
+      },
+      "open_graph_meta_tag": {
+        "title_with_products": {
+          "one": "Kup %{product_name} oraz %{count} innych produktów",
+          "other": "Kup %{product_name} oraz %{count} innych artykułów"
+        }
+      },
+      "order_errors": {
+        "creation_failure": "Wystąpił problem podczas tworzenia twojego zamówienia. Spróbuj ponownie lub skontaktuj się z nami, aby uzyskać więcej informacji.",
+        "network_failure": "Twoje zamówienie nie mogło zostać złożone z powodu błędu sieci. Sprawdź swoje połączenie i spróbuj ponownie.",
+        "inventory_reservation_failure": "Niektóre artykuły nie są już dostępne."
+      },
+      "online_store_chat": {
+        "title": "Masz pytania? Porozmawiaj z nami na czacie"
+      },
+      "one": {
+        "errors": {
+          "merchandise": {
+            "gift_card_price_must_be_greater_than_zero": "Cena kuponu musi być wyższa niż 0.",
+            "subtotal_limit_reached": "Osiągnięto maksymalną liczbę pozycji.",
+            "gift_card_price_must_not_exceed_limit": "Cena vouchera nie może przekraczać %{gift_card_limit}.",
+            "signature_mismatch": "Podpis towaru nie zgadza się dla pozycji %{stable_id}."
+          }
+        }
       }
     }
   }

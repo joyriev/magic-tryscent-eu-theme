@@ -1808,7 +1808,59 @@
         "discount_codes_removed_or_modified_summary": {
           "one": "%{count} slevový kód byl odstraněn nebo změněn",
           "other": "%{count} slevových kódů bylo odstraněno nebo změněno"
-        }
+        },
+        "gift_card_code_label": "Slevový kód",
+        "gift_card_balance_label": "Bilance:",
+        "name_on_card_label": "Jméno držitele karty",
+        "name_on_card_placeholder": "Jméno držitele karty",
+        "ends_with_label": "končí na %{last_digits}",
+        "free_order_notice_html": "Tvoje objednávka je <strong>zdarma</strong>. Platba není nutná.",
+        "express_checkout_free_order": "Za bezplatnou objednávku ti nebude nic účtováno",
+        "missing_credit_card_error": "Zadej údaje o kartě pro dokončení platby",
+        "generic_incorrect_card_info": "Tvé platební údaje nebylo možné ověřit. Zkontroluj údaje o kartě a zkus to znovu.",
+        "klarna_pay_now_label": "Okamžitá platba pomocí Klarna",
+        "klarna_pay_later_label": "Faktura s Klarna",
+        "eps_label": "eps-převod",
+        "klarna_slice_it_label": "Financování s Klarna",
+        "expiry_long": "(Platnost do: %{month}/%{year})",
+        "expiry_short": "(Platnost do: %{month}/%{year})",
+        "ftd_vault_credit_card_label": "Tuto platební kartu uložit na můj účet pro zrychlení placení",
+        "google": {
+          "connect": "Klikněte zde pro připojení k vašemu účtu Google Pay"
+        },
+        "mor_disclaimer_html": "Kliknutím níže a dokončením objednávky souhlasíte s nákupem jednoho nebo více položek od Global-e jako registrovaného prodejce pro tuto transakci za podmínek <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{mor_terms}\" href=\"%{terms_href}\">obchodních podmínek</a> a <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{privacy_policy}\" href=\"%{policy_href}\">zásad ochrany osobních údajů</a> společnosti Global-e. Global-e je mezinárodní poskytovatel fulfillment služeb pro %{shop_name}",
+        "multibanco_label": "Multibanka",
+        "location_billing_address_label": "Fakturační adresa místa",
+        "location_shipping_address_label": "Dodací adresa místa",
+        "expired_cards_info": {
+          "one": "Ve tvém účtu je %{count} expirovaná karta, kterou můžeš zobrazit a upravit.",
+          "other": "Existuje %{count} expirovaných karet, které můžeš zobrazit a upravit ve svém účtu."
+        },
+        "local_payment_method_receiver_notice": "Poté, co zadáš svou objednávku, obdržíš platební údaje. Proveď platbu do {{dueDays}} dnů na bankomatu nebo online.",
+        "gift_card_wrapper": {
+          "heading": "Poukaz",
+          "apply_gift_card_label": "Uplatnit poukaz",
+          "payment_tag": "Poukaz",
+          "apply_another_gift_card_label": "Použít další poukaz",
+          "gift_card_label": "Poukaz: %{identifier}",
+          "add_label": "Přidat poukaz",
+          "manage_label": "Správa dárkových poukazů"
+        },
+        "markets_pro_disclaimer_label": "Odesláním objednávky souhlasíte s nákupem u Global-e jako registrovaný prodejce v souladu s %{markets_pro_terms} a %{privacy_policy} od Global-e a se sdílením vašich údajů s %{shop_name}.",
+        "markets_pro_disclaimer_terms_and_conditions": "Obchodní podmínky",
+        "markets_pro_disclaimer_privacy_policy": "Prohlášení o ochraně osobních údajů",
+        "markets_pro_disclaimer_terms_and_conditions_title": "Obchodní podmínky registrovaného prodejce",
+        "markets_pro_disclaimer_privacy_policy_title": "Prohlášení o ochraně osobních údajů registrovaného prodejce",
+        "expired_payment_method": "Vybraná platební metoda vypršela",
+        "gift_card_store_credit": {
+          "add_label": "Přidat poukaz nebo kredit do obchodu",
+          "manage_label": "Spravovat dárkové poukazy nebo kredit v obchodě"
+        },
+        "gift_cards_unavailable": "Váš dárkový poukaz již nelze použít pro tuto objednávku a byl odstraněn.",
+        "network_card_payment_options": "Vyberte síť karet",
+        "gift_card_checkbox_label": "Uplatnit poukaz",
+        "kcp_creditcard_label": "KCP-kreditní karta",
+        "multiple_primary_payment_not_allowed": "Neplatné způsoby platby"
       }
     }
   }

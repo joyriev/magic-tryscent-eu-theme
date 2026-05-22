@@ -1433,7 +1433,8 @@
           "due_on_fulfillment": "Całkowita kwota do zapłaty przy realizacji zamówienia",
           "due_on_receipt": "Całkowita kwota do zapłaty przy odbiorze",
           "due_today_next": "Dziś do zapłaty",
-          "due_on_fulfillment_next": "Do zapłaty przy realizacji zamówienia"
+          "due_on_fulfillment_next": "Do zapłaty przy realizacji zamówienia",
+          "total_paid": "Zapłacona łączna kwota"
         },
         "higher_value_discount_applied": "<strong style=\"text-transform:uppercase\">%{code}</strong> nie mógł zostać użyty z Twoimi aktualnymi rabatami.",
         "maximum_discount_code_limit_reached": "Osiągnąłeś maksymalną liczbę kodów rabatowych. Usuń istniejący kod, aby użyć <strong style=\"text-transform:uppercase\">%{code}</strong>.",
@@ -1454,7 +1455,70 @@
         "from_shop_heading": "Od %{shop_name}",
         "from_other_stores_heading": "Od innych sklepów",
         "order_discounts_apply_to_local_shop": "Rabaty za zamówienia obowiązują tylko na artykuły ze %{shop_name}.",
-        "gift_cards_apply_to_local_shop": "Karty podarunkowe obowiązują tylko na artykuły ze %{shop_name}."
+        "gift_cards_apply_to_local_shop": "Karty podarunkowe obowiązują tylko na artykuły ze %{shop_name}.",
+        "shopping_cart_label": "Koszyk",
+        "remove_gift_card_label": "Usuń kartę podarunkową",
+        "shipping_information_does_not_meet_discount_requirements_notice": "Kod rabatowy <strong style=\"text-transform:uppercase\">%{code}</strong> nie jest dostępny dla twojego adresu dostawy",
+        "shipping_default_value": "Zostanie obliczone w następnym kroku",
+        "shipping_pending_value": "Zostanie doliczone dodatkowo",
+        "shipping_pending_message": "Zostanie doliczone dodatkowo",
+        "shipping_policy_link": "Zobacz koszty wysyłki",
+        "quantity_label": "Liczba",
+        "scroll_order_summary": "Przewiń, aby zobaczyć więcej artykułów",
+        "sale_price": "Cena ofertowa",
+        "recurring_subtotal_label": "Powtarzająca się suma częściowa",
+        "recurring_total_label": "Powtarzająca się suma całkowita",
+        "recurring_total_tooltip": "Nie zawiera kosztów wysyłki, podatków, opłat celnych ani obowiązujących rabatów.",
+        "percent_off_shipping": "%{percent} % zniżki na wysyłkę",
+        "recurring_payments": "Powtarzające się płatności",
+        "recurring_total_multiple_label": "Ta kwota obejmuje powtarzające się opłaty za kilka przedmiotów.",
+        "price_per_item": {
+          "accessibility_label": "%{price} za sztukę",
+          "label": "%{price}/sztuka"
+        },
+        "return_restocking_fee_label": "Opłata za ponowne składowanie",
+        "subtotal_label_with_quantity": {
+          "one": "Suma częściowa · %{count} artykułów",
+          "other": "Suma częściowa · %{count} artykułów"
+        },
+        "product_image_quantity_label": "Liczba",
+        "price_before_discount_aria_text": "Cena pierwotna",
+        "price_after_discount_aria_text": "Obniżona cena",
+        "pickup_unavailable_banner_body": {
+          "ship_to_address": "Wyślij na adres"
+        },
+        "pickup_unavailable_banner_title": {
+          "one": "Brak dostępności sklepów z twoim artykułem",
+          "other": "Brak dostępności sklepów z twoim artykułem"
+        },
+        "pickup_unavailable_banner_title_with_country": {
+          "one": "Brak sklepów z Twoim produktem w %{country}",
+          "other": "Brak sklepów z Twoimi artykułami dostępnych w %{country}"
+        },
+        "total_label": "Razem",
+        "total_outstanding_label": "Do zapłaty",
+        "vat_label_html": "w tym %{amount} VAT",
+        "total_updated_label": "Nowa cena całkowita:",
+        "total_already_paid_label": "Zapłacono",
+        "unit_price": {
+          "accessible_separator": "profesjonalny",
+          "per_item": {
+            "single": "%{price} za sztukę",
+            "one": "%{price} za %{count} artykułów",
+            "other": "%{price} za %{count} artykułów"
+          }
+        },
+        "total_updated_label_with_price": "Nowa cena całkowita: %{totalPrice}",
+        "total_savings": "Całkowite oszczędności",
+        "view_all_items": {
+          "one": "Pokaż %{count} artykułów",
+          "other": "Pokaż wszystkie %{count} artykuły"
+        },
+        "total_due_today_label": "Całkowita kwota do zapłaty dzisiaj",
+        "total_due_later_label": "Całkowita kwota płatna później",
+        "total_due_label": "Należna kwota całkowita",
+        "unconfirmed_label": "Niepotwierdzony",
+        "total_paid_label": "Zapłacona łączna kwota"
       },
       "order_payment_collection": {
         "custom_line_item_description": "Do zapłaty za zamówienie %{order_name}",
@@ -1494,6 +1558,32 @@
             "signature_mismatch": "Podpis towaru nie zgadza się dla pozycji %{stable_id}."
           }
         }
+      },
+      "payment": {
+        "amazon_payments_login_hint": "Zostaniesz poproszony o zalogowanie się do Amazon.",
+        "amazon_payments_failed_mfa_challenge": "Wybrana metoda płatności nie mogła zostać użyta. Wybierz inną metodę lub skontaktuj się ze swoim bankiem albo wystawcą karty.",
+        "amazon_payments_abandoned_mfa_challenge": "Twoja płatność nie mogła zostać zakończona. Spróbuj użyć innej metody płatności lub skontaktuj się ze swoim bankiem albo wystawcą karty.",
+        "amazon_payments_could_not_enqueue_authorize": "Podczas przetwarzania twojej płatności wystąpił problem. Spróbuj ponownie lub użyj innej metody płatności.",
+        "amount_left_to_pay_label": "Kwota",
+        "apple": {
+          "connect": "Kliknij tutaj, aby połączyć swoje konto Apple Pay",
+          "not_available": "Apple Pay nie jest dostępny w tej przeglądarce. Jeśli chcesz połączyć swoje konto Apple Pay, użyj proszę Safari na urządzeniu Apple."
+        },
+        "account_connected": "Konto połączone.",
+        "alternative_payment_currency_total_notice": "Uwaga: Zostanie Ci naliczone %{amount_due}",
+        "add_credit_card_modal": {
+          "cancel": "Zamknij"
+        },
+        "afterpay_label": "Zapłać później",
+        "alternative_payment_currency_total_manual_payment_notice": "Uwagi: łącznie przeliczono %{amount_due}.",
+        "bank_account_type": {
+          "checking": "Sprawdzanie",
+          "savings": "Konto oszczędnościowe"
+        },
+        "bank_account_choose": "Wybierz konto, aby bezpiecznie zakończyć zakup",
+        "bank_account_connect_another": "Połącz kolejne konto bankowe",
+        "bank_account_disclaimer": "Płatności ACH mogą potrwać do 4 dni roboczych na przetworzenie.",
+        "bank_account_generic_error": "Nie udało się dodać konta bankowego. Spróbuj ponownie później."
       }
     }
   }

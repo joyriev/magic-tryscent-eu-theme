@@ -1228,7 +1228,8 @@
           "other": "%{count} míst poblíž s tvým artiklem"
         },
         "location_nearby_short_other_items": {
-          "one": "%{count} místo poblíž s tvými položkami"
+          "one": "%{count} místo poblíž s tvými položkami",
+          "other": "%{count} míst v blízkosti s tvými položkami"
         },
         "location_far_away_one_item": {
           "one": "%{count} místo s tvým artiklem",
@@ -1237,7 +1238,142 @@
         "location_far_away_other_items": {
           "one": "%{count} místo s tvými položkami",
           "other": "%{count} míst s tvými položkami"
+        },
+        "toggle_location": "Změnit místo",
+        "or": "OBJEDNAT",
+        "your_location": "tvoje poloha",
+        "search_button": "Hledat obchody",
+        "no_stores_found": "Nebyly nalezeny žádné obchody",
+        "paginator": {
+          "accessibility_label": "Číslování stran pro osobní vyzvednutí",
+          "label": {
+            "one": "%{first}–%{last} z %{count} obchodů",
+            "other": "%{first}–%{last} z %{count} obchodů"
+          }
+        },
+        "reveal_more_label": {
+          "one": "Zobrazit %{count} dalších lokalit",
+          "other": "Zobrazit %{count} dalších lokalit"
+        },
+        "selected_pickup_option_no_longer_available": {
+          "title": "Tvá dříve vybraná lokalita již není k dispozici.",
+          "description": "Vyberte nové místo nebo %{ship_to_address_link}",
+          "ship_to_address_link": "rozhodni se pro odeslání"
+        },
+        "pickup_unavailable_banner_body": {
+          "ship_items": "Odeslat položku",
+          "search_elsewhere": "hledat jinde"
+        },
+        "toggle_multiple_locations": "Více než %{count} dalších lokalit",
+        "toggle_more_locations": {
+          "one": "%{count} dalších poboček",
+          "other": "%{count} dalších lokalit"
+        },
+        "pickup_unavailable_banner_title": {
+          "one": "Žádné místo nemá tvůj artikl",
+          "other": "Žádné místo nemá tvoje položky"
+        },
+        "pickup_unavailable_banner_title_with_country": {
+          "one": "Žádná místa v %{country} nemají váš artikl",
+          "other": "Žádná místa v %{country} nemají vaše položky"
+        },
+        "title": "Poloha"
+      },
+      "localized_fields": {
+        "additional_information": {
+          "tax_credential_br": "IČO/DIČ",
+          "shipping_credential_br": "IČO/DIČ",
+          "shipping_credential_kr": "Osobní celní kodex",
+          "shipping_credential_cn": "Číslo občanského průkazu",
+          "tax_credential_co": "Průkaz/DPH",
+          "shipping_credential_co": "Průkaz/DPH",
+          "shipping_credential_type_co": "Typ průkazu",
+          "tax_credential_cr": "Identifikační číslo/RUT",
+          "shipping_credential_cr": "Identifikační číslo/RUT",
+          "tax_credential_ec": "CI/RUC/DPH",
+          "shipping_credential_ec": "CI/RUC/DPH",
+          "shipping_credential_gt": "DIČ/DPH",
+          "shipping_credential_id": "DIČ",
+          "shipping_credential_my": "DIČ/Registrační číslo",
+          "shipping_credential_py": "CI/RUC/DPH",
+          "shipping_credential_pe": "DIČ/RČ/CE",
+          "shipping_credential_pt": "DIČ/DPH",
+          "shipping_credential_es": "DIČ/ČÍSLO OPERAČNÍHO ČÍSLA (DNI/NIF)",
+          "shipping_credential_tw": "Číslo občanského průkazu/DPH",
+          "shipping_credential_tr": "Číslo občanského průkazu Turecké republiky/DPH",
+          "tax_credential_it": "Daňový řád (volitelně)",
+          "tax_credential_type_co": "Typ průkazu",
+          "tax_credential_gt": "DIČ/DPH",
+          "tax_credential_id": "DIČ",
+          "tax_credential_my": "DIČ/Registrační číslo",
+          "tax_credential_type_mx": "Daňový režim",
+          "tax_credential_use_mx": "Použití CFDI",
+          "tax_credential_py": "CI/RUC/DPH",
+          "tax_credential_pe": "DIČ/RČ/CE",
+          "tax_credential_pt": "DIČ/DPH",
+          "tax_credential_es": "DIČ/ČÍSLO OPERAČNÍHO ČÍSLA (DNI/NIF)",
+          "tax_credential_tr": "Číslo občanského průkazu Turecké republiky/DPH"
         }
+      },
+      "marketing": {
+        "accept_marketing_checkbox_label": "Získejte novinky a nabídky e-mailem",
+        "unsubscribe": {
+          "title": "Odhlásil(a) ses",
+          "description": "Už od nás neobdržíte žádná připomenutí košíku."
+        },
+        "accept_sms_checkbox_label": "Získejte novinky a nabídky prostřednictvím textové zprávy",
+        "sms": {
+          "disclaimer": {
+            "privacy_policy": "Prohlášení o ochraně osobních údajů",
+            "terms_of_service": "Všeobecné obchodní podmínky",
+            "description_html": "Pokud se zaregistrujete k přijímání textových zpráv, budete na zadané telefonní číslo dostávat opakující se automatizované marketingové zprávy, včetně připomenutí košíku. Souhlas není podmínkou nákupu. Odpovězte slovem STOP, chcete-li odběr zrušit. Odpovězte slovem POMOC, chcete-li požádat o podporu. Frekvence zpráv se může lišit. Mohou být účtovány poplatky za zprávy a datové přenosy. Podívejte se na naše %{privacy_policy_link} a %{terms_of_service_link}.",
+            "description_transactional_html": "Můžete obdržet textové zprávy s potvrzením objednávky a aktualizacemi odeslání. Odpovězte slovem STOPPEN pro zrušení odběru. Odpovězte slovem HILFE pro požádání o pomoc. Frekvence zpráv se může lišit. Mohou být účtovány poplatky za zprávy a datové přenosy. Podívejte se na naše %{privacy_policy_modal_link} a %{terms_of_service_modal_link}."
+          },
+          "mobile_phone_number": "Mobilní telefonní číslo",
+          "get_offers_by_text": "Získávejte nabídky prostřednictvím textových zpráv"
+        },
+        "post_accept_marketing_checkbox_label": "Máte předplatné novinek a nabídek zasílaných e-mailem",
+        "pending_accept_marketing_checkbox_label": "Zkontroluj své e-maily, abys potvrdil své přihlášení k odběru novinek a nabídek",
+        "accept_shop_pay_marketing_checkbox_label": "Přihlášení k odběru novinek a nabídek tohoto obchodu",
+        "disclaimer": {
+          "privacy_policy": "Prohlášení o ochraně osobních údajů",
+          "terms_of_service": "Všeobecné obchodní podmínky"
+        }
+      },
+      "marketplaces": {
+        "legal_notice": {
+          "legal_text": "Zkontrolovat",
+          "link_label": "Obchodní podmínky {{partnerDisplayName}}"
+        }
+      },
+      "markets": {
+        "invalid_market_manager_error": "Zkontroluj své kontaktní údaje před dokončením platby"
+      },
+      "merchant_instruction_errors": {
+        "empty_stable_id": "Instrukce pro merchandisingový artikl %{position} %{name} obsahuje prázdné stabilní ID.",
+        "duplicate_variant_id": "Pokyn pro merchandisingový artikl %{position} %{name} obsahuje duplicitní ID varianty %{variant_id}.",
+        "discount_not_supported": "Pokyny pro prodejce k použití slev na merchandisingové položky nepodporují tento typ slevy."
+      },
+      "merchandise_unavailable_in_buyer_location": {
+        "banner_title": {
+          "some_products_one": "Tento produkt není k dispozici pro doručení do %{location_name}.",
+          "some_products_other": "Tyto produkty nejsou k dispozici pro doručení do %{location_name}.",
+          "all_products_one": "Produkt ve tvém košíku není k dispozici pro doručení do %{location_name}.",
+          "all_products_other": "Produkty ve tvém košíku nejsou k dispozici pro doručení do %{location_name}."
+        },
+        "missing_country_fallback": "tvá země",
+        "indeterminate_location_fallback": "tvoje poloha",
+        "cart_updated": "Tvůj nákupní košík byl aktualizován.",
+        "change_address_only": "Změňte doručovací adresu, abyste mohli pokračovat.",
+        "change_address_or_remove": "Změňte doručovací adresu nebo %{remove_action}.",
+        "empty_cart_action": "vyprázdni košík a vrať se zpět do obchodu.",
+        "remove_items_action": {
+          "other": "odstraň nepřístupné položky"
+        }
+      },
+      "memberships": {
+        "delivery_promise_unfulfillable": "Tato adresa není podporována pro aktuální členství.",
+        "items_split_across_locations_unsupported": "Doručení Prime není pro tvou objednávku dostupné. Tvé možnosti odeslání byly aktualizovány."
       }
     }
   }

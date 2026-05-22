@@ -1206,8 +1206,70 @@
           "shipping_credential_pt": "NIP/VAT",
           "shipping_credential_es": "DNI/NIP",
           "shipping_credential_tw": "Numer dowodu osobistego/NIP",
-          "shipping_credential_tr": "Numer identyfikacyjny Republiki Turcji/NIP"
+          "shipping_credential_tr": "Numer identyfikacyjny Republiki Turcji/NIP",
+          "tax_credential_it": "Ordynacja podatkowa (opcjonalnie)",
+          "tax_credential_type_co": "Rodzaj dowodu osobistego",
+          "tax_credential_gt": "NIP/NIP VAT",
+          "tax_credential_my": "NIP/Numer rejestracyjny",
+          "tax_credential_type_mx": "Reżim Podatkowy",
+          "tax_credential_use_mx": "Użycie CFDI",
+          "tax_credential_py": "CI/RUC/PDV",
+          "tax_credential_pt": "NIP/VAT",
+          "tax_credential_es": "DNI/NIP",
+          "tax_credential_tr": "Numer identyfikacyjny Republiki Turcji/NIP"
         }
+      },
+      "marketing": {
+        "accept_marketing_checkbox_label": "Otrzymuj wiadomości i oferty e-mailem",
+        "unsubscribe": {
+          "title": "Wylogowałeś się",
+          "description": "Nie będziesz już otrzymywać od nas przypomnień o koszyku."
+        },
+        "accept_sms_checkbox_label": "Otrzymuj wiadomości i oferty tekstowe",
+        "sms": {
+          "disclaimer": {
+            "privacy_policy": "Polityka prywatności",
+            "terms_of_service": "Ogólne warunki handlowe",
+            "description_html": "Jeśli zarejestrujesz się do otrzymywania wiadomości tekstowych, będziesz otrzymywać na podany numer telefonu powtarzające się zautomatyzowane wiadomości marketingowe, w tym przypomnienia o koszyku. Zgoda nie jest warunkiem zakupu. Odpowiedz słowem STOP, aby zrezygnować z subskrypcji. Odpowiedz słowem POMOC, aby uzyskać wsparcie. Częstotliwość wiadomości może się różnić. Mogą obowiązywać opłaty za wiadomości i korzystanie z danych. Zapoznaj się z naszymi %{privacy_policy_link} i %{terms_of_service_link}.",
+            "description_transactional_html": "Możesz otrzymywać wiadomości tekstowe z potwierdzeniami zamówień i aktualizacjami wysyłki. Odpowiedz słowem STOP, aby zrezygnować z subskrypcji. Odpowiedz słowem POMOC, aby uzyskać wsparcie. Częstotliwość wiadomości może się różnić. Mogą obowiązywać opłaty za wiadomości i transmisję danych. Zapoznaj się z naszymi %{privacy_policy_modal_link} oraz %{terms_of_service_modal_link}."
+          },
+          "get_offers_by_text": "Otrzymuj oferty za pomocą wiadomości tekstowej"
+        },
+        "post_accept_marketing_checkbox_label": "Subskrybujesz wiadomości i oferty e-mailem",
+        "pending_accept_marketing_checkbox_label": "Sprawdź swoją pocztę elektroniczną, aby potwierdzić subskrypcję wiadomości i ofert specjalnych",
+        "accept_shop_pay_marketing_checkbox_label": "Zapisz się, aby otrzymywać nowości i oferty z tego sklepu",
+        "disclaimer": {
+          "terms_of_service": "Ogólne warunki handlowe"
+        }
+      },
+      "marketplaces": {
+        "legal_notice": {
+          "link_label": "Warunki handlowe {{partnerDisplayName}}"
+        }
+      },
+      "markets": {
+        "invalid_market_manager_error": "Sprawdź swoje dane kontaktowe przed zakończeniem płatności"
+      },
+      "merchant_instruction_errors": {
+        "empty_stable_id": "Instrukcja dla artykułu merchandisingowego %{position} %{name} zawiera pusty stabilny identyfikator.",
+        "duplicate_variant_id": "Instrukcja dla artykułu merchandisingowego %{position} %{name} zawiera zduplikowany identyfikator wariantu %{variant_id}.",
+        "discount_not_supported": "Instrukcja dla sprzedawców dotycząca stosowania rabatów na artykuły merchandisingowe nie obsługuje tego rodzaju rabatu."
+      },
+      "merchandise_unavailable_in_buyer_location": {
+        "banner_title": {
+          "some_products_other": "Te produkty nie są dostępne do dostawy do %{location_name}."
+        },
+        "missing_country_fallback": "twój kraj",
+        "indeterminate_location_fallback": "twoja lokalizacja",
+        "empty_cart_action": "opróżnij koszyk i wróć do sklepu.",
+        "remove_items_action": {
+          "one": "usuń niedostępny artykuł",
+          "other": "usuń niedostępne artykuły"
+        }
+      },
+      "memberships": {
+        "delivery_promise_unfulfillable": "Ten adres nie jest obsługiwany dla bieżącego członkostwa.",
+        "items_split_across_locations_unsupported": "Dostawa Prime nie jest dostępna dla twojego zamówienia. Twoje opcje wysyłki zostały zaktualizowane."
       }
     }
   }

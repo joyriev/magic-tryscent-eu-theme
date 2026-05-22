@@ -1352,7 +1352,10 @@
       "merchant_instruction_errors": {
         "empty_stable_id": "Instrukce pro merchandisingový artikl %{position} %{name} obsahuje prázdné stabilní ID.",
         "duplicate_variant_id": "Pokyn pro merchandisingový artikl %{position} %{name} obsahuje duplicitní ID varianty %{variant_id}.",
-        "discount_not_supported": "Pokyny pro prodejce k použití slev na merchandisingové položky nepodporují tento typ slevy."
+        "discount_not_supported": "Pokyny pro prodejce k použití slev na merchandisingové položky nepodporují tento typ slevy.",
+        "invalid_stable_id_target": "Pokyn pro merchandisingový artikl %{position} %{name} se vztahuje ke stabilnímu ID %{stable_id}, které však není v řadě merchandisingových artiklů.",
+        "invalid_variant_id_target": "Pokyn pro merchandisingový produkt %{name} se vztahuje na variantu s ID %{variant_id}, která však není součástí řady merchandisingových produktů.",
+        "invalid_price_override_target": "Pokyn pro přepsání ceny u zboží pro položku %{stable_id} je neplatný, protože se jedná o součást balíčku."
       },
       "merchandise_unavailable_in_buyer_location": {
         "banner_title": {
@@ -1374,6 +1377,138 @@
       "memberships": {
         "delivery_promise_unfulfillable": "Tato adresa není podporována pro aktuální členství.",
         "items_split_across_locations_unsupported": "Doručení Prime není pro tvou objednávku dostupné. Tvé možnosti odeslání byly aktualizovány."
+      },
+      "notifications": {
+        "title": "Oznámení"
+      },
+      "mor_policies": {
+        "terms_and_conditions": "Obchodní podmínky registrovaného prodejce",
+        "privacy_policy": "Prohlášení o ochraně osobních údajů registrovaného prodejce"
+      },
+      "no_address_location": {
+        "title": "Místo bez adresy",
+        "header": "Pro tuto lokalitu není žádná doručovací adresa",
+        "message": "Obraťte se na nás, abyste přidali adresu pro toto místo a dokončili objednávku.",
+        "email_us_button_label": "Pošli nám e-mail"
+      },
+      "notice_banner": {
+        "return_to_cart_link_text": "Vrátit se zpět do nákupního košíku",
+        "return_to_cart_to_update_quantities": "%{return_to_cart_link_text}, pro aktualizaci množství",
+        "subscription_changed": "Jedno z tvých předplatných se změnilo.",
+        "company_location_changed": "Tvůj nákupní košík byl aktualizován. Zkontroluj svou objednávku, než ji odešleš.",
+        "violations_title": "{{violation}} chybí nebo je neplatný",
+        "all_violations_content": "Zavolej nám nebo {{emailLink}}, abys tyto informace aktualizoval a dokončil svou objednávku:",
+        "all_violations_email_link": "pošli nám e-mail",
+        "editable_shipping_address_violations_message_title": "Přidej tyto informace, abys dokončil svou objednávku:",
+        "editable_shipping_address_violations_message_footer": "Chcete-li trvale aktualizovat adresu pro tuto lokalitu, {{emailLink}}.",
+        "editable_shipping_address_violations_email_link": "kontaktuj nás",
+        "company_location_changed_product_removed": "Tvůj nákupní košík byl aktualizován, protože některé výrobky na tomto místě nejsou k dispozici. Zkontroluj svou objednávku, než ji odešleš.",
+        "shipping_address_incomplete_title": "Dodací adresa je neúplná",
+        "calculating_shipping": "Poštovné bude ještě spočítáno. Zkus to znovu za pár sekund. Nebylo ti nic účtováno.",
+        "calculating_taxes": "Daně se ještě počítají. Zkus to znovu za pár sekund. Nic ti nebylo účtováno.",
+        "generic_processing_error": {
+          "title": "Při zpracování tvé objednávky došlo k problému",
+          "body": "Tobě nebylo nic účtováno. Zkus to znovu nebo použij jiný způsob platby."
+        },
+        "contact_information": {
+          "title": "Kontaktní údaje jsou neplatné",
+          "header": "Chcete-li aktualizovat své informace, {{emailLink}}.",
+          "email_link": "kontaktuj nás"
+        },
+        "payment_method_not_available_with_payment_terms": "Zvolená platební metoda již není dostupná, protože platba za tuto objednávku nyní podléhá platebním podmínkám {{paymentTerms}}.",
+        "payment_method_not_available_with_fulfillment_terms": "Zvolený způsob platby již není k dispozici, protože platba za tuto objednávku je nyní splatná při vyřízení.",
+        "payment_method_not_available_with_fixed_terms": "Zvolený způsob platby již není k dispozici, protože platba za tuto objednávku je splatná později",
+        "payment_method_not_available_with_review_requirement": "Zvolený způsob platby již není k dispozici, protože platba je splatná až po potvrzení tvé objednávky.",
+        "validation_errors_banner": {
+          "section_label": {
+            "billing": "Faktura"
+          },
+          "heading": {
+            "one": "Je {{count}} chyb:",
+            "other": "Je {{count}} chyb:"
+          },
+          "errors_in_section": {
+            "one": "{{count}} chyb v sekci {{section}}",
+            "other": "{{count}} chyb v sekci {{section}}"
+          }
+        }
+      },
+      "note": {
+        "length_exceeds_maximum": "Zmenšete velikost poznámky na 5000 nebo méně znaků."
+      },
+      "offsite_payment_failed": {
+        "payment_not_processed_text": "Zkus znovu naskenovat QR kód. Pokud to stále nebude fungovat, informuj náš personál a vyzkoušej jiný způsob platby.",
+        "payment_link_expired_title": "Odkaz na platbu vypršel",
+        "payment_link_expired_text": "Zkus znovu naskenovat QR kód.",
+        "payment_not_processed_title": "Platba selhala"
+      },
+      "order_summary": {
+        "add_discount_or_gift_card": "Přidat slevový kód nebo poukaz",
+        "applied_discount_message": "%{amount} sleva z celkové ceny",
+        "cart_does_not_meet_discount_requirements_notice": "Slevový kód <strong style=\"text-transform:uppercase\">%{code}</strong> není platný pro položky ve tvém košíku",
+        "customer_does_not_meet_discount_requirements_notice": "Slevový kód <strong style=\"text-transform:uppercase\">%{code}</strong> pro tebe momentálně není dostupný",
+        "customer_already_used_once_per_customer_discount_notice": "Slevový kód <strong style=\"text-transform:uppercase\">%{code}</strong> již byl použit",
+        "cost_table_title": "Přehled nákladů",
+        "calculating_shipping": "Počítá se…",
+        "applied_free_shipping_discount_label": "Použito",
+        "confirmation_number_label": "Potvrzovací číslo %{confirmation_number}",
+        "deferred_payment_info": {
+          "description_html": "Obraťte se na %{contact_us}, pokud máte otázky ohledně své objednávky.",
+          "due_on_fulfillment_title": "Platba ve výši %{amount_due} je splatná při vyřízení objednávky"
+        },
+        "amount_off_shipping": "%{amount} sleva na dopravu",
+        "collapse_component_information": {
+          "one": "Skrýt %{count} položek",
+          "other": "Skrýt %{count} položek"
+        },
+        "alternative_payment_currency_total": "Vypočteno jako %{amount_due}",
+        "calculating": "Počítá se…",
+        "deferred_balance_info": {
+          "due_on_fulfillment_title": "Zůstatek ve výši {{amount_due}} je splatný při plnění."
+        },
+        "compare_at_sale": "Výprodej (%{sale_amount})",
+        "automatic_discount_tooltip": "Automaticky aplikované slevy nelze odebrat"
+      },
+      "order_payment_collection": {
+        "custom_line_item_description": "Částka k úhradě za objednávku %{order_name}",
+        "changes_summary": {
+          "added": {
+            "other": "%{count} přidáno"
+          },
+          "subtracted": "%{count} odstraněno",
+          "returned": "%{count} vráceno",
+          "return_line_item_removed": "%{count} odstraněno z vrácení"
+        },
+        "additional_payment_requested": "Platba ve výši %{total_outstanding} je vyžadována",
+        "checkout_review_and_pay": "Tvoje objednávka %{order_name} byla aktualizována. Zkontroluj tyto změny a poté zaplať, abys svou objednávku potvrdil.",
+        "order_updated_on": "Tvá objednávka byla aktualizována %{last_edited_at}.",
+        "order_review_and_pay": "Tvá objednávka byla aktualizována. Prosím zkontroluj a zaplať částku, aby byla tvoje objednávka potvrzena.",
+        "pay_now": "Zaplatit nyní"
+      },
+      "open_graph_meta_tag": {
+        "title_with_products": {
+          "zero": "Koupit %{product_name}",
+          "one": "Koupit %{product_name} a %{count} dalších položek",
+          "other": "Koupit %{product_name} a %{count} dalších položek"
+        }
+      },
+      "order_errors": {
+        "creation_failure": "Při vytváření tvé objednávky došlo k potíži. Zkus to znovu nebo nás kontaktuj pro další informace.",
+        "network_failure": "Tvá objednávka nemohla být odeslána kvůli chybě sítě. Zkontroluj své připojení a zkus to znovu.",
+        "inventory_reservation_failure": "Některé položky již nejsou k dispozici."
+      },
+      "online_store_chat": {
+        "title": "Máte otázky? Povídejte si s námi v chatu"
+      },
+      "one": {
+        "errors": {
+          "merchandise": {
+            "gift_card_price_must_be_greater_than_zero": "Cena poukazu musí být vyšší než 0.",
+            "subtotal_limit_reached": "Bylo dosaženo maximálního počtu položek.",
+            "gift_card_price_must_not_exceed_limit": "Cena dárkového poukazu nesmí překročit %{gift_card_limit}.",
+            "signature_mismatch": "Podpis zboží neodpovídá pro položku %{stable_id}."
+          }
+        }
       }
     }
   }

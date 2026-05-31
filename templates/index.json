@@ -97,16 +97,16 @@
           "type": "perks",
           "settings": {
             "perk_image": "shopify://shop_images/DELIVERY.webp",
-            "perk_title": "Kostenloser Versand für alle Bestellungen über €45!",
-            "perk_content": ""
+            "perk_title": "Kostenloser Versand ab 45 €",
+            "perk_content": "Nur diese Woche"
           }
         },
         "perks_x8n9DF": {
           "type": "perks",
           "settings": {
             "perk_image": "shopify://shop_images/SAVINGS.avif",
-            "perk_title": "Treuevorteile für Stammkunden",
-            "perk_content": "Gutscheine bis zu 100€"
+            "perk_title": "Treuerabatte für Stammkunden",
+            "perk_content": "Gutscheine bis zu 100 €"
           }
         },
         "perks_yTdgqz": {
@@ -114,15 +114,15 @@
           "settings": {
             "perk_image": "shopify://shop_images/GIFTS.webp",
             "perk_title": "Kostenlose Geschenkverpackung",
-            "perk_content": "Individuelle Grußkarte (bis 100 Zeichen)"
+            "perk_content": "Mit persönlicher Nachricht (bis 100 Zeichen)"
           }
         },
         "perks_7zj6gB": {
           "type": "perks",
           "settings": {
             "perk_image": "shopify://shop_images/SSUPPORT.webp",
-            "perk_title": "Persönliche Beratung",
-            "perk_content": "täglich von 8 bis 20 Uhr"
+            "perk_title": "PersönlicheBeratung",
+            "perk_content": "Täglich von 8 bis 20 Uhr"
           }
         }
       },

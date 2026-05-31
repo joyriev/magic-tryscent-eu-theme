@@ -41,9 +41,10 @@
     <div class="my-3">
         <div class="font-bold tracking-normal text-black text-lg">
             {{ product.price | money }}
-            {% if product.compare_at_price %}
-            <span class="line-through text-[#c8202f] font-normal text-sm">
-                {{ cart.currency.symbol }}{{ product.compare_at_price | money_without_currency }}</span>
+            {% if product.compare_at_price > product.price %}
+                <span class="line-through text-[#c8202f] font-normal text-sm">
+                    {{ product.compare_at_price | money }}
+                </span>
             {% endif %}
         </div>
     </div>

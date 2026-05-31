@@ -144,10 +144,10 @@
       "name": "Popular Products",
       "settings": {
         "background_color": "#fcfbf9",
-        "heading": "Neue, angesagte Düfte🔥",
+        "heading": "Neue Düfte🔥",
         "subheading": "",
         "collection": "neue-angesagte-dufte",
-        "show_all_button_text": "\"Alle ansehen",
+        "show_all_button_text": "Alle Bestseller anse",
         "padding_top": 36,
         "padding_bottom": 36
       }

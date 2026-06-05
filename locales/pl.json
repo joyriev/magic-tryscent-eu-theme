@@ -2468,7 +2468,7 @@
         },
         "recurring_total_intervals": {
           "day": {
-            "one": "Etykieta"
+            "one": "Dni"
           },
           "week": {
             "one": "Tydzień"

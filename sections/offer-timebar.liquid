@@ -177,7 +177,7 @@
 </div>
 
 <script>
-document.addEventListener('DOMContentLoaded', () => {
+  document.addEventListener('DOMContentLoaded', () => {
   function getNextMidnightTimestamp() {
     const now = new Date();
     const nextMidnight = new Date();
@@ -189,12 +189,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const deadline = getNextMidnightTimestamp();
 
-  new FlipDown(deadline)
+  new FlipDown(deadline, {
+    headings: ["Days", "Hours", "Minutes", "Seconds"],
+  })
     .start()
     .ifEnded(() => {
       console.log('Countdown ended');
     });
-});
+  });
 </script>
 
 {% schema %}

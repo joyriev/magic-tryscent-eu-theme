@@ -251,8 +251,8 @@
           "type": "perks",
           "settings": {
             "perk_image": "shopify://shop_images/DELIVERY.webp",
-            "perk_title": "Kostenloser Versand für alle Bestellungen über 45 €!",
-            "perk_content": "Nur in dieser Woche"
+            "perk_title": "Kostenloser Versand für alle Bestellungen über 45€!",
+            "perk_content": ""
           }
         },
         "perks_NV4H3P": {

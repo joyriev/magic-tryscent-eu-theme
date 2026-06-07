@@ -72,14 +72,13 @@
             <div class="bc-progress-wrap">
               {% assign cart_count = cart.item_count %}
               {% assign progress_percentage = cart_count | times: 25 | at_most: 100 %}
+              {% assign remaining_bottle_count = 4 | minus: cart_count %}
 
               <div class="bc-progress-text" style="color: #000000;">
                 {% if cart_count >= 4 %}
-                  🎉 3+1-Angebot freigeschaltet!
+                  {{ 'sections.cart.bundle_offer_unlocked' | t }}
                 {% else %}
-                  Nur noch
-                  <strong>{{ 4 | minus: cart_count }}</strong>
-                  Flaschen bis 1 gratis!
+                  {{ 'sections.cart.bundle_offer_remaining_html' | t: count: remaining_bottle_count }}
                 {% endif %}
               </div>
               <div class="bc-progress-bar" style="background-color: #E2E2E2; margin-bottom: 0;">
@@ -96,14 +95,13 @@
             <div class="bc-progress-wrap">
               {% assign cart_total = cart.total_price %}
               {% assign progress_percentage = cart_total | times: 100.0 | divided_by: 4500 | at_most: 100 %}
+              {% assign remaining_shipping_amount = 4500 | minus: cart_total | money %}
 
               <div class="bc-progress-text" style="color: #000000;">
                 {% if cart_total >= 4500 %}
-                  🎉 Kostenloser Versand aktiviert!
+                  {{ 'sections.cart.free_shipping_unlocked' | t }}
                 {% else %}
-                  <strong>{{ 4500 | minus: cart_total | money }}</strong>
-                  zu
-                  <strong>Kostenloser Versand</strong>!
+                  {{ 'sections.cart.free_shipping_remaining_html' | t: amount: remaining_shipping_amount }}
                 {% endif %}
               </div>
               <div class="bc-progress-bar" style="background-color: #E2E2E2; margin-bottom: 0;">
@@ -416,17 +414,19 @@
                                 {%- if item.variant.quantity_price_breaks.size > 0 -%}
                                   <volume-pricing class="parent-display">
                                     <ul class="list-unstyled">
+                                      {%- capture item_variant_each_price -%}{{ item.variant.price | money_with_currency }}{%- endcapture -%}
                                       <li>
                                         <span>{{ item.variant.quantity_rule.min }}+</span>
-                                        <span>{{ item.variant.price | money_with_currency }}/ea</span>
+                                        <span>{{ 'sections.quick_order_list.each' | t: money: item_variant_each_price }}</span>
                                       </li>
                                       {%- for price_break in item.variant.quantity_price_breaks -%}
+                                        {%- capture price_break_each_price -%}{{ price_break.price | money_with_currency }}{%- endcapture -%}
                                         <li>
                                           <span>
                                             {{- price_break.minimum_quantity -}}
                                             <span aria-hidden="true">+</span>
                                           </span>
-                                          <span>{{ price_break.price | money_with_currency }}/ea</span>
+                                          <span>{{ 'sections.quick_order_list.each' | t: money: price_break_each_price }}</span>
                                         </li>
                                       {%- endfor -%}
                                     </ul>
@@ -532,14 +532,14 @@
 
           {% if cart.total_price != cart.original_total_price %}
             <div class="totals flex-wrap gap-4 !mb-3" role="status">
-              <h2 class="totals__total">Zwischensumme:</h2>
+              <h2 class="totals__total">{{ 'sections.cart.subtotal' | t }}</h2>
               <p class="totals__total-value">
                 {{ cart.original_total_price | money_with_currency }}
               </p>
             </div>
 
             <div class="totals flex-wrap gap-4 !mb-3" role="status">
-              <h2 class="totals__total">Rabatt:</h2>
+              <h2 class="totals__total">{{ 'sections.cart.discount' | t }}</h2>
               <p class="totals__total-value">
                 <span class="text-green-700">-{{ cart.original_total_price | minus: cart.total_price | money_with_currency }}</span>
               </p>
@@ -609,7 +609,7 @@
         <img
           style="margin-top: 20px;"
           src="{{ 'payment-badge.svg' | asset_url }}"
-          alt="Payment methods"
+          alt="{{ 'sections.footer.payment' | t }}"
           width="100%"
           height="auto"
           loading="lazy">

@@ -311,6 +311,12 @@
       "empty": "Tvůj nákupní košík je prázdný",
       "cart_error": "Při aktualizaci tvého nákupního košíku došlo k chybě. Zkus to prosím znovu.",
       "cart_quantity_error_html": "Do svého košíku můžeš přidat pouze {{ quantity }} kusy tohoto zboží.",
+      "bundle_offer_unlocked": "🎉 Nabídka 3+1 odemčena!",
+      "bundle_offer_remaining_html": "Už jen <strong>{{ count }}</strong> ks do 1 zdarma!",
+      "free_shipping_unlocked": "🎉 Doprava zdarma odemčena!",
+      "free_shipping_remaining_html": "Už jen <strong>{{ amount }}</strong> do <strong>dopravy zdarma</strong>!",
+      "subtotal": "Mezisoučet:",
+      "discount": "Sleva:",
       "update": "Aktualizovat",
       "headings": {
         "product": "Produkt",

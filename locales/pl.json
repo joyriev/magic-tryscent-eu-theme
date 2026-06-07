@@ -311,6 +311,12 @@
       "empty": "Twój koszyk jest pusty",
       "cart_error": "Podczas aktualizowania twojego koszyka wystąpił błąd. Proszę spróbuj ponownie.",
       "cart_quantity_error_html": "Do koszyka możesz dodać tylko {{ quantity }} sztuk tego artykułu.",
+      "bundle_offer_unlocked": "🎉 Oferta 3+1 odblokowana!",
+      "bundle_offer_remaining_html": "Tylko <strong>{{ count }}</strong> szt. do 1 gratis!",
+      "free_shipping_unlocked": "🎉 Darmowa dostawa odblokowana!",
+      "free_shipping_remaining_html": "Jeszcze <strong>{{ amount }}</strong> do <strong>darmowej dostawy</strong>!",
+      "subtotal": "Suma częściowa:",
+      "discount": "Rabat:",
       "update": "Aktualizuj",
       "headings": {
         "product": "Produkt",

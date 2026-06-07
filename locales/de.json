@@ -290,6 +290,12 @@
       "empty": "Dein Warenkorb ist leer",
       "cart_error": "Beim Aktualisieren deines Warenkorbs ist ein Fehler aufgetreten. Bitte versuche es erneut.",
       "cart_quantity_error_html": "Du kannst deinem Warenkorb nur {{ quantity }} Stück dieses Artikels hinzufügen.",
+      "bundle_offer_unlocked": "🎉 3+1-Angebot freigeschaltet!",
+      "bundle_offer_remaining_html": "Nur noch <strong>{{ count }}</strong> Flaschen bis 1 gratis!",
+      "free_shipping_unlocked": "🎉 Kostenloser Versand aktiviert!",
+      "free_shipping_remaining_html": "Nur noch <strong>{{ amount }}</strong> bis zum <strong>kostenlosen Versand</strong>!",
+      "subtotal": "Zwischensumme:",
+      "discount": "Rabatt:",
       "headings": {
         "product": "Produkt",
         "price": "Preis",

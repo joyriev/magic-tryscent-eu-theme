@@ -181,11 +181,6 @@
         "disabled": false,
         "settings": {}
       },
-      "12793297677437526120": {
-        "type": "shopify://apps/t-lab-ai-language-translate/blocks/custom_translations/b5b83690-efd4-434d-8c6a-a5cef4019faf",
-        "disabled": true,
-        "settings": {}
-      },
       "1513253815146976218": {
         "type": "shopify://apps/omnisend-email-marketing-sms/blocks/app-embed/44704aa2-794f-4c5d-8c8e-039c841158e9",
         "disabled": false,
@@ -193,6 +188,11 @@
       },
       "17676059084223943535": {
         "type": "shopify://apps/triplewhale/blocks/triple_pixel_snippet/483d496b-3f1a-4609-aea7-8eee3b6b7a2a",
+        "disabled": false,
+        "settings": {}
+      },
+      "12793297677437526120": {
+        "type": "shopify://apps/t-lab-ai-language-translate/blocks/custom_translations/b5b83690-efd4-434d-8c6a-a5cef4019faf",
         "disabled": false,
         "settings": {}
       }

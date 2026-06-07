@@ -177,7 +177,7 @@
             image: "{{ bundle_product.featured_image | image_url: width: 120, height: 120 }}",
             nuta: "{{ bundle_product.metafields.custom.nuta |  replace: ',', '' }}",
             inspiration_image: "{{ bundle_product.metafields.custom.inspired_by.value.image | image_url: width: 90, height: 90 }}",
-            inspiration_name: "{{ bundle_product.metafields.custom.inspired_by.value.name }}",
+            inspiration_name: "{{ bundle_product.metafields.custom.inspired_by.value.name |  strip_html |  strip }}",
             tags: {{ bundle_product.tags | json }},
             variants: {
               {% for variant in bundle_product.variants %}

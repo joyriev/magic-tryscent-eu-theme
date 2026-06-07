@@ -353,6 +353,9 @@
     "pre_atc_blocks": {
       "original_retail_price_label": "UVP"
     },
+    "massive_review": {
+      "verified_buyer": "Ověřený kupující"
+    },
     "featured_blog": {
       "view_all": "Zobrazit vše",
       "onboarding_title": "Blogový příspěvek",

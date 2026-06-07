@@ -270,10 +270,6 @@
     margin-bottom: 32px
 }
 
-.ml-1 {
-    margin-left: 4px
-}
-
 .ml-2 {
     margin-left: 8px
 }
@@ -318,6 +314,10 @@
     margin-top: auto
 }
 
+.mt-8 {
+    margin-top: 32px
+}
+
 .line-clamp-1 {
     overflow: hidden;
     display: -webkit-box;
@@ -345,10 +345,6 @@
 
 .block {
     display: block
-}
-
-.\!inline-block {
-    display: inline-block !important
 }
 
 .inline-block {
@@ -465,10 +461,6 @@
     height: 80vh
 }
 
-.h-\[8px\] {
-    height: 8px
-}
-
 .h-auto {
     height: auto
 }
@@ -511,10 +503,6 @@
 
 .w-\[80px\] {
     width: 80px
-}
-
-.w-\[8px\] {
-    width: 8px
 }
 
 .w-\[calc\(50\%-0\.5rem\)\] {
@@ -567,6 +555,14 @@
 
 .max-w-screen-md {
     max-width: 768px
+}
+
+.max-w-screen-sm {
+    max-width: 640px
+}
+
+.max-w-\[380px\] {
+    max-width: 380px
 }
 
 .flex-1 {
@@ -719,10 +715,6 @@
 
 .gap-8 {
     gap: 32px
-}
-
-.gap-\[5px\] {
-    gap: 5px
 }
 
 .gap-x-3 {
@@ -1446,10 +1438,6 @@
     line-height: 1.25 !important
 }
 
-.leading-4 {
-    line-height: 16px
-}
-
 .leading-\[50px\] {
     line-height: 50px
 }
@@ -1533,6 +1521,11 @@
 .text-\[\#888888\] {
     --tw-text-opacity: 1;
     color: rgb(136 136 136 / var(--tw-text-opacity, 1))
+}
+
+.text-\[\#c8202f\] {
+    --tw-text-opacity: 1;
+    color: rgb(200 32 47 / var(--tw-text-opacity, 1))
 }
 
 .text-\[\#ffc109\] {
@@ -1647,11 +1640,6 @@
 
 .text-white\/50 {
     color: rgb(255 255 255 / 0.5)
-}
-
-.text-\[\#c8202f\] {
-    --tw-text-opacity: 1;
-    color: rgb(200 32 47 / var(--tw-text-opacity, 1))
 }
 
 .underline {
@@ -1807,6 +1795,10 @@
 
 .\[display\:none\] {
     display: none
+}
+
+.\[filter\:grayscale\(1\)\] {
+    filter: grayscale(1)
 }
 
 .\[font-family\:\'Plus_Jakarta_Sans\'\] {

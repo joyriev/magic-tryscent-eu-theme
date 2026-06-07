@@ -340,6 +340,9 @@
     "pre_atc_blocks": {
       "original_retail_price_label": "UVP"
     },
+    "massive_review": {
+      "verified_buyer": "Verified buyer"
+    },
     "featured_blog": {
       "view_all": "View all",
       "onboarding_title": "Blog post",

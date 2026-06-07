@@ -183,7 +183,19 @@
     width="">
 </div>
 
-{{ localization.country.iso_code | downcase }}
+{% assign country_iso_code = localization.country.iso_code | downcase %}
+{% if country_iso_code == 'pl' %}
+  <div class="flex items-center justify-center">
+    <img
+      src="https://posttrack.com/cdn/images/carriers/icons/0072-inpost.png"
+      alt="Inpost"
+      height="30"
+      width="30">
+    <div>
+      Dostawa w ciągu 24 godzin
+    </div>
+  </div>
+{% endif %}
 
 <div class="my-6">
   <div class="flex items-center gap-3 text-base">

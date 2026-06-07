@@ -307,7 +307,7 @@
       "caption": "Przedmiot w koszyku",
       "remove_title": "Usuń {{ title }}",
       "note": "Specjalne instrukcje zamówienia",
-      "checkout": "Zameldować się",
+      "checkout": "Realizuj zamówienieate",
       "empty": "Twój koszyk jest pusty",
       "cart_error": "Podczas aktualizowania twojego koszyka wystąpił błąd. Proszę spróbuj ponownie.",
       "cart_quantity_error_html": "Do koszyka możesz dodać tylko {{ quantity }} sztuk tego artykułu.",
@@ -344,11 +344,11 @@
       "payment": "Metody płatności"
     },
     "cart_upsells": {
-      "heading": "Pokochasz je",
+      "heading": "Mogą spodobać Ci się też",
       "previous_products": "Poprzednie produkty",
       "next_products": "Następne produkty",
       "select_variant": "Wybierz wariant",
-      "add": "Dodaj"
+      "add": "Dodaj do koszyka"
     },
     "featured_blog": {
       "view_all": "Pokaż wszystko",

@@ -337,6 +337,9 @@
       "select_variant": "Select variant",
       "add": "Add"
     },
+    "pre_atc_blocks": {
+      "original_retail_price_label": "UVP"
+    },
     "featured_blog": {
       "view_all": "View all",
       "onboarding_title": "Blog post",

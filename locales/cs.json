@@ -350,6 +350,9 @@
       "select_variant": "Vyberte variantu",
       "add": "Přidat"
     },
+    "pre_atc_blocks": {
+      "original_retail_price_label": "UVP"
+    },
     "featured_blog": {
       "view_all": "Zobrazit vše",
       "onboarding_title": "Blogový příspěvek",

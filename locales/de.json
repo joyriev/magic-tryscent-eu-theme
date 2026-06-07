@@ -329,6 +329,9 @@
       "select_variant": "Variante auswählen",
       "add": "Hinzufügen"
     },
+    "pre_atc_blocks": {
+      "original_retail_price_label": "UVP"
+    },
     "featured_blog": {
       "view_all": "Alle anzeigen",
       "onboarding_title": "Blog-Beitrag",

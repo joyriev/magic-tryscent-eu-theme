@@ -350,6 +350,9 @@
       "select_variant": "Wybierz wariant",
       "add": "Dodaj do koszyka"
     },
+    "pre_atc_blocks": {
+      "original_retail_price_label": "Cena markowa"
+    },
     "featured_blog": {
       "view_all": "Pokaż wszystko",
       "onboarding_title": "Wpis na blogu",

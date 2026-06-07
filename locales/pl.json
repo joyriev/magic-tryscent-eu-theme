@@ -343,6 +343,13 @@
     "footer": {
       "payment": "Metody płatności"
     },
+    "cart_upsells": {
+      "heading": "Pokochasz je",
+      "previous_products": "Poprzednie produkty",
+      "next_products": "Następne produkty",
+      "select_variant": "Wybierz wariant",
+      "add": "Dodaj"
+    },
     "featured_blog": {
       "view_all": "Pokaż wszystko",
       "onboarding_title": "Wpis na blogu",

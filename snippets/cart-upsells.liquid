@@ -5,12 +5,12 @@
 {% if upsell_collection and upsell_collection.all_products.size > 0 %}
   <div class="cart-upsell-slider my-6">
     <div class="flex items-center justify-between mb-4">
-      <h3 class="text-sm font-semibold tracking-wider uppercase">Diese werden Sie lieben</h3>
+      <h3 class="text-sm font-semibold tracking-wider uppercase">{{ 'sections.cart_upsells.heading' | t }}</h3>
       <div class="flex gap-2">
         <button
           type="button"
           class="slider-prev w-8 h-8 flex items-center justify-center rounded-full border border-solid border-gray-300 hover:border-black transition-colors cursor-pointer"
-          aria-label="Previous products">
+          aria-label="{{ 'sections.cart_upsells.previous_products' | t }}">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
             <polyline points="15 18 9 12 15 6"></polyline>
           </svg>
@@ -18,7 +18,7 @@
         <button
           type="button"
           class="slider-next w-8 h-8 flex items-center justify-center rounded-full border border-solid border-gray-300 hover:border-black transition-colors cursor-pointer"
-          aria-label="Next products">
+          aria-label="{{ 'sections.cart_upsells.next_products' | t }}">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
             <polyline points="9 18 15 12 9 6"></polyline>
           </svg>
@@ -78,7 +78,7 @@
                       <select
                         class="w-full text-xs border border-gray-200 rounded p-2 mb-3 variant-selector cursor-pointer"
                         name="id"
-                        aria-label="Select variant">
+                        aria-label="{{ 'sections.cart_upsells.select_variant' | t }}">
                         {% for variant in product.variants %}
                           <option
                             value="{{ variant.id }}"
@@ -95,7 +95,7 @@
                       type="submit"
                       name="add"
                       class="w-full bg-black text-white text-xs font-semibold py-2.5 rounded hover:bg-gray-800 transition-colors cursor-pointer [&.loading]:opacity-50 [&.loading]:cursor-not-allowed [&_.path]:!stroke-white">
-                      <span>Hinzufügen</span>
+                      <span>{{ 'sections.cart_upsells.add' | t }}</span>
                       {%- render 'loading-spinner' -%}
                     </button>
                   </div>

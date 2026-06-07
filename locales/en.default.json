@@ -330,6 +330,13 @@
     "footer": {
       "payment": "Payment methods"
     },
+    "cart_upsells": {
+      "heading": "You'll love these",
+      "previous_products": "Previous products",
+      "next_products": "Next products",
+      "select_variant": "Select variant",
+      "add": "Add"
+    },
     "featured_blog": {
       "view_all": "View all",
       "onboarding_title": "Blog post",

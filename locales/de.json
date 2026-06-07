@@ -322,6 +322,13 @@
     "footer": {
       "payment": "Zahlungsmethoden"
     },
+    "cart_upsells": {
+      "heading": "Diese werden Sie lieben",
+      "previous_products": "Vorherige Produkte",
+      "next_products": "Nächste Produkte",
+      "select_variant": "Variante auswählen",
+      "add": "Hinzufügen"
+    },
     "featured_blog": {
       "view_all": "Alle anzeigen",
       "onboarding_title": "Blog-Beitrag",

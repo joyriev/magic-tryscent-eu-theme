@@ -175,7 +175,7 @@ if (!customElements.get('localization-form')) {
           );
         }
 
-        this.querySelector('.country-selector').scrollTop = 0;
+        this.querySelector('.country-selector_native').scrollTop = 0;
         this.querySelector('.country-selector__list').scrollTop = 0;
       }
 

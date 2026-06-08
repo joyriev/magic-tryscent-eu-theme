@@ -314,10 +314,6 @@
     margin-top: auto
 }
 
-.mt-8 {
-    margin-top: 32px
-}
-
 .line-clamp-1 {
     overflow: hidden;
     display: -webkit-box;
@@ -555,14 +551,6 @@
 
 .max-w-screen-md {
     max-width: 768px
-}
-
-.max-w-screen-sm {
-    max-width: 640px
-}
-
-.max-w-\[380px\] {
-    max-width: 380px
 }
 
 .flex-1 {
@@ -2064,6 +2052,10 @@
 
     .md\:w-1\/2 {
         width: 50%
+    }
+
+    .md\:w-\[calc\(100\%-144px\)\] {
+        width: calc(100% - 144px)
     }
 
     .md\:w-\[calc\(25\%-0\.75rem\)\] {

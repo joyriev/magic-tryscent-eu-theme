@@ -6,7 +6,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
   <script defer src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <div class="flex -mx-[15px] md:mx-0">
-    <div id="productSwiper" class="swiper {% unless product.template_suffix == 'draft-three' %}md:w-[calc(100%-144px)]{% endunless %}">
+    <div id="productSwiper" class="swiper {% unless product.template_suffix == 'draft-three' %} md:w-[calc(100%-144px)] {% endunless %}">
       <div class="swiper-wrapper">
         {% if product.tags contains "local_image" %}
           {% assign image_found = false %}

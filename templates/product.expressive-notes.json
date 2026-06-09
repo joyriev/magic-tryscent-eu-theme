@@ -43,9 +43,16 @@
         },
         "text_668gJC": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<strong>Kopfnoten:</strong> {{ product.metafields.custom.top_notes.value.heading.value }}",
             "text_style": "body"
+          }
+        },
+        "custom_liquid_zQNhHc": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% render 'scent-profiling' %}"
           }
         },
         "reactive_atc_LBDQE9": {
@@ -213,6 +220,7 @@
         "variant_picker_hH3Diz",
         "custom_liquid_nLrh7P",
         "text_668gJC",
+        "custom_liquid_zQNhHc",
         "reactive_atc_LBDQE9",
         "buy_buttons_eXWBwX",
         "custom_liquid_QcxgR4",

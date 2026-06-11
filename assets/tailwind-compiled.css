@@ -162,6 +162,11 @@
     margin-bottom: 0px !important
 }
 
+.\!my-6 {
+    margin-top: 24px !important;
+    margin-bottom: 24px !important
+}
+
 .-mx-2 {
     margin-left: -8px;
     margin-right: -8px
@@ -310,6 +315,10 @@
     margin-top: 24px
 }
 
+.mt-8 {
+    margin-top: 32px
+}
+
 .mt-auto {
     margin-top: auto
 }
@@ -429,6 +438,10 @@
     height: 40px
 }
 
+.h-16 {
+    height: 64px
+}
+
 .h-24 {
     height: 96px
 }
@@ -539,6 +552,10 @@
 
 .max-w-\[250px\] {
     max-width: 250px
+}
+
+.max-w-\[400px\] {
+    max-width: 400px
 }
 
 .max-w-\[500px\] {
@@ -703,6 +720,11 @@
 
 .gap-8 {
     gap: 32px
+}
+
+.gap-x-2 {
+    -moz-column-gap: 8px;
+         column-gap: 8px
 }
 
 .gap-x-3 {
@@ -1123,6 +1145,10 @@
 .object-center {
     -o-object-position: center;
        object-position: center
+}
+
+.\!p-3 {
+    padding: 12px !important
 }
 
 .p-0 {
@@ -1561,6 +1587,11 @@
     color: rgb(55 65 81 / var(--tw-text-opacity, 1))
 }
 
+.text-gray-800 {
+    --tw-text-opacity: 1;
+    color: rgb(31 41 55 / var(--tw-text-opacity, 1))
+}
+
 .text-gray-900 {
     --tw-text-opacity: 1;
     color: rgb(17 24 39 / var(--tw-text-opacity, 1))
@@ -1640,6 +1671,14 @@
 
 .no-underline {
     text-decoration-line: none
+}
+
+.decoration-2 {
+    text-decoration-thickness: 2px
+}
+
+.underline-offset-4 {
+    text-underline-offset: 4px
 }
 
 .opacity-0 {
@@ -1962,6 +2001,10 @@
 
 .hover\:underline:hover {
     text-decoration-line: underline
+}
+
+.hover\:decoration-\[\#22613A\]:hover {
+    text-decoration-color: #22613A
 }
 
 .hover\:opacity-90:hover {

@@ -121,6 +121,10 @@
     top: 24px
 }
 
+.top-1 {
+    top: 4px
+}
+
 .isolate {
     isolation: isolate
 }

@@ -253,6 +253,8 @@
                 </p>
               {%- when 'custom_liquid' -%}
                 {{ block.settings.custom_liquid }}
+              {%- when 'custom_liquid' -%}
+                {% render 'expanded-notes' %}
               {%- when 'collapsible_tab' -%}
                 <div class="product__accordion accordion quick-add-hidden" {{ block.shopify_attributes }}>
                   <details id="Details-{{ block.id }}-{{ section.id }}">
@@ -968,6 +970,10 @@
       "type": "short_description",
       "name": "Short Description",
       "limit": 1
+    },
+    {
+      "type": "expanded_notes",
+      "name": "Expanded NOtes"
     },
     {
       "type": "reactive_atc",

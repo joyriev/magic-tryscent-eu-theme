@@ -257,6 +257,20 @@
         "padding_bottom": 72
       }
     },
+    "you_may_like_agTfti": {
+      "type": "you-may-like",
+      "name": "You May Like",
+      "settings": {
+        "background_color": "#f7f7f7",
+        "title": "Das könnte Ihnen auch gefallen",
+        "description": "",
+        "collection": "bestsellers",
+        "button_text": "Alle anzeigen",
+        "button_link": "shopify://collections/bestsellers",
+        "padding_top": 0,
+        "padding_bottom": 72
+      }
+    },
     "feature_heighlights_fCUG3E": {
       "type": "feature-heighlights",
       "blocks": {
@@ -869,6 +883,7 @@
   },
   "order": [
     "main",
+    "you_may_like_agTfti",
     "feature_heighlights_fCUG3E",
     "scent_breakdown_pqKDL9",
     "stacks_up_WR4y4d",

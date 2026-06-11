@@ -1,12 +1,23 @@
+<div class="flex gap-2 items-center">
+  <img
+    src="{{ 'icon-stopwatch.svg' |  asset_url }}"
+    alt="Watch"
+    height="24"
+    width="24">
+  <div class="font-semibold text-black text-sm md:text-base">
+    Bis zu 12 Std. Halt, 21 % Konzentration
+  </div>
+</div>
+
 <div class="product-quick-nav flex flex-wrap items-center gap-6 mt-6 mb-6">
   <a
-    href="#Details-collapsible_tab_XYmgtQ-template--20437930934342__main"
+    href="#expanded-notes"
     data-scroll-to-foldable="1"
     class="text-xs font-bold tracking-wider uppercase text-gray-900 underline underline-offset-4 decoration-2 hover:decoration-[#22613A] cursor-pointer">Vollständige Beschreibung</a>
   <a
-    href="#shopify-section-template--22347772723459__image_and_text_EFE4gB"
+    href="#shopify-section-template--22302706598146__image_and_text_EFE4gB"
     data-scroll-to-anchor="clean-label-section"
-    class="text-xs font-bold tracking-wider uppercase text-gray-900 underline underline-offset-4 decoration-2 hover:decoration-[#22613A] cursor-pointer">Clean Label</a>
+    class="text-xs font-bold tracking-wider uppercase text-gray-900 underline underline-offset-4 decoration-2 hover:decoration-[#22613A] cursor-pointer">Reines Etikett</a>
 </div>
 <div class="scent-attributes flex gap-6 md:gap-12">
   {% if product.metafields.custom.fragrance_family != blank %}
@@ -228,4 +239,15 @@
     {% else %}
       {{ product.metafields.custom.scent_intensity }}
   {% endcase %}
-</figcaption></figure>{% endif %}</div>
+</figcaption></figure>{% endif %}</div><script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const foldableSummary = document.querySelector('#expanded-notes summary');
+    const foldableLink = document.querySelector('a[href="#expanded-notes"]');
+
+    if (foldableSummary && foldableLink) {
+      foldableLink.addEventListener('click', function () {
+        foldableSummary.click();
+      });
+    }
+  });
+</script>

@@ -134,9 +134,18 @@
                           {{ discount_percent }}% Aus
                         </span>
                       {% endif %}
-                      {% if product.tags contains 'bestseller' %}
+                      {% if product.tags contains 'Bestseller' %}
                         <span class="inline-block bg-[#22613A] text-white text-sm font-bold px-3 py-1 mr-2">
                           Bestseller
+                        </span>
+                      {% endif %}
+                      {% if product.template_suffix == 'expressive-notes' %}
+                        <span class="inline-flex items-center px-3 py-1 rounded-md border border-solid border-[#3b82f6] text-[#3b82f6] text-sm font-medium bg-white">
+                        {% if product.tags contains 'Woman' or product.tags contains 'fuer-frauen' %}
+                         FRAUEN
+                        {% else %}
+                         MÄNNER
+                        {% endif %}
                         </span>
                       {% endif %}
                     </div>

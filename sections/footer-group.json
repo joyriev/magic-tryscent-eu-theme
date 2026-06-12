@@ -23,7 +23,6 @@
         },
         "link_list_Fhdw8K": {
           "type": "link_list",
-          "disabled": true,
           "settings": {
             "heading": "Links",
             "menu": "information"

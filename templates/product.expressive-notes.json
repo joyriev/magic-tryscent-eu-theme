@@ -129,6 +129,7 @@
         },
         "collapsible_tab_FAAFhb": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Duftprofil",
             "icon": "none",
@@ -138,6 +139,7 @@
         },
         "collapsible_tab_bKn87j": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Warum sind Ihre Düfte so günstig?",
             "icon": "none",
@@ -156,6 +158,7 @@
         },
         "collapsible_tab_GUrz86": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Wie lange hält das Parfüm?",
             "icon": "none",
@@ -165,6 +168,7 @@
         },
         "collapsible_tab_TKfWP3": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Was ist ein duftzwilling?",
             "icon": "none",

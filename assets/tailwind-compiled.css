@@ -2557,6 +2557,10 @@
     color: rgb(17 24 39 / var(--tw-text-opacity, 1))
 }
 
+.\[\&_\.gfgPageWrapper\]\:\!mb-0 .gfgPageWrapper {
+    margin-bottom: 0px !important
+}
+
 .\[\&_\.path\]\:\!stroke-white .path {
     stroke: #fff !important
 }

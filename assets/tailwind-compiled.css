@@ -2437,11 +2437,6 @@
         line-height: 1
     }
 
-    .md\:text-6xl {
-        font-size: 60px;
-        line-height: 1
-    }
-
     .md\:text-base {
         font-size: 16px;
         line-height: 24px

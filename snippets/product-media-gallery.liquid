@@ -15,7 +15,10 @@
   {% assign lang_code = 'cs' %}
 {% endif %}
 
-<div class="{{ lang_code }}" lang="{{ lang_code }}">
+<div
+  class="{{ lang_code }}"
+  lang="{{ lang_code }}"
+  url="{{ request.path }}">
   {{ lang_code }}
 </div>
 

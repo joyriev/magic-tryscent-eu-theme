@@ -15,11 +15,7 @@
   {% assign url_lang_code = 'cs' %}
 {% endif %}
 
-{{ url_lang_code }}
-<div lang="{{ url_lang_code }}">
-  <div value="{{ canonical_url }}">canonical_url: {{ canonical_url }}</div>
-  <div value="{{ request.origin }}">request.origin + product.url: {{ request.origin }}{{ product.url }}</div>
-</div>
+<div url-lang-code="{{ url_lang_code }}">{{ url_lang_code }}</div>
 
 <div class="sticky top-6">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />

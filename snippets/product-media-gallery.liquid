@@ -6,7 +6,18 @@
 {% assign marketing_images_pl = shop.metaobjects['marketing_images']['for-de'].images.value %}
 {% assign country_code = localization.country.iso_code | downcase %}
 
-{{ shop.locale | json }}
+{% assign lang_code = 'de' %}
+
+{% if request.path contains '/pl' %}
+  {% assign lang_code = 'pl' %}
+{% endif %}
+{% if request.path contains '/cs' %}
+  {% assign lang_code = 'cs' %}
+{% endif %}
+
+<div>
+  The Language code is: {{ lang_code }}
+</div>
 
 <div class="sticky top-6">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />

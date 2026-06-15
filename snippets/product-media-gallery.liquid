@@ -36,6 +36,7 @@
               {% endif %}
             {% endfor %}
           {% endif %}
+          {% comment %} Marketing images {% endcomment %}
           {% for image in product.images offset: 1 %}
             {% assign img_alt = image.alt | downcase %}
             {% unless img_alt contains "bundle_" %}
@@ -48,7 +49,7 @@
             {% endunless %}
           {% endfor %}
         {% else %}
-          {% for image in product.images %}
+          {% for image in product.images limit: 1 %}
             <img
               src="{{ image.src | img_url: 'master' }}"
               alt="{{ image.alt }}"
@@ -56,6 +57,7 @@
               width="{{ image.width }}"
               class="productSwiperImage swiper-slide md:rounded-lg">
           {% endfor %}
+          {% comment %} marketing images {% endcomment %}
         {% endif %}
       </div>
       <div

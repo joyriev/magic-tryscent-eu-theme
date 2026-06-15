@@ -6,23 +6,19 @@
 {% assign marketing_images_pl = shop.metaobjects['marketing_images']['for-de'].images.value %}
 {% assign country_code = localization.country.iso_code | downcase %}
 
-{% assign lang_code = 'de' %}
+{% assign url_lang_code = 'de' %}
 
 {% if canonical_url contains 'tryscent.eu/pl' %}
-  {% assign lang_code = 'pl' %}
+  {% assign url_lang_code = 'pl' %}
 {% endif %}
 {% if canonical_url contains 'tryscent.eu/cs' %}
-  {% assign lang_code = 'cs' %}
+  {% assign url_lang_code = 'cs' %}
 {% endif %}
 
-{{ lang_code }}
+{{ url_lang_code }}
 <div>
   <div value="{{ canonical_url }}">canonical_url: {{ canonical_url }}</div>
-  <div value="{{ product.url }}">product.url: {{ product.url }}</div>
   <div value="{{ request.origin }}{{ product.url }}">request.origin + product.url: {{ request.origin }}{{ product.url }}</div>
-  <div value="{{ request.locale.iso_code }}">request.locale.iso_code: {{ request.locale.iso_code }}</div>
-  <div value="{{ localization.language.iso_code }}">localization.language.iso_code: {{ localization.language.iso_code }}</div>
-  <div value="{{ routes.root_url }}">routes.root_url: {{ routes.root_url }}</div>
 </div>
 
 <div class="sticky top-6">

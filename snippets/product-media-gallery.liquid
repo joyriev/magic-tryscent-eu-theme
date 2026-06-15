@@ -42,17 +42,16 @@
             {% endfor %}
           {% endif %}
           {% comment %} Marketing images {% endcomment %}
-          {% for image in product.images offset: 1 %}
-            {% assign img_alt = image.alt | downcase %}
-            {% unless img_alt contains "bundle_" %}
+          {% if marketing_images != blank %}
+            {% for image in marketing_images %}
               <img
                 src="{{ image.src | image_url: width: 450 }}"
                 alt="{{ image.alt }}"
                 height="{{ image.height }}"
                 width="{{ image.width }}"
                 class="productSwiperImage swiper-slide md:rounded-lg">
-            {% endunless %}
-          {% endfor %}
+            {% endfor %}
+          {% endif %}
         {% else %}
           {% for image in product.images limit: 1 %}
             <img
@@ -197,9 +196,8 @@
             {% endfor %}
           {% endif %}
           {% comment %} Marketing images {% endcomment %}
-          {% for image in product.images offset: 1 %}
-            {% assign img_alt = image.alt | downcase %}
-            {% unless img_alt contains "bundle_" %}
+          {% if marketing_images != blank %}
+            {% for image in marketing_images %}
               <img
                 id="slider-thumbnail-{{ forloop.index0 }}"
                 src="{{ image | image_url: width: 150, height: 150 }}"
@@ -207,8 +205,8 @@
                 height="150"
                 width="150"
                 class="productThumbnail swiper-slide slide max-w-16 md:max-w-24 opacity-70 border-2 border-solid border-gray-200 rounded-lg cursor-pointer" />
-            {% endunless %}
-          {% endfor %}
+            {% endfor %}
+          {% endif %}
         {% else %}
           {% for image in product.images limit: 1 %}
             <img

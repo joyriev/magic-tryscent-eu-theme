@@ -6,13 +6,12 @@
 {% assign marketing_images_pl = shop.metaobjects['marketing_images']['for-de'].images.value %}
 {% assign country_code = localization.country.iso_code | downcase %}
 
-{% assign url_lang_code = 'de' %}
-
-{% if request.origin contains 'tryscent.eu/pl' %}
+{% if request.origin contains '/pl' %}
   {% assign url_lang_code = 'pl' %}
-{% endif %}
-{% if request.origin contains 'tryscent.eu/cs' %}
+{% elsif request.origin contains '/cs' %}
   {% assign url_lang_code = 'cs' %}
+{% else %}
+  {% assign url_lang_code = 'de' %}
 {% endif %}
 
 <div url-lang-code="{{ url_lang_code }}">{{ url_lang_code }}</div>

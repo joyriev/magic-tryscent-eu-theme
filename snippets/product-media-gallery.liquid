@@ -16,7 +16,7 @@
 {% endif %}
 
 {{ url_lang_code }}
-<div>
+<div lang="{{ request.locale.iso_code }}">
   <div value="{{ canonical_url }}">canonical_url: {{ canonical_url }}</div>
   <div value="{{ request.origin }}{{ product.url }}">request.origin + product.url: {{ request.origin }}{{ product.url }}</div>
 </div>

@@ -8,10 +8,10 @@
 
 {% assign url_lang_code = 'de' %}
 
-{% if canonical_url contains 'tryscent.eu/pl' %}
+{% if request.origin contains 'tryscent.eu/pl' %}
   {% assign url_lang_code = 'pl' %}
 {% endif %}
-{% if canonical_url contains 'tryscent.eu/cs' %}
+{% if request.origin contains 'tryscent.eu/cs' %}
   {% assign url_lang_code = 'cs' %}
 {% endif %}
 

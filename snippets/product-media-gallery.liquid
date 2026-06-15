@@ -4,8 +4,8 @@
 
 {% assign marketing_images = shop.metaobjects['marketing_images']['for-de'].images.value %}
 {% assign marketing_images_pl = shop.metaobjects['marketing_images']['for-de'].images.value %}
-
-{{ localization.country.iso_code }}
+{% assign country_code = localization.country.iso_code | downcase %}
+{{ country_code }}
 
 <div class="sticky top-6">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
@@ -16,9 +16,9 @@
         {% if product.tags contains "local_image" %}
           {% assign image_found = false %}
           {% for image in product.images %}
-            {% assign curr_currency = localization.country.iso_code | prepend: "bundle_" | downcase %}
+            {% assign local_image_code = country_code | prepend: "bundle_" | downcase %}
             {% assign img_alt = image.alt | downcase %}
-            {% if img_alt contains "bundle_" and img_alt == curr_currency %}
+            {% if img_alt contains "bundle_" and img_alt == local_image_code %}
               {% assign image_found = true %}
               <img
                 src="{{ image.src | img_url: 'master' }}"
@@ -169,9 +169,9 @@
         {% if product.tags contains "local_image" %}
           {% assign image_found = false %}
           {% for image in product.images %}
-            {% assign curr_currency = localization.country.iso_code | prepend: "bundle_" | downcase %}
+            {% assign local_image_code = country_code | prepend: "bundle_" | downcase %}
             {% assign img_alt = image.alt | downcase %}
-            {% if img_alt contains "bundle_" and img_alt == curr_currency %}
+            {% if img_alt contains "bundle_" and img_alt == local_image_code %}
               {% assign image_found = true %}
               <img
                 id="slider-thumbnail-{{ forloop.index0 }}"

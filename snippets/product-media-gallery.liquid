@@ -2,6 +2,9 @@
   {% assign product = product_param %}
 {% endif %}
 
+{% assign marketing_images = shop.metaobjects['marketing_images']['for-de'].images.value %}
+
+
 <div class="sticky top-6">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
   <script defer src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
@@ -58,6 +61,16 @@
               class="productSwiperImage swiper-slide md:rounded-lg">
           {% endfor %}
           {% comment %} marketing images {% endcomment %}
+          {% if marketing_images != blank %}
+            {% for image in marketing_images %}
+              <img
+                src="{{ image.src | img_url: 'master' }}"
+                alt="{{ image.alt }}"
+                height="{{ image.height }}"
+                width="{{ image.width }}"
+                class="productSwiperImage swiper-slide md:rounded-lg">
+            {% endfor %}
+          {% endif %}
         {% endif %}
       </div>
       <div
@@ -181,6 +194,7 @@
               {% endif %}
             {% endfor %}
           {% endif %}
+          {% comment %} Marketing images {% endcomment %}
           {% for image in product.images offset: 1 %}
             {% assign img_alt = image.alt | downcase %}
             {% unless img_alt contains "bundle_" %}
@@ -194,7 +208,7 @@
             {% endunless %}
           {% endfor %}
         {% else %}
-          {% for image in product.images %}
+          {% for image in product.images limit: 1 %}
             <img
               id="slider-thumbnail-{{ forloop.index0 }}"
               src="{{ image | image_url: width: 150, height: 150 }}"
@@ -203,6 +217,18 @@
               width="150"
               class="productThumbnail swiper-slide slide max-w-16 md:max-w-24 opacity-70 border-2 border-solid border-gray-200 rounded-lg cursor-pointer" />
           {% endfor %}
+          {% comment %} Marketing Images {% endcomment %}
+          {% if marketing_images != blank %}
+            {% for image in marketing_images %}
+              <img
+                id="slider-thumbnail-{{ forloop.index0 }}"
+                src="{{ image | image_url: width: 150, height: 150 }}"
+                alt="{{ image.alt }}"
+                height="150"
+                width="150"
+                class="productThumbnail swiper-slide slide max-w-16 md:max-w-24 opacity-70 border-2 border-solid border-gray-200 rounded-lg cursor-pointer" />
+            {% endfor %}
+          {% endif %}
         {% endif %}
       </div>
     </div>

@@ -7,8 +7,13 @@
 
 {% comment %} TODO: Discuss with Calvince and fix language code issue. {% endcomment %}
 <script>
-  console.log("Request Current Language: {{ request.locale.iso_code }}");
+  console.log("Request Current Language: ", Weglot.getCurrentLang());
 </script>
+
+{{ localization.language.iso_code }}
+{{ localization.country.iso_code }}
+{{ localization.country.currency.iso_code }}
+{{ request.locale.iso_code }}
 
 <div class="sticky top-6">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />

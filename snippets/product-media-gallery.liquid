@@ -3,7 +3,10 @@
 {% endif %}
 
 {% assign marketing_images = shop.metaobjects['marketing_images']['for-de'].images.value %}
-{% assign marketing_images_pl = shop.metaobjects['marketing_images']['for-de'].images.value %}{% assign country_code = localization.country.iso_code | downcase %}
+{% assign marketing_images_pl = shop.metaobjects['marketing_images']['for-de'].images.value %}
+{% assign country_code = localization.country.iso_code | downcase %}
+
+{{ shop.locale | json }}
 
 <div class="sticky top-6">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />

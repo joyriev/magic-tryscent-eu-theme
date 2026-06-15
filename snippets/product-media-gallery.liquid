@@ -15,15 +15,8 @@
   {% assign lang_code = 'cs' %}
 {% endif %}
 
-<div
-  class="{{ lang_code }}"
-  lang="{{ lang_code }}"
-  url="{{ canonical_url }}">
-  {{ lang_code }}
-</div>
-<a href="{{ routes.root_url }}">
-  Root URL
-</a>
+{{ lang_code }}
+{{ canonical_url }}
 
 <div class="sticky top-6">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />

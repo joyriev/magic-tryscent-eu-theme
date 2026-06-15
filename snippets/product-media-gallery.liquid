@@ -5,16 +5,6 @@
 {% assign marketing_images = shop.metaobjects['marketing_images']['for-de'].images.value %}
 {% assign marketing_images_pl = shop.metaobjects['marketing_images']['for-de'].images.value %}{% assign country_code = localization.country.iso_code | downcase %}
 
-{% comment %} TODO: Discuss with Calvince and fix language code issue. {% endcomment %}
-<script>
-  console.log("Request Current Language: ", Weglot.getCurrentLang());
-</script>
-
-{{ localization.language.iso_code }}
-{{ localization.country.iso_code }}
-{{ localization.country.currency.iso_code }}
-{{ request.locale.iso_code }}
-
 <div class="sticky top-6">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
   <script defer src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
@@ -243,56 +233,56 @@
   </div>
 
   <script>
-      // Swiper Slider For product images with thumbnail sync
-      window.addEventListener("DOMContentLoaded", function () {
-    var productThumbnails = new Swiper('#productThumbnails', {
-      slidesPerView: 5,
-      spaceBetween: 8,
-      freeMode: true,
-      watchSlidesProgress: true,
-      watchOverflow: true,
-      direction: 'horizontal',
-      slideToClickedSlide: true,
-      breakpoints: {
-        320: {
-          slidesPerView: 4,
-        },
-        600: {
-          slidesPerView: 4,
-        },
-        900: {
-          slidesPerView: 5,
+    // Swiper Slider For product images with thumbnail sync
+    window.addEventListener("DOMContentLoaded", function () {
+      var productThumbnails = new Swiper('#productThumbnails', {
+        slidesPerView: 5,
+        spaceBetween: 8,
+        freeMode: true,
+        watchSlidesProgress: true,
+        watchOverflow: true,
+        direction: 'horizontal',
+        slideToClickedSlide: true,
+        breakpoints: {
+          320: {
+            slidesPerView: 4,
+          },
+          600: {
+            slidesPerView: 4,
+          },
+          900: {
+            slidesPerView: 5,
+          }
         }
-      }
-    });
-
-    var productImages = new Swiper('#productSwiper', {
-      slidesPerView: 1,
-      spaceBetween: 10,
-      observer: true,
-      observeParents: true,
-      navigation: {
-        prevEl: "#productSwiperPrev",
-        nextEl: "#productSwiperNext",
-      },
-      thumbs: {
-        swiper: productThumbnails
-      },
-      breakpoints: {
-        320: {
-          slidesPerView: 1,
-          spaceBetween: 10,
-        },
-        600: {
-          slidesPerView: 1,
-          spaceBetween: 20,
-        },
-        800: {
-          slidesPerView: 1,
-          spaceBetween: 20,
-        },
-      },
-    });
       });
+
+      var productImages = new Swiper('#productSwiper', {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        observer: true,
+        observeParents: true,
+        navigation: {
+          prevEl: "#productSwiperPrev",
+          nextEl: "#productSwiperNext",
+        },
+        thumbs: {
+          swiper: productThumbnails
+        },
+        breakpoints: {
+          320: {
+            slidesPerView: 1,
+            spaceBetween: 10,
+          },
+          600: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+          },
+          800: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+          },
+        },
+      });
+    });
   </script>
 </div>

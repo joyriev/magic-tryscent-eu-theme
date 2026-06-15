@@ -8,10 +8,10 @@
 
 {% assign lang_code = 'de' %}
 
-{% if request.path contains '/pl' %}
+{% if canonical_url contains 'tryscent.eu/pl' %}
   {% assign lang_code = 'pl' %}
 {% endif %}
-{% if request.path contains '/cs' %}
+{% if canonical_url contains 'tryscent.eu/cs' %}
   {% assign lang_code = 'cs' %}
 {% endif %}
 
@@ -21,9 +21,9 @@
   url="{{ canonical_url }}">
   {{ lang_code }}
 </div>
-<pre>
-  {{ routes.root_url }}
-</pre>
+<a href="{{ routes.root_url }}">
+  Root URL
+</a>
 
 <div class="sticky top-6">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />

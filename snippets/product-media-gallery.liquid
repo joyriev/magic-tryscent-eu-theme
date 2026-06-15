@@ -17,12 +17,12 @@
 
 {{ lang_code }}
 <div>
-  <div>canonical_url: {{ canonical_url }}</div>
-  <div>product.url: {{ product.url }}</div>
-  <div>request.origin + product.url: {{ request.origin }}{{ product.url }}</div>
-  <div>request.locale.iso_code: {{ request.locale.iso_code }}</div>
-  <div>localization.language.iso_code: {{ localization.language.iso_code }}</div>
-  <div>routes.root_url: {{ routes.root_url }}</div>
+  <div value="{{ canonical_url }}">canonical_url: {{ canonical_url }}</div>
+  <div value="{{ product.url }}">product.url: {{ product.url }}</div>
+  <div value="{{ request.origin }}{{ product.url }}">request.origin + product.url: {{ request.origin }}{{ product.url }}</div>
+  <div value="{{ request.locale.iso_code }}">request.locale.iso_code: {{ request.locale.iso_code }}</div>
+  <div value="{{ localization.language.iso_code }}">localization.language.iso_code: {{ localization.language.iso_code }}</div>
+  <div value="{{ routes.root_url }}">routes.root_url: {{ routes.root_url }}</div>
 </div>
 
 <div class="sticky top-6">

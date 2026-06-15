@@ -16,9 +16,12 @@
 {% endif %}
 
 {{ lang_code }}
-<pre lang="{{ lang_code }}" root="{{ routes.root_url }}">
+<div
+  lang="{{ lang_code }}"
+  root="{{ routes.root_url }}"
+  canonical="{{ canonical_url }}">
   {{ canonical_url }}
-</pre>
+</div>
 
 <div class="sticky top-6">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />

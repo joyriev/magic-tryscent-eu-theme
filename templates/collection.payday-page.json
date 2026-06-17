@@ -38,6 +38,34 @@
     },
     "collection_header_LUWc6U": {
       "type": "collection-header",
+      "blocks": {
+        "step_HXqQtw": {
+          "type": "step",
+          "settings": {
+            "step_title": "Sparen Sie bis zu 40 % mit unseren Paketen",
+            "step_description": "Wählen Sie Ihre Lieblingsdüfte aus und legen Sie sie in Ihren Warenkorb."
+          }
+        },
+        "step_fQjVLT": {
+          "type": "step",
+          "settings": {
+            "step_title": "Sichern Sie sich bis zu zwei GRATIS-Parfums!",
+            "step_description": "Beim Kauf für 34 Euros erhalten Sie 1 Stück gratis. Beim Kauf für 65 Euros  erhalten Sie 2 Stück gratis."
+          }
+        },
+        "step_Ld9Nec": {
+          "type": "step",
+          "settings": {
+            "step_title": "Kaufen Sie für mindestens 35 Euros ein.",
+            "step_description": "Und erhalten Sie kostenlosen Versand!"
+          }
+        }
+      },
+      "block_order": [
+        "step_HXqQtw",
+        "step_fQjVLT",
+        "step_Ld9Nec"
+      ],
       "name": "Collection Header",
       "settings": {
         "background_color": "#242833",

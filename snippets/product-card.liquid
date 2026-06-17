@@ -11,7 +11,7 @@
         {% endif %}
     </div>
     {% endif %}
-    <a href="{{ product.url }}" class="flex">
+    <a href="{{ product.url }}" class="flex relative">
         <img
             class="w-full h-auto"
             src="{{ product.images.first |  image_url: width: 300 }}"

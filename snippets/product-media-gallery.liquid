@@ -307,9 +307,8 @@
           },
         });
 
-        Weglot.on("languageChanged", function (newLang, previousLang) {
-
-            console.log('Language Changed: ', newLang);
+        function changeLocalImages(newLang, _previousLang) {
+          console.log('Language Changed: ', newLang);
       
           const marketingMainImages = Array.from(document.querySelectorAll('#productSwiper .marketing_image'));
           const marketingThumbnailImages = Array.from(document.querySelectorAll('#productThumbnails .marketing_image'));
@@ -332,7 +331,11 @@
             marketingMainImages.forEach((image) => image.remove());
             marketingThumbnailImages.forEach((image) => image.remove());
           }
-        });
+        }
+
+        const currentLang = (window.Weglot && typeof Weglot.getCurrentLang === 'function' && Weglot.getCurrentLang()) || 'de';
+        changeLocalImages(currentLang, null);
+        Weglot.on("languageChanged", changeLocalImages);
       });
 
   </script>

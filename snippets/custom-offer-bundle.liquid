@@ -176,7 +176,7 @@
             return 'VÆLG ' + ({{ product_count }} - this.selectedProducts.length) + ' FLERE'
           }
           if(currentLang === 'cs'){
-            'VYBERTE SI DALŠÍCH ' + ({{ product_count }} - this.selectedProducts.length);
+            return 'VYBERTE SI DALŠÍCH ' + ({{ product_count }} - this.selectedProducts.length);
           }
         }
         return 'NOCH ' + ({{ product_count }} - this.selectedProducts.length) + ' AUSWÄHLEN';

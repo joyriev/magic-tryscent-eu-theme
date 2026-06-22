@@ -170,6 +170,15 @@
       addingToCart: false,
       selectedProducts: [],
       get ctaButtonText () {
+        if(typeof window.Weglot !== 'undefined') {
+          const currentLang = Weglot.getCurrentLang(); 
+          if(currentLang === 'pl'){
+            return 'VÆLG ' + ({{ product_count }} - this.selectedProducts.length) + ' FLERE'
+          }
+          if(currentLang === 'cs'){
+            'VYBERTE SI DALŠÍCH ' + ({{ product_count }} - this.selectedProducts.length);
+          }
+        }
         return 'NOCH ' + ({{ product_count }} - this.selectedProducts.length) + ' AUSWÄHLEN';
       },
       availableProducts: [

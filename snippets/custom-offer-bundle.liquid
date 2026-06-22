@@ -128,7 +128,7 @@
         'cursor-pointer hover:bg-[#368856]': $store.bundleBuilder.selectedProducts.length >= {{ product_count }}
       }"
     class="w-full flex flex-wrap items-center !mb-0 text-2xl !pb-3 !pt-3 rounded-lg button bg-[#22613a] transition-colors shadow-xl tracking-normal button--full-width">
-    <span x-show="$store.bundleBuilder.selectedProducts.length < {{ product_count }}" x-text="'NOCH ' + ({{ product_count }} - $store.bundleBuilder.selectedProducts.length) + ' AUSWÄHLEN'"></span>
+    <span x-show="$store.bundleBuilder.selectedProducts.length < {{ product_count }}" x-text="$store.bundleBuilder.ctaButtonText"></span>
     <div class="flex" x-show="$store.bundleBuilder.selectedProducts.length === {{ product_count }}">JETZT KAUFEN
       <div class="ml-2 pl-2 border-0 border-l flex items-center border-solid border-gray-200/20">
         <div
@@ -169,6 +169,9 @@
       searchText: "",
       addingToCart: false,
       selectedProducts: [],
+      get ctaButtonText () {
+        return 'NOCH ' + ({{ product_count }} - this.selectedProducts.length) + ' AUSWÄHLEN';
+      },
       availableProducts: [
         {% for bundle_product in bundle_collection.products %}
           {

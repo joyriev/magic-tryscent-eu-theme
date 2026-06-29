@@ -166,11 +166,6 @@
           "storefrontAccessToken": ""
         }
       },
-      "9696655121035291526": {
-        "type": "shopify://apps/rapi/blocks/app-embed/99617c17-a32b-4e70-a883-7a155610d032",
-        "disabled": false,
-        "settings": {}
-      },
       "10912811961125325620": {
         "type": "shopify://apps/absolutely/blocks/absolutely_extension/121741f7-5296-410e-8ae4-71174169eced",
         "disabled": false,
@@ -193,6 +188,11 @@
       },
       "8218531531362863771": {
         "type": "shopify://apps/kite-discount-free-gift/blocks/app-embed/2c7302c4-455d-4078-a829-48563ba26089",
+        "disabled": false,
+        "settings": {}
+      },
+      "10436698916776057164": {
+        "type": "shopify://apps/appstle-subscription/blocks/appstle-subscription-helper/fe257d39-6f88-4f35-ab08-bd437e3aa94e",
         "disabled": false,
         "settings": {}
       }

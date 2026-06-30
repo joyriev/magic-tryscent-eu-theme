@@ -9,20 +9,14 @@
  */
 {
   "context": {
-    "market": "poland"
+    "market": "czech"
   },
   "parent": "collection.payday-page.json",
   "sections": {
     "blocky_image_embedded_A69hRa": {
-      "disabled": true,
       "settings": {
-        "image": "shopify://shop_images/polish_payday.png"
+        "image": "shopify://shop_images/czech.png"
       },
-      "blocks": {}
-    },
-    "collection_header_LUWc6U": {
-      "disabled": false,
-      "settings": {},
       "blocks": {}
     }
   }

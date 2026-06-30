@@ -14,13 +14,15 @@
   "parent": "collection.payday-page.json",
   "sections": {
     "collection_header_LUWc6U": {
-      "disabled": false,
+      "disabled": true,
       "settings": {},
       "blocks": {}
     },
     "blocky_image_embedded_A69hRa": {
-      "disabled": true,
-      "settings": {},
+      "disabled": false,
+      "settings": {
+        "image": "shopify://shop_images/tryscent_de_desktop.png"
+      },
       "blocks": {}
     }
   }

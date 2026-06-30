@@ -14,9 +14,9 @@
   "parent": "collection.payday-page.json",
   "sections": {
     "blocky_image_embedded_A69hRa": {
-      "disabled": true,
+      "disabled": false,
       "settings": {
-        "image": "shopify://shop_images/polish_payday.png"
+        "image": "shopify://shop_images/tryscent_pl.png"
       },
       "blocks": {}
     },

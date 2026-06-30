@@ -66,6 +66,7 @@
         "step_fQjVLT",
         "step_Ld9Nec"
       ],
+      "disabled": true,
       "name": "Collection Header",
       "settings": {
         "background_color": "#242833",
@@ -84,12 +85,11 @@
     },
     "blocky_image_embedded_A69hRa": {
       "type": "blocky-image-embedded",
-      "disabled": true,
       "name": "Blocky Image Embed",
       "settings": {
-        "image": "shopify://shop_images/top-marc-jacobs-perfume-collection-guide.jpg",
-        "section_height": "550px",
-        "mobile_height": "500px",
+        "image": "shopify://shop_images/Magicperfume.co_desktop_PAYDAY_-30.png",
+        "section_height": "650px",
+        "mobile_height": "300px",
         "image_fit": "cover",
         "border_radius": 30,
         "overlay_opacity": 0,

@@ -327,6 +327,12 @@
                 image.src = localizedImages.thumbnail[index];
               });
             }
+
+            // updated the scent breakdown section image also
+            const breakdownImageEl = document.getElementById('scent-breakdown-img');
+            if(typeof breakdownImageEl != "undefined"){
+              breakdownImageEl.src = localizedImages.main[1].src;
+            }
           } else {
             marketingMainImages.forEach((image) => image.remove());
             marketingThumbnailImages.forEach((image) => image.remove());

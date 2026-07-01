@@ -19,14 +19,13 @@
   <div class="page-width">
     <div class="grid md:grid-cols-2 gap-8">
       <div>
-        {% if product.images.size > 1 %}
-          <img
-            class="w-full h-full rounded-lg object-cover"
-            src="{{ product.images[1] | image_url }}"
-            alt="Scent Breakdown"
-            height="{{ product.images[1].height }}"
-            width="{{ product.images[1].width }}">
-        {% endif %}
+        <img
+          id="scent-breakdown-img"
+          class="w-full h-full rounded-lg object-cover"
+          src="{{ product.featured_image | image_url }}"
+          alt="Scent Breakdown"
+          height="{{ product.featured_image.height }}"
+          width="{{ product.featured_image.width }}">
       </div>
       <div>
         <div class="bg-[#f2f2f2] px-4 py-6 rounded-lg !mb-4">

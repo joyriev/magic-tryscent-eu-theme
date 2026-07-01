@@ -24,18 +24,6 @@
         "link": "shopify://collections/best-sellers"
       }
     },
-    "offer_timebar_4WVn7P": {
-      "type": "offer-timebar",
-      "name": "Offer Timebar",
-      "settings": {
-        "background_color": "#000000",
-        "forground_color": "#15801f",
-        "prepend_text": "Payday-Sale: 30% Rabatt",
-        "ends_in_minutes": 300,
-        "append_text": "",
-        "link": ""
-      }
-    },
     "blocky_lys_scrolling_text_bar_GLkKNr": {
       "type": "blocky-lys-scrolling-text-bar",
       "blocks": {
@@ -89,6 +77,18 @@
         "text_spacing": 3,
         "padding_top": 16,
         "padding_bottom": 16
+      }
+    },
+    "offer_timebar_4WVn7P": {
+      "type": "offer-timebar",
+      "name": "Offer Timebar",
+      "settings": {
+        "background_color": "#17803D",
+        "forground_color": "#15801f",
+        "prepend_text": "Payday-Sale: 30% Rabatt",
+        "ends_in_minutes": 300,
+        "append_text": "",
+        "link": ""
       }
     },
     "header": {

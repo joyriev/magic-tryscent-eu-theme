@@ -30,9 +30,9 @@
       "settings": {
         "background_color": "#000000",
         "forground_color": "#15801f",
-        "prepend_text": "TryScent-Tage!",
+        "prepend_text": "Payday-Sale: 30% Rabatt",
         "ends_in_minutes": 300,
-        "append_text": "Hol dir bis zu zwei kostenlose Parfums!",
+        "append_text": "",
         "link": ""
       }
     },
@@ -113,8 +113,8 @@
   },
   "order": [
     "offer_annoucement_4tnBfB",
-    "offer_timebar_4WVn7P",
     "blocky_lys_scrolling_text_bar_GLkKNr",
+    "offer_timebar_4WVn7P",
     "header"
   ]
 }

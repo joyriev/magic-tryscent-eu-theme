@@ -2532,6 +2532,11 @@
         line-height: 28px
     }
 
+    .md\:text-sm {
+        font-size: 14px;
+        line-height: 20px
+    }
+
     .md\:text-xl {
         font-size: 20px;
         line-height: 28px

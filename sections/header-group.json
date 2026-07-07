@@ -83,10 +83,10 @@
       "type": "offer-timebar",
       "name": "Offer Timebar",
       "settings": {
-        "background_color": "#17803D",
+        "background_color": "#17803d",
         "forground_color": "#15801f",
         "prepend_text": "Payday-Sale: 30% Rabatt",
-        "ends_in_minutes": 300,
+        "countdown_date": "2026/07/12 23:59:59",
         "append_text": "",
         "link": ""
       }

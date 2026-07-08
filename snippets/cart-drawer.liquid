@@ -482,8 +482,8 @@
 
           {% if cart.total_price != cart.original_total_price %}
             <div class="totals flex-wrap gap-4 !mb-3" role="status">
-              <h2 class="totals__total">{{ 'sections.cart.subtotal' | t }}</h2>
-              <p class="totals__total-value">
+              <h2 class="original_text">{{ 'sections.cart.subtotal' | t }}</h2>
+              <p class="original__total-value">
                 {{ cart.original_total_price | money_with_currency }}
               </p>
             </div>

@@ -214,13 +214,21 @@
 
     const deadline = getCountdownDeadline();
 
+    const timeBarHeadings = {
+      de: ["Tage", "Stunden", "Minuten", "Sekunden"],
+      pl: ["Dni", "Godziny", "Minuty", "Sekundy"],
+      cs: ["Dny", "Hodiny", "Minuty", "Sekundy"]
+    };
+
+    const wgCurrLang = (window.Weglot && typeof Weglot.getCurrentLang === 'function' && Weglot.getCurrentLang()) || 'de';
+
     new FlipDown(deadline, {
-      headings: ["Tage", "Stunden", "Minuten", "Sekunden"],
+      headings: timeBarHeadings[wgCurrLang],
     })
-      .start()
-      .ifEnded(() => {
-        console.log('Countdown ended');
-      });
+    .start()
+    .ifEnded(() => {
+      console.log('Countdown ended');
+    });
   });
 </script>
 

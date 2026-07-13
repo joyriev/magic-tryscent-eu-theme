@@ -38,11 +38,12 @@
         "custom_liquid_nLrh7P": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{% render 'pre-atc-blocks' %}"
+            "custom_liquid": "<div class=\"flex items-center gap-1 text-sm\">\n  <span>{{ product.metafields.custom.bundle_product_content }}</span>\n</div>"
           }
         },
         "text_668gJC": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<strong>Kopfnoten:</strong> {{ product.metafields.custom.top_notes.value.heading.value }}",
             "text_style": "body"

@@ -311,85 +311,13 @@
         "heading": "Bigger Than A Shave"
       }
     },
-    "collapsible_content_JWRDn8": {
-      "type": "collapsible-content",
-      "blocks": {
-        "collapsible_row_b44n9F": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Warum sind Ihre Parfüms so erschwinglich?",
-            "icon": "none",
-            "row_content": "<p>Wir konzentrieren uns auf den Duftinhalt. Keinluxuriöses Flakon, keinebesondere Verpackung, keineteuren Läden & keineteuren Influencerdeals ermöglichen dir luxuriös zu riechen, ohne das Budget zu sprengen</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_rCVDnP": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Ist es ein Eau de Toilette oder ein Eau de Parfum?",
-            "icon": "none",
-            "row_content": "<p>Unsere Parfums liegen an der Grenze zwischen Eau de Parfum und Extrait de Parfum und enthalten eine Konzentration von 19% bis 21% Duftölen.<br/>Eau de Toilette (EDT) enthält 5% bis 8%.<br/>Extrait de Parfum hingegen 20% bis 40%.</p><p>Die perfekte Konzentration, die dafür sorgt, dass der Duft mindestens 8 bis über 12 Stunden anhält — und gleichzeitig nicht zu intensiv oder aufdringlich ist.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_rNbx6p": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Wie lange hält das Parfüm?",
-            "icon": "none",
-            "row_content": "<p>Die Haltbarkeit des Parfüms ist individuell unterschiedlich und beträgt dank unserer perfekt abgestimmten Duftkonzentration zwischen <strong>8 und 12 Stunden.</strong></p><p><br/>Das Parfüm sollte auf die Haut und nicht auf die Kleidung aufgetragen werden, um die Haltbarkeit zu verlängern. </p><p>Nach einiger Zeit entwickelt sich der Duft weiter und entfaltet seine tieferen Basisnoten.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_irweNa": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Was ist ein Duftzwilling?",
-            "icon": "none",
-            "row_content": "<p>Es ist ein Eau de Parfum mit einem Duftölanteil von bis zu 19 %, inspiriert von teuren Luxusparfüms. Es bedeutet, dass der Inhalt des Flakons zwischen 19 % und 21 % Parfümöl enthält. Designerflakons enthalten zwischen 10 und 15 % Parfümöl für Eau de Toilette.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_gJVQkB": {
-          "type": "collapsible_row",
-          "disabled": true,
-          "settings": {
-            "heading": "Was bedeutet ein Duftölanteil von 19% bis 21%?",
-            "icon": "none",
-            "row_content": "<p>Die meisten im Handel erhältlichen Eau de Parfums enthalten zwischen 16% und 21% Duftöl. Unsere Kompositionen enthalten zwischen 19% und 21% Duftöl und gehören damit zur Spitze hochwertiger Duftkompositionen.</p>",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "collapsible_row_b44n9F",
-        "collapsible_row_rCVDnP",
-        "collapsible_row_rNbx6p",
-        "collapsible_row_irweNa",
-        "collapsible_row_gJVQkB"
-      ],
-      "name": "t:sections.collapsible_content.presets.name",
-      "settings": {
-        "caption": "",
-        "heading": "FAQ",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "layout": "none",
-        "color_scheme": "",
-        "container_color_scheme": "",
-        "open_first_collapsible_row": false,
-        "image_ratio": "adapt",
-        "desktop_layout": "image_second",
-        "padding_top": 72,
-        "padding_bottom": 72
-      }
-    },
     "massive_review_kTc3WW": {
       "type": "massive-review",
       "blocks": {
         "review_8jw9Px": {
           "type": "review",
           "settings": {
+            "review_image": "shopify://shop_images/Aleksandra_Kosin.jpg",
             "content": "<p>\"Dies ist mein erster Einkauf und ich bin begeistert. Ich werde nie wieder woanders Parfüm kaufen. Ich konnte nie einen Duft-Dupe finden, der wirklich authentisch und konsistent roch.\"</p>",
             "author": "Killian P.",
             "date": "vor 1 Tag",
@@ -423,6 +351,7 @@
         "review_icFmQQ": {
           "type": "review",
           "settings": {
+            "review_image": "shopify://shop_images/Chiara_Onorini_2.jpg",
             "content": "<p>\"Ich habe vergeblich versucht, Düfte zu finden, die teuer riechen und lange halten. Die Passform ist genau das, wonach ich gesucht habe.\"</p>",
             "author": "Tiana N.",
             "date": "vor 2 Tagen",
@@ -489,6 +418,7 @@
         "review_y8tq9b": {
           "type": "review",
           "settings": {
+            "review_image": "shopify://shop_images/Anastasiia_Komisarova.jpg",
             "content": "<p>\"Ist perfekt und wunderschön 🥰🥰🥰\"</p>",
             "author": "Lidis A.",
             "date": "vor 2 Monaten",
@@ -511,6 +441,7 @@
         "review_639hbA": {
           "type": "review",
           "settings": {
+            "review_image": "shopify://shop_images/Ana_Gandarez.jpg",
             "content": "<p>\"Perfekt duftende Parfüms, die Düfte halten sehr lange, hervorragende Qualität\"</p>",
             "author": "Kamila G.",
             "date": "vor 3 Monaten",
@@ -522,6 +453,7 @@
         "review_G3HzBj": {
           "type": "review",
           "settings": {
+            "review_image": "shopify://shop_images/Celia_Sahki.jpg",
             "content": "<p>\"Riecht genau wie Luna Rossa Carbon, aber viel günstiger. Kann nicht glauben, wie nah es dran ist.\"</p>",
             "author": "Robinson D.",
             "date": "vor 4 Monaten",
@@ -544,6 +476,7 @@
         "review_HjyT3p": {
           "type": "review",
           "settings": {
+            "review_image": "shopify://shop_images/Carolina_Maresca_2.png",
             "content": "<p>\"Ich trage Creed Aventus seit Jahren, aber das ist der nächste Dupe, den ich gefunden habe – und das zu einem Bruchteil des Preises. Die Ananas-Vanille-Kombination ist perfekt getroffen.\"</p>",
             "author": "Alvarez P.",
             "date": "vor 4 Monaten",
@@ -555,6 +488,7 @@
         "review_6Bhttk": {
           "type": "review",
           "settings": {
+            "review_image": "shopify://shop_images/beatricedcastle_2.jpg",
             "content": "<p>\"Das Produkt kam schön verpackt an. Das Parfüm war nicht kaputt, ist nicht ausgelaufen und war in gutem Zustand. Der Duft ist perfekt und roch nicht schlecht. Ich liebe es, hohe Qualität\"</p>",
             "author": "Anne E.",
             "date": "vor 4 Monaten",
@@ -588,6 +522,7 @@
         "review_9T4pt3": {
           "type": "review",
           "settings": {
+            "review_image": "shopify://shop_images/Camila_Sena_Oliveira.jpg",
             "content": "<p>\"Ihre Produkte sind von guter Qualität zu einem sehr erschwinglichen Preis.\"</p>",
             "author": "Amanda G",
             "date": "vor 5 Monaten",
@@ -808,6 +743,79 @@
         "padding_top": 72,
         "padding_bottom": 72
       }
+    },
+    "collapsible_content_JWRDn8": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_b44n9F": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Warum sind Ihre Parfüms so erschwinglich?",
+            "icon": "none",
+            "row_content": "<p>Wir konzentrieren uns auf den Duftinhalt. Keinluxuriöses Flakon, keinebesondere Verpackung, keineteuren Läden & keineteuren Influencerdeals ermöglichen dir luxuriös zu riechen, ohne das Budget zu sprengen</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_rCVDnP": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Ist es ein Eau de Toilette oder ein Eau de Parfum?",
+            "icon": "none",
+            "row_content": "<p>Unsere Parfums liegen an der Grenze zwischen Eau de Parfum und Extrait de Parfum und enthalten eine Konzentration von 19% bis 21% Duftölen.<br/>Eau de Toilette (EDT) enthält 5% bis 8%.<br/>Extrait de Parfum hingegen 20% bis 40%.</p><p>Die perfekte Konzentration, die dafür sorgt, dass der Duft mindestens 8 bis über 12 Stunden anhält — und gleichzeitig nicht zu intensiv oder aufdringlich ist.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_rNbx6p": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Wie lange hält das Parfüm?",
+            "icon": "none",
+            "row_content": "<p>Die Haltbarkeit des Parfüms ist individuell unterschiedlich und beträgt dank unserer perfekt abgestimmten Duftkonzentration zwischen <strong>8 und 12 Stunden.</strong></p><p><br/>Das Parfüm sollte auf die Haut und nicht auf die Kleidung aufgetragen werden, um die Haltbarkeit zu verlängern. </p><p>Nach einiger Zeit entwickelt sich der Duft weiter und entfaltet seine tieferen Basisnoten.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_irweNa": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Was ist ein Duftzwilling?",
+            "icon": "none",
+            "row_content": "<p>Es ist ein Eau de Parfum mit einem Duftölanteil von bis zu 19 %, inspiriert von teuren Luxusparfüms. Es bedeutet, dass der Inhalt des Flakons zwischen 19 % und 21 % Parfümöl enthält. Designerflakons enthalten zwischen 10 und 15 % Parfümöl für Eau de Toilette.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_gJVQkB": {
+          "type": "collapsible_row",
+          "disabled": true,
+          "settings": {
+            "heading": "Was bedeutet ein Duftölanteil von 19% bis 21%?",
+            "icon": "none",
+            "row_content": "<p>Die meisten im Handel erhältlichen Eau de Parfums enthalten zwischen 16% und 21% Duftöl. Unsere Kompositionen enthalten zwischen 19% und 21% Duftöl und gehören damit zur Spitze hochwertiger Duftkompositionen.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_b44n9F",
+        "collapsible_row_rCVDnP",
+        "collapsible_row_rNbx6p",
+        "collapsible_row_irweNa",
+        "collapsible_row_gJVQkB"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "caption": "",
+        "heading": "FAQ",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 72,
+        "padding_bottom": 72
+      }
     }
   },
   "order": [
@@ -821,7 +829,7 @@
     "home_tabs_fcxFYG",
     "image_and_text_TQajG3",
     "bigger_then_a_shave_nJQJzw",
-    "collapsible_content_JWRDn8",
-    "massive_review_kTc3WW"
+    "massive_review_kTc3WW",
+    "collapsible_content_JWRDn8"
   ]
 }

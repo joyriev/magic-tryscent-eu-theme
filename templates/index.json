@@ -363,6 +363,7 @@
         "review_RnXXg9": {
           "type": "review",
           "settings": {
+            "review_image": "shopify://shop_images/2026-07-02_16h48_27.png",
             "content": "<p>\"Ich war mir nicht sicher, was ich erwarten sollte, aber das hat mich wirklich beeindruckt. Riecht super frisch und ehrlich ziemlich nah an Aventus. Es hält gut und der Preis ist viel besser.\"</p>",
             "author": "Michael T.",
             "date": "vor 2 Tagen",
@@ -374,6 +375,7 @@
         "review_aThE8h": {
           "type": "review",
           "settings": {
+            "review_image": "shopify://shop_images/2026-07-02_16h58_13.png",
             "content": "<p>\"Einer meiner Lieblingsdüfte. Kam wirklich schnell zu mir. Riecht so schön.\"</p>",
             "author": "Alex W.",
             "date": "vor 2 Tagen",
@@ -385,6 +387,7 @@
         "review_YXwWcc": {
           "type": "review",
           "settings": {
+            "review_image": "shopify://shop_images/2026-07-02_16h49_01.png",
             "content": "<p>\"Ich liiiebe diese Parfüms!!! Jedes einzelne, das ich bekommen habe, riecht göttlich. Einige würde ich sagen sind besser als das Original.\"</p>",
             "author": "Christine N.",
             "date": "vor 5 Tagen",
@@ -500,6 +503,7 @@
         "review_8FxpJj": {
           "type": "review",
           "settings": {
+            "review_image": "shopify://shop_images/2026-07-02_16h57_29.png",
             "content": "<p>\"Wunderschöner Duft. Langanhaltend. <br/>Süß und warm. Gute schnelle Lieferung. <br/>Werde wieder kaufen.\"</p>",
             "author": "Lucy R",
             "date": "vor 4 Monaten",

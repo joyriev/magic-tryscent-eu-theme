@@ -152,6 +152,16 @@
   {% endif %}
 </style>
 
+{% assign dhl_euro_image = 'dhl-euro.svg' %}
+{% case localization.country.iso_code %}
+  {% when 'NL' %}
+    {% assign dhl_euro_image = 'dhl-euro-ideal-paypal.png' %}
+  {% when 'DE' %}
+    {% assign dhl_euro_image = 'dhl-euro-paypal-klarna-eps.png' %}
+  {% when 'BE' %}
+    {% assign dhl_euro_image = 'dhl-euro-bancontact-ideal.png' %}
+{% endcase %}
+
 <div class="py-2" style="background-color: {{ section.settings.background_color }};">
   <div class="container mx-auto px-4">
     <div class="flex items-center justify-center">
@@ -165,10 +175,11 @@
             {{ section.settings.append_text }}
           </span>
           <img
-            src="{{ 'dhl-euro.svg' |  asset_url }}"
+            class="mt-1.5 md:mt-0 h-9"
+            src="{{ dhl_euro_image | asset_url }}"
             alt="DHL EURO"
-            height="42"
-            width="110">
+            height=""
+            width="">
         </a>
       {% else %}
         <div class="text-white font-medium flex flex-wrap gap-x-3 justify-center items-center text-center text-base md:text-lg">
@@ -180,10 +191,11 @@
             {{ section.settings.append_text }}
           </span>
           <img
-            src="{{ 'dhl-euro.svg' |  asset_url }}"
+            class="mt-1.5 md:mt-0 h-9"
+            src="{{ dhl_euro_image | asset_url }}"
             alt="DHL EURO"
-            height="42"
-            width="110">
+            height=""
+            width="">
         </div>
       {% endif %}
     </div>

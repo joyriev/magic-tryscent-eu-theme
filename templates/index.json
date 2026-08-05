@@ -201,7 +201,7 @@
         "collection_xgUpzQ": {
           "type": "collection",
           "settings": {
-            "tab_title": "FÜR FRAUEN",
+            "tab_title": "FÜR MÄNNER",
             "collection": "man",
             "button_text": "Alle anzeigen"
           }
@@ -209,7 +209,7 @@
         "collection_3WBTm3": {
           "type": "collection",
           "settings": {
-            "tab_title": "FÜR MÄNNER",
+            "tab_title": "FÜR FRAUEN",
             "collection": "woman",
             "button_text": "Alle anzeigen"
           }

@@ -28,6 +28,10 @@
           "settings": {
             "text": "DARMOWA DOSTAWA OD 190 PLN"
           }
+        },
+        "text_DiPtyi": {
+          "disabled": true,
+          "settings": {}
         }
       },
       "block_order": [

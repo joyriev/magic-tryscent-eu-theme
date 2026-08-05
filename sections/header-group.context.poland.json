@@ -18,6 +18,26 @@
         "prepend_text": "Letnia wyprzedaż: Kup 3, 1 gratis"
       },
       "blocks": {}
+    },
+    "blocky_lys_scrolling_text_bar_GLkKNr": {
+      "settings": {},
+      "blocks": {
+        "text_XmbGh": {
+          "type": "text",
+          "disabled": false,
+          "settings": {
+            "text": "DARMOWA DOSTAWA OD 190 PLN"
+          }
+        }
+      },
+      "block_order": [
+        "text_XmbGh",
+        "text_KwnK4Y",
+        "text_39tt9p",
+        "text_DiPtyi",
+        "text_7Mhc9j",
+        "text_QD7JEH"
+      ]
     }
   }
 }

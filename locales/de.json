@@ -564,7 +564,12 @@
   "shopify": {
     "checkout": {
       "marketing": {
-        "accept_sms_checkbox_label": "Textet mir exklusive Aktionen, Angebote und Deals"
+        "accept_sms_checkbox_label": "Textet mir exklusive Aktionen, Angebote und Deals",
+        "sms": {
+          "disclaimer": {
+            "description_html": "Indem Sie das obige Kontrollkästchen aktivieren, erklären Sie sich damit einverstanden, wiederkehrende automatisierte Nachrichten von Tryscent zu erhalten, einschließlich Erinnerungen zum Warenkorb, unter der angegebenen Telefonnummer. Die Zustimmung ist keine Voraussetzung für einen Kauf. Antworten Sie mit STOP, um sich abzumelden. Antworten Sie mit HELP für Hilfe. Die Nachrichtenhäufigkeit variiert. Es können Nachrichten- und Datengebühren anfallen. Lesen Sie unsere {{ privacy_policy_link }} und {{ terms_of_service_link }}."
+          }
+        }
       },
       "contact": {
         "phone_label": "Telefon - Support und Updates per SMS erhalten",

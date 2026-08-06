@@ -565,6 +565,10 @@
     "checkout": {
       "marketing": {
         "accept_sms_checkbox_label": "Textet mir exklusive Aktionen, Angebote und Deals"
+      },
+      "contact": {
+        "phone_label": "Telefon - Support und Updates per SMS erhalten",
+        "optional_phone_label": "Telefon - Support und Updates per SMS erhalten"
       }
     }
   }

@@ -129,7 +129,7 @@
             "heading": "Schnell vergriffen",
             "subheading": "Aufgrund der großen Nachfrage ist nur eine begrenzte Anzahl verfügbar",
             "sold_text": "[percent]% verkauft",
-            "percent_min": 8,
+            "percent_min": 85,
             "percent_max": 95,
             "show_countdown": true,
             "countdown_label": "Endet in",

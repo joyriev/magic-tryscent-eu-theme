@@ -9,7 +9,7 @@
 {% endcomment %}
 
 {%- liquid
-  assign sf_min = block.settings.percent_min | default: 8
+  assign sf_min = block.settings.percent_min | default: 85
   assign sf_max = block.settings.percent_max | default: 95
   if sf_min > sf_max
     assign sf_swap = sf_min

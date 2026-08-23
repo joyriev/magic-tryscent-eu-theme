@@ -125,12 +125,36 @@
             "step_title": "Bestellwert von mindestens 65 Euros",
             "step_description": "Erhalten Sie KOSTENLOSEN Versand und KOSTENLOSE Geschenke!"
           }
+        },
+        "guarantee_Dq8WtF": {
+          "type": "guarantee",
+          "settings": {
+            "icon": "shopify://shop_images/sandwatch_1.svg",
+            "text": "Gaat 12+ uur mee"
+          }
+        },
+        "guarantee_kEpmJ7": {
+          "type": "guarantee",
+          "settings": {
+            "icon": "shopify://shop_images/icons_quality_3.png",
+            "text": "19–21 %:n hajusteöljypitoisuus"
+          }
+        },
+        "guarantee_Hm7R4D": {
+          "type": "guarantee",
+          "settings": {
+            "icon": "shopify://shop_images/sheild-star_1.svg",
+            "text": "60 dagen geld-terug-garantie"
+          }
         }
       },
       "block_order": [
         "step_FYgAph",
         "step_Qpjtmg",
-        "step_AEkAAJ"
+        "step_AEkAAJ",
+        "guarantee_Dq8WtF",
+        "guarantee_kEpmJ7",
+        "guarantee_Hm7R4D"
       ],
       "name": "Collection Header",
       "settings": {

@@ -12,5 +12,14 @@
     "market": "czech"
   },
   "parent": "collection.payday-page.json",
-  "sections": {}
+  "sections": {
+    "collection_header_afwWaN": {
+      "settings": {
+        "social_proof_text": "Doporučeno více než 10 000 spokojenými milovníky vůní",
+        "collection_title": "Speciální nabídka výplaty!",
+        "collection_description": "Kupte si své oblíbené vůně za ještě nižší ceny! A ušetřete ještě více s balíčkovými akcemi!"
+      },
+      "blocks": {}
+    }
+  }
 }

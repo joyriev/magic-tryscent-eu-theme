@@ -19,7 +19,41 @@
         "collection_title": "Speciální nabídka výplaty!",
         "collection_description": "Kupte si své oblíbené vůně za ještě nižší ceny! A ušetřete ještě více s balíčkovými akcemi!"
       },
-      "blocks": {}
+      "blocks": {
+        "step_FYgAph": {
+          "settings": {
+            "step_title": "Získejte 30% slevu na celý svůj košík",
+            "step_description": "Vyberte si své oblíbené vůně a vložte je do košíku"
+          }
+        },
+        "step_Qpjtmg": {
+          "settings": {
+            "step_title": "S balíčky ušetříte ještě více!",
+            "step_description": "Kupte 3 – ušetřete 40 %. Kupte 6 – ušetřete 48 %."
+          }
+        },
+        "step_AEkAAJ": {
+          "settings": {
+            "step_title": "Hodnota objednávky alespoň 65 eur",
+            "step_description": "Získejte ZDARMA dopravu a ZDARMA dárky!"
+          }
+        },
+        "guarantee_Dq8WtF": {
+          "settings": {
+            "text": "Vydrží 12+ hodin"
+          }
+        },
+        "guarantee_kEpmJ7": {
+          "settings": {
+            "text": "19–21% koncentrace parfémového oleje"
+          }
+        },
+        "guarantee_Hm7R4D": {
+          "settings": {
+            "text": "60denní záruka vrácení peněz"
+          }
+        }
+      }
     }
   }
 }

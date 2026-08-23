@@ -91,7 +91,7 @@
           "type": "step",
           "settings": {
             "step_title": "Erhalten Sie 30 % Rabatt auf Ihren gesamten Warenkorb",
-            "step_description": "Välj dina favoritdofter och lägg dem i varukorgen"
+            "step_description": "Wählen Sie Ihre Lieblingsdüfte aus und legen Sie sie in den Warenkorb"
           }
         },
         "step_Qpjtmg": {
@@ -112,21 +112,21 @@
           "type": "guarantee",
           "settings": {
             "icon": "shopify://shop_images/sandwatch_1.svg",
-            "text": "Gaat 12+ uur mee"
+            "text": "Hält 12+ Stunden"
           }
         },
         "guarantee_kEpmJ7": {
           "type": "guarantee",
           "settings": {
             "icon": "shopify://shop_images/icons_quality_3.png",
-            "text": "19–21 %:n hajusteöljypitoisuus"
+            "text": "19–21 % Duftölkonzentration"
           }
         },
         "guarantee_Hm7R4D": {
           "type": "guarantee",
           "settings": {
             "icon": "shopify://shop_images/sheild-star_1.svg",
-            "text": "60 dagen geld-terug-garantie"
+            "text": "60 Tage Geld-zurück-Garantie"
           }
         }
       },

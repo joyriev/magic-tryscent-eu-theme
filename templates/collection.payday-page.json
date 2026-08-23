@@ -85,6 +85,7 @@
     },
     "blocky_image_embedded_A69hRa": {
       "type": "blocky-image-embedded",
+      "disabled": true,
       "name": "Blocky Image Embed",
       "settings": {
         "image": "shopify://shop_images/Magicperfume.co_desktop_PAYDAY_-30.png",
@@ -98,6 +99,50 @@
         "page_width": 1200,
         "padding_top": 0,
         "padding_bottom": 0
+      }
+    },
+    "collection_header_afwWaN": {
+      "type": "collection-header",
+      "blocks": {
+        "step_FYgAph": {
+          "type": "step",
+          "settings": {
+            "step_title": "Erhalten Sie 30 % Rabatt auf Ihren gesamten Warenkorb",
+            "step_description": "Välj dina favoritdofter och lägg dem i varukorgen"
+          }
+        },
+        "step_Qpjtmg": {
+          "type": "step",
+          "settings": {
+            "step_title": "Mit den Paketen sparst du noch mehr!",
+            "step_description": "Kaufen Sie 3 – sparen Sie 40%. Kaufen Sie 6 – sparen Sie 48%."
+          }
+        },
+        "step_AEkAAJ": {
+          "type": "step",
+          "settings": {
+            "step_title": "Bestellwert von mindestens 65 Euros",
+            "step_description": "Erhalten Sie KOSTENLOSEN Versand und KOSTENLOSE Geschenke!"
+          }
+        }
+      },
+      "block_order": [
+        "step_FYgAph",
+        "step_Qpjtmg",
+        "step_AEkAAJ"
+      ],
+      "name": "Collection Header",
+      "settings": {
+        "background_color": "#F5F1E9",
+        "social_proof_text": "Von über 10.000 zufriedenen Duftliebhabern empfohlen",
+        "collection_title": "Sonderangebot zum Zahltag!",
+        "collection_description": "Kaufen Sie Ihre Lieblingsdüfte zu noch günstigeren Preisen! Und sparen Sie mit Paketangeboten noch mehr!",
+        "btn_link": "",
+        "btn_text": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
       }
     },
     "popular_products_jxMeVr": {
@@ -139,6 +184,7 @@
     "1777318376529a1541",
     "collection_header_LUWc6U",
     "blocky_image_embedded_A69hRa",
+    "collection_header_afwWaN",
     "popular_products_jxMeVr",
     "product-grid"
   ]

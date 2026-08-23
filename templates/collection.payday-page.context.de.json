@@ -17,13 +17,6 @@
       "disabled": true,
       "settings": {},
       "blocks": {}
-    },
-    "blocky_image_embedded_A69hRa": {
-      "disabled": false,
-      "settings": {
-        "image": "shopify://shop_images/tryscent_de_desktop.png"
-      },
-      "blocks": {}
     }
   }
 }

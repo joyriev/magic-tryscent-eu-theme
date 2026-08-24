@@ -89,6 +89,7 @@
       "disabled": true,
       "name": "Blocky Image Embed",
       "settings": {
+        "image": "shopify://shop_images/PaydayDeal_Header_-_TryScent_-_DE.webp",
         "section_height": "550px",
         "mobile_height": "500px",
         "image_fit": "cover",

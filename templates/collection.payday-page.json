@@ -86,6 +86,7 @@
     },
     "blocky_image_embedded_EbgihE": {
       "type": "blocky-image-embedded",
+      "disabled": true,
       "name": "Blocky Image Embed",
       "settings": {
         "section_height": "550px",

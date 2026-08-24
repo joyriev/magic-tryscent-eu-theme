@@ -84,6 +84,57 @@
         "mobile_padding_bottom": 40
       }
     },
+    "blocky_image_embedded_EbgihE": {
+      "type": "blocky-image-embedded",
+      "blocks": {
+        "title_a33JMf": {
+          "type": "title",
+          "settings": {
+            "title": "<b>Image Embed</b>",
+            "title_size": 60,
+            "title_color": "#000000"
+          }
+        },
+        "body_yQzxTd": {
+          "type": "body",
+          "settings": {
+            "body_text": "<p>Grab your customers attention with ease</p>",
+            "body_size": 16,
+            "body_color": "#000000"
+          }
+        },
+        "button_wWjWEy": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button link",
+            "button_link": "",
+            "button_border_radius": "curved",
+            "button_style": "regular",
+            "button_background_color": "#2065D1",
+            "button_text_color": "#FFFFFF"
+          }
+        }
+      },
+      "block_order": [
+        "title_a33JMf",
+        "body_yQzxTd",
+        "button_wWjWEy"
+      ],
+      "disabled": true,
+      "name": "Blocky Image Embed",
+      "settings": {
+        "section_height": "550px",
+        "mobile_height": "500px",
+        "image_fit": "cover",
+        "border_radius": 30,
+        "overlay_opacity": 0,
+        "text_align": "vertical-center horizontal-center",
+        "full_screen": false,
+        "page_width": 1200,
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
     "collection_header_afwWaN": {
       "type": "collection-header",
       "blocks": {
@@ -193,6 +244,7 @@
     "banner",
     "1777318376529a1541",
     "collection_header_LUWc6U",
+    "blocky_image_embedded_EbgihE",
     "collection_header_afwWaN",
     "popular_products_jxMeVr",
     "product-grid"

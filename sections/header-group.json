@@ -78,6 +78,45 @@
     },
     "offer_timebar_4WVn7P": {
       "type": "offer-timebar",
+      "blocks": {
+        "payment_icon_Fgdaze": {
+          "type": "payment_icon",
+          "settings": {
+            "label": ""
+          }
+        },
+        "payment_icon_tUQYaX": {
+          "type": "payment_icon",
+          "settings": {
+            "label": ""
+          }
+        },
+        "payment_icon_HNd7bU": {
+          "type": "payment_icon",
+          "settings": {
+            "label": ""
+          }
+        },
+        "payment_icon_JFX4WN": {
+          "type": "payment_icon",
+          "settings": {
+            "label": ""
+          }
+        },
+        "payment_icon_EMjaQY": {
+          "type": "payment_icon",
+          "settings": {
+            "label": ""
+          }
+        }
+      },
+      "block_order": [
+        "payment_icon_Fgdaze",
+        "payment_icon_tUQYaX",
+        "payment_icon_HNd7bU",
+        "payment_icon_JFX4WN",
+        "payment_icon_EMjaQY"
+      ],
       "name": "Offer Timebar",
       "settings": {
         "primary_color": "#173e34",

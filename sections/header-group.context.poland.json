@@ -47,11 +47,23 @@
           "settings": {
             "label": "Szybko"
           }
+        },
+        "payment_icon_HNd7bU": {
+          "settings": {
+            "icon": "shopify://shop_images/blik.DeRA9syl.svg",
+            "label": "Bezpieczny"
+          }
+        },
+        "payment_icon_EMjaQY": {
+          "settings": {
+            "icon": "shopify://shop_images/visa.CjeXrSa5.svg",
+            "label": "Bezpośredni"
+          }
         }
       },
       "block_order": [
         "payment_icon_MmG3KL",
-        "payment_icon_tUQYaX",
+        "payment_icon_Fgdaze",
         "payment_icon_HNd7bU",
         "payment_icon_EMjaQY"
       ]

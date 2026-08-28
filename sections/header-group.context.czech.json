@@ -15,9 +15,30 @@
   "sections": {
     "offer_timebar_4WVn7P": {
       "settings": {
-        "prepend_text": "Letní výprodej: Kupte 3, 1 zdarma"
+        "prepend_text": "Letní výprodej:",
+        "append_text": "Kupte 3, 1 zdarma"
       },
-      "blocks": {}
+      "blocks": {
+        "payment_icon_tUQYaX": {
+          "disabled": true,
+          "settings": {}
+        },
+        "payment_icon_MmG3KL": {
+          "settings": {
+            "label": "Rychle"
+          }
+        },
+        "payment_icon_EMjaQY": {
+          "settings": {
+            "label": "Přímo"
+          }
+        },
+        "payment_icon_HNd7bU": {
+          "settings": {
+            "label": "Flexibilní"
+          }
+        }
+      }
     }
   }
 }

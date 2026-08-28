@@ -80,11 +80,12 @@
       "type": "offer-timebar",
       "name": "Offer Timebar",
       "settings": {
-        "background_color": "#17803d",
-        "forground_color": "#15801f",
-        "prepend_text": "Sommer-Angebot: 3 kaufen, 1 geschenkt",
+        "primary_color": "#173e34",
+        "secondary_color": "#dce9de",
+        "top_banner_text": "",
+        "prepend_text": "Sommer-Angebot:",
         "countdown_date": "",
-        "append_text": "",
+        "append_text": "3 kaufen, 1 geschenkt",
         "link": "shopify://collections/payday-4-2"
       }
     },

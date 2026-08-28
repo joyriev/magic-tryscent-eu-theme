@@ -42,7 +42,19 @@
         "prepend_text": "Letnia wyprzedaż:",
         "append_text": "Kup 3, 1 gratis"
       },
-      "blocks": {}
+      "blocks": {
+        "payment_icon_MmG3KL": {
+          "settings": {
+            "label": "Szybko"
+          }
+        }
+      },
+      "block_order": [
+        "payment_icon_MmG3KL",
+        "payment_icon_tUQYaX",
+        "payment_icon_HNd7bU",
+        "payment_icon_EMjaQY"
+      ]
     }
   }
 }

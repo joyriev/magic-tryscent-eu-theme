@@ -43,23 +43,9 @@
         "append_text": "Kup 3, 1 gratis"
       },
       "blocks": {
-        "payment_icon_Fgdaze": {
-          "settings": {
-            "icon": "shopify://shop_images/090e7fd71af4b4e7589642874d6cae93a0a34f77.png",
-            "label": "Szybko"
-          }
-        },
-        "payment_icon_tUQYaX": {
-          "settings": {
-            "icon": "shopify://shop_images/65f2284e66ff1dcb1a272319f1ef543c429f73e2.png",
-            "label": "EU-Versand"
-          }
-        },
-        "payment_icon_HNd7bU": {
-          "settings": {
-            "icon": "shopify://shop_images/800c98d03dc73f77225bfa90300384e0370c7cff.png",
-            "label": "Bezpieczny"
-          }
+        "payment_icon_JFX4WN": {
+          "disabled": true,
+          "settings": {}
         }
       }
     }

@@ -106,6 +106,7 @@
         "payment_icon_EMjaQY": {
           "type": "payment_icon",
           "settings": {
+            "icon": "shopify://shop_images/images-555x360--08-28-2026_03_03_PM.png",
             "label": ""
           }
         }

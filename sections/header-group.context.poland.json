@@ -45,7 +45,8 @@
       "blocks": {
         "payment_icon_MmG3KL": {
           "settings": {
-            "label": "Szybko"
+            "label": "Szybko",
+            "icon": "shopify://shop_images/inpost.png"
           }
         },
         "payment_icon_HNd7bU": {

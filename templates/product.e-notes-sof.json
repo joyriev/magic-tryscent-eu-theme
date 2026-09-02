@@ -125,6 +125,7 @@
         },
         "selling_fast_pABqpH": {
           "type": "selling_fast",
+          "disabled": true,
           "settings": {
             "heading": "Schnell vergriffen",
             "subheading": "Aufgrund der großen Nachfrage ist nur eine begrenzte Anzahl verfügbar",

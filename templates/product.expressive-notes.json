@@ -61,6 +61,7 @@
         },
         "selling_fast_DRULgF": {
           "type": "selling_fast",
+          "disabled": true,
           "settings": {
             "heading": "Schnell ausverkauft",
             "subheading": "Aufgrund der hohen Nachfrage sind nur begrenzte Mengen verfügbar.",

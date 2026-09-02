@@ -245,13 +245,39 @@
 
     const deadline = getCountdownDeadline();
 
-    new FlipDown(deadline, {
-      headings: ["Dag", "Tim", "Min", "Sek"],
-    })
-      .start()
-      .ifEnded(() => {
-        console.log('Countdown ended');
+    // Countdown headings per Weglot language (falls back to "de")
+    const countdownHeadings = {
+      de: ["Tag", "Std", "Min", "Sek"],
+      pl: ["Dni", "Godz", "Min", "Sek"]
+    };
+
+    const flipdownEl = document.getElementById('flipdown');
+
+    function buildFlipdown(lang) {
+      const headings = countdownHeadings[lang] || countdownHeadings.de;
+
+      // Clear any previously rendered rotors before re-instantiating
+      if (flipdownEl) {
+        flipdownEl.innerHTML = '';
+      }
+
+      new FlipDown(deadline, {
+        headings: headings,
+      })
+        .start()
+        .ifEnded(() => {
+          console.log('Countdown ended');
+        });
+    }
+
+    const currentLang = (window.Weglot && typeof Weglot.getCurrentLang === 'function' && Weglot.getCurrentLang()) || 'de';
+    buildFlipdown(currentLang);
+
+    if (window.Weglot && typeof Weglot.on === 'function') {
+      Weglot.on("languageChanged", function (newLang) {
+        buildFlipdown(newLang);
       });
+    }
   });
 </script>
 

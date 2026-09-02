@@ -49,6 +49,12 @@
             "label": "Szybko"
           }
         },
+        "payment_icon_Fgdaze": {
+          "settings": {
+            "icon": "shopify://shop_images/poland_flag.png",
+            "label": "Z Polski"
+          }
+        },
         "payment_icon_HNd7bU": {
           "settings": {
             "icon": "shopify://shop_images/blik.DeRA9syl.svg",
@@ -59,11 +65,6 @@
           "settings": {
             "icon": "shopify://shop_images/visa.CjeXrSa5.svg",
             "label": "Bezpośredni"
-          }
-        },
-        "payment_icon_Fgdaze": {
-          "settings": {
-            "icon": "shopify://shop_images/poland_flag.png"
           }
         }
       },

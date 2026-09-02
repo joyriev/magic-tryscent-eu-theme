@@ -45,8 +45,8 @@
       "blocks": {
         "payment_icon_MmG3KL": {
           "settings": {
-            "label": "Szybko",
-            "icon": "shopify://shop_images/inpost.png"
+            "icon": "shopify://shop_images/inpost.png",
+            "label": "Szybko"
           }
         },
         "payment_icon_HNd7bU": {
@@ -59,6 +59,11 @@
           "settings": {
             "icon": "shopify://shop_images/visa.CjeXrSa5.svg",
             "label": "Bezpośredni"
+          }
+        },
+        "payment_icon_Fgdaze": {
+          "settings": {
+            "icon": "shopify://shop_images/poland_flag.png"
           }
         }
       },

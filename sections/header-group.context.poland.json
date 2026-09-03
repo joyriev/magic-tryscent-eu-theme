@@ -46,25 +46,25 @@
         "payment_icon_MmG3KL": {
           "settings": {
             "icon": "shopify://shop_images/inpost.png",
-            "label": "Dostawa z Inpost"
+            "label": "Szybko"
           }
         },
         "payment_icon_Fgdaze": {
           "settings": {
             "icon": "shopify://shop_images/poland_flag.png",
-            "label": "Wysyłka z Polski"
+            "label": "Z Polski"
           }
         },
         "payment_icon_HNd7bU": {
           "settings": {
             "icon": "shopify://shop_images/blik.DeRA9syl.svg",
-            "label": "BLIK"
+            "label": "Wygodnie"
           }
         },
         "payment_icon_EMjaQY": {
           "settings": {
             "icon": "shopify://shop_images/visa.CjeXrSa5.svg",
-            "label": "Bezpieczne płatności"
+            "label": "Bezpiecznie"
           }
         }
       },

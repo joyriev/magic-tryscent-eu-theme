@@ -13,16 +13,16 @@
   },
   "parent": "index.json",
   "sections": {
-    "tryscent_hero_VWyBcY": {
-      "disabled": false,
-      "settings": {
-        "button_text": "Ab 4,59 PLN pro Flasche"
-      },
-      "blocks": {}
-    },
     "home_hero_XQyQrf": {
       "disabled": true,
       "settings": {},
+      "blocks": {}
+    },
+    "tryscent_hero_VWyBcY": {
+      "disabled": false,
+      "settings": {
+        "button_text": "Für sie"
+      },
       "blocks": {}
     },
     "feature_heighlights_EpJcyT": {

@@ -39,8 +39,8 @@
     },
     "offer_timebar_4WVn7P": {
       "settings": {
-        "prepend_text": "Powrót do biura!",
-        "append_text": "Kup 3, 1 gratis"
+        "prepend_text": "Dzień Wypłaty!",
+        "append_text": "-30% na Cały Koszyk"
       },
       "blocks": {
         "payment_icon_MmG3KL": {

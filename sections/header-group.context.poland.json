@@ -40,7 +40,8 @@
     "offer_timebar_4WVn7P": {
       "settings": {
         "prepend_text": "Dzień Wypłaty!",
-        "append_text": "-30% na Cały Koszyk"
+        "append_text": "-30% na Cały Koszyk",
+        "countdown_date": "2026/09/13"
       },
       "blocks": {
         "payment_icon_MmG3KL": {

@@ -197,6 +197,8 @@
             inspiration_image: "{% if bundle_product.metafields.custom.inspired_by.value %}{{ bundle_product.metafields.custom.inspired_by.value.image | image_url: width: 90, height: 90 }}{% endif %}",
             inspiration_name: "{% if bundle_product.metafields.custom.inspired_by.value %}{{ bundle_product.metafields.custom.inspired_by.value.name }}{% endif %}",
             tags: {{ bundle_product.tags | json }},
+            gender: "{% if bundle_product.tags contains 'fuer-maenner' and bundle_product.tags contains 'fuer-frauen' %}Unisex{% elsif bundle_product.tags contains 'fuer-maenner' %}Für Herren{% elsif bundle_product.tags contains 'fuer-frauen' %}Für Damen{% endif %}",
+            occasion: {{ bundle_product.metafields.custom.occasion.value | json }},
             collections: "{{ collection_handles }}",
             variants: {
               {% for variant in bundle_product.variants %}

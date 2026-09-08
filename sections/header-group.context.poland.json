@@ -42,7 +42,8 @@
       "settings": {
         "prepend_text": "Powrót do biura!",
         "countdown_date": "2026/09/13",
-        "append_text": "Kup 4 w cenie 3"
+        "append_text": "Kup 4 w cenie 3",
+        "link": "shopify://collections/bestsellers"
       },
       "blocks": {
         "payment_icon_MmG3KL": {

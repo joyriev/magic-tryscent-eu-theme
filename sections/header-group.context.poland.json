@@ -39,9 +39,9 @@
     },
     "offer_timebar_4WVn7P": {
       "settings": {
-        "prepend_text": "Dzień Wypłaty!",
-        "append_text": "-30% na Cały Koszyk",
-        "countdown_date": "2026/09/13"
+        "prepend_text": "Powrót do biura!",
+        "countdown_date": "2026/09/13",
+        "append_text": "Kup 4 w cenie 3"
       },
       "blocks": {
         "payment_icon_MmG3KL": {

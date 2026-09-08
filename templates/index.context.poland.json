@@ -29,6 +29,12 @@
       "disabled": true,
       "settings": {},
       "blocks": {}
+    },
+    "popular_products_RyfRNL": {
+      "settings": {
+        "show_all_button_text": "Alle anzeigen"
+      },
+      "blocks": {}
     }
   }
 }

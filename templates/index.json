@@ -325,6 +325,18 @@
     "massive_review_kTc3WW": {
       "type": "massive-review",
       "blocks": {
+        "review_JRzxRP": {
+          "type": "review",
+          "settings": {
+            "review_image": "shopify://shop_images/345.png",
+            "content": "<p>\"Ich bin zufrieden mit Tryscent. Der Duft riecht dem Original sehr ähnlich und hält gut. Die Verpackung ist ordentlich und die Flasche sieht schön aus. Insgesamt ist es eine großartige Option, wenn man einen Qualitätsduft zu einem vernünftigen Preis möchte.\"</p>",
+            "author": "Alina M",
+            "date": "vor 5 Monaten",
+            "rating": 5,
+            "show_verified_badge": false,
+            "product": ""
+          }
+        },
         "review_8jw9Px": {
           "type": "review",
           "settings": {
@@ -332,6 +344,18 @@
             "content": "<p>\"Dies ist mein erster Einkauf und ich bin begeistert. Ich werde nie wieder woanders Parfüm kaufen. Ich konnte nie einen Duft-Dupe finden, der wirklich authentisch und konsistent roch.\"</p>",
             "author": "Killian P.",
             "date": "vor 1 Tag",
+            "rating": 5,
+            "show_verified_badge": true,
+            "product": ""
+          }
+        },
+        "review_jRgbTk": {
+          "type": "review",
+          "settings": {
+            "review_image": "shopify://shop_images/WhatsApp_Image_2026-09-09_at_8.35.55_AM.jpg",
+            "content": "<p>\"Großartiges Produkt! Super erschwingliche Alternative zu den Markenparfüms. Der Duft hält lange und man bekommt viel für sein Geld\"</p>",
+            "author": "EM",
+            "date": "vor 4 Monaten",
             "rating": 5,
             "show_verified_badge": true,
             "product": ""
@@ -372,10 +396,22 @@
             "product": ""
           }
         },
+        "review_NYCPwJ": {
+          "type": "review",
+          "settings": {
+            "review_image": "shopify://shop_images/WhatsApp_Image_2026-09-09_at_8.35.58_AM.jpg",
+            "content": "<p>\"Ich mag es! Mag diesen Duft. Guter Duft\"</p>",
+            "author": "Aleksandra M",
+            "date": "vor 7 Monaten",
+            "rating": 5,
+            "show_verified_badge": false,
+            "product": ""
+          }
+        },
         "review_RnXXg9": {
           "type": "review",
           "settings": {
-            "review_image": "shopify://shop_images/2026-07-02_16h48_27.png",
+            "review_image": "shopify://shop_images/WhatsApp_Image_2026-09-09_at_8.35.58_AM_1.jpg",
             "content": "<p>\"Ich war mir nicht sicher, was ich erwarten sollte, aber das hat mich wirklich beeindruckt. Riecht super frisch und ehrlich ziemlich nah an Aventus. Es hält gut und der Preis ist viel besser.\"</p>",
             "author": "Michael T.",
             "date": "vor 2 Tagen",
@@ -411,6 +447,7 @@
         "review_nQ6MLV": {
           "type": "review",
           "settings": {
+            "review_image": "shopify://shop_images/WhatsApp_Image_2026-09-09_at_8.35.37_AM.jpg",
             "content": "<p>\"Zuerst war ich besorgt, dass sich die Lieferung etwas verzögert hat, aber als ich sie erhalten habe, war ich erstaunt über den Geruch, sobald er sich gesetzt hat, meine Güte, es ist einfach fantastisch.\"</p>",
             "author": "Lionel M.",
             "date": "vor 7 Tagen",
@@ -422,6 +459,7 @@
         "review_wbXdLy": {
           "type": "review",
           "settings": {
+            "review_image": "shopify://shop_images/WhatsApp_Image_2026-09-09_at_8.35.55_AM_1.jpg",
             "content": "<p>\"Es riecht sehr schön, aber hält nicht so lange wie es sollte\"</p>",
             "author": "Terence M.",
             "date": "vor 2 Monaten",
@@ -445,9 +483,22 @@
         "review_bjRzPy": {
           "type": "review",
           "settings": {
+            "review_image": "shopify://shop_images/Carolina_Maresca_3.png",
             "content": "<p>\"Riecht sehr gut, es hat mich fasziniert\"</p>",
             "author": "Castillo B.",
             "date": "vor 3 Monaten",
+            "rating": 5,
+            "show_verified_badge": true,
+            "product": ""
+          }
+        },
+        "review_YtFw34": {
+          "type": "review",
+          "settings": {
+            "review_image": "shopify://shop_images/2026-07-02_16h34_24.png",
+            "content": "<p>\"Das Produkt kam schön verpackt an. Das Parfüm war nicht kaputt, ist nicht ausgelaufen und war in gutem Zustand. Der Duft ist perfekt und roch nicht schlecht. Ich liebe es, hohe Qualität\"</p>",
+            "author": "Roxanne S",
+            "date": "vor 5 Monaten",
             "rating": 5,
             "show_verified_badge": true,
             "product": ""
@@ -480,6 +531,7 @@
         "review_KK6jhW": {
           "type": "review",
           "settings": {
+            "review_image": "shopify://shop_images/WhatsApp_Image_2026-09-09_at_8.33.40_AM.jpg",
             "content": "<p>\"Das ist die Art von Duft, die einen gepflegt fühlen lässt. Nicht überwältigend, genau richtig. 👌\"</p>",
             "author": "Michael R.",
             "date": "vor 4 Monaten",
@@ -524,17 +576,6 @@
             "product": ""
           }
         },
-        "review_JRzxRP": {
-          "type": "review",
-          "settings": {
-            "content": "<p>\"Ich bin zufrieden mit Tryscent. Der Duft riecht dem Original sehr ähnlich und hält gut. Die Verpackung ist ordentlich und die Flasche sieht schön aus. Insgesamt ist es eine großartige Option, wenn man einen Qualitätsduft zu einem vernünftigen Preis möchte.\"</p>",
-            "author": "Alina M",
-            "date": "vor 5 Monaten",
-            "rating": 5,
-            "show_verified_badge": false,
-            "product": ""
-          }
-        },
         "review_9T4pt3": {
           "type": "review",
           "settings": {
@@ -550,6 +591,7 @@
         "review_aietxq": {
           "type": "review",
           "settings": {
+            "review_image": "shopify://shop_images/WhatsApp_Image_2026-09-09_at_8.35.50_AM.jpg",
             "content": "<p>\"Tolle Düfte, tolle Produkte, keine Probleme.\"</p>",
             "author": "Alex S.",
             "date": "vor 6 Monaten",
@@ -558,20 +600,10 @@
             "product": ""
           }
         },
-        "review_YtFw34": {
-          "type": "review",
-          "settings": {
-            "content": "<p>\"Das Produkt kam schön verpackt an. Das Parfüm war nicht kaputt, ist nicht ausgelaufen und war in gutem Zustand. Der Duft ist perfekt und roch nicht schlecht. Ich liebe es, hohe Qualität\"</p>",
-            "author": "Roxanne S",
-            "date": "vor 5 Monaten",
-            "rating": 5,
-            "show_verified_badge": true,
-            "product": ""
-          }
-        },
         "review_WnPpEf": {
           "type": "review",
           "settings": {
+            "review_image": "shopify://shop_images/WhatsApp_Image_2026-09-09_at_8.35.36_AM_1.jpg",
             "content": "<p>\"Vom Service bis zum Produkt war die Erfahrung phänomenal. Kaufe gerne jederzeit wieder.\"</p>",
             "author": "Benjamin M",
             "date": "vor 5 Monaten",
@@ -580,22 +612,12 @@
             "product": ""
           }
         },
-        "review_jRgbTk": {
-          "type": "review",
-          "settings": {
-            "content": "<p>\"Großartiges Produkt! Super erschwingliche Alternative zu den Markenparfüms. Der Duft hält lange und man bekommt viel für sein Geld\"</p>",
-            "author": "EM",
-            "date": "vor 4 Monaten",
-            "rating": 5,
-            "show_verified_badge": true,
-            "product": ""
-          }
-        },
         "review_GbhyC3": {
           "type": "review",
           "settings": {
+            "review_image": "shopify://shop_images/Daria_Kononenko_3.jpg",
             "content": "<p>\"Omg ich liebte es Wow! Genau wie das Original und es hält den ganzen Tag!❤️‍🔥❤️‍🔥\"</p>",
-            "author": "شيطانة YT",
+            "author": "YT",
             "date": "vor 4 Monaten",
             "rating": 4,
             "show_verified_badge": true,
@@ -605,22 +627,12 @@
         "review_C3bd9b": {
           "type": "review",
           "settings": {
+            "review_image": "shopify://shop_images/Claudia_Martins_4.png",
             "content": "<p>\"Der Duft dieses Parfüms ist super reichhaltig und ich liebe wie schön die Flasche und ihr Design ist.. Ich würde es wirklich wieder verwenden.\"</p>",
             "author": "Eliannys Y",
             "date": "vor 7 Monaten",
             "rating": 5,
             "show_verified_badge": true,
-            "product": ""
-          }
-        },
-        "review_NYCPwJ": {
-          "type": "review",
-          "settings": {
-            "content": "<p>\"Ich mag es! Mag diesen Duft. Guter Duft\"</p>",
-            "author": "Aleksandra M",
-            "date": "vor 7 Monaten",
-            "rating": 5,
-            "show_verified_badge": false,
             "product": ""
           }
         },
@@ -714,10 +726,13 @@
         }
       },
       "block_order": [
+        "review_JRzxRP",
         "review_8jw9Px",
+        "review_jRgbTk",
         "review_UPwGBF",
         "review_XfwcAY",
         "review_icFmQQ",
+        "review_NYCPwJ",
         "review_RnXXg9",
         "review_aThE8h",
         "review_YXwWcc",
@@ -725,21 +740,18 @@
         "review_wbXdLy",
         "review_y8tq9b",
         "review_bjRzPy",
+        "review_YtFw34",
         "review_639hbA",
         "review_G3HzBj",
         "review_KK6jhW",
         "review_HjyT3p",
         "review_6Bhttk",
         "review_8FxpJj",
-        "review_JRzxRP",
         "review_9T4pt3",
         "review_aietxq",
-        "review_YtFw34",
         "review_WnPpEf",
-        "review_jRgbTk",
         "review_GbhyC3",
         "review_C3bd9b",
-        "review_NYCPwJ",
         "review_EniFK9",
         "review_r8Gi8i",
         "review_LRkiUH",

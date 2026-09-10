@@ -40,9 +40,9 @@
     },
     "offer_timebar_4WVn7P": {
       "settings": {
-        "prepend_text": "Powrót do biura!",
-        "countdown_date": "2026/09/13",
-        "append_text": "Kup 4 w cenie 3",
+        "prepend_text": "WYPRZEDAŻ MAGAZYNU",
+        "countdown_date": "2026/09/13 23:59:59",
+        "append_text": "Kup 3 w cenie 2",
         "link": "shopify://collections/bestsellers"
       },
       "blocks": {
